@@ -1,0 +1,33 @@
+name: Sync with upstream
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add upstream repository
+        run: |
+          git remote add upstream https://github.com/iptv-org/iptv.git
+          git fetch upstream
+
+      - name: Merge upstream
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git merge upstream/master --allow-unrelated-histories || git merge upstream/main
+
+      - name: Push changes
+        run: git push
