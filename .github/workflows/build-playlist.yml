@@ -12,13 +12,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate playlist
         run: |
           echo "#EXTM3U" > playlist.m3u
 
           while IFS='=' read -r source group; do
-            # skip comments and blank lines
             [[ -z "$source" || "$source" == \#* ]] && continue
 
             file="streams/$source"
@@ -27,8 +28,6 @@ jobs:
               exit 1
             fi
 
-            # add/replace group-title on every #EXTINF line, then append
-            # everything except the leading #EXTM3U header
             awk -v group="$group" '
               /^#EXTINF/ {
                 if ($0 ~ /group-title="[^"]*"/) {
@@ -39,12 +38,18 @@ jobs:
               }
               !/^#EXTM3U/ { print }
             ' "$file" >> playlist.m3u
+
           done < playlist-filter.conf
 
       - name: Commit playlist
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+
           git add playlist.m3u
+
           git commit -m "Update playlist" || echo "No changes"
-          git push
+
+          git pull --rebase origin master
+
+          git push origin master
