@@ -16,9 +16,30 @@ jobs:
       - name: Generate playlist
         run: |
           echo "#EXTM3U" > playlist.m3u
-          find streams -name "*.m3u" | sort | while read file; do
-            tail -n +2 "$file" >> playlist.m3u
-          done
+
+          while IFS='=' read -r source group; do
+            # skip comments and blank lines
+            [[ -z "$source" || "$source" == \#* ]] && continue
+
+            file="streams/$source"
+            if [[ ! -f "$file" ]]; then
+              echo "::error::Source file listed in playlist-filter.conf not found: $file"
+              exit 1
+            fi
+
+            # add/replace group-title on every #EXTINF line, then append
+            # everything except the leading #EXTM3U header
+            awk -v group="$group" '
+              /^#EXTINF/ {
+                if ($0 ~ /group-title="[^"]*"/) {
+                  gsub(/group-title="[^"]*"/, "group-title=\"" group "\"")
+                } else {
+                  sub(/,/, " group-title=\"" group "\",")
+                }
+              }
+              !/^#EXTM3U/ { print }
+            ' "$file" >> playlist.m3u
+          done < playlist-filter.conf
 
       - name: Commit playlist
         run: |
