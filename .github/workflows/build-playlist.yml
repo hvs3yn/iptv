@@ -1,0 +1,29 @@
+name: Build Playlist
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate playlist
+        run: |
+          echo "#EXTM3U" > playlist.m3u
+          find streams -name "*.m3u" | sort | while read file; do
+            tail -n +2 "$file" >> playlist.m3u
+          done
+
+      - name: Commit playlist
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add playlist.m3u
+          git commit -m "Update playlist" || echo "No changes"
+          git push
