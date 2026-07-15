@@ -1,0 +1,75 @@
+name: Build Sports Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Generate sports playlist
+        run: |
+          echo "#EXTM3U" > playlist-sports.m3u
+
+          awk -v blockFile="playlist-execute.conf" '
+            BEGIN {
+              blockCount = 0
+              while ((getline line < blockFile) > 0) {
+                gsub(/^[ \t]+|[ \t]+$/, "", line)
+                if (line == "" || line ~ /^#/) continue
+                blockCount++
+                blockPatterns[blockCount] = tolower(line)
+              }
+              close(blockFile)
+            }
+            /^#EXTM3U/ { next }
+            /^#EXTINF/ {
+              lowerLine = tolower($0)
+
+              keep = (index(lowerLine, "sport") > 0)
+
+              if (keep) {
+                for (i = 1; i <= blockCount; i++) {
+                  if (index(lowerLine, blockPatterns[i]) > 0) {
+                    keep = 0
+                    break
+                  }
+                }
+              }
+
+              if (keep) {
+                if ($0 ~ /group-title="[^"]*"/) {
+                  gsub(/group-title="[^"]*"/, "group-title=\"Sports\"")
+                } else {
+                  sub(/,/, " group-title=\"Sports\",")
+                }
+                print
+              }
+
+              next
+            }
+            keep { print }
+          ' streams/*.m3u >> playlist-sports.m3u
+
+      - name: Commit playlist
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add playlist-sports.m3u
+
+          git commit -m "Update sports playlist" || echo "No changes"
+
+          git pull --rebase origin master
+
+          git push origin master
