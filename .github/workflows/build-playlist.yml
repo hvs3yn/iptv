@@ -64,6 +64,21 @@ jobs:
 
           done < playlist-filter.conf
 
+      - name: Remove ungrouped channels
+        run: |
+          awk '
+            /^#EXTM3U/ { print; next }
+            /^#EXTINF/ {
+              if (buffer != "" && keep) printf "%s", buffer
+              buffer = $0 "\n"
+              keep = ($0 ~ /group-title="[^"]+"/) ? 1 : 0
+              next
+            }
+            { buffer = buffer $0 "\n" }
+            END { if (buffer != "" && keep) printf "%s", buffer }
+          ' playlist.m3u > playlist.m3u.tmp
+          mv playlist.m3u.tmp playlist.m3u
+
       - name: Commit playlist
         run: |
           git config user.name github-actions
