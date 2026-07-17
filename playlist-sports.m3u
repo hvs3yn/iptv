@@ -1,24 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="RTSHSport.al@SD" group-title="Sports",RTSH Sport (1080p)
 http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericaSports.ar@SD" group-title="Sports",America Sports (720p)
-http://200.91.32.158:8080/americasports/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports.ar@SD" group-title="Sports",Fox Sports (720p)
-http://200.91.32.158:8080/foxsports/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.ar@SD" group-title="Sports",Fox Sports 2 (720p)
-http://200.91.32.158:8080/foxsports2/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports3.ar@SD" group-title="Sports",Fox Sports 3 (720p)
-http://200.91.32.158:8080/foxsports3/index.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" group-title="Sports",TyC Sports (1080p)
 http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" group-title="Sports",TyC Sports (1080p)
 http://playcom.trapemn.tv:1935/transcoderip/tycsports.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" group-title="Sports",TyC Sports (1080p)
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-id="TyCSports.ar@SD" group-title="Sports",TyC Sports (720p)
-http://200.91.32.158:8080/tychd/index.m3u8
-#EXTINF:-1 tvg-id="TyCSports2.ar@SD" group-title="Sports",TyC Sports 2 (720p)
-http://200.91.32.158:8080/tyc2hd/index.m3u8
 #EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" group-title="Sports",TyC Sports USA
 http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Leaderboard Sports News (1080p)
@@ -162,6 +150,9 @@ http://ott.watch/XE5QWWBZ87/256/tracks-v1a1/mono.ts.m3u8
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@SD" group-title="Sports",Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport360.fr@SD" group-title="Sports",Canal+ Sport 360
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@HD" group-title="Sports",Trace Sport Stars (1080p)
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
 #EXTINF:-1 tvg-id="Adjarasport1.ge@SD" group-title="Sports",Adjarasport 1
@@ -303,6 +294,8 @@ https://cdn4.skygo.mn/live/disk1/MNBSport/HLSv3-FTA/MNBSport.m3u8
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMsportPlus.mt@SD" group-title="Sports",TVMsport+ (1080p)
 https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
+#EXTINF:-1 tvg-id="FoxSportsPremium.mx@SD" group-title="Sports",Fox Sports Premium (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23054
 #EXTINF:-1 tvg-id="ClaroSports.mx@SD" group-title="Sports",Claro Sports (720p)
 #EXTVLCOPT:http-referrer=https://www.clarosports.com/
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
