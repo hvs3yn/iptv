@@ -6144,8 +6144,6 @@ https://bloomberg.com/media-manifest/streams/eu.m3u8
 https://hls.autopo.st/hls/britasiatv/index.m3u8
 #EXTINF:-1 tvg-id="Canaf54TV.uk@SD" group-title="United Kingdom",Canaf54 TV
 https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
-#EXTINF:-1 tvg-id="CBeebiesAsia.uk@SD" group-title="United Kingdom",CBeebies Asia (720p)
-https://cdn10jtedge.indihometv.com/atm/DASH/cbeebies/manifest.mpd
 #EXTINF:-1 tvg-id="Channel5.uk@HD" group-title="United Kingdom",Channel 5 HD (720p)
 http://193.46.58.239:8080/Channel5/index.m3u8
 #EXTINF:-1 tvg-id="ChannelS.uk@SD" group-title="United Kingdom",Channel S (576p)
@@ -6242,12 +6240,8 @@ https://live.playstop.me/LS-63503-4/index.m3u8
 https://hls.iranfarda.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IslamChannelUrdu.uk@SD" group-title="United Kingdom",Islam Channel Urdu (576p)
 https://live-islamtv-urdu.simplestreamcdn.com/live13/islamtv_urdu/bitrate1.isml/live.m3u8
-#EXTINF:-1 tvg-id="ITV1.uk@London" group-title="United Kingdom",ITV1 (1080p)
-http://80.194.62.172:50002/stream/channelid/95929545
 #EXTINF:-1 tvg-id="ITV1.uk@LondonHD" group-title="United Kingdom",ITV1 London HD (720p)
 http://45.153.96.44:8006
-#EXTINF:-1 tvg-id="ITV2.uk@SD" group-title="United Kingdom",ITV2 (1080p)
-http://80.194.62.172:50002/stream/channelid/404728797
 #EXTINF:-1 tvg-id="ITV2.uk@HD" group-title="United Kingdom",ITV2 HD (1080p)
 http://45.153.96.44:8007
 #EXTINF:-1 tvg-id="ITV3.uk@Plus1" group-title="United Kingdom",ITV3 +1 (720p)
