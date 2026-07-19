@@ -140,14 +140,15 @@ https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
 https://jmp2.uk/plu-6357f3de3643ba0007bc0b50.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Retake E-sport Live (720p)
 https://jmp2.uk/plu-66fd1338ec9d6d00081e0443.m3u8
+#EXTINF:-1 tvg-id="Go3Sport1.ee@SD" group-title="Sports",Go3 Sport 1 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/416/index.m3u8
 #EXTINF:-1 tvg-id="Africa24Sport.fr@SD" group-title="Sports",Africa 24 Sport (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr@SD" group-title="Sports",Euronews Portuguese (720p)
 https://6e52fb8b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr@SD" group-title="Sports",Euronews Portuguese (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" group-title="Sports",Trace Sport Stars
-http://ott.watch/XE5QWWBZ87/256/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" group-title="Sports",Trace Sport Stars Russia (720p)
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@SD" group-title="Sports",Trace Sport Stars SD
@@ -221,6 +222,9 @@ http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" group-title="Sports",Setanta Sports 2 Eurasia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/235/index.m3u8
+#EXTINF:-1 tvg-id="5Sport.il@SD" group-title="Sports",5Sport (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/41/index.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@SD" group-title="Sports",DD Sports SD (720p)
 http://103.213.31.109:90/ZeeAnmolCinema2/playlist.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@SD" group-title="Sports",DD Sports SD (576p)
@@ -348,7 +352,7 @@ https://trs1.aynaott.com/ptvsports/index.m3u8
 http://121.91.61.106:8000/play/a04h/index.m3u8
 #EXTINF:-1 tvg-id="PTVSports.pk@SD" group-title="Sports",PTV Sports (720p)
 http://tvsen5.aynascope.net/Ptvsports/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSport2.pl@SD" group-title="Sports",Polsat Sport 2
+#EXTINF:-1 tvg-id="PolsatSport2.pl" group-title="Sports",Polsat Sport 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://91.146.94.234:10001/play/a06z
 #EXTINF:-1 tvg-id="PolsatSportPremium1.pl@SD" group-title="Sports",Polsat Sport Premium 1
@@ -366,6 +370,12 @@ http://91.146.94.234:10001/play/a07s
 http://91.146.94.234:10001/play/a07a
 #EXTINF:-1 tvg-id="PolsatSportExtra4.pl@SD" group-title="Sports",Polsat Sport Extra 4 (1080p)
 http://91.146.94.234:10001/play/a07b
+#EXTINF:-1 tvg-id="PolsatSport1.pl@SD" group-title="Sports",Polsat Sport 1 (1080p)
+http://91.146.94.234:10001/play/a0c4
+#EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" group-title="Sports",Polsat Sport Fight
+http://91.146.94.234:10001/play/a070
+#EXTINF:-1 tvg-id="TVPSport.pl@SD" group-title="Sports",TVP Sport (1080p)
+http://91.146.94.234:10001/play/a07f
 #EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" group-title="Sports",World of Freesports (1080p)
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="SportTV1.pt@SD" group-title="Sports",Sport TV1
@@ -461,9 +471,6 @@ https://nl1.nghk.ai/SK3SRHD/index.m3u8
 #EXTINF:-1 tvg-id="ArenaSportTenis.rs@SD" group-title="Sports",Arena Sport Tenis (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 https://nl1.nghk.ai/SK4SRHD/index.m3u8
-#EXTINF:-1 tvg-id="ArenaEsport.rs@SD" group-title="Sports",Arena Esport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://webtvstream.bhtelecom.ba/arena_esport.m3u8
 #EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Sports",Extreme Sports Channel (576p)
 http://46.32.176.50/extremesport/index.m3u8
 #EXTINF:-1 tvg-id="Sportivnyy.ru@SD" group-title="Sports",Sportivnyy (1080p)
@@ -529,6 +536,21 @@ http://stream.mcquack.net/390/index.m3u8
 #EXTINF:-1 tvg-id="Sport1Baltic.ua@SD" group-title="Sports",Sport 1 Baltic (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/461/index.m3u8
+#EXTINF:-1 tvg-id="SuspilneSport.ua@SD" group-title="Sports",Suspilne. Sport (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/444/index.m3u8
+#EXTINF:-1 tvg-id="Sport1.ua@SD" group-title="Sports",Sport 1 (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/391/index.m3u8
+#EXTINF:-1 tvg-id="Sport2.ua@SD" group-title="Sports",Sport 2 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/392/index.m3u8
+#EXTINF:-1 tvg-id="Sport3.ua@SD" group-title="Sports",Sport 3 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/393/index.m3u8
+#EXTINF:-1 tvg-id="Sport4.ua@SD" group-title="Sports",Sport 4 (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/394/index.m3u8
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD" group-title="Sports",talkSPORT (1080p)
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",U&Transport (720p)
