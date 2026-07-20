@@ -4,6 +4,7 @@
     "target": "es2022",
     "module": "nodeNext",
     "moduleResolution": "nodeNext",
+    "types": ["node", "jest"],
     "typeRoots": [
       "./scripts/types",
       "./node_modules/@types"
@@ -13,8 +14,5 @@
   "ts-node": {
     "esm": true,
     "transpileOnly": true
-  },
-  "files": [
-    "node_modules/jest-expect-message/types/index.d.ts"
-  ]
+  }
 }

@@ -42,9 +42,18 @@ describe('playlist:update', () => {
 
       done()
     } catch (err) {
-      if (process.env.DEBUG === 'true') console.log(cmd, err.stdout)
-      done(err)
-    }
+  const execError = err as NodeJS.ErrnoException & {
+    stdout?: string
+    stderr?: string
+  }
+
+  if (process.env.DEBUG === 'true') {
+    console.log(cmd, execError.stdout)
+    console.error(execError.stderr)
+  }
+
+  done(err instanceof Error ? err : new Error(String(err)))
+}
   })
 })
 
