@@ -1154,6 +1154,10 @@ http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1 tvg-id="Dorama.ru@HD" group-title="Russia",Dorama HD (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/412/index.m3u8
+#EXTINF:-1 tvg-id="Channel8Krasnoyarsk.ru@HD" group-title="Russia",Channel 8 Krasnoyarsk HD (1080p)
+#EXTVLCOPT:http-referrer=https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
@@ -4491,7 +4495,7 @@ https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8
 https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LanaTV.lb@SD" group-title="Lebanon",Lana TV (576p)
 https://cdn.streamlane.tv/hls/ltv/master.m3u8
-#EXTINF:-1 tvg-id="LBCInternational.lb@SD" group-title="Lebanon",LBC International
+#EXTINF:-1 tvg-id="LBC.sa" group-title="Lebanon",LBC (1080p)
 http://185.9.2.18/chid_327/index.m3u8
 #EXTINF:-1 tvg-id="mfm.lb@HD" group-title="Lebanon",mfm (1080p)
 https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
@@ -4521,6 +4525,8 @@ https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8
 https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8
 #EXTINF:-1 tvg-id="VoiceofLebanon.lb@SD" group-title="Lebanon",Voice of Lebanon (1080p)
 https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="LBCInternational.lb@SD" group-title="Lebanon",LBC International (1080p)
+http://185.9.2.18/chid_521/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Latvia",Latvijas Radio 3 Klasika (240p)
 https://5a44e5b800a41.streamlock.net/liveVLR3/mp4:Klasika/playlist.m3u8
 #EXTINF:-1 tvg-id="LTV1.lv@HD" group-title="Latvia",LTV1 (720p)
@@ -5313,6 +5319,9 @@ https://aes.m3u8simplu.workers.dev/filmboxstars/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Romania" group-title="Poland",FILMBOX+ Emotion Romania (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://aes.m3u8simplu.workers.dev/filmboxextra/index.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@HD" group-title="Poland",FILMBOX+ Festival HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt@SD" group-title="Portugal",AXN Movies (720p)
@@ -6025,6 +6034,8 @@ https://stream.badinan.xyz/welat/tv/playlist.m3u8
 https://qmcconnect.qa/api/StreamServices/arabictvsyria1/master.m3u8
 #EXTINF:-1 tvg-id="Althania.sy@SD" group-title="Syria",Althania
 https://qmcconnect.qa/api/StreamServices/arabictvsyria2/master.m3u8
+#EXTINF:-1 tvg-id="AlikhbariaSyria.sy@SD" group-title="Syria",Alikhbaria Syria (1080p)
+http://185.9.2.18/chid_423/index.m3u8
 #EXTINF:-1 tvg-id="Badakhshon.tj@SD" group-title="Tajikistan",Badakhshon (576p)
 https://live.teleradiocom.tj/11/3m.m3u8
 #EXTINF:-1 tvg-id="DushanbeHD.tj@SD" group-title="Tajikistan",Dushanbe HD (1080p)
