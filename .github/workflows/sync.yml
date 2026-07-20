@@ -8,13 +8,16 @@ on:
 permissions:
   contents: write
 
+# Shares the push-to-master queue with the build workflows so scheduled
+# pushes never race each other (non-fast-forward failures).
 concurrency:
-  group: sync-upstream
+  group: push-master
   cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -33,26 +36,87 @@ jobs:
           git fetch upstream
 
       - name: Merge upstream
+        id: merge
         run: |
           if git show-ref --verify --quiet refs/remotes/upstream/master; then
             UPSTREAM=upstream/master
           else
             UPSTREAM=upstream/main
           fi
+          echo "upstream_ref=$UPSTREAM" >> "$GITHUB_OUTPUT"
 
-          git merge "$UPSTREAM" -m "Sync with upstream" || true
+          # Record where we were before the merge so fork-owned files can be
+          # restored afterwards even if the merge auto-resolves them.
+          echo "pre_merge_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+          set +e
+          git merge "$UPSTREAM" -m "Sync with upstream"
+          MERGE_STATUS=$?
+          set -e
+
+          if [ "$MERGE_STATUS" -ne 0 ]; then
+            if git diff --name-only --diff-filter=U | grep -q .; then
+              echo "Merge produced conflicts; they will be resolved in the next step."
+              echo "had_conflicts=true" >> "$GITHUB_OUTPUT"
+            else
+              # A non-conflict merge failure (e.g. unrelated histories) must
+              # fail the job instead of being silently ignored.
+              echo "::error::git merge failed without conflicts (exit $MERGE_STATUS)"
+              exit "$MERGE_STATUS"
+            fi
+          else
+            echo "had_conflicts=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Resolve conflicts by taking upstream version
+        if: steps.merge.outputs.had_conflicts == 'true'
         run: |
-          if git diff --name-only --diff-filter=U | grep .; then
-            git diff --name-only --diff-filter=U | while read file; do
-              git checkout --theirs "$file"
-              git add "$file"
-            done
-            git commit -m "Resolve merge conflicts using upstream version"
+          git diff --name-only --diff-filter=U | while read -r file; do
+            git checkout --theirs "$file"
+            git add "$file"
+          done
+          git commit -m "Resolve merge conflicts using upstream version"
+
+      - name: Protect fork-owned files from upstream overwrite
+        run: |
+          # Files that belong to this fork and must never be replaced by the
+          # upstream copy (or deleted because upstream does not have them).
+          PROTECTED_PATHS=(
+            ".github/workflows/sync.yml"
+            ".github/workflows/build-playlist.yml"
+            ".github/workflows/build-sports-playlist.yml"
+            ".github/workflows/ai-review.yml"
+            ".github/ai-review"
+            ".github/docs/ai-review.md"
+            "playlist-filter.conf"
+            "playlist-exclude.conf"
+            "playlist-execute.conf"
+            "playlist.m3u"
+            "playlist-sports.m3u"
+          )
+
+          PRE_MERGE="${{ steps.merge.outputs.pre_merge_sha }}"
+          RESTORED=false
+
+          for path in "${PROTECTED_PATHS[@]}"; do
+            # Only restore paths that existed before the merge.
+            if git cat-file -e "$PRE_MERGE:$path" 2>/dev/null; then
+              if ! git diff --quiet "$PRE_MERGE" HEAD -- "$path"; then
+                echo "Restoring fork-owned path: $path"
+                git checkout "$PRE_MERGE" -- "$path"
+                RESTORED=true
+              fi
+            fi
+          done
+
+          if [ "$RESTORED" = "true" ]; then
+            git commit -m "Restore fork-owned files after upstream sync"
           else
-            echo "No conflicts."
+            echo "No fork-owned files were touched by the sync."
           fi
 
       - name: Push changes
-        run: git push origin master
+        run: |
+          # Another workflow may have pushed while this job ran.
+          git pull --rebase origin master
+          git push origin master

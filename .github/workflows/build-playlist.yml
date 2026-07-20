@@ -3,14 +3,21 @@ name: Build Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    # Staggered 20 minutes after sync.yml to avoid racing it on the hour.
+    - cron: '20 */6 * * *'
 
 permissions:
   contents: write
 
+# Shares the push-to-master queue with sync.yml and the sports build.
+concurrency:
+  group: push-master
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v6
@@ -86,7 +93,12 @@ jobs:
 
           git add playlist.m3u
 
-          git commit -m "Update playlist" || echo "No changes"
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Update playlist"
 
           git pull --rebase origin master
 

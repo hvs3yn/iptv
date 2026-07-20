@@ -8,16 +8,20 @@ permissions:
 jobs:
   main:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v6
-      - uses: tibdex/github-app-token@v1.8.2
-        if: ${{ !env.ACT }}
+      - uses: actions/create-github-app-token@v2
+        # Bot deploys only run in the upstream repository. Forks skip token
+        # creation so missing APP_ID/APP_PRIVATE_KEY secrets do not fail
+        # the scheduled run.
+        if: ${{ !env.ACT && github.repository == 'iptv-org/iptv' }}
         id: create-app-token
         with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: actions/checkout@v6
-        if: ${{ !env.ACT }}
+        if: ${{ !env.ACT && github.repository == 'iptv-org/iptv' }}
         with:
           token: ${{ steps.create-app-token.outputs.token }}
       - uses: actions/setup-node@v6
@@ -47,21 +51,25 @@ jobs:
           git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
       - name: Commit changes to /streams
         if: steps.playlist-update.outputs.processed_issues != 0
+        env:
+          # Passed via env instead of inline ${{ }} interpolation so log
+          # content can never be executed as shell code.
+          PROCESSED_ISSUES: ${{ steps.playlist-update.outputs.processed_issues }}
         run: |
           git add streams
           git status
-          git commit --allow-empty -m "[Bot] Update /streams" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/iptv/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.playlist-update.outputs.processed_issues }}" --no-verify
+          git commit --allow-empty -m "[Bot] Update /streams" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/iptv/actions/runs/${{ github.run_id }}) workflow." -m "$PROCESSED_ISSUES" --no-verify
       - name: Commit changes to PLAYLIST.md
         run: |
           git add PLAYLISTS.md
           git status
           git commit --allow-empty -m "[Bot] Update PLAYLISTS.md" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/iptv/actions/runs/${{ github.run_id }}) workflow." --no-verify
       - name: Push all changes to the repository
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+        if: ${{ !env.ACT && github.ref == 'refs/heads/master' && github.repository == 'iptv-org/iptv' }}
         run: git push
       - name: Deploy public playlists to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: ${{ !env.ACT && github.ref == 'refs/heads/master' && github.repository == 'iptv-org/iptv' }}
         with:
           repository-name: iptv-org/iptv
           branch: gh-pages
@@ -72,8 +80,8 @@ jobs:
           commit-message: '[Bot] Deploy to GitHub Pages'
           clean: true
       - name: Move .api/streams.json to iptv-org/api
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: ${{ !env.ACT && github.ref == 'refs/heads/master' && github.repository == 'iptv-org/iptv' }}
         with:
           repository-name: iptv-org/api
           branch: gh-pages
