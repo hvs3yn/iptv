@@ -14,4 +14,18 @@ Sequentially runs the `api:load`, `playlist:format`, `playlist:lint`, and `playl
 
 ## update
 
-Runs every day at 0:00 UTC. It sequentially executes the `api:load`, `playlist:update`, `playlist:lint`, `playlist:validate`, `playlist:generate`, `playlist:export`, and `readme:update` scripts, then automatically deploys the updated files if successful.
+Runs every day at 0:00 UTC. It sequentially executes the `api:load`, `playlist:update`, `playlist:lint`, `playlist:validate`, `playlist:generate`, `playlist:export`, and `readme:update` scripts, then automatically deploys the updated files if successful. Deploy steps only run in the upstream `iptv-org/iptv` repository.
+
+## Fork-specific workflows
+
+### sync
+
+Runs every 6 hours. Merges upstream `iptv-org/iptv` into this fork, resolving conflicts in favor of upstream while restoring fork-owned files (build configs, generated playlists, custom workflows) afterwards.
+
+### Build Playlist / Build Sports Playlist
+
+Run every 6 hours (staggered after sync). Generate `playlist.m3u` from the sources listed in `playlist-filter.conf` and `playlist-sports.m3u` from all sport channels, then commit the result. All three scheduled workflows share the `push-master` concurrency group so their pushes never race.
+
+### AI Review
+
+Reviews the repository with an AI agent and proposes fixes via Pull Request. Never pushes to `master`. See [ai-review.md](./ai-review.md) for details.
