@@ -8,8 +8,6 @@ on:
 permissions:
   contents: write
 
-# Shares the push-to-master queue with the build workflows so scheduled
-# pushes never race each other (non-fast-forward failures).
 concurrency:
   group: push-master
   cancel-in-progress: false
@@ -17,71 +15,75 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Configure Git
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Add upstream
         run: |
-          git remote add upstream https://github.com/iptv-org/iptv.git || true
-          git fetch upstream
+          if ! git remote | grep -q "^upstream$"; then
+            git remote add upstream https://github.com/iptv-org/iptv.git
+          fi
+          git fetch upstream --prune
 
       - name: Merge upstream
         id: merge
+        shell: bash
         run: |
-          if git show-ref --verify --quiet refs/remotes/upstream/master; then
-            UPSTREAM=upstream/master
-          else
-            UPSTREAM=upstream/main
-          fi
-          echo "upstream_ref=$UPSTREAM" >> "$GITHUB_OUTPUT"
+          set -e
 
-          # Record where we were before the merge so fork-owned files can be
-          # restored afterwards even if the merge auto-resolves them.
+          if git show-ref --verify --quiet refs/remotes/upstream/master; then
+            UPSTREAM="upstream/master"
+          else
+            UPSTREAM="upstream/main"
+          fi
+
           echo "pre_merge_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
           set +e
-          git merge "$UPSTREAM" -m "Sync with upstream"
-          MERGE_STATUS=$?
+          git merge "$UPSTREAM" --no-edit
+          STATUS=$?
           set -e
 
-          if [ "$MERGE_STATUS" -ne 0 ]; then
+          if [ "$STATUS" -ne 0 ]; then
             if git diff --name-only --diff-filter=U | grep -q .; then
-              echo "Merge produced conflicts; they will be resolved in the next step."
               echo "had_conflicts=true" >> "$GITHUB_OUTPUT"
             else
-              # A non-conflict merge failure (e.g. unrelated histories) must
-              # fail the job instead of being silently ignored.
-              echo "::error::git merge failed without conflicts (exit $MERGE_STATUS)"
-              exit "$MERGE_STATUS"
+              echo "::error::Merge failed."
+              exit $STATUS
             fi
           else
             echo "had_conflicts=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Resolve conflicts by taking upstream version
+      - name: Resolve conflicts using upstream
         if: steps.merge.outputs.had_conflicts == 'true'
+        shell: bash
         run: |
-          git diff --name-only --diff-filter=U | while read -r file; do
+          git diff --name-only --diff-filter=U | while read file; do
             git checkout --theirs "$file"
             git add "$file"
           done
-          git commit -m "Resolve merge conflicts using upstream version"
 
-      - name: Protect fork-owned files from upstream overwrite
+          if ! git diff --cached --quiet; then
+            git commit -m "Resolve merge conflicts using upstream version"
+          fi
+
+      - name: Restore fork-owned files
+        shell: bash
         run: |
-          # Files that belong to this fork and must never be replaced by the
-          # upstream copy (or deleted because upstream does not have them).
-          PROTECTED_PATHS=(
+          PRE="${{ steps.merge.outputs.pre_merge_sha }}"
+
+          PROTECTED=(
             ".github/workflows/sync.yml"
             ".github/workflows/build-playlist.yml"
             ".github/workflows/build-sports-playlist.yml"
@@ -95,28 +97,35 @@ jobs:
             "playlist-sports.m3u"
           )
 
-          PRE_MERGE="${{ steps.merge.outputs.pre_merge_sha }}"
           RESTORED=false
 
-          for path in "${PROTECTED_PATHS[@]}"; do
-            # Only restore paths that existed before the merge.
-            if git cat-file -e "$PRE_MERGE:$path" 2>/dev/null; then
-              if ! git diff --quiet "$PRE_MERGE" HEAD -- "$path"; then
-                echo "Restoring fork-owned path: $path"
-                git checkout "$PRE_MERGE" -- "$path"
+          for file in "${PROTECTED[@]}"; do
+            if git cat-file -e "$PRE:$file" 2>/dev/null; then
+              if ! git diff --quiet "$PRE" HEAD -- "$file"; then
+                echo "Restoring $file"
+                git checkout "$PRE" -- "$file"
+                git add "$file"
                 RESTORED=true
               fi
             fi
           done
 
-          if [ "$RESTORED" = "true" ]; then
-            git commit -m "Restore fork-owned files after upstream sync"
+          if [ "$RESTORED" = true ]; then
+            git commit -m "Restore fork-owned files"
+          fi
+
+      - name: Check for changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --cached --quiet && git diff --quiet HEAD; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "No fork-owned files were touched by the sync."
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Push changes
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
         run: |
-          # Another workflow may have pushed while this job ran.
-          git pull --rebase origin master
-          git push origin master
+          git push origin HEAD:master
