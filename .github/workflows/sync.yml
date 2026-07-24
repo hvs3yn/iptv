@@ -93,17 +93,19 @@ jobs:
         run: |
           BRANCH="${GITHUB_REF_NAME}"
 
-          for i in 1 2 3; do
-            git pull --rebase origin "$BRANCH"
+          git fetch origin "$BRANCH"
 
-            if git push origin HEAD:"$BRANCH"; then
-              echo "Push succeeded."
-              exit 0
-            fi
+          # If the remote changed while this workflow was running,
+          # merge it instead of rebasing.
+          if ! git merge "origin/$BRANCH" --no-edit; then
+            echo "Resolving merge conflicts using remote version..."
 
-            echo "Retry $i..."
-            sleep 5
-          done
+            git diff --name-only --diff-filter=U | while read file; do
+              git checkout --theirs "$file"
+              git add "$file"
+            done
 
-          echo "::error::Failed to push after 3 attempts."
-          exit 1
+            git commit -m "Resolve push merge conflicts"
+          fi
+
+          git push origin HEAD:"$BRANCH"
