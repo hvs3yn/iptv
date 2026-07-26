@@ -1330,6 +1330,10 @@ http://stream.mcquack.net/386/index.m3u8
 http://stream.mcquack.net/109/index.m3u8
 #EXTINF:-1 tvg-id="FonMusic.ru@SD" group-title="Russia",Fon Music (576p)
 http://stream.mcquack.net/317/index.m3u8
+#EXTINF:-1 tvg-id="Dorama.ru@SD" group-title="Russia",Dorama
+https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="MoyaPlaneta.ru@SD" group-title="Russia",Moya Planeta (1080p)
+http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
@@ -3018,6 +3022,10 @@ http://170.83.16.50:80/FRANCE_24/index.m3u8
 https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr@SD" group-title="France",Mezzo Live (1080p)
 http://stream.mcquack.net/276/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" group-title="France",TV5Monde Asia (576p)
+http://27.131.164.187:8080/TV5_Monde/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr@SD" group-title="France",TV5Monde Europe (1080p)
+http://5.180.164.197:8080/TV5MONDE/index.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" group-title="France",BFM 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
@@ -3742,6 +3750,9 @@ http://88.212.15.19/live/spiler2/index.m3u8
 #EXTINF:-1 tvg-id="Prime.hu@SD" group-title="Hungary",Prime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://88.212.15.19/live/prime/index.m3u8
+#EXTINF:-1 tvg-id="SorozatPlus.hu@SD" group-title="Hungary",Sorozat+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://88.212.15.19/live/test_sorozat_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AbalfadhlTV.ir@SD" group-title="Iran",Abalfadhl TV
@@ -4900,9 +4911,6 @@ https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="FightBox.nl@SD" group-title="Netherlands",FightBox
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
-#EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" group-title="Netherlands",FilmBox (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://193.239.186.231/FILMBOX/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl" group-title="Netherlands",FILMBOX+ Festival
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Czechia" group-title="Netherlands",FILMBOX+ Comedy Czechia
@@ -5178,6 +5186,9 @@ http://86.87.15.10:8008/play/a01m/index.m3u8
 #EXTINF:-1 tvg-id="Film1Premiere.nl@SD" group-title="Netherlands",Film1 Premiere
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://86.87.15.10:8008/play/a01n/index.m3u8
+#EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" group-title="Netherlands",FilmBox
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
+http://de.seetv.cc/play/8041/1966B8DE7EC6FEE/video.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" group-title="Netherlands",Artflix Movie Classics (720p)
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DiscoverFilm.uk@SD" group-title="Netherlands",DiscoverFilm
@@ -5447,6 +5458,8 @@ http://119.156.228.231:9983/stream/channelid/1893273325?ticket=B3DB50D5930411D59
 http://103.86.135.164:9981/stream/channelid/2024790699?ticket=CAC87CD3CF8747A13FB03B91C9BE860F93CD615C&profile=pass
 #EXTINF:-1 tvg-id="APlusTV.pk@SD" group-title="Pakistan",A-Plus TV
 http://103.86.135.164:9981/stream/channelid/1522598263?ticket=8F210F02E7EF3471D45EFD9B293E0E07CE3532BF&profile=pass
+#EXTINF:-1 tvg-id="DiscoverPakistan.pk@SD" group-title="Pakistan",Discover Pakistan
+http://103.86.135.164:9981/stream/channelid/2089283490?ticket=BB7D99860884A453E7DEA789EDFB5114621FEDED&profile=pass
 #EXTINF:-1 tvg-id="13Ulica.pl@SD" group-title="Poland",13 Ulica (1080p)
 http://91.146.94.234:10001/play/a088
 #EXTINF:-1 tvg-id="BelsatTV.pl@SD" group-title="Poland",Belsat TV (576p)
@@ -5589,6 +5602,9 @@ https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@Russia" group-title="Poland",FILMBOX+ Festival Russia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://zpkcjms4.zyntras.top/iptv/BL5QFD5266596A/31807/index.m3u8
+#EXTINF:-1 tvg-id="MusicBoxPolska.pl@Ukraine" group-title="Poland",Music Box Polska Ukraine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://uys1g01.s.gy/MB_UKRAINE
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt@SD" group-title="Portugal",AXN Movies (720p)
@@ -6659,12 +6675,6 @@ http://stream.mcquack.net/398/index.m3u8
 #EXTINF:-1 tvg-id="ChemodanTV.ua@SD" group-title="Ukraine",Chemodan TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/399/index.m3u8
-#EXTINF:-1 tvg-id="LuxTV.ua@SD" group-title="Ukraine",Lux TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://stream.youtv.com.ua/4481/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="1Plus1Ukraina.ua@SD" group-title="Ukraine",1+1 Ukraina
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://uys1g01.s.gy/1PLUS1_UKRAINE
 #EXTINF:-1 tvg-id="M1.ua@SD" group-title="Ukraine",M1 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/218/index.m3u8
@@ -6675,6 +6685,25 @@ http://stream.mcquack.net/330/index.m3u8
 http://stream.mcquack.net/463/index.m3u8
 #EXTINF:-1 tvg-id="RAZ2.ua@SD" group-title="Ukraine",RAZ 2 (1080p)
 http://stream.mcquack.net/464/index.m3u8
+#EXTINF:-1 tvg-id="1Plus1Ukraina.ua@SD" group-title="Ukraine",1+1 Ukraina (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://stream.mcquack.net/219/index.m3u8
+#EXTINF:-1 tvg-id="PLUSPLUS.ua@SD" group-title="Ukraine",PLUSPLUS (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/339/index.m3u8
+#EXTINF:-1 tvg-id="UNIANSerial.ua@SD" group-title="Ukraine",UNIAN Serial (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/341/index.m3u8
+#EXTINF:-1 tvg-id="Bigudi.ua@SD" group-title="Ukraine",Bigudi (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/340/index.m3u8
+#EXTINF:-1 tvg-id="OnePlanet.ua@SD" group-title="Ukraine",One Planet (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/448/index.m3u8
+#EXTINF:-1 tvg-id="Islandia.ua@SD" group-title="Ukraine",Islandia (720p)
+https://cdn15.live-tv.cloud/ua_infinitas_tv/islandiya-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="OTV.ua@SD" group-title="Ukraine",OTV
+https://stream.otv.ua/memfs/028e5947-073f-4b4e-a47f-70e59ca3ee36.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" group-title="United Kingdom",Afghanistan International (720p)
 https://hls.afintl.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" group-title="United Kingdom",Afrobeats (1080p)
@@ -6985,10 +7014,6 @@ https://aes.m3u8simplu.workers.dev/amc/index.m3u8
 https://aes.m3u8simplu.workers.dev/bbcearth/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" group-title="United Kingdom",BBC News North America (1080p)
 https://gpuserver3.tier1streams.com/BBC_WORLD_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="ClublandTV.uk@SD" group-title="United Kingdom",Clubland TV (720p)
-http://bore.pub:14073/live.m3u8
-#EXTINF:-1 tvg-id="ClublandTV.uk@SD" group-title="United Kingdom",Clubland TV (720p)
-http://bore.pub:40823/live.m3u8
 #EXTINF:-1 tvg-id="DerTV.uk@SD" group-title="United Kingdom",Der TV
 https://stream.berosat.live/hls/der-tv/der-tv.m3u8
 #EXTINF:-1 tvg-id="BBCUHD2.uk@SD" group-title="United Kingdom",BBC UHD 2 (1080p)
@@ -7015,6 +7040,8 @@ https://sra72yz.s.gy/CHANNEL_5_UNITED_KINGDOM
 https://sra72yz.s.gy/CHANNEL_4_UNITED_KINGDOM
 #EXTINF:-1 tvg-id="EDGEsport.uk@SD" group-title="United Kingdom",EDGEsport (576p)
 https://sra72yz.s.gy/EDGE_SPORTS_SD
+#EXTINF:-1 tvg-id="ClublandTV.uk@SD" group-title="United Kingdom",Clubland TV (576i)
+http://109.157.194.186:4040/clublandhls/now.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
