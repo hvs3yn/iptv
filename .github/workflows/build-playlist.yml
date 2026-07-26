@@ -37,7 +37,7 @@ jobs:
               exit 1
             fi
 
-            awk -v group="$group" -v excludeFile="playlist-exclude.conf" '
+            awk -v group="$group" -v excludeFile="playlist-exclude.conf" -v executeFile="playlist-execute.conf" '
               BEGIN {
                 excludeCount = 0
                 while ((getline line < excludeFile) > 0) {
@@ -47,6 +47,13 @@ jobs:
                   excludePatterns[excludeCount] = tolower(line)
                 }
                 close(excludeFile)
+                while ((getline line < executeFile) > 0) {
+                  gsub(/^[ \t]+|[ \t]+$/, "", line)
+                  if (line == "" || line ~ /^#/) continue
+                  excludeCount++
+                  excludePatterns[excludeCount] = tolower(line)
+                }
+                close(executeFile)
               }
               /^#EXTINF/ {
                 skip = 0

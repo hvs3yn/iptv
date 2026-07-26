@@ -78,8 +78,14 @@ jobs:
             playlist-filter.conf \
             playlist-exclude.conf \
             playlist-execute.conf \
+            playlist-filter-europe.conf \
+            playlist-filter-asia.conf \
+            playlist-filter-america.conf \
             playlist.m3u \
             playlist-sports.m3u \
+            playlist-europe.m3u \
+            playlist-asia.m3u \
+            playlist-america.m3u \
             || true
 
           git add -A

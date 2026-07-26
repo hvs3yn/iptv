@@ -1,0 +1,121 @@
+name: Build Regional Playlists
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Staggered 50 minutes after sync.yml to avoid racing it and the other builds.
+    - cron: '50 */6 * * *'
+
+permissions:
+  contents: write
+
+# Shares the push-to-master queue with sync.yml and the other playlist builds.
+concurrency:
+  group: push-master
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Generate regional playlists
+        run: |
+          declare -A REGIONS=(
+            [playlist-filter-europe.conf]=playlist-europe.m3u
+            [playlist-filter-asia.conf]=playlist-asia.m3u
+            [playlist-filter-america.conf]=playlist-america.m3u
+          )
+
+          for conf in "${!REGIONS[@]}"; do
+            output="${REGIONS[$conf]}"
+            echo "Building $output from $conf"
+            echo "#EXTM3U" > "$output"
+
+            while IFS='=' read -r source group; do
+              [[ -z "$source" || "$source" == \#* ]] && continue
+
+              file="streams/$source"
+              if [[ ! -f "$file" ]]; then
+                echo "::error::Source file listed in $conf not found: $file"
+                exit 1
+              fi
+
+              awk -v group="$group" -v excludeFile="playlist-exclude.conf" -v executeFile="playlist-execute.conf" '
+                BEGIN {
+                  excludeCount = 0
+                  while ((getline line < excludeFile) > 0) {
+                    gsub(/^[ \t]+|[ \t]+$/, "", line)
+                    if (line == "" || line ~ /^#/) continue
+                    excludeCount++
+                    excludePatterns[excludeCount] = tolower(line)
+                  }
+                  close(excludeFile)
+                  while ((getline line < executeFile) > 0) {
+                    gsub(/^[ \t]+|[ \t]+$/, "", line)
+                    if (line == "" || line ~ /^#/) continue
+                    excludeCount++
+                    excludePatterns[excludeCount] = tolower(line)
+                  }
+                  close(executeFile)
+                }
+                /^#EXTINF/ {
+                  skip = 0
+                  lowerLine = tolower($0)
+                  for (i = 1; i <= excludeCount; i++) {
+                    if (index(lowerLine, excludePatterns[i]) > 0) {
+                      skip = 1
+                      break
+                    }
+                  }
+                  if (!skip) {
+                    if ($0 ~ /group-title="[^"]*"/) {
+                      gsub(/group-title="[^"]*"/, "group-title=\"" group "\"")
+                    } else {
+                      sub(/,/, " group-title=\"" group "\",")
+                    }
+                  }
+                }
+                skip { next }
+                !/^#EXTM3U/ { print }
+              ' "$file" >> "$output"
+
+            done < "$conf"
+
+            # Remove ungrouped channels
+            awk '
+              /^#EXTM3U/ { print; next }
+              /^#EXTINF/ {
+                if (buffer != "" && keep) printf "%s", buffer
+                buffer = $0 "\n"
+                keep = ($0 ~ /group-title="[^"]+"/) ? 1 : 0
+                next
+              }
+              { buffer = buffer $0 "\n" }
+              END { if (buffer != "" && keep) printf "%s", buffer }
+            ' "$output" > "$output.tmp"
+            mv "$output.tmp" "$output"
+          done
+
+      - name: Commit playlists
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add playlist-europe.m3u playlist-asia.m3u playlist-america.m3u
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Update regional playlists"
+
+          git pull --rebase origin master
+
+          git push origin master
