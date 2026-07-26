@@ -439,10 +439,6 @@ http://zntx.dyndns.org:8085/hls/stv7.m3u8
 https://live.enhdtv.com:8081/8160/index.m3u8
 #EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" group-title="Sports",Tigo Sports+
 http://45.170.130.224:8000/play/a04i/index.m3u8
-#EXTINF:-1 tvg-id="DigiSport1.ro@HD" group-title="Sports",Digi Sport 1 HD
-http://91.201.172.14:35005
-#EXTINF:-1 tvg-id="DigiSport2.ro@HD" group-title="Sports",Digi Sport 2 HD
-http://91.201.172.14:35006
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" group-title="Sports",Realitatea Sportiva (720p)
 https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
 #EXTINF:-1 tvg-id="TVRSport.ro@SD" group-title="Sports",TVR Sport
@@ -462,6 +458,12 @@ https://aes.m3u8simplu.workers.dev/sportextra/index.m3u8
 #EXTINF:-1 tvg-id="AntenaSport.ro@SD" group-title="Sports",AntenaSport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://aes.m3u8simplu.workers.dev/antneassport/index.m3u8
+#EXTINF:-1 tvg-id="DigiSport1.ro@SD" group-title="Sports",Digi Sport 1 (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://aes.m3u8simplu.workers.dev/digi1/index.m3u8
+#EXTINF:-1 tvg-id="DigiSport2.ro@SD" group-title="Sports",Digi Sport 2 (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://aes.m3u8simplu.workers.dev/digi2/index.m3u8
 #EXTINF:-1 tvg-id="ArenaSport1.rs@SD" group-title="Sports",Arena Sport 1 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 https://nl1.nghk.ai/ArenaSport1HD/index.m3u8
