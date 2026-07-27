@@ -308,9 +308,6 @@ https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
 https://livetr.teleromagna.it/mia/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ACISportTV.it@SD" group-title="Sports",ACI Sport TV (720p)
 http://145.239.5.177/564a/index.m3u8
-#EXTINF:-1 tvg-id="RaiSport.it@SD" group-title="Sports",Rai Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://zpkcjms4.zyntras.top/iptv/BL5QFD5266596A/19106/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSport.de@IT" group-title="Sports",Pluto TV Sport
 https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD" group-title="Sports",Sport Italia (1080p)
