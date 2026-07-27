@@ -2036,10 +2036,6 @@ http://108.181.20.255:27347/livehttpplay?channel_id=23105
 http://108.181.20.255:27347/livehttpplay?channel_id=23106
 #EXTINF:-1 tvg-id="LifetimeMovies.us@West" group-title="United States",Lifetime Movies West (1080p)
 http://108.181.20.255:27347/livehttpplay?channel_id=23107
-#EXTINF:-1 tvg-id="MGMPlusMarquee.us@SD" group-title="United States",MGM+ Marquee (720p)
-http://108.181.20.255:27347/livehttpplay?channel_id=23075
-#EXTINF:-1 tvg-id="MGMPlus.us@West" group-title="United States",MGM+ West (720p)
-http://108.181.20.255:27347/livehttpplay?channel_id=23073
 #EXTINF:-1 tvg-id="Telemundo.us@East" group-title="United States",Telemundo (1080p)
 http://108.181.20.255:27347/livehttpplay?channel_id=23003
 #EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
@@ -2418,6 +2414,22 @@ http://40.160.24.55/PIXL/index.m3u8
 https://cdn12.178.indevs.in/163189/dreamworks
 #EXTINF:-1 tvg-id="E.us@Greece" group-title="United States",E! (720p)
 http://185.102.171.218/Entertainment/index.m3u8
+#EXTINF:-1 tvg-id="ShowtimeShowcase.us@East" group-title="United States",Showtime Showcase (1080p)
+https://sra72yz.s.gy/SHOWTIME_SHOWCASE_EAST_US
+#EXTINF:-1 tvg-id="StarzEncoreWesterns.us@East" group-title="United States",Starz Encore Westerns (720p)
+https://sra72yz.s.gy/STARZ_ENCORE_WESTER_EAST_US
+#EXTINF:-1 tvg-id="StarzInBlack.us@East" group-title="United States",Starz In Black (1080p)
+https://sra72yz.s.gy/STARZ_IN_BLACK_EAST_US
+#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" group-title="United States",Starz Encore Spanish (720p)
+https://sra72yz.s.gy/STARZ_ENCORE_ESPANOL_EAST_HD
+#EXTINF:-1 tvg-id="StarzEncoreSuspense.us@East" group-title="United States",Starz Encore Suspense (1080p)
+https://sra72yz.s.gy/STARZ_ENCORE_SUSPENSE_EAST_HD
+#EXTINF:-1 tvg-id="StarzEncoreAction.us@East" group-title="United States",Starz Encore Action (1080p)
+https://sra72yz.s.gy/STARZ_ENCORE_ACTION_EAST_HD
+#EXTINF:-1 tvg-id="MGMPlusHits.us@East" group-title="United States",MGM+ Hits (1080p)
+https://sra72yz.s.gy/MGM_PLUS_HITS_HD
+#EXTINF:-1 tvg-id="MGMPlusMarquee.us@SD" group-title="United States",MGM+ Marquee (720p)
+https://sra72yz.s.gy/MGM_PLUS_MARQUEE_SD
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
