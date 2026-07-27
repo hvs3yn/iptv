@@ -2873,10 +2873,6 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8
 #EXTINF:-1 tvg-id="RepublicTV.in@SD" group-title="India",Republic TV
 https://cdn-2.pishow.tv/live/271/master.m3u8
-#EXTINF:-1 tvg-id="RojaMovies.in@SD" group-title="India",Roja Movies (1080p)
-https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
-#EXTINF:-1 tvg-id="RojaTV.in@SD" group-title="India",Roja TV (1080p)
-https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 tvg-id="RomedyNow.in@SD" group-title="India",Romedy Now (576p)
 http://103.157.248.140:8000/play/a015/index.m3u8
 #EXTINF:-1 tvg-id="RongeenTV.in@SD" group-title="India",Rongeen TV (720p)
