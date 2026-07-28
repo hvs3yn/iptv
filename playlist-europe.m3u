@@ -301,12 +301,6 @@ http://stream.mcquack.net/85/index.m3u8
 http://tvsen7.aynascope.net/tvone/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD" group-title="United Kingdom",Nickelodeon (576p)
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
-#EXTINF:-1 tvg-id="AMCEurope.uk@Romania" group-title="United Kingdom",AMC Europe Romania (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/amc/index.m3u8
-#EXTINF:-1 tvg-id="BBCEarth.uk@Romania" group-title="United Kingdom",BBC Earth Romania (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/bbcearth/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" group-title="United Kingdom",BBC News North America (1080p)
 https://gpuserver3.tier1streams.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="DerTV.uk@SD" group-title="United Kingdom",Der TV
@@ -329,12 +323,6 @@ https://xemzi.short.gy/1000030
 https://xemzi.short.gy/2000006
 #EXTINF:-1 tvg-id="SkySportsGolf.uk@HD" group-title="United Kingdom",Sky Sports Golf HD (1080p)
 https://xemzi.short.gy/2000009
-#EXTINF:-1 tvg-id="Channel5.uk@SD" group-title="United Kingdom",Channel 5 (720p)
-https://sra72yz.s.gy/CHANNEL_5_UNITED_KINGDOM
-#EXTINF:-1 tvg-id="Channel4.uk@UKHD" group-title="United Kingdom",Channel 4 UK HD (1080p)
-https://sra72yz.s.gy/CHANNEL_4_UNITED_KINGDOM
-#EXTINF:-1 tvg-id="EDGEsport.uk@SD" group-title="United Kingdom",EDGEsport (576p)
-https://sra72yz.s.gy/EDGE_SPORTS_SD
 #EXTINF:-1 tvg-id="ClublandTV.uk@SD" group-title="United Kingdom",Clubland TV (576i)
 http://109.157.194.186:4040/clublandhls/now.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2528,9 +2516,6 @@ https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 http://145.239.5.177/359a/index.m3u8
 #EXTINF:-1 tvg-id="La2.es@SD" group-title="Spain",La 2
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
-#EXTINF:-1 tvg-id="AXNCEE.es@Romania" group-title="Spain",AXN CEE Romania (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/axn/index.m3u8
 #EXTINF:-1 tvg-id="KinoKazka.es@SD" group-title="Spain",KinoKazka (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/167/index.m3u8
@@ -2866,6 +2851,10 @@ http://86.87.15.10:8008/play/a01m/index.m3u8
 #EXTINF:-1 tvg-id="Film1Premiere.nl@SD" group-title="Netherlands",Film1 Premiere
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://86.87.15.10:8008/play/a01n/index.m3u8
+#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Czechia" group-title="Netherlands",Canal+ Action Europe Czechia
+http://46.149.191.219:9106/play/a01g
+#EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" group-title="Netherlands",FilmBox
+http://46.149.191.219:9100/play/a015
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" group-title="Netherlands",Artflix Movie Classics (720p)
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DiscoverFilm.uk@SD" group-title="Netherlands",DiscoverFilm
@@ -2964,6 +2953,8 @@ https://cache1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIx
 https://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
 #EXTINF:-1 tvg-id="Carac1.ch@SD" group-title="Switzerland",Carac 1 (1080p)
 http://145.239.5.177/371/index.m3u8
+#EXTINF:-1 tvg-id="WedoBigStories.ch@SD" group-title="Switzerland",Wedo Big Stories (1080p)
+https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg00735-videosolutionsa-wedobigdocs-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Switzerland" group-title="Switzerland",Rakuten TV Family Switzerland (720p)
 https://a24daf1125344b9cab66eed2fcff8821.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_RakutenFamily-1/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
@@ -3287,24 +3278,15 @@ http://91.146.94.234:10001/play/a070
 http://91.146.94.234:10001/play/a07f
 #EXTINF:-1 tvg-id="TVP2.pl@SD" group-title="Poland",TVP2
 http://91.146.94.234:10001/play/a09f
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Romania" group-title="Poland",FILMBOX+ One Romania (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/filmbox/index.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Romania" group-title="Poland",FILMBOX+ Hits Romania (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/filmboxpremium/index.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Romania" group-title="Poland",FILMBOX+ Love & Crime Romania (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/filmboxstars/index.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Romania" group-title="Poland",FILMBOX+ Emotion Romania (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/filmboxextra/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@HD" group-title="Poland",FILMBOX+ Festival HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@Russia" group-title="Poland",FILMBOX+ Festival Russia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://zpkcjms4.zyntras.top/iptv/BL5QFD5266596A/31807/index.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Hungary" group-title="Poland",FILMBOX+ Hits Hungary
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.19/live/fb_premium_hungary/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -3427,6 +3409,9 @@ http://88.212.15.19/live/test_film_plus_25p/playlist.m3u8
 http://88.212.15.19/live/test_barrandov/playlist.m3u8
 #EXTINF:-1 tvg-id="CurrentTimeTV.cz@SD" group-title="Czech Republic",Current Time TV (576p)
 http://stream.mcquack.net/384/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.cz@SD" group-title="Czech Republic",Nickelodeon
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt@SD" group-title="Portugal",AXN Movies (720p)

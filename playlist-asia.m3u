@@ -313,6 +313,10 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=8l4w3lst4co5&app=a20ac41
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" group-title="Turkey",Kanal D Drama (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD_principal_SRT/playlist.m3u8
+#EXTINF:-1 tvg-id="SSport.tr@SD" group-title="Turkey",S Sport (720p)
+https://corestream.siteyaptim.live/s-sport/index.m3u8
+#EXTINF:-1 tvg-id="SSport2.tr@SD" group-title="Turkey",S Sport 2 (720p)
+https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AbalfadhlTV.ir@SD" group-title="Iran",Abalfadhl TV
@@ -1020,6 +1024,8 @@ https://cdn-7.pishow.tv/live/455/master.m3u8
 https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="Japan",NHK World-Japan HD (720p)
 http://170.83.16.50:80/NHK_WORLD/index.m3u8
+#EXTINF:-1 tvg-id="JOJGDTV.jp@SD" group-title="Japan",JOJG-DTV (1080i)
+https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
 #EXTINF:-1 tvg-id="ABN.kr@SD" group-title="South Korea",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="ArirangRadio.kr@SD" group-title="South Korea",Arirang Radio (720p)
