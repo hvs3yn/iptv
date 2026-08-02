@@ -1393,9 +1393,6 @@ http://145.239.5.177/361/index.m3u8
 http://145.239.5.177/337/index.m3u8
 #EXTINF:-1 tvg-id="arte.fr@SD" group-title="France",arte (720p)
 http://145.239.5.177/300/index.m3u8
-#EXTINF:-1 tvg-id="Automotolachaine.fr@SD" group-title="France",Automoto la chaine
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://futbol9865.ultratv13.workers.dev/deportivo111/23.m3u8
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France",TF1 (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8
@@ -2041,6 +2038,8 @@ http://145.239.5.177/564a/index.m3u8
 https://live1.giocabet.tv/stream/6/index.m3u8
 #EXTINF:-1 tvg-id="LombardiaTV.it@SD" group-title="Italy",Lombardia TV
 https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
+#EXTINF:-1 tvg-id="RomanticaTV.it@SD" group-title="Italy",Romantica TV
+https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -3265,6 +3264,8 @@ https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
 http://88.212.15.19/live/fb_premium_hungary/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.pl@SD" group-title="Poland",Nicktoons
 http://193.24.244.60:1001/udp/239.254.5.227:6060
+#EXTINF:-1 tvg-id="PolsatSeriale.pl@SD" group-title="Poland",Polsat Seriale (1080p)
+https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
