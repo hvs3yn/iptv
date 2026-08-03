@@ -302,6 +302,12 @@ https://corestream.siteyaptim.live/s-sport/index.m3u8
 https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 tvg-id="KocaeliTV.tr@SD" group-title="Turkey",Kocaeli TV (1080p)
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="BirTV.tr@SD" group-title="Turkey",Bir TV (720p)
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" group-title="Turkey",TRT Cocuk (1440p)
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr@SD" group-title="Turkey",TRT 1 (1440p)
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 tvg-id="5minuttishiny.ru@SD" group-title="Russia",5 minut tishiny (1080p)
@@ -2760,6 +2766,8 @@ https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 https://vivo.solumedia.com:19360/bvnet/bvnet.m3u8
 #EXTINF:-1 tvg-id="Canal4Esquel.ar@SD" group-title="Argentina",Canal 4 Esquel
 https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8
+#EXTINF:-1 tvg-id="La100.ar@SD" group-title="Argentina",La 100 (1080p)
+https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" group-title="Austria",Antenne Steiermark (720p)
@@ -5008,6 +5016,9 @@ http://stream.mcquack.net/384/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.cz@SD" group-title="Czech Republic",Nickelodeon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="History2.cz@SD" group-title="Czech Republic",History2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.19/live/test_h2/playlist.m3u8
 #EXTINF:-1 tvg-id="DRTV.dk@SD" group-title="Denmark",DRTV (1080p)
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
 #EXTINF:-1 tvg-id="TVMarineret.dk@SD" group-title="Denmark",TVMarineret (1080p)
@@ -5560,6 +5571,8 @@ http://103.172.187.30:12000/stream/allchannel/tv5style
 http://89.187.185.76:8080/France3/index.m3u8
 #EXTINF:-1 tvg-id="France3.fr@Lorraine" group-title="France",France 3 Lorraine (1080p)
 http://5.180.164.197:8080/FRANCE3/index.m3u8
+#EXTINF:-1 tvg-id="MCMTop.fr@SD" group-title="France",MCM Top (1080p)
+http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 tvg-id="123tv.de@SD" group-title="Germany",1-2-3 TV (270p)
 https://123tv-mx1.flex-cdn.net/index.m3u8
 #EXTINF:-1 tvg-id="AdventureEarth.de@SD" group-title="Germany",Adventure Earth (1080p)
@@ -8437,8 +8450,12 @@ https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
 http://88.212.15.19/live/fb_premium_hungary/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.pl@SD" group-title="Poland",Nicktoons
 http://193.24.244.60:1001/udp/239.254.5.227:6060
-#EXTINF:-1 tvg-id="PolsatSeriale.pl@SD" group-title="Poland",Polsat Seriale (1080p)
-https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png
+#EXTINF:-1 tvg-id="TwojaTV.pl@SD" group-title="Poland",Twoja.TV (1080p)
+https://stream.twoja.tv/ttv_hls/live_720p/index.m3u8
+#EXTINF:-1 tvg-id="Puls2.pl@HD" group-title="Poland",Puls 2 HD (1080p)
+http://193.24.244.60:1001/udp/239.254.4.122:6060
+#EXTINF:-1 tvg-id="TVPuls.pl@HD" group-title="Poland",TV Puls HD (1080p)
+http://193.24.244.60:1001/udp/239.254.4.121:6060
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt@SD" group-title="Portugal",AXN Movies (720p)
@@ -9971,6 +9988,8 @@ https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AhlulbaytTV.uk@SD" group-title="United Kingdom",Ahlulbayt TV (1080p)
 https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelEMEA.uk@SD" group-title="United Kingdom",Disney Channel EMEA (576p)
+http://185.102.171.218/DisneyChannel/index.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD" group-title="United States",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="48Hours.us@US" group-title="United States",48 Hours (1080p)
@@ -11307,8 +11326,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywoo
 https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd
 #EXTINF:-1 tvg-id="ShopLC.us@SD" group-title="United States",Shop LC (1080p)
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(ott)/master.m3u8
-#EXTINF:-1 tvg-id="Showtime.us@East" group-title="United States",Showtime (1080p)
-http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="ShowtimeFamilyZone.us@East" group-title="United States",Showtime Family Zone (720p)
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SkwadPlay.us@SD" group-title="United States",SKWAD (1080p)
@@ -12225,6 +12242,8 @@ https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8
 #EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="United States",Fox Sports 2 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://iptvstream.rf.gd/FOXSPORTS2.m3u8
+#EXTINF:-1 tvg-id="Showtime.us@East" group-title="United States",Showtime (720p)
+http://40.160.24.55/SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="AndijonMTRK.uz@SD" group-title="Uzbekistan",Andijon MTRK (576i)
 https://stream8.cinerama.uz/1457/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
