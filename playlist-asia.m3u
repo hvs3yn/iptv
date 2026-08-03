@@ -243,6 +243,12 @@ https://corestream.siteyaptim.live/s-sport/index.m3u8
 https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 tvg-id="KocaeliTV.tr@SD" group-title="Turkey",Kocaeli TV (1080p)
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="BirTV.tr@SD" group-title="Turkey",Bir TV (720p)
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" group-title="Turkey",TRT Cocuk (1440p)
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr@SD" group-title="Turkey",TRT 1 (1440p)
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AbalfadhlTV.ir@SD" group-title="Iran",Abalfadhl TV
@@ -3560,3 +3566,7 @@ https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jtbsclassic.dpdns.org/live.m3u8
 #EXTINF:-1 tvg-id="StarSports1.in@HD" group-title="India",Star Sports 1 HD (1080p)
 http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 tvg-id="B4UMusic.in@APAC" group-title="India",B4U Music APAC (720p)
+https://s3.itcnbd.live/channel/6f6b7b6d25fbd0e6.m3u8
+#EXTINF:-1 tvg-id="B4UMovies.in@APAC" group-title="India",B4U Movies APAC (720p)
+https://s3.itcnbd.live/channel/129d01070adb9ee3.m3u8

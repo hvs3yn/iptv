@@ -1335,8 +1335,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywoo
 https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd
 #EXTINF:-1 tvg-id="ShopLC.us@SD" group-title="United States",Shop LC (1080p)
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(ott)/master.m3u8
-#EXTINF:-1 tvg-id="Showtime.us@East" group-title="United States",Showtime (1080p)
-http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="ShowtimeFamilyZone.us@East" group-title="United States",Showtime Family Zone (720p)
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SkwadPlay.us@SD" group-title="United States",SKWAD (1080p)
@@ -2253,6 +2251,8 @@ https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8
 #EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="United States",Fox Sports 2 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://iptvstream.rf.gd/FOXSPORTS2.m3u8
+#EXTINF:-1 tvg-id="Showtime.us@East" group-title="United States",Showtime (720p)
+http://40.160.24.55/SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -4195,3 +4195,5 @@ https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 https://vivo.solumedia.com:19360/bvnet/bvnet.m3u8
 #EXTINF:-1 tvg-id="Canal4Esquel.ar@SD" group-title="Argentina",Canal 4 Esquel
 https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8
+#EXTINF:-1 tvg-id="La100.ar@SD" group-title="Argentina",La 100 (1080p)
+https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8

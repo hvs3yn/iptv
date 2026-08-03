@@ -326,6 +326,8 @@ https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AhlulbaytTV.uk@SD" group-title="United Kingdom",Ahlulbayt TV (1080p)
 https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelEMEA.uk@SD" group-title="United Kingdom",Disney Channel EMEA (576p)
+http://185.102.171.218/DisneyChannel/index.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -1429,6 +1431,8 @@ http://103.172.187.30:12000/stream/allchannel/tv5style
 http://89.187.185.76:8080/France3/index.m3u8
 #EXTINF:-1 tvg-id="France3.fr@Lorraine" group-title="France",France 3 Lorraine (1080p)
 http://5.180.164.197:8080/FRANCE3/index.m3u8
+#EXTINF:-1 tvg-id="MCMTop.fr@SD" group-title="France",MCM Top (1080p)
+http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" group-title="France",BFM 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
@@ -3264,8 +3268,12 @@ https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
 http://88.212.15.19/live/fb_premium_hungary/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.pl@SD" group-title="Poland",Nicktoons
 http://193.24.244.60:1001/udp/239.254.5.227:6060
-#EXTINF:-1 tvg-id="PolsatSeriale.pl@SD" group-title="Poland",Polsat Seriale (1080p)
-https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png
+#EXTINF:-1 tvg-id="TwojaTV.pl@SD" group-title="Poland",Twoja.TV (1080p)
+https://stream.twoja.tv/ttv_hls/live_720p/index.m3u8
+#EXTINF:-1 tvg-id="Puls2.pl@HD" group-title="Poland",Puls 2 HD (1080p)
+http://193.24.244.60:1001/udp/239.254.4.122:6060
+#EXTINF:-1 tvg-id="TVPuls.pl@HD" group-title="Poland",TV Puls HD (1080p)
+http://193.24.244.60:1001/udp/239.254.4.121:6060
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -3389,6 +3397,9 @@ http://stream.mcquack.net/384/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.cz@SD" group-title="Czech Republic",Nickelodeon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="History2.cz@SD" group-title="Czech Republic",History2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.19/live/test_h2/playlist.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt@SD" group-title="Portugal",AXN Movies (720p)
