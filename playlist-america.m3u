@@ -2253,6 +2253,56 @@ https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8
 http://iptvstream.rf.gd/FOXSPORTS2.m3u8
 #EXTINF:-1 tvg-id="Showtime.us@East" group-title="United States",Showtime (720p)
 http://40.160.24.55/SHOWTIME/index.m3u8
+#EXTINF:-1 tvg-id="MSNOW.us@SD" group-title="United States",MS NOW (576p)
+https://tvsen6.aynaott.com/msnbc/index.m3u8
+#EXTINF:-1 tvg-id="Willow.us@SD" group-title="United States",Willow (720p)
+https://tvsen5.aynaott.com/willowhd/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.us@East" group-title="United States",Disney Channel (576p)
+https://tvsen5.aynaott.com/disney/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us@East" group-title="United States",Disney XD (576p)
+https://tvsen5.aynaott.com/disneyxd/index.m3u8
+#EXTINF:-1 tvg-id="GiggleMug.us@SD" group-title="United States",Giggle Mug (576p)
+https://tvsen6.aynaott.com/ytv/index.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" group-title="United States",Fox News Channel (576p)
+https://tvsen6.aynaott.com/foxnews/index.m3u8
+#EXTINF:-1 tvg-id="SportsmanChannel.us@SD" group-title="United States",Sportsman Channel (576p)
+https://tvsen6.aynaott.com/SportsmanChannel/index.m3u8
+#EXTINF:-1 tvg-id="WPIXHD.us@SD" group-title="United States",WPIX-HD (576p)
+https://tvsen6.aynaott.com/pix11/index.m3u8
+#EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" group-title="United States",Golf Channel Latin America (1080p)
+http://15.204.246.24:8080/GolfChannelHD/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" group-title="United States",Comedy Central Latin America (1080p)
+http://190.93.224.42/COMEDY-CENTRAL/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us@Panregional" group-title="United States",AXN Latin America (1080p)
+http://190.93.224.42/AXN/index.m3u8
+#EXTINF:-1 tvg-id="AELatinAmerica.us@Panregional" group-title="United States",A&E Latin America (1080p)
+http://190.93.224.42/AYE/index.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" group-title="United States",FX Latin America (1080p)
+http://190.93.224.42/FX/index.m3u8
+#EXTINF:-1 tvg-id="TNTNovelas.us@Panregional" group-title="United States",TNT Novelas (1080p)
+http://190.93.224.42/TNT-NOVELAS/index.m3u8
+#EXTINF:-1 tvg-id="TelemundoInternacional.us@South" group-title="United States",Telemundo Internacional (1080p)
+http://190.93.224.42/TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" group-title="United States",Studio Universal Latin America (1080p)
+http://190.93.224.42/STUDIO-UNIVERSAL/index.m3u8
+#EXTINF:-1 tvg-id="SonyChannelAndes.us@SD" group-title="United States",Sony Channel Andes (1080p)
+http://190.93.224.42/SONY-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="PasionesLatinAmerica.us@SD" group-title="United States",Pasiones Latin America (1080p)
+http://190.93.224.42/PASIONES/index.m3u8
+#EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" group-title="United States",Nickelodeon Latin America (1080p)
+http://190.93.224.42/NICK/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" group-title="United States",National Geographic Latin America (1080p)
+http://190.93.224.42/NAT-GEO/index.m3u8
+#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional" group-title="United States",History Latin America (1080p)
+http://190.93.224.42/HISTORY/index.m3u8
+#EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional" group-title="United States",History 2 Latin America (1080p)
+http://190.93.224.42/HISTORY-2/index.m3u8
+#EXTINF:-1 tvg-id="ActionMax.us@EastHD" group-title="United States",ActionMax East HD (720p)
+https://gpuserver3.tier1streams.com/ACTIONMAX/index.m3u8
+#EXTINF:-1 tvg-id="MoreMax.us@East" group-title="United States",MoreMax (1080p)
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
+#EXTINF:-1 tvg-id="ActionMax.us@East" group-title="United States",ActionMax (720p)
+http://40.160.24.52/ACTIONMAX/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -2443,6 +2493,8 @@ http://206.212.244.63/6142/index.m3u8
 http://tvsen5.aynascope.net/familyjr/index.m3u8
 #EXTINF:-1 tvg-id="CTVSpeedChannel.ca@SD" group-title="Canada",CTV Speed Channel (720p)
 https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8
+#EXTINF:-1 tvg-id="CP24.ca@SD" group-title="Canada",CP24 (576p)
+https://tvsen6.aynaott.com/cp24/index.m3u8
 #EXTINF:-1 tvg-id="8NTV.mx@SD" group-title="Mexico",8NTV (1080p)
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="15TV.mx@SD" group-title="Mexico",15TV
@@ -2703,6 +2755,10 @@ http://209.14.115.253:8081/GOLDEN-EDGE/index.m3u8
 http://209.14.115.253:8081/DE-PELICULA/index.m3u8
 #EXTINF:-1 tvg-id="AztecaDeportesNetwork.mx@SD" group-title="Mexico",Azteca Deportes Network (1080p)
 http://209.14.115.253:8081/azteca-deportes/index.m3u8
+#EXTINF:-1 tvg-id="UnivisionLatinAmerica.mx@SD" group-title="Mexico",Univision Latin America (1080p)
+http://190.93.224.42/UNIVISION/index.m3u8
+#EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx@SD" group-title="Mexico",Las Estrellas Latin America (1080p)
+http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" group-title="Brazil",AgroCanal (720p)
@@ -4197,3 +4253,7 @@ https://vivo.solumedia.com:19360/bvnet/bvnet.m3u8
 https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8
 #EXTINF:-1 tvg-id="La100.ar@SD" group-title="Argentina",La 100 (1080p)
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
+#EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@Panregional" group-title="Argentina",Disney Jr. Latin America (576p)
+http://190.93.224.42/DISNEY-JR/index.m3u8
+#EXTINF:-1 tvg-id="ElGourmet.ar@Panregional" group-title="Argentina",El Gourmet (1080p)
+http://190.93.224.42/EL-GOURMET/index.m3u8

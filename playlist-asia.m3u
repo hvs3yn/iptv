@@ -249,6 +249,8 @@ https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr@SD" group-title="Turkey",TRT 1 (1440p)
 https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="KanalDDrama.tr@SD" group-title="Turkey",Kanal D Drama (1080p)
+http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AbalfadhlTV.ir@SD" group-title="Iran",Abalfadhl TV
@@ -1081,6 +1083,7 @@ http://202.60.106.14:8080/214/playlist.m3u8
 #EXTINF:-1 tvg-id="YTN.kr@SD" group-title="South Korea",YTN (720p)
 http://202.60.106.14:21585/214/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr@SD" group-title="South Korea",KBS World (720p)
+#EXTVLCOPT:http-referrer=https://cinerama.uz/
 https://stream8.cinerama.uz/1448/playlist.m3u8
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
@@ -3570,3 +3573,7 @@ http://41.205.93.154/STARSPORTS1/index.m3u8
 https://s3.itcnbd.live/channel/6f6b7b6d25fbd0e6.m3u8
 #EXTINF:-1 tvg-id="B4UMovies.in@APAC" group-title="India",B4U Movies APAC (720p)
 https://s3.itcnbd.live/channel/129d01070adb9ee3.m3u8
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" group-title="India",Star Sports 2 Hindi (720p)
+https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 tvg-id="News24.in@SD" group-title="India",News 24 (576p)
+https://tvsen5.aynaott.com/News24/index.m3u8

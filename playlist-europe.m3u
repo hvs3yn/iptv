@@ -328,6 +328,18 @@ https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelEMEA.uk@SD" group-title="United Kingdom",Disney Channel EMEA (576p)
 http://185.102.171.218/DisneyChannel/index.m3u8
+#EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" group-title="United Kingdom",BBC First Turkiye
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.29/live/bbc_first/index.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@Poland" group-title="United Kingdom",BBC Earth (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11586/index.m3u8
+#EXTINF:-1 tvg-id="talkSPORT.uk@SD" group-title="United Kingdom",talkSPORT (720p)
+https://tvsen6.aynaott.com/talkSPORT/index.m3u8
+#EXTINF:-1 tvg-id="MoonbugKids.uk@SD" group-title="United Kingdom",Moonbug Kids (576p)
+https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
+#EXTINF:-1 tvg-id="SkyNature.uk@SD" group-title="United Kingdom",Sky Nature (576p)
+https://tvsen6.aynaott.com/skynature/index.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2044,6 +2056,9 @@ https://live1.giocabet.tv/stream/6/index.m3u8
 https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RomanticaTV.it@SD" group-title="Italy",Romantica TV
 https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="SkySportF1.it@SD" group-title="Italy",Sky Sport F1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
+https://7nyaler.streamhostingcdn.top/stream/8/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -3274,6 +3289,45 @@ https://stream.twoja.tv/ttv_hls/live_720p/index.m3u8
 http://193.24.244.60:1001/udp/239.254.4.122:6060
 #EXTINF:-1 tvg-id="TVPuls.pl@HD" group-title="Poland",TV Puls HD (1080p)
 http://193.24.244.60:1001/udp/239.254.4.121:6060
+#EXTINF:-1 tvg-id="MusicBoxPolska.pl@SD" group-title="Poland",Music Box Polska
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://193.24.244.60:1001/udp/239.254.4.237:6060
+#EXTINF:-1 tvg-id="AXNPoland.pl@SD" group-title="Poland",AXN Poland
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://193.24.244.60:1001/udp/239.254.5.5:6060
+#EXTINF:-1 tvg-id="AXNSpin.pl@SD" group-title="Poland",AXN Spin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://193.24.244.60:1001/udp/239.254.5.6:6060
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Poland" group-title="Poland",FILMBOX+ Hits (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11582/index.m3u8
+#EXTINF:-1 tvg-id="NatGeoPeople.pl@SD" group-title="Poland",Nat Geo People (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11589/index.m3u8
+#EXTINF:-1 tvg-id="DaVinci.pl@SD" group-title="Poland",Da Vinci (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11588/index.m3u8
+#EXTINF:-1 tvg-id="PolsatViasatExplore.pl@SD" group-title="Poland",Polsat Viasat Explore (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11587/index.m3u8
+#EXTINF:-1 tvg-id="AdventureTV.pl@SD" group-title="Poland",Adventure TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11584/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.pl@SD" group-title="Poland",National Geographic Wild (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11583/index.m3u8
+#EXTINF:-1 tvg-id="VOXMusicTV.pl@SD" group-title="Poland",VOX Music TV (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11581/index.m3u8
+#EXTINF:-1 tvg-id="TVPSeriale.pl@SD" group-title="Poland",TVP Seriale (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11580/index.m3u8
+#EXTINF:-1 tvg-id="PolsatFilm.pl@SD" group-title="Poland",Polsat Film (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/11579/index.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Romania" group-title="Poland",FILMBOX+ Hits Romania (404p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/10244/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
