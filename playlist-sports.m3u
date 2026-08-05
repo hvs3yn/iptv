@@ -224,10 +224,6 @@ http://88.212.15.19/live/sport1_hun/index.m3u8
 #EXTINF:-1 tvg-id="Sport2.hu@SD" group-title="Sports",Sport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/sport2_hun/index.m3u8
-#EXTINF:-1 tvg-id="M4Sport.hu@SD" group-title="Sports",M4 Sport (1080p)
-#EXTVLCOPT:http-referrer=https://webtv.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/stream/m4_sport_hun/playlist_cbcs.mpd
 #EXTINF:-1 tvg-id="MAXSports.id@SD" group-title="Sports",MAX Sports
 #EXTVLCOPT:http-referrer=maxstream.tv/tv-channels
 https://indihuy.streamized.net/atm/DASH/useesport/manifest.mpd
@@ -611,8 +607,6 @@ https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" group-title="Sports",SportsGrid (1080p)
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AltitudeSports.us@SD" group-title="Sports",Altitude Sports (720p)
-http://206.212.244.63/6153/index.m3u8
 #EXTINF:-1 tvg-id="beINSportsUSA.us@SD" group-title="Sports",beIN Sports USA (720p)
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Sports",beIN SPORTS XTRA (1080p)
@@ -623,8 +617,6 @@ http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" group-title="Sports",FTF Sports (720p)
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
-#EXTINF:-1 tvg-id="NBCSportsChicago.us@SD" group-title="Sports",NBC Sports Chicago (720p)
-http://206.212.244.63/6141/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" group-title="Sports",NBC Sports NOW (1080p)
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="SportsmanChannel.us@SD" group-title="Sports",Sportsman Channel (720p)
@@ -651,11 +643,10 @@ https://gpuserver3.tier1streams.com/MARQUEE_SPORTS_NETWORK/index.m3u8
 http://8.243.126.131:8000/play/a05a/index.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" group-title="Sports",beIN SPORTS XTRA en Espanol (1080p)
 http://201.190.41.246:9060/play/a03y/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="Sports",Fox Sports 2 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-http://iptvstream.rf.gd/FOXSPORTS2.m3u8
 #EXTINF:-1 tvg-id="SportsmanChannel.us@SD" group-title="Sports",Sportsman Channel (576p)
 https://tvsen6.aynaott.com/SportsmanChannel/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="Sports",Fox Sports 2 (720p)
+https://ftv.itscwd273.workers.dev/?id=FOXSPORTS2
 #EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" group-title="Sports",CBS Sports Golazo Network (720p)
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",beIN SPORTS Xtra en Español (1080p)
