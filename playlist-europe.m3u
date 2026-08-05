@@ -23,8 +23,6 @@ http://138.121.15.230:9002/BABY-TV/index.m3u8
 http://179.60.51.134:8888/BABY-TV/index.m3u8
 #EXTINF:-1 tvg-id="BabyTV.uk@Netherlands" group-title="United Kingdom",BabyTV Netherlands (576p)
 http://185.102.171.218/BabyTV/index.m3u8
-#EXTINF:-1 tvg-id="BabyTV.uk@US" group-title="United Kingdom",BabyTV US (576p)
-http://206.212.244.63/641/index.m3u8
 #EXTINF:-1 tvg-id="BBCEarth.uk@Greece" group-title="United Kingdom",BBC Earth Greece (1080p)
 http://185.102.171.218/BBCEarth/index.m3u8
 #EXTINF:-1 tvg-id="BBCFirst.uk@Poland" group-title="United Kingdom",BBC First
@@ -35,8 +33,6 @@ http://193.46.58.239:8080/CbeebiesHD/index.m3u8
 http://46.32.176.50/bbcworld/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@LatinAmerica" group-title="United Kingdom",BBC News Latin America (720p)
 http://138.121.15.230:9002/BBC-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" group-title="United Kingdom",BBC News North America (720p)
-http://206.212.244.63/14/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" group-title="United Kingdom",BBC News North America (576p)
 http://84.17.50.102/bbcnews/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@UKHD" group-title="United Kingdom",BBC News UK HD (1080p)
@@ -340,6 +336,11 @@ https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
 #EXTINF:-1 tvg-id="SkyNature.uk@SD" group-title="United Kingdom",Sky Nature (576p)
 https://tvsen6.aynaott.com/skynature/index.m3u8
+#EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Czechia" group-title="United Kingdom",Viasat Epic Drama
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.29/live/test_epic_drama_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@Turkiye" group-title="United Kingdom",BBC Earth Turkiye (720p)
+http://194.156.236.23:8004/play/a018
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2304,8 +2305,6 @@ https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 https://crtvg-europa.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-id="GoienaEus.es@SD" group-title="Spain",Goiena Eus (720p)
 https://zuzenean.goienamedia.eus/goiena-telebista.m3u8
-#EXTINF:-1 tvg-id="GolClassics.es@SD" group-title="Spain",Gol Classics (1080p)
-https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
 #EXTINF:-1 tvg-id="HOLAPlay.es@SD" group-title="Spain",HOLA! Play (1080p)
 https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
 #EXTINF:-1 tvg-id="HuelvaTV.es@SD" group-title="Spain",Huelva TV (720p)
@@ -3325,9 +3324,12 @@ http://starcius-cinema.com/11580/index.m3u8
 #EXTINF:-1 tvg-id="PolsatFilm.pl@SD" group-title="Poland",Polsat Film (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://starcius-cinema.com/11579/index.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Romania" group-title="Poland",FILMBOX+ Hits Romania (404p)
+#EXTINF:-1 tvg-id="Patriot.ru" group-title="Poland",Patriot (726p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://starcius-cinema.com/10244/index.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Romania" group-title="Poland",FILMBOX+ Hits Romania
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/20655/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -3434,9 +3436,6 @@ https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-id="CurrentTimeTV.cz@SD" group-title="Czech Republic",Настоящее Время (1080p)
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
-#EXTINF:-1 tvg-id="PrimaCool.cz@SD" group-title="Czech Republic",Prima Cool
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://88.212.15.19/live/test_prima_cool_hd_hevc_50/playlist.m3u8
 #EXTINF:-1 tvg-id="KinoBarrandov.cz@SD" group-title="Czech Republic",Kino Barrandov
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_kino_barrandov_sd_hevc50/playlist.m3u8
@@ -3454,6 +3453,19 @@ http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="History2.cz@SD" group-title="Czech Republic",History2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_h2/playlist.m3u8
+#EXTINF:-1 tvg-id="ViasatNature.cz@SD" group-title="Czech Republic",Viasat Nature
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.29/live/test_viasat_nature_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ViasatExplore.cz@SD" group-title="Czech Republic",Viasat Explore
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.29/live/test_viasat_explore_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ViasatHistory.cz@SD" group-title="Czech Republic",Viasat History
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.29/live/test_viasat_history_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PrimaCool.cz@SD" group-title="Czech Republic",Prima Cool
+http://88.212.15.19/live/prima_cool_cz_avc/index.m3u8
+#EXTINF:-1 tvg-id="PrimaLove.cz@SD" group-title="Czech Republic",Prima Love
+http://88.212.15.19/live/prima_love_cz_avc/index.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt@SD" group-title="Portugal",AXN Movies (720p)
@@ -3461,8 +3473,6 @@ https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 http://50.7.120.34:8080/AXN_BLACK/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.pt@SD" group-title="Portugal",Disney Channel (1080p)
 http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
-#EXTINF:-1 tvg-id="FUELTV.pt@US" group-title="Portugal",FUEL TV US (720p)
-http://206.212.244.63/71/index.m3u8
 #EXTINF:-1 tvg-id="KuriakosMusic.pt@SD" group-title="Portugal",Kuriakos Music (1080p)
 http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KuriakosTV.pt@SD" group-title="Portugal",Kuriakos TV (1080p)
