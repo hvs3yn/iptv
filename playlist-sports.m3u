@@ -607,8 +607,6 @@ https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" group-title="Sports",SportsGrid (1080p)
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSportsUSA.us@SD" group-title="Sports",beIN Sports USA (720p)
-http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Sports",beIN SPORTS XTRA (1080p)
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="Sports",Fox Sports 1 (720p)
