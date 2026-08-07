@@ -1266,6 +1266,9 @@ http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
 https://river-6-601.rtbcdn.ru/stream/genetta-410.ntv.rutube.ru/it_KlgcrpetPAAs-Pfyogw/1785516951/f712ae5ff3db23ec09b3674133d44daa/720p_stream.m3u8
 #EXTINF:-1 tvg-id="Svoboda.ru@SD" group-title="Russia",Svoboda
 http://88.212.15.19/live/svoboda/index.m3u8
+#EXTINF:-1 tvg-id="StarciusCinemaTV.ru@SD" group-title="Russia",Starcius Cinema TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://starcius-cinema.com/12042/index.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
@@ -4130,6 +4133,8 @@ http://tvsen5.aynascope.net/familyjr/index.m3u8
 https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8
 #EXTINF:-1 tvg-id="CP24.ca@SD" group-title="Canada",CP24 (576p)
 https://tvsen6.aynaott.com/cp24/index.m3u8
+#EXTINF:-1 tvg-id="PTCPunjabiCanada.ca@SD" group-title="Canada",PTC Punjabi Canada (1080p)
+https://stream.ottlive.co.in/ptccanada/index.m3u8
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnshunComprehensiveNewsChannel.cn@SD" group-title="China",Anshun Comprehensive News Channel
@@ -9996,8 +10001,6 @@ http://92.114.85.72:8000/play/a09i
 http://92.114.85.72:8000/play/a0bi
 #EXTINF:-1 tvg-id="UW.uk@SD" group-title="United Kingdom",U&W
 http://92.114.85.72:8000/play/a0bj
-#EXTINF:-1 tvg-id="UtsavBharat.uk@SD" group-title="United Kingdom",Utsav Bharat (576p)
-https://mini.allinonereborn.fun/tata.php?id=11779
 #EXTINF:-1 tvg-id="VoxAfrica.uk@SD" group-title="United Kingdom",VoxAfrica (720p)
 http://69.64.57.208/voxafrica/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@UK" group-title="United Kingdom",Zee One (1080p)
@@ -10075,6 +10078,16 @@ https://tvsen6.aynaott.com/skynature/index.m3u8
 http://88.212.15.29/live/test_epic_drama_atk_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCEarth.uk@Turkiye" group-title="United Kingdom",BBC Earth Turkiye (720p)
 http://194.156.236.23:8004/play/a018
+#EXTINF:-1 tvg-id="BBCEarth.uk@Asia" group-title="United Kingdom",BBC Earth Asia (720p)
+https://thinkkast.dpdns.org/thinkkast/cg_bbcearth_hd1/versiglia/index.m3u8
+#EXTINF:-1 tvg-id="BBCLifestyle.uk@Philippines" group-title="United Kingdom",BBC Lifestyle Philippines (720p)
+https://thinkkast.dpdns.org/thinkkast/bbc_lstylehd/versiglia/index.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk@AsiaPacific" group-title="United Kingdom",BBC News Asia Pacific (576p)
+https://thinkkast.dpdns.org/thinkkast/bbcworld_news_sd/versiglia/index.m3u8
+#EXTINF:-1 tvg-id="UtsavBharat.uk@SD" group-title="United Kingdom",Utsav Bharat (720p)
+https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="UtsavPlus.uk@SD" group-title="United Kingdom",Utsav Plus (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavPlus.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD" group-title="United States",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="48Hours.us@US" group-title="United States",48 Hours (1080p)
@@ -12125,6 +12138,8 @@ https://ftv.itscwd273.workers.dev/?id=FOXSPORTS2
 https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null
 #EXTINF:-1 tvg-id="USANetwork.us@East" group-title="United States",USA Network (720p)
 https://ftv.itscwd273.workers.dev/?id=USANETEAST
+#EXTINF:-1 tvg-id="BestofDrPhil.us@SD" group-title="United States",Best of Dr Phil
+http://88.218.227.85:8080/60f760bbdf090700075d7bfe?mode=hls
 #EXTINF:-1 tvg-id="AndijonMTRK.uz@SD" group-title="Uzbekistan",Andijon MTRK (576i)
 https://stream8.cinerama.uz/1457/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
