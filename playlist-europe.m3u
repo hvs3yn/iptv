@@ -325,9 +325,6 @@ http://185.102.171.218/DisneyChannel/index.m3u8
 #EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" group-title="United Kingdom",BBC First Turkiye
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.29/live/bbc_first/index.m3u8
-#EXTINF:-1 tvg-id="BBCEarth.uk@Poland" group-title="United Kingdom",BBC Earth (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11586/index.m3u8
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD" group-title="United Kingdom",talkSPORT (720p)
 https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" group-title="United Kingdom",Moonbug Kids (576p)
@@ -2785,8 +2782,6 @@ https://d3eq9mufmyqgh4.cloudfront.net/nlpo/clr-nlpo/slotstadtv/index.m3u8
 https://live.streamteam.eu:8443/sol2playout/sol2/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SRCTV.nl@SD" group-title="Netherlands",SRC TV (720p)
 http://highvolume155.streampartner.nl/adminsrc/adminsrc/playlist.m3u8
-#EXTINF:-1 tvg-id="STARChannel.nl@SD" group-title="Netherlands",STAR Channel
-http://86.87.15.10:8003/play/a024/index.m3u8
 #EXTINF:-1 tvg-id="StreekstadCentral.nl@SD" group-title="Netherlands",Streekstad Alkmaar Centraal (1080p)
 https://videostreams.streekstadcentraal.nl/hls/streekstad_alkmaar/streekstad_alkmaar.m3u8
 #EXTINF:-1 tvg-id="Studio040TV.nl@SD" group-title="Netherlands",Studio040 TV (720p)
@@ -2801,9 +2796,6 @@ http://media.rtvutrecht.nl/live/rtvutrecht/ustad/index.m3u8
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/ustad/index.m3u8
 #EXTINF:-1 tvg-id="VechtdalTV.nl@SD" group-title="Netherlands",Vechtdal TV (480p)
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="VeronicaDisneyJr.nl@SD" group-title="Netherlands",Veronica / Disney Jr.
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://86.87.15.10:8003/play/a01x/index.m3u8
 #EXTINF:-1 tvg-id="WEEFFTV.nl@SD" group-title="Netherlands",WEEFF TV (1080p)
 https://takeoff.jetstre.am/?account=weeff&file=weeffradio&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="WeertFMTV.nl@SD" group-title="Netherlands",WeertFM TV (720p)
@@ -2826,9 +2818,6 @@ http://86.87.15.10:8004/play/a02d/index.m3u8
 #EXTINF:-1 tvg-id="ZiggoSport2.nl@HD" group-title="Netherlands",Ziggo Sport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://86.87.15.10:8004/play/a02b/index.m3u8
-#EXTINF:-1 tvg-id="ZiggoSport3.nl@HD" group-title="Netherlands",Ziggo Sport 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://86.87.15.10:8003/play/a02k/index.m3u8
 #EXTINF:-1 tvg-id="ZO34.nl@SD" group-title="Netherlands",ZO!34 (720p)
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
 #EXTINF:-1 tvg-id="ZiggoSport5.nl@HD" group-title="Netherlands",Ziggo Sport 5 (1080p)
@@ -3305,39 +3294,6 @@ http://193.24.244.60:1001/udp/239.254.5.5:6060
 #EXTINF:-1 tvg-id="AXNSpin.pl@SD" group-title="Poland",AXN Spin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://193.24.244.60:1001/udp/239.254.5.6:6060
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Poland" group-title="Poland",FILMBOX+ Hits (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11582/index.m3u8
-#EXTINF:-1 tvg-id="NatGeoPeople.pl@SD" group-title="Poland",Nat Geo People (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11589/index.m3u8
-#EXTINF:-1 tvg-id="DaVinci.pl@SD" group-title="Poland",Da Vinci (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11588/index.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatExplore.pl@SD" group-title="Poland",Polsat Viasat Explore (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11587/index.m3u8
-#EXTINF:-1 tvg-id="AdventureTV.pl@SD" group-title="Poland",Adventure TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11584/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.pl@SD" group-title="Poland",National Geographic Wild (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11583/index.m3u8
-#EXTINF:-1 tvg-id="VOXMusicTV.pl@SD" group-title="Poland",VOX Music TV (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11581/index.m3u8
-#EXTINF:-1 tvg-id="TVPSeriale.pl@SD" group-title="Poland",TVP Seriale (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11580/index.m3u8
-#EXTINF:-1 tvg-id="PolsatFilm.pl@SD" group-title="Poland",Polsat Film (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/11579/index.m3u8
-#EXTINF:-1 tvg-id="Patriot.ru" group-title="Poland",Patriot (726p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/10244/index.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Romania" group-title="Poland",FILMBOX+ Hits Romania
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://starcius-cinema.com/20655/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -3722,7 +3678,3 @@ https://zouglacam-mdc-secure.akamaized.net/zouglalive/backup/playlist.m3u8
 http://185.102.171.218/MegaHD/index.m3u8
 #EXTINF:-1 tvg-id="Keedoo.gr@SD" group-title="Greece",Keedoo (576p)
 http://185.102.171.218/Nickelodeon/index.m3u8
-#EXTINF:-1 tvg-id="FX.gr@HD" group-title="Greece",FX (720p)
-http://185.102.171.218/FOX/index.m3u8
-#EXTINF:-1 tvg-id="FXLife.gr@HD" group-title="Greece",FX Life (720p)
-http://185.102.171.218/FOX_Life/index.m3u8
