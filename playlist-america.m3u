@@ -1657,76 +1657,28 @@ http://tvsen7.aynascope.net/laff/index.m3u8
 https://live.nxplay.com.br/DREAMWORKS/index.m3u8
 #EXTINF:-1 tvg-id="MuslimNetworkTV.us@SD" group-title="United States",Muslim Network TV
 https://afghantv.app/hls2/muslimnetwork/index.m3u8
-#EXTINF:-1 tvg-id="AE.us@East" group-title="United States",A&E (1080p)
-https://gpuserver3.tier1streams.com/AE/index.m3u8
-#EXTINF:-1 tvg-id="ABC.us@East" group-title="United States",ABC (720p)
-https://gpuserver3.tier1streams.com/ABC/index.m3u8
-#EXTINF:-1 tvg-id="ACCNetwork.us@SD" group-title="United States",ACC Network (720p)
-https://gpuserver3.tier1streams.com/ACC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNetwork.us@SD" group-title="United States",AccuWeather Network (720p)
 https://gpuserver3.tier1streams.com/AccuWeather/index.m3u8
-#EXTINF:-1 tvg-id="AMCPlus.us@SD" group-title="United States",AMC+ (720p)
-https://gpuserver3.tier1streams.com/AMC_PLUS/index.m3u8
-#EXTINF:-1 tvg-id="AntennaTV.us@SD" group-title="United States",Antenna TV (576p)
-https://gpuserver3.tier1streams.com/ANTENNA_TV/index.m3u8
-#EXTINF:-1 tvg-id="Aspire.us@SD" group-title="United States",Aspire (1080p)
-https://gpuserver3.tier1streams.com/ASPIRE/index.m3u8
 #EXTINF:-1 tvg-id="AWE.us@SD" group-title="United States",AWE (1080p)
 https://gpuserver3.tier1streams.com/AWE/index.m3u8
-#EXTINF:-1 tvg-id="AXSTV.us@SD" group-title="United States",AXS TV (1080p)
-https://gpuserver3.tier1streams.com/AXS_TV/index.m3u8
-#EXTINF:-1 tvg-id="BBCAmerica.us@EastHD" group-title="United States",BBC America East HD (720p)
-https://gpuserver3.tier1streams.com/BBC_AMERICA/index.m3u8
-#EXTINF:-1 tvg-id="BET.us@East" group-title="United States",BET (720p)
-https://gpuserver3.tier1streams.com/BET_EAST/index.m3u8
-#EXTINF:-1 tvg-id="BET.us@West" group-title="United States",BET West (720p)
-https://gpuserver3.tier1streams.com/BET_WEST/index.m3u8
-#EXTINF:-1 tvg-id="BETHer.us@East" group-title="United States",BET Her (720p)
-https://gpuserver3.tier1streams.com/BET_HER/index.m3u8
-#EXTINF:-1 tvg-id="BETJams.us@SD" group-title="United States",BET Jams (576p)
-https://gpuserver3.tier1streams.com/BET_JAMS/index.m3u8
-#EXTINF:-1 tvg-id="BETSoul.us@SD" group-title="United States",BET Soul (576p)
-https://gpuserver3.tier1streams.com/BET_SOUL/index.m3u8
-#EXTINF:-1 tvg-id="BigTenNetwork.us@SD" group-title="United States",Big Ten Network (720p)
-https://gpuserver3.tier1streams.com/BIG_TEN_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US" group-title="United States",Bloomberg TV (1080p)
 https://gpuserver3.tier1streams.com/BLOOMBERG/index.m3u8
-#EXTINF:-1 tvg-id="Bravo.us@East" group-title="United States",Bravo (1080p)
-https://gpuserver3.tier1streams.com/BRAVO/index.m3u8
 #EXTINF:-1 tvg-id="Buzzr.us@SD" group-title="United States",Buzzr (1080p)
 https://gpuserver3.tier1streams.com/BUZZR/index.m3u8
-#EXTINF:-1 tvg-id="CSPAN.us@SD" group-title="United States",C-SPAN (1080p)
-https://gpuserver3.tier1streams.com/C-SPAN_HD/index.m3u8
-#EXTINF:-1 tvg-id="CSPAN2.us@SD" group-title="United States",C-SPAN 2 (1080p)
-https://gpuserver3.tier1streams.com/C-SPAN_2/index.m3u8
 #EXTINF:-1 tvg-id="CBSSportsNetworkUSA.us@SD" group-title="United States",CBS Sports Network USA (1080p)
 https://gpuserver3.tier1streams.com/CBS_SPORTS_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="Charge.us@SD" group-title="United States",Charge! (1080p)
-https://gpuserver3.tier1streams.com/CHARGE/index.m3u8
 #EXTINF:-1 tvg-id="CheddarNews.us@SD" group-title="United States",Cheddar News (720p)
 https://gpuserver3.tier1streams.com/CHEDDAR_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="CheddarBusiness.us@SD" group-title="United States",Cheddar Business (720p)
 https://gpuserver3.tier1streams.com/CHEDDAR_BUSINESS/index.m3u8
-#EXTINF:-1 tvg-id="CleoTV.us@SD" group-title="United States",Cleo TV (720p)
-https://gpuserver3.tier1streams.com/Cleo_TV/index.m3u8
-#EXTINF:-1 tvg-id="CMT.us@East" group-title="United States",CMT (1080p)
-https://gpuserver3.tier1streams.com/CMT/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" group-title="United States",CNBC (1080p)
-https://gpuserver3.tier1streams.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="CNBCWorld.us@SD" group-title="United States",CNBC World (576p)
 https://gpuserver3.tier1streams.com/CNBC_WORLD/index.m3u8
-#EXTINF:-1 tvg-id="ComedyCentral.us@East" group-title="United States",Comedy Central (1080p)
-https://gpuserver3.tier1streams.com/COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="ComedyTV.us@SD" group-title="United States",Comedy TV (720p)
 https://gpuserver3.tier1streams.com/COMEDY_TV/index.m3u8
-#EXTINF:-1 tvg-id="Comet.us@SD" group-title="United States",Comet (1080p)
-https://gpuserver3.tier1streams.com/COMET/index.m3u8
 #EXTINF:-1 tvg-id="CourtTV.us@SD" group-title="United States",Court TV (1080p)
 https://gpuserver3.tier1streams.com/COURT_TV/index.m3u8
 #EXTINF:-1 tvg-id="CoziTV.us@SD" group-title="United States",Cozi TV (1080p)
 https://gpuserver3.tier1streams.com/COZI_TV/index.m3u8
-#EXTINF:-1 tvg-id="CW.us@East" group-title="United States",CW (720p)
-https://gpuserver3.tier1streams.com/CW/index.m3u8
 #EXTINF:-1 tvg-id="DaystarTV.us@SD" group-title="United States",Daystar TV (1080p)
 https://gpuserver3.tier1streams.com/DAYSTAR_TV/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us@East" group-title="United States",Disney Channel (720p)
@@ -1984,12 +1936,8 @@ http://190.93.224.42/NAT-GEO/index.m3u8
 http://190.93.224.42/HISTORY/index.m3u8
 #EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional" group-title="United States",History 2 Latin America (1080p)
 http://190.93.224.42/HISTORY-2/index.m3u8
-#EXTINF:-1 tvg-id="ActionMax.us@EastHD" group-title="United States",ActionMax East HD (720p)
-https://gpuserver3.tier1streams.com/ACTIONMAX/index.m3u8
 #EXTINF:-1 tvg-id="MoreMax.us@East" group-title="United States",MoreMax (1080p)
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
-#EXTINF:-1 tvg-id="ActionMax.us@East" group-title="United States",ActionMax (720p)
-http://40.160.24.52/ACTIONMAX/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="United States",Fox Sports 2 (720p)
 https://ftv.itscwd273.workers.dev/?id=FOXSPORTS2
 #EXTINF:-1 tvg-id="WGBODT661.us@HD" group-title="United States",WGBO-DT 66.1 (2160p)
@@ -2009,6 +1957,10 @@ https://gpuserver5.tier1streams.com/NICKELODEON/index.m3u8
 https://gpuserver5.tier1streams.com/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="TeenNick.us@East" group-title="United States",TeenNick (720p)
 https://gpuserver5.tier1streams.com/TEEN_NICK/index.m3u8
+#EXTINF:-1 tvg-id="ShowtimeWomen.us@East" group-title="United States",Showtime Women (720p)
+http://40.160.24.55/SHOWTIME_WOMEN/index.m3u8
+#EXTINF:-1 tvg-id="SYFY.us@East" group-title="United States",SYFY (720p)
+http://tvsen7.aynascope.net/syfy/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -2199,6 +2151,8 @@ https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8
 https://tvsen6.aynaott.com/cp24/index.m3u8
 #EXTINF:-1 tvg-id="PTCPunjabiCanada.ca@SD" group-title="Canada",PTC Punjabi Canada (1080p)
 https://stream.ottlive.co.in/ptccanada/index.m3u8
+#EXTINF:-1 tvg-id="TV5Unis.ca@HD" group-title="Canada",TV5 Unis
+http://23.133.220.149/Unis_TV/index.m3u8
 #EXTINF:-1 tvg-id="8NTV.mx@SD" group-title="Mexico",8NTV (1080p)
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="15TV.mx@SD" group-title="Mexico",15TV
