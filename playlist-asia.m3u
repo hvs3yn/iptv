@@ -251,6 +251,9 @@ https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" group-title="Turkey",Kanal D Drama (1080p)
 http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
+#EXTINF:-1 tvg-id="TV100.tr@SD" group-title="Turkey",TV 100
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
+https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AbalfadhlTV.ir@SD" group-title="Iran",Abalfadhl TV
@@ -2049,8 +2052,6 @@ http://103.213.31.109:90/B4UKadak/playlist.m3u8
 https://trs1.aynaott.com/B4U_Kadak/index.m3u8
 #EXTINF:-1 tvg-id="B4UKadak.in@SD" group-title="India",B4U Kadak
 https://cdn-2.pishow.tv/live/227/master.m3u8
-#EXTINF:-1 tvg-id="B4UMovies.in@India" group-title="India",B4U Movies (720p)
-http://103.213.31.109:90/B4UMovies/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UMovies.in@India" group-title="India",B4U Movies
 https://cdn-2.pishow.tv/live/419/master.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in@India" group-title="India",B4U Music (576p)
@@ -2532,10 +2533,6 @@ https://mumt04.tangotv.in/m18aqlK4MOVIEPLEX/index.m3u8
 http://149.71.34.166:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-id="MoviesNow.in@HD" group-title="India",Movies Now HD (1080p)
 http://103.161.153.165:8000/play/mnh/index.m3u8
-#EXTINF:-1 tvg-id="MTV.in@SD" group-title="India",MTV (1080p)
-http://103.72.101.252:8080/live/248.m3u8
-#EXTINF:-1 tvg-id="MTV.in@HD" group-title="India",MTV HD (1080p)
-http://149.71.34.166:8000/play/a00p/index.m3u8
 #EXTINF:-1 tvg-id="MusicIndia.in@SD" group-title="India",Music India (576p)
 https://trs1.aynaott.com/MusicIndia/index.m3u8
 #EXTINF:-1 tvg-id="NambikkaiTV.in@SD" group-title="India",Nambikkai TV (576p)
@@ -3598,3 +3595,9 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://bhoomtv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://maamusic.keralive.workers.dev/v1/master/a797c00cba954265ba781f92a57e2cf5/index.m3u8
+#EXTINF:-1 tvg-id="UTVPalakkad.in@SD" group-title="India",UTV Palakkad (1080p)
+https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" group-title="India",Star Gold Thrills (576p)
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+http://103.253.18.58:8000/play/a00o
