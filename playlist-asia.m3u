@@ -931,8 +931,6 @@ https://nhk4.mov3.co/hls/nhk.m3u8
 http://170.83.16.50:80/NHK_WORLD/index.m3u8
 #EXTINF:-1 tvg-id="JOJGDTV.jp@SD" group-title="Japan",JOJG-DTV (1080i)
 https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
-#EXTINF:-1 tvg-id="Animax.jp@SD" group-title="Japan",Animax (720p)
-https://akariko-bck1.sankuria.sbs/stream/jp/animax/stream-output.m3u8?mode=hls
 #EXTINF:-1 tvg-id="ABN.kr@SD" group-title="South Korea",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="ArirangRadio.kr@SD" group-title="South Korea",Arirang Radio (720p)
@@ -3601,3 +3599,7 @@ https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c2
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 http://103.253.18.58:8000/play/a00o
+#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" group-title="India",Zee Bollywood (580p)
+https://s3.itcnbd.live/channel/a5979fd53c01d1b2.m3u8
+#EXTINF:-1 tvg-id="SonyYay.in@SD" group-title="India",Sony Yay!
+https://s3.itcnbd.live/channel/b22941f1341d7243.m3u8

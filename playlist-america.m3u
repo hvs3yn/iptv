@@ -1679,10 +1679,6 @@ https://gpuserver3.tier1streams.com/DAYSTAR_TV/index.m3u8
 https://gpuserver3.tier1streams.com/Disney_Channel_HD/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" group-title="United States",Disney Junior (720p)
 https://gpuserver3.tier1streams.com/Disney_JR/index.m3u8
-#EXTINF:-1 tvg-id="E.us@East" group-title="United States",E! (1080p)
-https://gpuserver3.tier1streams.com/E_ENTERTAINMENT_EAST/index.m3u8
-#EXTINF:-1 tvg-id="E.us@West" group-title="United States",E! West (1080p)
-https://gpuserver3.tier1streams.com/E_ENTERTAINMENT_WEST/index.m3u8
 #EXTINF:-1 tvg-id="ESPNews.us@SD" group-title="United States",ESPNews (720p)
 https://gpuserver3.tier1streams.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@SD" group-title="United States",ESPNU (720p)
@@ -1691,8 +1687,6 @@ https://gpuserver3.tier1streams.com/ESPN_U/index.m3u8
 https://gpuserver3.tier1streams.com/FETV/index.m3u8
 #EXTINF:-1 tvg-id="Flix.us@East" group-title="United States",Flix (720p)
 https://gpuserver3.tier1streams.com/FLIX/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" group-title="United States",Fox News Channel (720p)
-https://gpuserver3.tier1streams.com/FOX_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxSoccerPlus.us@SD" group-title="United States",Fox Soccer Plus (720p)
 https://gpuserver3.tier1streams.com/FOX_SOCCER_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="Freeform.us@East" group-title="United States",Freeform (720p)
@@ -1842,8 +1836,6 @@ http://40.160.24.53/LOGO_TV/index.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.us@SD" group-title="United States",Golf Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://cdtest.global.ssl.fastly.net/1785070000~03950f07c2e148c063020e0d35ea4497/channel/125/chunks.m3u8
-#EXTINF:-1 tvg-id="MeTVPlus.us@SD" group-title="United States",MeTV+ (720p)
-http://40.160.24.53/METV_Plus/index.m3u8
 #EXTINF:-1 tvg-id="PixLTV.us@SD" group-title="United States",PixL TV (720p)
 http://40.160.24.55/PIXL/index.m3u8
 #EXTINF:-1 tvg-id="DreamWorksChannelAsia.us@SD" group-title="United States",DreamWorks Channel Asia (1080p)
@@ -1969,6 +1961,70 @@ http://190.11.225.124:5000/live/cbs_hd/playlist.m3u8
 http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="NBCLXHome.us@HD" group-title="United States",NBC LX Home (720p)
 https://dn7vkzd5khpp3.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jnz0hbnuaajo2/b3d9d2ee-94c1-4de2-bb46-b1ed009f4f30/4.m3u8
+#EXTINF:-1 tvg-id="FXMovieChannel.us@SD" group-title="United States",FX Movie Channel (720p)
+http://40.160.24.56/FXM_SD/index.m3u8
+#EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (720p)
+http://40.160.24.56/FX_SD/index.m3u8
+#EXTINF:-1 tvg-id="FXX.us@East" group-title="United States",FXX (720p)
+http://40.160.24.56/FXX_SD/index.m3u8
+#EXTINF:-1 tvg-id="Freeform.us@East" group-title="United States",Freeform (720p)
+http://40.160.24.56/FREEFORM_SD/index.m3u8
+#EXTINF:-1 tvg-id="ABC.us@East" group-title="United States",ABC (720p)
+http://40.160.24.56/ABC_SD/index.m3u8
+#EXTINF:-1 tvg-id="ActionMax.us@East" group-title="United States",ActionMax (720p)
+http://40.160.24.56/ACTIONMAX_SD/index.m3u8
+#EXTINF:-1 tvg-id="MoreMax.us@East" group-title="United States",MoreMax (720p)
+http://40.160.24.56/MOREMAX_SD/index.m3u8
+#EXTINF:-1 tvg-id="ACCNetwork.us@SD" group-title="United States",ACC Network (720p)
+http://40.160.24.56/ACC_NETWORK_SD/index.m3u8
+#EXTINF:-1 tvg-id="Aspire.us@SD" group-title="United States",Aspire (720p)
+http://40.160.24.56/ASPIRE_SD/index.m3u8
+#EXTINF:-1 tvg-id="AXSTV.us@SD" group-title="United States",AXS TV (720p)
+http://40.160.24.56/AXS_TV_SD/index.m3u8
+#EXTINF:-1 tvg-id="BBCAmerica.us@East" group-title="United States",BBC America (720p)
+http://40.160.24.56/BBC_AMERICA_SD/index.m3u8
+#EXTINF:-1 tvg-id="BET.us@East" group-title="United States",BET (720p)
+http://40.160.24.56/BET_EAST_SD/index.m3u8
+#EXTINF:-1 tvg-id="BET.us@West" group-title="United States",BET West (720p)
+http://40.160.24.56/BET_WEST_SD/index.m3u8
+#EXTINF:-1 tvg-id="BETHer.us@East" group-title="United States",BET Her (720p)
+http://40.160.24.56/BET_HER_SD/index.m3u8
+#EXTINF:-1 tvg-id="BETSoul.us@SD" group-title="United States",BET Soul (720p)
+http://40.160.24.56/BET_SOUL_SD/index.m3u8
+#EXTINF:-1 tvg-id="BETJams.us@SD" group-title="United States",BET Jams (720p)
+http://40.160.24.56/BET_JAMS_SD/index.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@US" group-title="United States",Bloomberg TV (720p)
+http://40.160.24.56/BLOOMBERG_SD/index.m3u8
+#EXTINF:-1 tvg-id="Bounce.us@SD" group-title="United States",Bounce (720p)
+http://40.160.24.56/BOUNCE_SD/index.m3u8
+#EXTINF:-1 tvg-id="CMT.us@East" group-title="United States",CMT (720p)
+http://40.160.24.56/CMT_SD/index.m3u8
+#EXTINF:-1 tvg-id="CNBC.us@SD" group-title="United States",CNBC (720p)
+http://40.160.24.56/CNBC_SD/index.m3u8
+#EXTINF:-1 tvg-id="CNBCWorld.us@SD" group-title="United States",CNBC World (720p)
+http://40.160.24.56/CNBC_WORLD_SD/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentral.us@East" group-title="United States",Comedy Central (720p)
+http://40.160.24.56/COMEDY_CENTRAL_SD/index.m3u8
+#EXTINF:-1 tvg-id="CoziTV.us@SD" group-title="United States",Cozi TV (720p)
+http://40.160.24.56/COZI_TV_SD/index.m3u8
+#EXTINF:-1 tvg-id="CW.us@East" group-title="United States",CW (720p)
+http://40.160.24.56/CW_SD/index.m3u8
+#EXTINF:-1 tvg-id="E.us@East" group-title="United States",E! East (720p)
+http://40.160.24.56/E_ENTERTAINMENT_EAST_SD/index.m3u8
+#EXTINF:-1 tvg-id="E.us@West" group-title="United States",E! West (720p)
+http://40.160.24.56/E_ENTERTAINMENT_WEST_SD/index.m3u8
+#EXTINF:-1 tvg-id="FETV.us@SD" group-title="United States",FETV (720p)
+http://40.160.24.56/FETV_SD/index.m3u8
+#EXTINF:-1 tvg-id="Fuse.us@East" group-title="United States",Fuse (720p)
+http://40.160.24.56/FUSE_SD/index.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" group-title="United States",Fox News Channel (720p)
+http://40.160.24.56/FOX_NEWS_SD/index.m3u8
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" group-title="United States",Fox Business Network (720p)
+http://40.160.24.56/FOX_BUSINESS_SD/index.m3u8
+#EXTINF:-1 tvg-id="Fox.us@East" group-title="United States",Fox (720p)
+http://40.160.24.56/FOX_SD/index.m3u8
+#EXTINF:-1 tvg-id="Bravo.us@East" group-title="United States",Bravo (720p)
+http://40.160.24.56/BRAVO_SD/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
