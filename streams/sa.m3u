@@ -21,7 +21,7 @@ https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 http://m.live.net.sa:1935/live/quran/gmswf.m3u8
 #EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa@SD",Al Quran Al Kareem TV (720p)
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
-#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa@SD",Al Quran Al Kareem TV (360p)
+#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa@SD",Al Quran Al Kareem TV (360p) [Not 24/7]
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="AlResalah.sa@SD",Al Resalah (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://rotana.net/
@@ -42,6 +42,8 @@ http://m.live.net.sa:1935/live/sunnah/playlist.m3u8
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="AlkhuzamaRadio.sa@SD",Alkhuzama Radio (1080p)
 https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8
+#EXTINF:-1 tvg-id="AlwesamTV.sa@SD",Alwesam TV (1080p)
+https://stream.addresses-sat.com/Alwesam/index.m3u8
 #EXTINF:-1 tvg-id="AsharqDiscovery.sa@SD",Asharq Discovery (1080p)
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AsharqDocumentary.sa@SD",Asharq Documentary (1080p)
@@ -142,5 +144,3 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14
 https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8
 #EXTINF:-1 tvg-id="ThikrayatTV.sa@SD",Thikrayat TV (1080p) [Geo-blocked]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8
-#EXTINF:-1 tvg-id="AlwesamTV.sa@SD",Alwesam TV (1080p)
-https://stream.addresses-sat.com/Alwesam/index.m3u8
