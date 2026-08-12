@@ -9650,8 +9650,6 @@ http://190.93.224.42/COMEDY-CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" group-title="United States",Comedy Central Latin America
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://103.111.40.244:9999/play/a0i5/index.m3u8
-#EXTINF:-1 tvg-id="ComedyTV.us@SD" group-title="United States",Comedy TV (720p)
-https://gpuserver3.tier1streams.com/COMEDY_TV/index.m3u8
 #EXTINF:-1 tvg-id="ComercioTV.us@SD" group-title="United States",Comercio TV (1080p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16960
 #EXTINF:-1 tvg-id="ComercioTV.us@SD" group-title="United States",Comercio TV (720p)
@@ -10220,8 +10218,6 @@ http://cdn.haititivi.com/MSNBC/index.m3u8
 https://tvsen6.aynaott.com/msnbc/index.m3u8
 #EXTINF:-1 tvg-id="MSG.us@SD" group-title="United States",MSG (720p)
 http://23.237.104.106:8080/USA_MSG/index.m3u8
-#EXTINF:-1 tvg-id="MSGPlus.us@SD" group-title="United States",MSG Plus (720p)
-https://gpuserver3.tier1streams.com/MSG_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="MTV.us@East" group-title="United States",MTV (720p)
 http://40.160.24.53/MTV/index.m3u8
 #EXTINF:-1 tvg-id="MTV.us@East" group-title="United States",MTV (720p)
@@ -10306,8 +10302,6 @@ http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
 http://stream.cammonitorplus.net/1800/index.m3u8
 #EXTINF:-1 tvg-id="NBCLX.us@SD" group-title="United States",NBCLX (1080p)
 https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
-#EXTINF:-1 tvg-id="NESN.us@SD" group-title="United States",NESN (720p)
-https://gpuserver3.tier1streams.com/NESN/index.m3u8
 #EXTINF:-1 tvg-id="NEWKPOP.us@SD" group-title="United States",NEW K-POP (1080p)
 https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Newsmax2.us@SD" group-title="United States",Newsmax 2 (720p)
@@ -10482,8 +10476,6 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
 #EXTINF:-1 tvg-id="RacerNetwork.us@SD" group-title="United States",Racer Network (1080p)
 https://amg00378-mavtv-amg00378c3-sportstribal-emea-1325.playouts.now.amagi.tv/mavtv-smn-xm/playlist.m3u8
-#EXTINF:-1 tvg-id="RacerNetwork.us@SD" group-title="United States",Racer Network (720p)
-https://gpuserver3.tier1streams.com/MAV_TV/index.m3u8
 #EXTINF:-1 tvg-id="RacerSelect.us@SD" group-title="United States",Racer Select (1080p)
 https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RJTV.us@SD" group-title="United States",Radio Javan TV (1080p)
@@ -10752,8 +10744,6 @@ http://40.160.24.55/TENNIS_CHANNEL/index.m3u8
 https://rezofoot.tv/Tennis/index.m3u8
 #EXTINF:-1 tvg-id="TheCountryNetwork.us@SD" group-title="United States",The Country Network (1080p)
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TheCowboyChannel.us@SD" group-title="United States",The Cowboy Channel (1080p)
-https://gpuserver3.tier1streams.com/THE_COWBOY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="TheCyclingChannel.at@SD" group-title="United States",The Cycling Channel
 https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8
 #EXTINF:-1 tvg-id="TheFirstTV.us@SD" group-title="United States",The First TV (1080p)
