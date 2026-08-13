@@ -1603,8 +1603,6 @@ http://60.30.52.41/live/bhtv2/playlist.m3u8
 http://117.156.28.119/270000001111/1110000145/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",炫动卡通 (576p)
 http://223.110.245.139/PLTV/4/224/3221226388/index.m3u8
-#EXTINF:-1 tvg-id="GansuTV.cn@SD" group-title="China",甘肃卫视 (576p)
-http://118.81.195.79:9003/hls/25/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",生活 (576p)
 http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221227311/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",百事通体育5 (1080p)
@@ -1733,6 +1731,12 @@ http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
 #EXTINF:-1 tvg-id="HeilongjiangTV.cn@SD" group-title="China",黑龙江卫视 (2160p)
 http://118.81.195.79:9003/hls/31/index.m3u8
+#EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" group-title="China",CGTN Global Biz (1080p)
+https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveringChina.cn@SD" group-title="China",Discovering China (1080p)
+https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
+#EXTINF:-1 tvg-id="ChinaTravel.cn@SD" group-title="China",China Travel (1080p)
+https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 #EXTINF:-1 tvg-id="7SMusic.in@SD" group-title="India",7S Music (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 http://103.175.73.12:8080/live/771/master.m3u8

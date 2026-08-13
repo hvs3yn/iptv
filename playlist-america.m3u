@@ -1840,6 +1840,18 @@ https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 #EXTINF:-1 tvg-id="ZoomNews.us@SD" group-title="United States",Zoom TV Kurdish (720p)
 #EXTVLCOPT:http-referrer=https://zoomnews.info/
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
+#EXTINF:-1 tvg-id="CleoTV.us@SD" group-title="United States",Cleo TV (720p)
+http://40.160.24.56/Cleo_TV_SD/index.m3u8
+#EXTINF:-1 tvg-id="TheCowboyChannel.us@SD" group-title="United States",The Cowboy Channel (720p)
+http://40.160.24.56/THE_COWBOY_CHANNEL_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN.us@SD" group-title="United States",C-SPAN (720p)
+http://40.160.24.56/C-SPAN_HD_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN2.us@SD" group-title="United States",C-SPAN 2 (720p)
+http://40.160.24.56/C-SPAN_2_SD/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
+https://streamer.metronethn.com/Telemundo/index.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us@South" group-title="United States",FX Latin America South (720p)
+https://streamer.metronethn.com/FX/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -2209,6 +2221,8 @@ https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
 #EXTINF:-1 tvg-id="ZAZ.mx@SD" group-title="Mexico",ZAZ (1080p)
 https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
+#EXTINF:-1 tvg-id="UnivisionLatinAmerica.mx@Panregional" group-title="Mexico",Univision Latin America (720p)
+https://streamer.metronethn.com/Univision/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" group-title="Brazil",AgroCanal (720p)
