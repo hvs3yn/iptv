@@ -4358,8 +4358,6 @@ http://60.30.52.41/live/bhtv2/playlist.m3u8
 http://117.156.28.119/270000001111/1110000145/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",炫动卡通 (576p)
 http://223.110.245.139/PLTV/4/224/3221226388/index.m3u8
-#EXTINF:-1 tvg-id="GansuTV.cn@SD" group-title="China",甘肃卫视 (576p)
-http://118.81.195.79:9003/hls/25/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",生活 (576p)
 http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221227311/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",百事通体育5 (1080p)
@@ -4488,6 +4486,12 @@ http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
 #EXTINF:-1 tvg-id="HeilongjiangTV.cn@SD" group-title="China",黑龙江卫视 (2160p)
 http://118.81.195.79:9003/hls/31/index.m3u8
+#EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" group-title="China",CGTN Global Biz (1080p)
+https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveringChina.cn@SD" group-title="China",Discovering China (1080p)
+https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
+#EXTINF:-1 tvg-id="ChinaTravel.cn@SD" group-title="China",China Travel (1080p)
+https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -6719,6 +6723,8 @@ https://live-rikatv.cdnvideo.ru/rikatv/rikatv_tcode.sdp/playlist.m3u8
 https://stream.kaztrk.kz/regional/semeytv/index.m3u8
 #EXTINF:-1 tvg-id="SilkWay.kz@SD" group-title="Kazakhstan",Silk Way (1080p)
 https://hlspackager.akamaized.net/live/DB/SILKWAY/SILKWAY/SILKWAY.m3u8
+#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD" group-title="Kazakhstan",Novoe televidenie
+https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8
 #EXTINF:-1 tvg-id="AghaniAghaniTV.lb@SD" group-title="Lebanon",Aghani Aghani TV (1080p)
 https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
 #EXTINF:-1 tvg-id="AlJadeed.lb@SD" group-title="Lebanon",Al Jadeed (1080p)
@@ -7027,6 +7033,8 @@ https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
 #EXTINF:-1 tvg-id="ZAZ.mx@SD" group-title="Mexico",ZAZ (1080p)
 https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
+#EXTINF:-1 tvg-id="UnivisionLatinAmerica.mx@Panregional" group-title="Mexico",Univision Latin America (720p)
+https://streamer.metronethn.com/Univision/index.m3u8
 #EXTINF:-1 tvg-id="BusuiocTV.md@SD" group-title="Moldova",Busuioc TV
 https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/master.m3u8
 #EXTINF:-1 tvg-id="CinemaratonMoldova.md@SD" group-title="Moldova",Cinemaraton Moldova
@@ -7696,8 +7704,6 @@ https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8
 https://5d84fe297ee2b.streamlock.net/sercanie/scj_florek.stream_aac/playlist.m3u8
 #EXTINF:-1 tvg-id="TelewizjaJaslo.pl@SD" group-title="Poland",Telewizja Jaslo (720p)
 https://cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TelewizjaNarew.pl@SD" group-title="Poland",Telewizja Narew (720p)
-https://lowa8026-cmyk.github.io/PL/TVNAREW.php.m3u8
 #EXTINF:-1 tvg-id="TelewizjaRegionalnaZary.pl@SD" group-title="Poland",Telewizja Regionalna Zary
 https://tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285ccd_output_0.m3u8
 #EXTINF:-1 tvg-id="TelewizjaRelax.pl@SD" group-title="Poland",Telewizja Relax (1080p)
@@ -8083,7 +8089,7 @@ https://cloud.streamingconnect.tv/hls/12tv/12tv2.m3u8
 #EXTINF:-1 tvg-id="12tv.es@SD" group-title="Spain",12TV Alicante (720p)
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8
-#EXTINF:-1 tvg-id="24Horas.es@SD" group-title="Spain",24 Horas (1080p)
+#EXTINF:-1 tvg-id="24HorasCanarias.es@SD" group-title="Spain",24 Horas Canarias (1080p)
 http://185.47.212.25:8080/24h_HD/index.m3u8
 #EXTINF:-1 tvg-id="28kanala.es@SD" group-title="Spain",28 kanala
 https://streaming.28kanala.eus/hls/z.m3u8
@@ -8401,8 +8407,6 @@ https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?D
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisiondeSanVicente.es@SD" group-title="Spain",TV San Vicente (1080p)
 https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8
-#EXTINF:-1 tvg-id="TVEInternacionalEurope.es@HD" group-title="Spain",TVE Internacional Europe-Asia HD (1080p)
-https://siarlive.psce.pw/channel5
 #EXTINF:-1 tvg-id="TVEStar.es@SD" group-title="Spain",TVE Star (576p)
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@HD" group-title="Spain",TVE Star HD (1080p)
@@ -11080,6 +11084,18 @@ https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 #EXTINF:-1 tvg-id="ZoomNews.us@SD" group-title="United States",Zoom TV Kurdish (720p)
 #EXTVLCOPT:http-referrer=https://zoomnews.info/
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
+#EXTINF:-1 tvg-id="CleoTV.us@SD" group-title="United States",Cleo TV (720p)
+http://40.160.24.56/Cleo_TV_SD/index.m3u8
+#EXTINF:-1 tvg-id="TheCowboyChannel.us@SD" group-title="United States",The Cowboy Channel (720p)
+http://40.160.24.56/THE_COWBOY_CHANNEL_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN.us@SD" group-title="United States",C-SPAN (720p)
+http://40.160.24.56/C-SPAN_HD_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN2.us@SD" group-title="United States",C-SPAN 2 (720p)
+http://40.160.24.56/C-SPAN_2_SD/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
+https://streamer.metronethn.com/Telemundo/index.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us@South" group-title="United States",FX Latin America South (720p)
+https://streamer.metronethn.com/FX/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
