@@ -283,6 +283,32 @@ https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" group-title="Turkey",Zarok TV (720p)
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr@SD" group-title="Turkey",TRT Spor (720p)
+https://corestream.siteyaptim.live/trt-spor/index.m3u8
+#EXTINF:-1 tvg-id="ViasatHistory.tr@SD" group-title="Turkey",Viasat History (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" group-title="Turkey",National Geographic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/natgeo/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" group-title="Turkey",National Geographic Wild
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="beINMoviesStars.tr@SD" group-title="Turkey",beIN Movies Stars
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/bsaction1/index.m3u8
+#EXTINF:-1 tvg-id="beINMoviesTurk.tr@SD" group-title="Turkey",beIN Movies Turk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/bsturk/index.m3u8
+#EXTINF:-1 tvg-id="beINBoxOffice1.tr@SD" group-title="Turkey",beIN Box Office 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/box1/index.m3u8
+#EXTINF:-1 tvg-id="beINBoxOffice2.tr@SD" group-title="Turkey",beIN Box Office 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/box2/index.m3u8
+#EXTINF:-1 tvg-id="beINBoxOffice3.tr@SD" group-title="Turkey",beIN Box Office 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/box3/index.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 SD (576p)
@@ -3820,8 +3846,6 @@ http://74.91.26.218:82/live/cctv17hd.m3u8
 http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
 #EXTINF:-1 tvg-id="CETV2.cn@SD" group-title="China",CETV2 (576p)
 http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
-#EXTINF:-1 tvg-id="CETV1.cn@SD" group-title="China",CETV-1
-http://121.19.134.246:808/hls/62/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" group-title="China",CGTN (1080p)
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" group-title="China",CGTN (1080p)
@@ -4090,8 +4114,6 @@ http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/inde
 http://223.110.245.139/PLTV/4/224/3221227011/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",宿迁公共 (480p)
 http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221226939/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",少儿科教
-http://121.19.134.246:808/hls/23/index.m3u8
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" group-title="China",山东卫视 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" group-title="China",山东卫视 (1080p)
@@ -4230,16 +4252,6 @@ http://183.207.248.71/gitv/live1/JXWS/JXWS
 http://183.207.249.15/PLTV/4/224/3221225798/index.m3u8
 #EXTINF:-1 tvg-id="JiangxiTV.cn@SD" group-title="China",江西卫视 (360p)
 http://125.210.152.18:9090/live/JXWSHD_H265.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",河北公共
-http://121.19.134.246:808/hls/24/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",河北农民
-http://121.19.134.246:808/hls/25/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",河北影视
-http://121.19.134.246:808/hls/22/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",河北经济
-http://121.19.134.246:808/hls/20/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",河北都市
-http://121.19.134.246:808/hls/21/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",河源综合 (540p)
 https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",浙江 Ⅰ 绍兴影视 (720p)
@@ -4458,6 +4470,8 @@ https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 #EXTINF:-1 tvg-id="ChinaTravel.cn@SD" group-title="China",China Travel (1080p)
 https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
+#EXTINF:-1 tvg-id="FujianComprehensiveChannel.cn@SD" group-title="China",Fujian Comprehensive Channel
+http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -7780,6 +7794,15 @@ https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvificcao.m3u8
 #EXTINF:-1 tvg-id="VPlusTVI.pt@SD" group-title="Portugal",V+ TVI (720p)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/vmaistvi.m3u8
+#EXTINF:-1 tvg-id="SICMulher.pt@SD" group-title="Portugal",SIC Mulher
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://zntx.dyndns.org:8085/hls/sicm.m3u8
+#EXTINF:-1 tvg-id="TVI.pt@SD" group-title="Portugal",TVI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://zntx.dyndns.org:8085/hls/tvi.m3u8
+#EXTINF:-1 tvg-id="SICRadical.pt@SD" group-title="Portugal",SIC Radical
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://znty.dyndns.org:5010/hls/sicr.m3u8
 #EXTINF:-1 tvg-id="GoUSATV.us@SD" group-title="Portugal",Go USA TV (720p)
 https://brandusa-gousa-1-pt.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Portugal",Rakuten Documentários (1080p)
@@ -9180,6 +9203,9 @@ https://4bc5d2b3.wurl.com/v1/asia_tv_limited_zeeworld_1/ohlscdn_us/V00000001/720
 #EXTINF:-1 tvg-id="SkySportsNews.uk@SD" group-title="United Kingdom",Sky Sports News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/38/index.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@Turkiye" group-title="United Kingdom",BBC Earth Turkiye
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/bbc/index.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD" group-title="United States",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="48Hours.us@US" group-title="United States",48 Hours (1080p)
@@ -9651,7 +9677,7 @@ https://cablered.iptvperu.tv:1936/cablered/dhe_new/playlist.m3u8
 http://177.234.249.178:8888/PARAMOUNT/index.m3u8
 #EXTINF:-1 tvg-id="DidgahTV.us@SD" group-title="United States",Didgah TV (576p)
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.us@East" group-title="United States",Disney Channel (720p)
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" group-title="United States",Disney Channel Latin America (720p)
 http://190.14.10.19:16000/play/a06z/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@North" group-title="United States",Disney Jr. Latin America (1080p)
 http://190.14.10.19:16000/play/a02d/index.m3u8
@@ -11033,6 +11059,12 @@ https://streamer.metronethn.com/AdultSwim/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatino.us@SD" group-title="United States",Cinemax Latino (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://streamer.metronethn.com/Cinemax/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (2160p)
+http://168.228.44.241:9997/play/a07g/index.m3u8
+#EXTINF:-1 tvg-id="WLTVDT231.us@HD" group-title="United States",WLTV-DT 23.1 (720p)
+http://168.228.44.241:9997/play/a09d/index.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us@Spanish" group-title="United States",BabyFirst Spanish (720p)
+http://168.228.44.241:9997/play/a07u/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
