@@ -18,14 +18,33 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      - name: Check sync token
+        shell: bash
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          set -e
+
+          if [ -z "$SYNC_TOKEN" ]; then
+            echo "ERROR: SYNC_TOKEN secret is missing or empty."
+            echo "Add SYNC_TOKEN under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+
+          echo "SYNC_TOKEN is available."
+
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
           token: ${{ secrets.SYNC_TOKEN }}
+          persist-credentials: true
 
       - name: Configure Git
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -52,7 +71,7 @@ jobs:
           elif git show-ref --verify --quiet refs/remotes/upstream/main; then
             echo "branch=main" >> "$GITHUB_OUTPUT"
           else
-            echo "Could not find upstream master or main branch."
+            echo "ERROR: Could not find upstream master or main branch."
             exit 1
           fi
 
@@ -68,27 +87,24 @@ jobs:
           if git merge "upstream/$UPSTREAM_BRANCH" --no-edit -X theirs; then
             echo "Upstream merge completed successfully."
           else
-            echo "Merge conflicts detected."
-            echo "Resolving all conflicts using upstream version..."
+            echo "Conflicts detected."
+            echo "Resolving conflicts using upstream version..."
 
-            while IFS= read -r file; do
+            git diff --name-only --diff-filter=U | while IFS= read -r file; do
               [ -z "$file" ] && continue
 
               echo "Resolving: $file"
-
               git checkout --theirs -- "$file"
               git add -- "$file"
-            done < <(git diff --name-only --diff-filter=U)
+            done
 
             if git diff --name-only --diff-filter=U | grep -q .; then
-              echo "Some merge conflicts could not be resolved."
+              echo "ERROR: Unresolved merge conflicts remain."
               git merge --abort || true
               exit 1
             fi
 
-            if git diff --cached --quiet; then
-              echo "No conflict resolution commit required."
-            else
+            if ! git diff --cached --quiet; then
               git commit -m "Merge upstream/$UPSTREAM_BRANCH"
             fi
           fi
@@ -119,16 +135,16 @@ jobs:
               echo "Restoring: $file"
               git restore --source="origin/${GITHUB_REF_NAME}" -- "$file"
             else
-              echo "Skipping missing fork file: $file"
+              echo "Skipping missing file: $file"
             fi
           done
 
           git add -A
 
-          if git diff --cached --quiet; then
-            echo "No fork customization changes."
-          else
+          if ! git diff --cached --quiet; then
             git commit -m "Restore fork customizations"
+          else
+            echo "No fork customizations changed."
           fi
 
       - name: Synchronize with remote
@@ -138,35 +154,29 @@ jobs:
 
           BRANCH="${GITHUB_REF_NAME}"
 
-          echo "Fetching latest origin/$BRANCH..."
           git fetch origin "$BRANCH"
-
-          echo "Synchronizing with origin/$BRANCH..."
 
           if git merge "origin/$BRANCH" --no-edit; then
             echo "Remote synchronization completed."
           else
             echo "Conflicts detected with remote branch."
-            echo "Resolving conflicts using remote version..."
+            echo "Resolving using remote version..."
 
-            while IFS= read -r file; do
+            git diff --name-only --diff-filter=U | while IFS= read -r file; do
               [ -z "$file" ] && continue
 
-              echo "Resolving remote conflict: $file"
-
+              echo "Resolving: $file"
               git checkout --theirs -- "$file"
               git add -- "$file"
-            done < <(git diff --name-only --diff-filter=U)
+            done
 
             if git diff --name-only --diff-filter=U | grep -q .; then
-              echo "Some remote conflicts could not be resolved."
+              echo "ERROR: Unresolved remote conflicts remain."
               git merge --abort || true
               exit 1
             fi
 
-            if git diff --cached --quiet; then
-              echo "No remote conflict resolution commit required."
-            else
+            if ! git diff --cached --quiet; then
               git commit -m "Resolve remote synchronization conflicts"
             fi
           fi
@@ -182,4 +192,6 @@ jobs:
 
           git push origin "HEAD:$BRANCH"
 
-          echo "Sync completed successfully."
+          echo "======================================"
+          echo "Upstream synchronization completed."
+          echo "======================================"
