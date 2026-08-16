@@ -22,96 +22,164 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SYNC_TOKEN }}
 
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Add upstream
+      - name: Add and fetch upstream
+        shell: bash
         run: |
+          set -e
+
           if ! git remote | grep -q "^upstream$"; then
             git remote add upstream https://github.com/iptv-org/iptv.git
           fi
 
           git fetch upstream --prune
+          git fetch origin "${GITHUB_REF_NAME}"
 
       - name: Detect upstream branch
         id: upstream
         shell: bash
         run: |
+          set -e
+
           if git show-ref --verify --quiet refs/remotes/upstream/master; then
-            echo "branch=master" >> $GITHUB_OUTPUT
+            echo "branch=master" >> "$GITHUB_OUTPUT"
+          elif git show-ref --verify --quiet refs/remotes/upstream/main; then
+            echo "branch=main" >> "$GITHUB_OUTPUT"
           else
-            echo "branch=main" >> $GITHUB_OUTPUT
+            echo "Could not find upstream master or main branch."
+            exit 1
           fi
 
       - name: Merge upstream
         shell: bash
         run: |
-          set +e
+          set -e
 
-          git merge "upstream/${{ steps.upstream.outputs.branch }}" \
-            --no-edit \
-            -X theirs
+          UPSTREAM_BRANCH="${{ steps.upstream.outputs.branch }}"
 
-          STATUS=$?
+          echo "Merging upstream/$UPSTREAM_BRANCH..."
 
-          if [ "$STATUS" -ne 0 ]; then
-            echo "Resolving remaining conflicts..."
+          if git merge "upstream/$UPSTREAM_BRANCH" --no-edit -X theirs; then
+            echo "Upstream merge completed successfully."
+          else
+            echo "Merge conflicts detected."
+            echo "Resolving all conflicts using upstream version..."
 
-            git diff --name-only --diff-filter=U | while read file; do
-              git checkout --theirs "$file"
-              git add "$file"
-            done
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
 
-            git commit -m "Resolve upstream merge conflicts"
+              echo "Resolving: $file"
+
+              git checkout --theirs -- "$file"
+              git add -- "$file"
+            done < <(git diff --name-only --diff-filter=U)
+
+            if git diff --name-only --diff-filter=U | grep -q .; then
+              echo "Some merge conflicts could not be resolved."
+              git merge --abort || true
+              exit 1
+            fi
+
+            if git diff --cached --quiet; then
+              echo "No conflict resolution commit required."
+            else
+              git commit -m "Merge upstream/$UPSTREAM_BRANCH"
+            fi
           fi
 
-      - name: Restore fork files
+      - name: Restore fork customizations
         shell: bash
         run: |
-          git restore \
-            .github/workflows \
-            .github/docs \
-            playlist-filter.conf \
-            playlist-exclude.conf \
-            playlist-execute.conf \
-            playlist-filter-europe.conf \
-            playlist-filter-asia.conf \
-            playlist-filter-america.conf \
-            playlist.m3u \
-            playlist-sports.m3u \
-            playlist-europe.m3u \
-            playlist-asia.m3u \
-            playlist-america.m3u \
-            || true
+          set -e
+
+          CUSTOM_FILES=(
+            ".github/workflows"
+            ".github/docs"
+            "playlist-filter.conf"
+            "playlist-exclude.conf"
+            "playlist-execute.conf"
+            "playlist-filter-europe.conf"
+            "playlist-filter-asia.conf"
+            "playlist-filter-america.conf"
+            "playlist.m3u"
+            "playlist-sports.m3u"
+            "playlist-europe.m3u"
+            "playlist-asia.m3u"
+            "playlist-america.m3u"
+          )
+
+          for file in "${CUSTOM_FILES[@]}"; do
+            if git cat-file -e "origin/${GITHUB_REF_NAME}:${file}" 2>/dev/null; then
+              echo "Restoring: $file"
+              git restore --source="origin/${GITHUB_REF_NAME}" -- "$file"
+            else
+              echo "Skipping missing fork file: $file"
+            fi
+          done
 
           git add -A
 
-          if ! git diff --cached --quiet; then
+          if git diff --cached --quiet; then
+            echo "No fork customization changes."
+          else
             git commit -m "Restore fork customizations"
+          fi
+
+      - name: Synchronize with remote
+        shell: bash
+        run: |
+          set -e
+
+          BRANCH="${GITHUB_REF_NAME}"
+
+          echo "Fetching latest origin/$BRANCH..."
+          git fetch origin "$BRANCH"
+
+          echo "Synchronizing with origin/$BRANCH..."
+
+          if git merge "origin/$BRANCH" --no-edit; then
+            echo "Remote synchronization completed."
+          else
+            echo "Conflicts detected with remote branch."
+            echo "Resolving conflicts using remote version..."
+
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
+
+              echo "Resolving remote conflict: $file"
+
+              git checkout --theirs -- "$file"
+              git add -- "$file"
+            done < <(git diff --name-only --diff-filter=U)
+
+            if git diff --name-only --diff-filter=U | grep -q .; then
+              echo "Some remote conflicts could not be resolved."
+              git merge --abort || true
+              exit 1
+            fi
+
+            if git diff --cached --quiet; then
+              echo "No remote conflict resolution commit required."
+            else
+              git commit -m "Resolve remote synchronization conflicts"
+            fi
           fi
 
       - name: Push changes
         shell: bash
         run: |
+          set -e
+
           BRANCH="${GITHUB_REF_NAME}"
 
-          git fetch origin "$BRANCH"
+          echo "Pushing to origin/$BRANCH..."
 
-          # If the remote changed while this workflow was running,
-          # merge it instead of rebasing.
-          if ! git merge "origin/$BRANCH" --no-edit; then
-            echo "Resolving merge conflicts using remote version..."
+          git push origin "HEAD:$BRANCH"
 
-            git diff --name-only --diff-filter=U | while read file; do
-              git checkout --theirs "$file"
-              git add "$file"
-            done
-
-            git commit -m "Resolve push merge conflicts"
-          fi
-
-          git push origin HEAD:"$BRANCH"
+          echo "Sync completed successfully."
