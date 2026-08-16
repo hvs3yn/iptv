@@ -1194,13 +1194,6 @@ https://test.946985.filegear-sg.me/proxy/803c517b325bfafc
 http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 tvg-id="MDL.fr@SD" group-title="France",MDL (720p)
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo (1080p)
-https://live-3.otcnet.ru/Mezzo/index.m3u8
-#EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo (576p)
-http://tmptv.sunduk.tv/CH97/index.m3u8
-#EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/mezzo/index.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr@SD" group-title="France",Mezzo Live (1080p)
 http://stream.mcquack.net/276/index.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr@SD" group-title="France",Mezzo Live
@@ -1342,6 +1335,9 @@ https://live.azenagroup.com/zenith/index.m3u8
 #EXTINF:-1 tvg-id="RMCSport1.fr@SD" group-title="France",RMC Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/59/index.m3u8
+#EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://158.101.222.193:88/georgia_play.php?id=mezzo
 #EXTINF:-1 tvg-id="BFM2.fr@HD" group-title="France",BFM 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
@@ -2307,6 +2303,8 @@ https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD" group-title="Spain",TVE Internacional America (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://streamer.metronethn.com/TVE/index.m3u8
+#EXTINF:-1 tvg-id="TelevisionCanaria.es@SD" group-title="Spain",Television Canaria (1080p)
+https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" group-title="Spain",People are Awesome
 https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Spain" group-title="Spain",The Pet Collective
@@ -3051,6 +3049,10 @@ https://amg00735-amg00735c57-rakuten-de-10677.playouts.now.amagi.tv/ts-eu-w1-n2/
 https://lowa8026-cmyk.github.io/PL/WPHD.php.m3u8
 #EXTINF:-1 tvg-id="TVPuls.pl@SD" group-title="Poland",TV Puls (1080p)
 https://edge01.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8
+#EXTINF:-1 tvg-id="Motowizja.pl@SD" group-title="Poland",Motowizja
+#EXTVLCOPT:http-referrer=https://ritsatv.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://polska.hach.workers.dev/14808.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
