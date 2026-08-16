@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check sync token
+      - name: Configure Git authentication
         shell: bash
         env:
           SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
@@ -26,39 +26,52 @@ jobs:
           set -e
 
           if [ -z "$SYNC_TOKEN" ]; then
-            echo "ERROR: SYNC_TOKEN secret is missing or empty."
-            echo "Add SYNC_TOKEN under Settings -> Secrets and variables -> Actions."
+            echo "ERROR: SYNC_TOKEN is missing."
             exit 1
           fi
 
-          echo "SYNC_TOKEN is available."
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Checkout repository
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.SYNC_TOKEN }}
-          persist-credentials: true
+          git config --global credential.helper store
 
-      - name: Configure Git
+          printf "https://x-access-token:%s@github.com\n" "$SYNC_TOKEN" \
+            > "$HOME/.git-credentials"
+
+          chmod 600 "$HOME/.git-credentials"
+
+      - name: Clone repository
         shell: bash
         run: |
           set -e
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git clone \
+            --origin origin \
+            https://github.com/hvs3yn/iptv.git \
+            "$GITHUB_WORKSPACE"
 
-      - name: Add and fetch upstream
+          cd "$GITHUB_WORKSPACE"
+
+          git fetch --all --tags --prune
+
+          git checkout "$GITHUB_REF_NAME"
+
+          git branch --set-upstream-to="origin/$GITHUB_REF_NAME" "$GITHUB_REF_NAME"
+
+      - name: Add upstream
         shell: bash
         run: |
           set -e
 
-          if ! git remote | grep -q "^upstream$"; then
+          cd "$GITHUB_WORKSPACE"
+
+          if git remote | grep -q "^upstream$"; then
+            git remote set-url upstream https://github.com/iptv-org/iptv.git
+          else
             git remote add upstream https://github.com/iptv-org/iptv.git
           fi
 
           git fetch upstream --prune
-          git fetch origin "${GITHUB_REF_NAME}"
 
       - name: Detect upstream branch
         id: upstream
@@ -66,12 +79,16 @@ jobs:
         run: |
           set -e
 
+          cd "$GITHUB_WORKSPACE"
+
           if git show-ref --verify --quiet refs/remotes/upstream/master; then
             echo "branch=master" >> "$GITHUB_OUTPUT"
+            echo "Upstream branch: master"
           elif git show-ref --verify --quiet refs/remotes/upstream/main; then
             echo "branch=main" >> "$GITHUB_OUTPUT"
+            echo "Upstream branch: main"
           else
-            echo "ERROR: Could not find upstream master or main branch."
+            echo "ERROR: upstream master/main branch not found."
             exit 1
           fi
 
@@ -80,26 +97,28 @@ jobs:
         run: |
           set -e
 
+          cd "$GITHUB_WORKSPACE"
+
           UPSTREAM_BRANCH="${{ steps.upstream.outputs.branch }}"
 
           echo "Merging upstream/$UPSTREAM_BRANCH..."
 
           if git merge "upstream/$UPSTREAM_BRANCH" --no-edit -X theirs; then
-            echo "Upstream merge completed successfully."
+            echo "Upstream merged successfully."
           else
             echo "Conflicts detected."
-            echo "Resolving conflicts using upstream version..."
 
             git diff --name-only --diff-filter=U | while IFS= read -r file; do
               [ -z "$file" ] && continue
 
-              echo "Resolving: $file"
+              echo "Using upstream version: $file"
+
               git checkout --theirs -- "$file"
               git add -- "$file"
             done
 
             if git diff --name-only --diff-filter=U | grep -q .; then
-              echo "ERROR: Unresolved merge conflicts remain."
+              echo "ERROR: Unresolved conflicts remain."
               git merge --abort || true
               exit 1
             fi
@@ -113,6 +132,8 @@ jobs:
         shell: bash
         run: |
           set -e
+
+          cd "$GITHUB_WORKSPACE"
 
           CUSTOM_FILES=(
             ".github/workflows"
@@ -132,10 +153,13 @@ jobs:
 
           for file in "${CUSTOM_FILES[@]}"; do
             if git cat-file -e "origin/${GITHUB_REF_NAME}:${file}" 2>/dev/null; then
-              echo "Restoring: $file"
-              git restore --source="origin/${GITHUB_REF_NAME}" -- "$file"
+              echo "Restoring fork version: $file"
+
+              git restore \
+                --source="origin/${GITHUB_REF_NAME}" \
+                -- "$file"
             else
-              echo "Skipping missing file: $file"
+              echo "File does not exist in fork: $file"
             fi
           done
 
@@ -144,28 +168,32 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Restore fork customizations"
           else
-            echo "No fork customizations changed."
+            echo "No fork customizations to restore."
           fi
 
-      - name: Synchronize with remote
+      - name: Update from remote
         shell: bash
         run: |
           set -e
 
+          cd "$GITHUB_WORKSPACE"
+
           BRANCH="${GITHUB_REF_NAME}"
+
+          echo "Fetching latest origin/$BRANCH..."
 
           git fetch origin "$BRANCH"
 
           if git merge "origin/$BRANCH" --no-edit; then
-            echo "Remote synchronization completed."
+            echo "Remote branch merged successfully."
           else
-            echo "Conflicts detected with remote branch."
-            echo "Resolving using remote version..."
+            echo "Remote conflicts detected."
 
             git diff --name-only --diff-filter=U | while IFS= read -r file; do
               [ -z "$file" ] && continue
 
-              echo "Resolving: $file"
+              echo "Using remote version: $file"
+
               git checkout --theirs -- "$file"
               git add -- "$file"
             done
@@ -183,8 +211,12 @@ jobs:
 
       - name: Push changes
         shell: bash
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
           set -e
+
+          cd "$GITHUB_WORKSPACE"
 
           BRANCH="${GITHUB_REF_NAME}"
 
@@ -193,5 +225,5 @@ jobs:
           git push origin "HEAD:$BRANCH"
 
           echo "======================================"
-          echo "Upstream synchronization completed."
+          echo "SYNC COMPLETED SUCCESSFULLY"
           echo "======================================"
