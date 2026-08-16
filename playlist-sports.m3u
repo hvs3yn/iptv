@@ -356,6 +356,10 @@ https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="SolarSports.ph@SD" group-title="Sports",Solar Sports (480p)
 https://streams.comclark.com/pknsd/solar_sports/playlist.m3u8
+#EXTINF:-1 tvg-id="PremierSports.ph@SD" group-title="Sports",Premier Sports (1080p)
+https://streams.comclark.com/pknhd/premier_sports/playlist.m3u8
+#EXTINF:-1 tvg-id="EDGEsport.uk@SD" group-title="Sports",EDGEsport (480p)
+https://streams.comclark.com/pknsd/edgesports/playlist.m3u8
 #EXTINF:-1 tvg-id="MSports.pk@SD" group-title="Sports",M Sports (1080p)
 https://cdn.rabta.stream/M-Sports/index.m3u8
 #EXTINF:-1 tvg-id="PKSports.pk@SD" group-title="Sports",PK Sports (720p)
@@ -477,6 +481,12 @@ http://stream.mcquack.net/333/index.m3u8
 https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru@SD" group-title="Sports",Астрахань.Ru Sport (720p)
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" group-title="Sports",Setanta Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" group-title="Sports",Setanta Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="TVBRICSPortuguese.br@SD" group-title="Sports",TV BRICS Portuguese (1080p)
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSport.se@SE" group-title="Sports",Pluto TV Sport
