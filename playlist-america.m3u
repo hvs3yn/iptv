@@ -1002,12 +1002,8 @@ https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e290958
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="NFLNetwork.us@SD" group-title="United States",NFL Network (720p)
 http://40.160.24.53/NFL_Network/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.us@East" group-title="United States",Nick Jr. (1080p)
-http://40.160.24.55/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" group-title="United States",Nick Jr. (720p)
 http://212.5.144.156:8080/nickjr/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.us@East" group-title="United States",Nick Jr. (720p)
-https://gpuserver5.tier1streams.com/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" group-title="United States",Nick Jr. Latin America (1080p)
 http://177.234.249.178:8888/NICK-JR/index.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" group-title="United States",Nick Jr. Latin America (1080p)
@@ -1015,11 +1011,7 @@ http://179.60.51.134:8888/NICK-JR/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" group-title="United States",Nickelodeon (1080p)
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" group-title="United States",Nickelodeon (720p)
-http://40.160.24.55/NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.us@East" group-title="United States",Nickelodeon (720p)
 http://198.58.104.90:8989/nickelodeon/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.us@East" group-title="United States",Nickelodeon (720p)
-https://gpuserver5.tier1streams.com/NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" group-title="United States",Nickelodeon Latin America (1080p)
 http://15.204.246.24:8080/NickHD/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" group-title="United States",Nickelodeon Latin America (1080p)
@@ -1028,8 +1020,6 @@ http://177.234.249.178:8888/NICK/index.m3u8
 http://179.60.51.134:8888/NICK/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" group-title="United States",Nickelodeon Latin America (1080p)
 http://190.93.224.42/NICK/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.us@East" group-title="United States",Nicktoons (720p)
-http://40.160.24.55/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East" group-title="United States",Nicktoons (720p)
 http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="NorCastWeather.us@HD" group-title="United States",NorCast Weather (1080p)
@@ -1384,15 +1374,11 @@ https://broadcast.tbnpacific.org.au:4430/stream/TBNPacificTV/playlist.m3u8
 https://cdn.jwplayer.com/live/broadcast/frRD2nUK.m3u8
 #EXTINF:-1 tvg-id="TCT.us@SD" group-title="United States",TCT (1080p)
 https://d16yptpbiuldtt.cloudfront.net/0b4ebb8be00f40ee83c024f661a85dcd/index.m3u8
-#EXTINF:-1 tvg-id="TeenNick.us@East" group-title="United States",TeenNick (720p)
-http://40.160.24.55/TEEN_NICK/index.m3u8
-#EXTINF:-1 tvg-id="TeenNick.us@East" group-title="United States",TeenNick (720p)
-https://gpuserver5.tier1streams.com/TEEN_NICK/index.m3u8
 #EXTINF:-1 tvg-id="TeenNick.us@East" group-title="United States",TeenNick (576p)
 http://tvsen7.aynascope.net/teennick/index.m3u8
 #EXTINF:-1 tvg-id="TeleBoston.us@SD" group-title="United States",Tele Boston (480p)
 https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
-#EXTINF:-1 tvg-id="Telemundo.us@East" group-title="United States",Telemundo (1080p)
+#EXTINF:-1 tvg-id="Telemundo.us@EastHD" group-title="United States",Telemundo East HD (1080p)
 http://45.190.13.8/TelemundoHD/index.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@East" group-title="United States",Telemundo (720p)
 http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8
@@ -1792,6 +1778,18 @@ https://sra72yz.s.gy/NICKELODEON_EAST_US.m3u8
 https://sra72yz.s.gy/NICKTOONS_US.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" group-title="United States",Nick Jr. (1080p)
 https://sra72yz.s.gy/NICK_JR_US.m3u8
+#EXTINF:-1 tvg-id="Univision.us@EastHD" group-title="United States",Univision East HD (1080p)
+http://45.190.13.8/UnivisionHD/index.m3u8
+#EXTINF:-1 tvg-id="TUDN.us@SD" group-title="United States",TUDN (1080p)
+http://45.190.13.8/TUDNHD/index.m3u8
+#EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (720p)
+http://tvsen7.aynascope.net/fx/index.m3u8
+#EXTINF:-1 tvg-id="NickJr.us@East" group-title="United States",Nick Jr. (720p)
+http://tvsen7.aynascope.net/nickjr/index.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.us@East" group-title="United States",Nicktoons (720p)
+http://tvsen7.aynascope.net/nicktoons/index.m3u8
+#EXTINF:-1 tvg-id="KartoonChannel.us@SD" group-title="United States",Kartoon Channel! (1080p)
+https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
