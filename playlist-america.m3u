@@ -550,8 +550,6 @@ http://104.143.4.5:2080/funroads.m3u8
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (1080p)
 http://23.237.104.106:8080/USA_FX/index.m3u8
-#EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (720p)
-http://40.160.24.56/FX_SD/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" group-title="United States",FX Latin America (1080p)
 http://15.204.246.24:8080/FXHD/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" group-title="United States",FX Latin America (1080p)
@@ -1740,7 +1738,7 @@ https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 #EXTINF:-1 tvg-id="ZoomNews.us@SD" group-title="United States",Zoom TV Kurdish (720p)
 #EXTVLCOPT:http-referrer=https://zoomnews.info/
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
-#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
+#EXTINF:-1 tvg-id="Telemundo.us@WestHD" group-title="United States",Telemundo West HD (720p)
 https://streamer.metronethn.com/Telemundo/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@South" group-title="United States",FX Latin America South (720p)
 https://streamer.metronethn.com/FX/index.m3u8
@@ -1790,6 +1788,14 @@ http://tvsen7.aynascope.net/nickjr/index.m3u8
 http://tvsen7.aynascope.net/nicktoons/index.m3u8
 #EXTINF:-1 tvg-id="KartoonChannel.us@SD" group-title="United States",Kartoon Channel! (1080p)
 https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" group-title="United States",Fubo Sports Network (720p)
+https://aegis-cloudfront-1.tubi.video/c2ac89da-5c69-439e-b85d-d87de0548b54/5.m3u8
+#EXTINF:-1 tvg-id="ACCNetwork.us@SD" group-title="United States",ACC Network (720p)
+http://23.239.31.26:8989/accnetwork/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
+http://190.124.20.69/Telemundo/index.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us@US" group-title="United States",BabyFirst (480p)
+http://181.78.106.127:5000/play/a0sa/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -2145,6 +2151,8 @@ https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
 https://streamer.metronethn.com/Univision/index.m3u8
 #EXTINF:-1 tvg-id="TUDN.mx@SD" group-title="Mexico",TUDN (720p)
 https://streamer.metronethn.com/TUDN/index.m3u8
+#EXTINF:-1 tvg-id="bitMeLatinAmerica.mx@SD" group-title="Mexico",bitMe Latin America (1080p)
+http://186.148.196.100:8000/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" group-title="Brazil",AgroCanal (720p)
