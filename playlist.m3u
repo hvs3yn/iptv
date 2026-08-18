@@ -309,6 +309,8 @@ https://nord.ayakkabiparti.lol/box2/index.m3u8
 #EXTINF:-1 tvg-id="beINBoxOffice3.tr@SD" group-title="Turkey",beIN Box Office 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://nord.ayakkabiparti.lol/box3/index.m3u8
+#EXTINF:-1 tvg-id="ShowTurk.tr@SD" group-title="Turkey",Show Turk (1080p)
+https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 SD (576p)
@@ -2672,6 +2674,8 @@ http://rtmp.one.by:2200
 http://rtmp.one.by:2300
 #EXTINF:-1 tvg-id="Belarus4.by@Gomel" group-title="Belarus",Belarus-4 Gomel
 https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Vitebsk.by@SD" group-title="Belarus",Vitebsk
+https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" group-title="Brazil",AgroCanal (720p)
@@ -4130,14 +4134,6 @@ http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 http://183.207.248.71/gitv/live1/SDWS/SDWS
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" group-title="China",山东卫视 (576p)
 http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225804/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",山西影视
-http://220.194.178.58:8888/newlive/live/hls/53/live.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",山西文体
-http://220.194.178.58:8888/newlive/live/hls/55/live.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",山西法治
-http://220.194.178.58:8888/newlive/live/hls/54/live.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",山西经济
-http://220.194.178.58:8888/newlive/live/hls/52/live.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",岳阳公共 (576p)
 http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE&auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8
 #EXTINF:-1 tvg-id="" group-title="China",岷县电视台 (1080p)
@@ -4316,18 +4312,12 @@ http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8
 http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",湘潭新闻综合 (720p)
 http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",滁州公共 (450p)
-http://183.167.193.45:1935/live/cztvgg/playlist.m3u8
 #EXTINF:-1 tvg-id="ChuzhouPublicChannel.cn@SD" group-title="China",滁州市广播电视台 公共频道 (400p)
 http://live.cztv.cc:85/live/ggpd.m3u8
 #EXTINF:-1 tvg-id="ChuzhouNewsChannel.cn@SD" group-title="China",滁州市广播电视台 新闻综合频道 (1080p)
 http://live.cztv.cc:85/live/xwpd.m3u8
 #EXTINF:-1 tvg-id="ChuzhouScienceEducationChannel.cn@SD" group-title="China",滁州市广播电视台 科教频道 (400p)
 http://live.cztv.cc:85/live/sjpd.m3u8
-#EXTINF:-1 tvg-id="" group-title="China",滁州新闻综合 (450p)
-http://183.167.193.45:1935/live/cztvzh/playlist.m3u8
-#EXTINF:-1 tvg-id="ChuzhouScienceEducationChannel.cn@SD" group-title="China",滁州科教 (450p)
-http://183.167.193.45:1935/live/cztvkj/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",滨海新闻 (1080p)
 http://60.30.52.41/live/bhtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",滨海都市 (1080p)
@@ -4615,6 +4605,15 @@ http://88.212.15.29/live/test_ngw/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJr.cz@SD" group-title="Czech Republic",Nick Jr.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_nick_jr/playlist.m3u8
+#EXTINF:-1 tvg-id="DVTVExtra.cz@SD" group-title="Czech Republic",DVTV Extra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://antik.streaming.tivio.studio/channels/IxLi19VRasgu94bIaXbH/index.m3u8
+#EXTINF:-1 tvg-id="KVIFFTV.cz@SD" group-title="Czech Republic",KVIFF TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://antik.streaming.tivio.studio/channels/HC7JIqyyvQMl0mnqbbnI/index.m3u8
+#EXTINF:-1 tvg-id="Ballcasterz.cz@SD" group-title="Czech Republic",Ballcasterz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://antik.streaming.tivio.studio/channels/yXDwkH0CbFfkhU7ZnHlT/index.m3u8
 #EXTINF:-1 tvg-id="DR1.dk@SD" group-title="Denmark",DR1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/45/index.m3u8
@@ -5820,7 +5819,7 @@ https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TheFishingHuntingChannel.hu@HD" group-title="Hungary",The Fishing & Hunting Channel HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/fishing_hun/index.m3u8
-#EXTINF:-1 tvg-id="M4Sport.hu@SD" group-title="Hungary",M4 Sport
+#EXTINF:-1 tvg-id="M4Sport.hu@SD" group-title="Hungary",M4 Sport (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/uatlmvixrr/index.m3u8
 #EXTINF:-1 tvg-id="TVPaprika.hu@SD" group-title="Hungary",TV Paprika
@@ -5829,6 +5828,9 @@ http://88.212.15.19/live/parpika_hun/index.m3u8
 #EXTINF:-1 tvg-id="JimJam.hu@SD" group-title="Hungary",JimJam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/jim_jam_hun/index.m3u8
+#EXTINF:-1 tvg-id="Story4.hu@Czechia" group-title="Hungary",Story4 Czechia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://88.212.15.19/live/story_4_cze_atk/index.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir@SD" group-title="Iran",AFN TV
@@ -6954,11 +6956,10 @@ https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
 https://streamer.metronethn.com/Univision/index.m3u8
 #EXTINF:-1 tvg-id="TUDN.mx@SD" group-title="Mexico",TUDN (720p)
 https://streamer.metronethn.com/TUDN/index.m3u8
+#EXTINF:-1 tvg-id="bitMeLatinAmerica.mx@SD" group-title="Mexico",bitMe Latin America (1080p)
+http://186.148.196.100:8000/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="BusuiocTV.md@SD" group-title="Moldova",Busuioc TV
 https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/master.m3u8
-#EXTINF:-1 tvg-id="CinemaratonMoldova.md@SD" group-title="Moldova",Cinemaraton Moldova
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/cinemaratonmoldova/index.m3u8
 #EXTINF:-1 tvg-id="ExclusivTV.md@SD" group-title="Moldova",Exclusiv TV
 rtmp://89.28.25.122/live/tnt_md
 #EXTINF:-1 tvg-id="HitFM.md@SD" group-title="Moldova",Hit FM
@@ -6971,9 +6972,6 @@ https://v0.trm.md/static/streaming-playlists/hls/d5fafab0-9c37-4746-9e7a-b2d6c04
 https://moldovatv.ro/live-tv/live.m3u8
 #EXTINF:-1 tvg-id="NorocTV.md@SD" group-title="Moldova",Noroc TV
 https://media.noroc.tv/noroc/bitrate_1080p.m3u8
-#EXTINF:-1 tvg-id="PrimaTVMoldova.md@SD" group-title="Moldova",Prima TV Moldova (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/primatvmd/index.m3u8
 #EXTINF:-1 tvg-id="PrivescEuTV.md@SD" group-title="Moldova",Privesc.Eu TV (2160p)
 https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8
 #EXTINF:-1 tvg-id="PROTVChisinau.md@SD" group-title="Moldova",PRO TV Chisinau (480p)
@@ -7003,6 +7001,10 @@ https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/playlist.m3u8
 https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
 #EXTINF:-1 tvg-id="WeSportTV.md@SD" group-title="Moldova",We Sport TV
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
+#EXTINF:-1 tvg-id="ZonaM.md@SD" group-title="Moldova",Zona M
+http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2470/index.m3u8
+#EXTINF:-1 tvg-id="StarTV.md@SD" group-title="Moldova",Star TV
+http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
 #EXTINF:-1 tvg-id="1AlmereTV.nl@SD" group-title="Netherlands",1Almere TV (720p)
 https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
 #EXTINF:-1 tvg-id="1TwenteTV.nl@SD" group-title="Netherlands",1Twente TV (1080p)
@@ -7605,8 +7607,6 @@ http://193.24.244.60:1001/udp/239.254.4.121:6060
 https://tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285ccd.m3u8
 #EXTINF:-1 tvg-id="TVKStella.pl@SD" group-title="Poland",TVK Stella (576p)
 https://stream.tvkstella.pl/stella/stella.m3u8
-#EXTINF:-1 tvg-id="TVP1.pl@SD" group-title="Poland",TVP1 (1080p)
-https://estreams.tv.nej.cz/dash/CH_TVP1_Portable.ism/playlist.mpd
 #EXTINF:-1 tvg-id="TVP1.pl@SD" group-title="Poland",TVP1 (1080p)
 https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8
 #EXTINF:-1 tvg-id="TVP1.pl@SD" group-title="Poland",TVP1 (1080p)
@@ -9704,8 +9704,6 @@ http://104.143.4.5:2080/funroads.m3u8
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (1080p)
 http://23.237.104.106:8080/USA_FX/index.m3u8
-#EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (720p)
-http://40.160.24.56/FX_SD/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" group-title="United States",FX Latin America (1080p)
 http://15.204.246.24:8080/FXHD/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" group-title="United States",FX Latin America (1080p)
@@ -10894,7 +10892,7 @@ https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 #EXTINF:-1 tvg-id="ZoomNews.us@SD" group-title="United States",Zoom TV Kurdish (720p)
 #EXTVLCOPT:http-referrer=https://zoomnews.info/
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
-#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
+#EXTINF:-1 tvg-id="Telemundo.us@WestHD" group-title="United States",Telemundo West HD (720p)
 https://streamer.metronethn.com/Telemundo/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@South" group-title="United States",FX Latin America South (720p)
 https://streamer.metronethn.com/FX/index.m3u8
@@ -10944,6 +10942,14 @@ http://tvsen7.aynascope.net/nickjr/index.m3u8
 http://tvsen7.aynascope.net/nicktoons/index.m3u8
 #EXTINF:-1 tvg-id="KartoonChannel.us@SD" group-title="United States",Kartoon Channel! (1080p)
 https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" group-title="United States",Fubo Sports Network (720p)
+https://aegis-cloudfront-1.tubi.video/c2ac89da-5c69-439e-b85d-d87de0548b54/5.m3u8
+#EXTINF:-1 tvg-id="ACCNetwork.us@SD" group-title="United States",ACC Network (720p)
+http://23.239.31.26:8989/accnetwork/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@West" group-title="United States",Telemundo West (720p)
+http://190.124.20.69/Telemundo/index.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us@US" group-title="United States",BabyFirst (480p)
+http://181.78.106.127:5000/play/a0sa/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
