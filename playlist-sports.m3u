@@ -233,6 +233,8 @@ https://7nyaler.streamhostingcdn.top/stream/39/index.m3u8
 https://7nyaler.streamhostingcdn.top/stream/19/index.m3u8
 #EXTINF:-1 tvg-id="SkySportsMainEvent.ie@HD" group-title="Sports",Sky Sports Main Event HD (1080p)
 https://xemzi.short.gy/2000001
+#EXTINF:-1 tvg-id="SkySportsFootball.ie@SD" group-title="Sports",Sky Sports Football (720p)
+http://188.138.29.131/skyfootball/index.m3u8
 #EXTINF:-1 tvg-id="5Sport.il@SD" group-title="Sports",5Sport (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/41/index.m3u8
@@ -558,8 +560,6 @@ http://stream.mcquack.net/444/index.m3u8
 https://7nyaler.streamhostingcdn.top/stream/10/index.m3u8
 #EXTINF:-1 tvg-id="SkySportsCricket.uk@HD" group-title="Sports",Sky Sports Cricket HD (1080p)
 https://xemzi.short.gy/2000006
-#EXTINF:-1 tvg-id="SkySportsGolf.uk@HD" group-title="Sports",Sky Sports Golf HD (1080p)
-https://xemzi.short.gy/2000009
 #EXTINF:-1 tvg-id="SkySportsNFL.uk@SD" group-title="Sports",Sky Sports NFL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/12/index.m3u8
@@ -573,12 +573,14 @@ https://7nyaler.streamhostingcdn.top/stream/38/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports.uk@SD" group-title="Sports",Setanta Sports (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/313/index.m3u8
+#EXTINF:-1 tvg-id="SkySportsF1.uk@HD" group-title="Sports",Sky Sports F1 HD (720p)
+http://188.138.29.131/skysportsf1/index.m3u8
+#EXTINF:-1 tvg-id="SkySportsGolf.uk@HD" group-title="Sports",Sky Sports Golf HD (720p)
+http://188.138.29.131/skygolf/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",U&Transport (720p)
 https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" group-title="Sports",SportsGrid (1080p)
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSportsUSA.us@SD" group-title="Sports",beIN Sports USA (576p)
-http://40.160.24.52/BEIN_SPORTS_HD/index.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Sports",beIN SPORTS XTRA (1080p)
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" group-title="Sports",beIN SPORTS XTRA en Espanol (1080p)
@@ -587,18 +589,12 @@ http://201.190.41.246:9060/play/a03y/index.m3u8
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="Sports",Fox Sports 1 (720p)
 http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="Sports",Fox Sports 2 (720p)
-https://ftv.itscwd273.workers.dev/?id=FOXSPORTS2
 #EXTINF:-1 tvg-id="FTFSports.us@SD" group-title="Sports",FTF Sports (720p)
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" group-title="Sports",FTF Sports (720p)
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" group-title="Sports",NBC Sports NOW (1080p)
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-id="SportsmanChannel.us@SD" group-title="Sports",Sportsman Channel (720p)
-http://40.160.24.55/Sportsman_Channel/index.m3u8
-#EXTINF:-1 tvg-id="SportsNetNewYork.us@SD" group-title="Sports",SportsNet New York (1080p)
-http://40.160.24.55/SNY/index.m3u8
 #EXTINF:-1 tvg-id="TVSClassicSports.us@SD" group-title="Sports",TVS Classic Sports (360p)
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 #EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" group-title="Sports",TVS Sports Bureau (720p)
@@ -609,6 +605,10 @@ https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" group-title="Sports",Fubo Sports Network (720p)
 https://aegis-cloudfront-1.tubi.video/c2ac89da-5c69-439e-b85d-d87de0548b54/5.m3u8
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="Sports",Fox Sports 2 (720p)
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="Sports",Fox Sports 1 (720p)
+https://tvsen7.aynascope.net/foxsports1/index.m3u8
 #EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" group-title="Sports",CBS Sports Golazo Network (720p)
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Sports",BeIN Sports XTRA (1080p)
