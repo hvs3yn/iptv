@@ -238,8 +238,6 @@ https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.st
 https://7nyaler.streamhostingcdn.top/stream/10/index.m3u8
 #EXTINF:-1 tvg-id="SkySportsCricket.uk@HD" group-title="United Kingdom",Sky Sports Cricket HD (1080p)
 https://xemzi.short.gy/2000006
-#EXTINF:-1 tvg-id="SkySportsGolf.uk@HD" group-title="United Kingdom",Sky Sports Golf HD (1080p)
-https://xemzi.short.gy/2000009
 #EXTINF:-1 tvg-id="SkySportsNFL.uk@SD" group-title="United Kingdom",Sky Sports NFL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/12/index.m3u8
@@ -324,6 +322,12 @@ https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8
 #EXTINF:-1 tvg-id="BBCEarth.uk@Hungary" group-title="United Kingdom",BBC Earth Hungary
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/bbce_hun/index.m3u8
+#EXTINF:-1 tvg-id="SkySportsF1.uk@HD" group-title="United Kingdom",Sky Sports F1 HD (720p)
+http://188.138.29.131/skysportsf1/index.m3u8
+#EXTINF:-1 tvg-id="SkyMix.uk@HD" group-title="United Kingdom",Sky Mix HD (720p)
+http://188.138.29.131/skymix/index.m3u8
+#EXTINF:-1 tvg-id="SkySportsGolf.uk@HD" group-title="United Kingdom",Sky Sports Golf HD (720p)
+http://188.138.29.131/skygolf/index.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2164,8 +2168,6 @@ https://shls-live-ak.akamaized.net/out/v1/b06a89a463764d3688cda337d40dc5bf/index
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:-1 tvg-id="Nortevision.es@SD" group-title="Spain",NORTEvisión (1080p)
 http://amaru.dyndns.org:8870/0.m3u8
-#EXTINF:-1 tvg-id="Nova.es@SD" group-title="Spain",Nova (720p)
-http://40.160.24.55/Nova/index.m3u8
 #EXTINF:-1 tvg-id="OlotTV.es@SD" group-title="Spain",Olot TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8?DVR=
