@@ -705,3 +705,5 @@ https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="eSportsMaxTV.ve@SD" group-title="Sports",eSports Max TV
 https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="HTVSports.vn@SD" group-title="Sports",HTV Sports
+https://dethich.pw/htvthethao/index.m3u8
