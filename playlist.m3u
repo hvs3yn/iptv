@@ -5687,7 +5687,7 @@ http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
 http://88.212.15.19/live/nicktoons_hungary/index.m3u8
 #EXTINF:-1 tvg-id="OroszlanyiVarosiTelevizio.hu@SD" group-title="Hungary",Oroszlányi Városi Televízió (720p)
 https://cloudfront44.lexanetwork.com:1344/relay01/broadcast002.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="" group-title="Hungary",Oxygen Music (1080p)
+#EXTINF:-1 tvg-id="OxygenMusic.hu@HD" group-title="Hungary",Oxygen Music (1080p)
 https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 tvg-id="OzoneTV.hu@SD" group-title="Hungary",Ozone TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
