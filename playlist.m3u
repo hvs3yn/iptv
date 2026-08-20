@@ -313,6 +313,8 @@ https://nord.ayakkabiparti.lol/box3/index.m3u8
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" group-title="Turkey",ATV Avrupa (576p)
 https://flaskapihls-atv-avrupa-trkvzlive.onrender.com/hls_stream/master.m3u8
+#EXTINF:-1 tvg-id="SozcuTV.tr@SD" group-title="Turkey",Sozcu TV (1080p)
+http://5.178.103.239:55/yt1/szctv.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 SD (576p)
@@ -4037,8 +4039,6 @@ http://117.156.28.119/270000001111/1110000148/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",南京十八 (576p)
 http://183.207.248.71/gitv/live1/G_NJSB/G_NJSB
 #EXTINF:-1 tvg-id="" group-title="China",南京教科 (576p)
-http://183.207.248.71/gitv/live1/G_NJJK/G_NJJK
-#EXTINF:-1 tvg-id="" group-title="China",南京教科 (576p)
 http://223.110.245.155/ott.js.chinamobile.com/PLTV/3/224/3221227194/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",厦门卫视 (576p)
 http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221226996/index.m3u8
@@ -6952,6 +6952,8 @@ https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
 https://streamer.metronethn.com/Univision/index.m3u8
 #EXTINF:-1 tvg-id="TUDN.mx@SD" group-title="Mexico",TUDN (720p)
 https://streamer.metronethn.com/TUDN/index.m3u8
+#EXTINF:-1 tvg-id="GikTVMX.mx@SD" group-title="Mexico",GikTVMX (720p)
+https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BusuiocTV.md@SD" group-title="Moldova",Busuioc TV
 https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/master.m3u8
 #EXTINF:-1 tvg-id="ExclusivTV.md@SD" group-title="Moldova",Exclusiv TV
@@ -7648,6 +7650,8 @@ https://edge01.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8
 #EXTVLCOPT:http-referrer=https://ritsatv.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://polska.hach.workers.dev/14808.m3u8
+#EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" group-title="Poland",Polsat Viasat History (1080p)
+http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXN.pt@SD" group-title="Portugal",AXN
@@ -10794,6 +10798,16 @@ https://tvsen7.aynascope.net/foxsports2/index.m3u8
 https://tvsen7.aynascope.net/foxsports1/index.m3u8
 #EXTINF:-1 tvg-id="Bravo.us@East" group-title="United States",Bravo (720p)
 http://tvsen7.aynascope.net/bravo/index.m3u8
+#EXTINF:-1 tvg-id="ESPNDeportes.us@HD" group-title="United States",ESPN Deportes HD (720p)
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+#EXTINF:-1 tvg-id="StarzEdge.us@East" group-title="United States",Starz Edge (720p)
+http://168.228.44.241:9998/play/a0e0/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" group-title="United States",Starz Encore Spanish (720p)
+http://168.228.44.241:9998/play/a0e1/index.m3u8
+#EXTINF:-1 tvg-id="SPremium.us@HD" group-title="United States",S Premium! (360p)
+https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
+#EXTINF:-1 tvg-id="STomSings.us@HD" group-title="United States",S Tom Sings (1080p)
+https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
