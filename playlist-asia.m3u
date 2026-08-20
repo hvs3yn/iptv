@@ -276,6 +276,8 @@ https://nord.ayakkabiparti.lol/box3/index.m3u8
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" group-title="Turkey",ATV Avrupa (576p)
 https://flaskapihls-atv-avrupa-trkvzlive.onrender.com/hls_stream/master.m3u8
+#EXTINF:-1 tvg-id="SozcuTV.tr@SD" group-title="Turkey",Sozcu TV (1080p)
+http://5.178.103.239:55/yt1/szctv.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir@SD" group-title="Iran",AFN TV
@@ -1283,8 +1285,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225676/index.m3u8
 http://117.156.28.119/270000001111/1110000148/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",南京十八 (576p)
 http://183.207.248.71/gitv/live1/G_NJSB/G_NJSB
-#EXTINF:-1 tvg-id="" group-title="China",南京教科 (576p)
-http://183.207.248.71/gitv/live1/G_NJJK/G_NJJK
 #EXTINF:-1 tvg-id="" group-title="China",南京教科 (576p)
 http://223.110.245.155/ott.js.chinamobile.com/PLTV/3/224/3221227194/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="China",厦门卫视 (576p)
