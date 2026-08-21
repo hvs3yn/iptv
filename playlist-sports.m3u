@@ -501,6 +501,8 @@ https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
 https://jmp2.uk/plu-62cd74e38f6f0d000798cd93.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Retake E-sport Live
 https://jmp2.uk/plu-69a164f76c0414a7ec68de54.m3u8
+#EXTINF:-1 tvg-id="HubSports1.sg@SD" group-title="Sports",Hub Sports 1 (720p)
+https://sra72yz.s.gy/HUB_SPORTS_1_HD.m3u8
 #EXTINF:-1 tvg-id="Sport.sk@SD" group-title="Sports",:Šport (1080p)
 http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="ArenaSport1.sk@SD" group-title="Sports",Arena Sport 1
