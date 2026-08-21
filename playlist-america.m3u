@@ -1654,6 +1654,46 @@ http://168.228.44.241:9998/play/a0e1/index.m3u8
 https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 #EXTINF:-1 tvg-id="STomSings.us@HD" group-title="United States",S Tom Sings (1080p)
 https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
+#EXTINF:-1 tvg-id="MoreMax.us@EastHD" group-title="United States",MoreMax East HD (720p)
+https://sra72yz.s.gy/MORE_MAX_EAST_HD.m3u8
+#EXTINF:-1 tvg-id="TheDoctors.us@HD" group-title="United States",The Doctors (720p)
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8
+#EXTINF:-1 tvg-id="WGGSTV161.us@HD" group-title="United States",WGGS-TV 16.1
+https://wggstv16.ddns.net:9953/hls/WGGS1.m3u8
+#EXTINF:-1 tvg-id="KMCTTV391.us@HD" group-title="United States",KMCT-TV 39.1
+https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
+#EXTINF:-1 tvg-id="FunRoads.us@SD" group-title="United States",Fun Roads (720p)
+https://www.funroads-hls1.com/funroads.m3u8
+#EXTINF:-1 tvg-id="AlbanianTVAmerica.us@SD" group-title="United States",Albanian TV America (1080p)
+http://5.254.89.106/8711/index.m3u8
+#EXTINF:-1 tvg-id="USANetwork.us@East" group-title="United States",USA Network (576p)
+https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8
+#EXTINF:-1 tvg-id="ShopLC.us@SD" group-title="United States",Shop LC (576p)
+https://tvsen3.aynaott.com/zZ6EndAn/index.m3u8
+#EXTINF:-1 tvg-id="AXSTV.us@SD" group-title="United States",AXS TV (576p)
+https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8
+#EXTINF:-1 tvg-id="Bravo.us@East" group-title="United States",Bravo (576p)
+https://tvsen3.aynaott.com/AXsdcQ8A/index.m3u8
+#EXTINF:-1 tvg-id="CBS.us@East" group-title="United States",CBS (576p)
+https://tvsen3.aynaott.com/34fJSjZP/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentral.us@East" group-title="United States",Comedy Central (576p)
+https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8
+#EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (576p)
+https://tvsen3.aynaott.com/jTqkTE8W/index.m3u8
+#EXTINF:-1 tvg-id="History.us@East" group-title="United States",History (576p)
+https://tvsen3.aynaott.com/np3JstRE/index.m3u8
+#EXTINF:-1 tvg-id="Laff.us@SD" group-title="United States",Laff (576p)
+https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8
+#EXTINF:-1 tvg-id="MTV.us@East" group-title="United States",MTV (576p)
+https://tvsen6.aynaott.com/mtv/index.m3u8
+#EXTINF:-1 tvg-id="Lifetime.us@East" group-title="United States",Lifetime (576p)
+https://tvsen7.aynaott.com/lifetime/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.us@East" group-title="United States",National Geographic (576p)
+https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8
+#EXTINF:-1 tvg-id="WPIXHD.us@SD" group-title="United States",WPIX-HD (576p)
+https://tvsen3.aynaott.com/GPHeknR5/index.m3u8
+#EXTINF:-1 tvg-id="GiggleMug.us@SD" group-title="United States",Giggle Mug (576p)
+https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
