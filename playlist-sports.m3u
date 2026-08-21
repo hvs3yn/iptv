@@ -362,12 +362,6 @@ https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" group-title="Sports",Premier Sports 2 (1080p)
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="SolarSports.ph@SD" group-title="Sports",Solar Sports (480p)
-https://streams.comclark.com/pknsd/solar_sports/playlist.m3u8
-#EXTINF:-1 tvg-id="PremierSports.ph@SD" group-title="Sports",Premier Sports (1080p)
-https://streams.comclark.com/pknhd/premier_sports/playlist.m3u8
-#EXTINF:-1 tvg-id="EDGEsport.uk@SD" group-title="Sports",EDGEsport (480p)
-https://streams.comclark.com/pknsd/edgesports/playlist.m3u8
 #EXTINF:-1 tvg-id="MSports.pk@SD" group-title="Sports",M Sports (1080p)
 https://cdn.rabta.stream/M-Sports/index.m3u8
 #EXTINF:-1 tvg-id="PKSports.pk@SD" group-title="Sports",PK Sports (720p)
