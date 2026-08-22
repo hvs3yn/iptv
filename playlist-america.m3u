@@ -1401,8 +1401,6 @@ http://177.234.249.178:8888/UNIVERSAL/index.m3u8
 http://181.119.66.28:8081/Universal-HD/index.m3u8
 #EXTINF:-1 tvg-id="Univision.us@East" group-title="United States",Univision (1080p)
 http://190.197.41.183/Univision/index.m3u8
-#EXTINF:-1 tvg-id="Univision.us@East" group-title="United States",Univision (1080p)
-http://200.115.120.1:8000/play/ca106/index.m3u8
 #EXTINF:-1 tvg-id="UnivisionTlnovelas.us@SD" group-title="United States",Univision Tlnovelas (1080p)
 http://45.6.4.35/TELENOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="USANetwork.us@East" group-title="United States",USA Network (1080p)
@@ -1694,6 +1692,50 @@ https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8
 https://tvsen3.aynaott.com/GPHeknR5/index.m3u8
 #EXTINF:-1 tvg-id="GiggleMug.us@SD" group-title="United States",Giggle Mug (576p)
 https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8
+#EXTINF:-1 tvg-id="BATVPublicChannel.us@SD" group-title="United States",BATV Public Channel
+https://livestream.telvue.com/billerica1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BATVEducationalChannel.us@SD" group-title="United States",BATV Educational Channel
+https://livestream.telvue.com/billerica2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BATVGovernmentChannel.us@SD" group-title="United States",BATV Government Channel
+https://livestream.telvue.com/billerica3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BestofBATVChannel.us@SD" group-title="United States",Best of BATV Channel
+https://livestream.telvue.com/billerica4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" group-title="United States",Fox Business Network (720p)
+http://5.254.89.106/6187/index.m3u8
+#EXTINF:-1 tvg-id="NTDTV.us@West" group-title="United States",NTD TV West (720p)
+https://ntd02.akamaized.net/HD-LA/index.m3u8
+#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@Panregional" group-title="United States",Star Channel Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/starchannelhd/index.m3u8
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" group-title="United States",AMC Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/amchd/index.m3u8
+#EXTINF:-1 tvg-id="Cinecanal.us@Panregional" group-title="United States",Cinecanal (1080p)
+https://cdn1tlinkgo.tlink.cl/cinecanalhd/index.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" group-title="United States",FX Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/fxhd/index.m3u8
+#EXTINF:-1 tvg-id="PasionesLatinAmerica.us@SD" group-title="United States",Pasiones Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/pasioneshd/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us@Chile" group-title="United States",AXN Latin America Chile (1080p)
+https://cdn1tlinkgo.tlink.cl/axnhd/index.m3u8
+#EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional" group-title="United States",History 2 Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/history2hd/index.m3u8
+#EXTINF:-1 tvg-id="DHE.us@SD" group-title="United States",DHE (1080p)
+https://cdn1tlinkgo.tlink.cl/dhehd/index.m3u8
+#EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Panregional" group-title="United States",Lifetime Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/lifetime/index.m3u8
+#EXTINF:-1 tvg-id="SonyChannelAndes.us@SD" group-title="United States",Sony Channel Andes (1080p)
+https://cdn1tlinkgo.tlink.cl/sonyhd/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" group-title="United States",Studio Universal Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/studiouniversalhd/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" group-title="United States",National Geographic Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/natgeohd/index.m3u8
+#EXTINF:-1 tvg-id="FMHKids.us@SD" group-title="United States",FMH Kids (1080p)
+https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8
+#EXTINF:-1 tvg-id="FMHMovies.us@SD" group-title="United States",FMH Movies (1080p)
+https://cdn1tlinkgo.tlink.cl/fmhmovies/index.m3u8
+#EXTINF:-1 tvg-id="FXMovieChannel.us@SD" group-title="United States",FX Movie Channel (720p)
+http://misterich.megatv.fun/iptv/CVHTUN2FGZ4TTVYBXGA5MRPN/1106/index.m3u8
+#EXTINF:-1 tvg-id="Univision.us@EastHD" group-title="United States",Univision East HD (1080p)
+http://misterich.megatv.fun/iptv/CVHTUN2FGZ4TTVYBXGA5MRPN/1099/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -2043,6 +2085,8 @@ https://streamer.metronethn.com/Univision/index.m3u8
 https://streamer.metronethn.com/TUDN/index.m3u8
 #EXTINF:-1 tvg-id="GikTVMX.mx@SD" group-title="Mexico",GikTVMX (720p)
 https://pistream.ddns.net/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AzCinema.mx@SD" group-title="Mexico",Az Cinema (1080p)
+https://cdn1tlinkgo.tlink.cl/azcinema/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" group-title="Brazil",AgroCanal (720p)
@@ -3366,3 +3410,15 @@ https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" group-title="Argentina",Disney Channel Latin America (720p)
 https://streamer.metronethn.com/DisneyChannel/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" group-title="Argentina",Disney Channel Latin America (1080p)
+http://cdn1tlinkgo.tlink.cl/disneychannelhd/mono.m3u8
+#EXTINF:-1 tvg-id="ElGourmet.ar@Panregional" group-title="Argentina",El Gourmet (1080p)
+https://cdn1tlinkgo.tlink.cl/elgourmethd/index.m3u8
+#EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" group-title="Argentina",Europa Europa (1080p)
+https://cdn1tlinkgo.tlink.cl/europaeuropa/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" group-title="Argentina",Disney Jr. Latin America South (1080p)
+https://cdn1tlinkgo.tlink.cl/disneyjr/index.m3u8
+#EXTINF:-1 tvg-id="ElGourmet.ar@South" group-title="Argentina",El Gourmet South (1080p)
+https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
+#EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" group-title="Argentina",Europa Europa (1080p)
+https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
