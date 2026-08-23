@@ -1652,8 +1652,6 @@ http://168.228.44.241:9998/play/a0e1/index.m3u8
 https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 #EXTINF:-1 tvg-id="STomSings.us@HD" group-title="United States",S Tom Sings (1080p)
 https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
-#EXTINF:-1 tvg-id="MoreMax.us@EastHD" group-title="United States",MoreMax East HD (720p)
-https://sra72yz.s.gy/MORE_MAX_EAST_HD.m3u8
 #EXTINF:-1 tvg-id="TheDoctors.us@HD" group-title="United States",The Doctors (720p)
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8
 #EXTINF:-1 tvg-id="WGGSTV161.us@HD" group-title="United States",WGGS-TV 16.1
@@ -1736,6 +1734,14 @@ https://cdn1tlinkgo.tlink.cl/fmhmovies/index.m3u8
 http://misterich.megatv.fun/iptv/CVHTUN2FGZ4TTVYBXGA5MRPN/1106/index.m3u8
 #EXTINF:-1 tvg-id="Univision.us@EastHD" group-title="United States",Univision East HD (1080p)
 http://misterich.megatv.fun/iptv/CVHTUN2FGZ4TTVYBXGA5MRPN/1099/index.m3u8
+#EXTINF:-1 tvg-id="FaithTV.us@SD" group-title="United States",Faith TV (1080p)
+https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TheWalkTV.us@SD" group-title="United States",The Walk TV
+https://wggstv16.ddns.net:9953/hls/walk1.m3u8
+#EXTINF:-1 tvg-id="ESPNews.us@SD" group-title="United States",ESPNews (720p)
+http://41.205.93.154/ESPNNEWS/index.m3u8
+#EXTINF:-1 tvg-id="SECNetwork.us@SD" group-title="United States",SEC Network (1080p)
+http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -3422,3 +3428,5 @@ https://cdn1tlinkgo.tlink.cl/disneyjr/index.m3u8
 https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" group-title="Argentina",Europa Europa (1080p)
 https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
+#EXTINF:-1 tvg-id="Telesol.ar@SD" group-title="Argentina",Telesol (1080p)
+https://cdn1.tvlin.net/open/telesol/playlist.m3u8
