@@ -342,6 +342,12 @@ https://cdn1tlinkgo.tlink.cl/babytv/index.m3u8
 https://cdn1tlinkgo.tlink.cl/eurochannel/index.m3u8
 #EXTINF:-1 tvg-id="FaithUK.uk@SD" group-title="United Kingdom",Faith UK (1080p)
 https://faithnow-hls.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MasterChefsAcademyTV.uk@HD" group-title="United Kingdom",Master Chefs Academy TV (720p)
+https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@Romania" group-title="United Kingdom",BBC Earth Romania
+#EXTVLCOPT:http-referrer=https://cool-tv.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+https://iron1.jarvisx1.cfd/ert/usergenrx8ofzq1kr.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -1897,6 +1903,12 @@ https://stream.cp.ets-sistemi.it:1936/profservtv/profservtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZonaDAZN.it@SD" group-title="Italy",Zona DAZN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/24/index.m3u8
+#EXTINF:-1 tvg-id="RaiNews24.it@HD" group-title="Italy",Rai News 24 HD (1080p)
+https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
+#EXTINF:-1 tvg-id="TGCom24.it@SD" group-title="Italy",TGCom24 (720p)
+https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8
+#EXTINF:-1 tvg-id="InterTV.it@SD" group-title="Italy",Inter TV (1080p)
+https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -2341,6 +2353,10 @@ https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
 https://cdn1tlinkgo.tlink.cl/tve/index.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" group-title="Spain",Clan (1080p)
 https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8
+#EXTINF:-1 tvg-id="AXNCEE.es@Romania" group-title="Spain",AXN CEE Romania
+#EXTVLCOPT:http-referrer=https://cool-tv.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" group-title="Spain",People are Awesome
 https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Spain" group-title="Spain",The Pet Collective
@@ -2406,7 +2422,7 @@ http://46.149.191.219:9100/play/a015
 #EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Czechia" group-title="Netherlands",FILMBOX+ Comedy Czechia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://88.212.15.19/live/test_filmbox_family_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@MagyarRomania" group-title="Netherlands",FILMBOX+ Comedy Magyar & Romania (576p)
+#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Magyar" group-title="Netherlands",FILMBOX+ Comedy Magyar (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_filmbox_family_hun_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Adria" group-title="Netherlands",FILMBOX+ Emotion Adria
@@ -2650,6 +2666,8 @@ http://86.87.15.10:8004/play/a02b/index.m3u8
 http://145.239.5.177/349/index.m3u8
 #EXTINF:-1 tvg-id="ZO34.nl@SD" group-title="Netherlands",ZO!34 (720p)
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
+#EXTINF:-1 tvg-id="FightBox.nl@HD" group-title="Netherlands",FightBox HD
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" group-title="Netherlands",Artflix Movie Classics (720p)
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us@US" group-title="Netherlands",Failarmy International
