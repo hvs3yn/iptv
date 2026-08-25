@@ -2602,6 +2602,12 @@ https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
 https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
 #EXTINF:-1 tvg-id="Telesol.ar@SD" group-title="Argentina",Telesol (1080p)
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
+#EXTINF:-1 tvg-id="TheCabbinFM.ar@SD" group-title="Argentina",The Cabbin FM
+https://5f700d5b2c46f.streamlock.net/thecabinn/thecabinn/playlist.m3u8
+#EXTINF:-1 tvg-id="SomosEntreRios.ar@SD" group-title="Argentina",Somos Entre Rios (360p)
+https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
+#EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" group-title="Argentina",24/7 Canal de Noticias
+https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" group-title="Austria",Antenne Steiermark (720p)
@@ -4490,6 +4496,10 @@ http://119.166.53.110:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 http://119.166.53.110:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="QTV4.cn@SD" group-title="China",QTV-4
 http://119.166.53.110:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="CGTN.cn@SD" group-title="China",CGTN (1080p)
+https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" group-title="China",CGTN Documentary (1080p)
+https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -4712,6 +4722,9 @@ https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
 https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="YleX.fi@SD" group-title="Finland",YleX Studio Live (720p)
 https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
+#EXTINF:-1 tvg-id="STARChannel.fi@SD" group-title="Finland",STAR Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="6ter.fr@SD" group-title="France",6ter (1080p)
 http://145.239.5.177/314/index.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" group-title="France",20 Minutes TV (1080p)
@@ -5879,6 +5892,10 @@ http://88.212.15.19/live/story_4_cze_atk/index.m3u8
 #EXTVLCOPT:http-referrer=https://cool-tv.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://cronos.mangora1.cfd/spyn/usergencs85ja0j1rrnd.m3u8
+#EXTINF:-1 tvg-id="FilmCafe.hu@Romania" group-title="Hungary",Film Cafe Romania
+#EXTVLCOPT:http-referrer=https://cool-tv.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+https://atlantida1.aquax1.cfd/cofyfilm/usergendxn8lzrnd.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir@SD" group-title="Iran",AFN TV
@@ -7581,6 +7598,12 @@ http://103.250.28.74:8000/play/a04x/index.m3u8
 http://103.250.28.74:8000/play/a00w/index.m3u8
 #EXTINF:-1 tvg-id="WasebTV.pk@SD" group-title="Pakistan",Waseb TV (576p)
 http://103.250.28.74:8000/play/a04k/index.m3u8
+#EXTINF:-1 tvg-id="ARYNews.pk@SD" group-title="Pakistan",ARY News
+https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8
+#EXTINF:-1 tvg-id="AikNews.pk@SD" group-title="Pakistan",Aik News
+https://s2.ideationtec.live/Pnn/Pnn.m3u8?token=KsR3k27_sH3n-2
+#EXTINF:-1 tvg-id="AikNews.pk@SD" group-title="Pakistan",Aik News
+https://cdn23lhr.tamashaweb.com:8087/jazzauth/PNN-abr/live/vsat-84H/chunks.m3u8
 #EXTINF:-1 tvg-id="ATMRozrywkaREWORK.pl@HD" group-title="Poland",ATM Rozrywka REWORK (720p)
 https://grupaatmrr.org.pl:8888/fallback/index.m3u8
 #EXTINF:-1 tvg-id="AXNPoland.pl@SD" group-title="Poland",AXN Poland
@@ -9269,6 +9292,10 @@ https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
 #EXTVLCOPT:http-referrer=https://cool-tv.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://iron1.jarvisx1.cfd/ert/usergenrx8ofzq1kr.m3u8
+#EXTINF:-1 tvg-id="AMCEurope.uk@Romania" group-title="United Kingdom",AMC Europe Romania
+#EXTVLCOPT:http-referrer=https://cool-tv.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+https://iron1.jarvisx1.cfd/amece/usergenrx3oq1kr.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD" group-title="United States",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="48Hours.us@US" group-title="United States",48 Hours (1080p)
@@ -11012,6 +11039,10 @@ https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8
 #EXTVLCOPT:http-referrer=https://cool-tv.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://onyx1.mofta1.cfd/axwhite/usergenx23rnd.m3u8
+#EXTINF:-1 tvg-id="DiyaTV.us@SD" group-title="United States",Diya TV (1080p)
+https://stream.diyatvinc.com/diya.m3u8
+#EXTINF:-1 tvg-id="ABHPTV.us@HD" group-title="United States",ABHP TV (480p)
+https://vietprocast.app/hls/abhp/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
