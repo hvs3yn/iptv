@@ -228,14 +228,6 @@ http://188.138.29.131/skyfootball/index.m3u8
 #EXTINF:-1 tvg-id="5Sport.il@SD" group-title="Sports",5Sport (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/41/index.m3u8
-#EXTINF:-1 tvg-id="DDSports.in@SD" group-title="Sports",DD Sports SD (720p)
-http://103.213.31.109:90/ZeeAnmolCinema2/playlist.m3u8
-#EXTINF:-1 tvg-id="StarSports1.in@SD" group-title="Sports",Star Sports 1 (720p)
-https://tvsen7.aynaott.com/sspts1/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1.in@HD" group-title="Sports",Star Sports 1 HD (1080p)
-http://41.205.93.154/STARSPORTS1/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1.in@HD" group-title="Sports",Star Sports 1 HD (1080p)
-http://103.253.18.58:8000/play/a00m
 #EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" group-title="Sports",Star Sports 1 Hindi (576p)
 http://103.253.18.58:8000/play/a03o
 #EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" group-title="Sports",Star Sports 1 Hindi HD
