@@ -349,6 +349,8 @@ https://iranefardalive.com/stream/live.m3u8
 http://202.70.146.135:8000/play/a0a2/index.m3u8
 #EXTINF:-1 tvg-id="PlanetFun.uk@SD" group-title="United Kingdom",Planet Fun (1080p)
 http://66.102.126.10:8000/play/a02k/index.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk@Europe" group-title="United Kingdom",BBC News Europe (576p)
+https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2110,8 +2112,6 @@ http://145.239.5.177/359a/index.m3u8
 http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
 #EXTINF:-1 tvg-id="CiudadesdelOcioTV.es@SD" group-title="Spain",Ciudades Del Ocio TV (720p)
 https://cloudvideo.servers10.com:8081/8024/index.m3u8
-#EXTINF:-1 tvg-id="Clan.es@SD" group-title="Spain",Clan (1080p)
-http://185.47.212.25:8080/Clan_HD/index.m3u8
 #EXTINF:-1 tvg-id="CMMTV.es@HD" group-title="Spain",CMM TV HD (1080p)
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/flavorIds/1_a9gxgxzy,1_v71ryg4b,1_vbfvtjw6,1_obo1bqsx,1_3shk3s5d/a.m3u8
 #EXTINF:-1 tvg-id="CugatTV.es@SD" group-title="Spain",Cugat TV (1080p)
@@ -2124,8 +2124,6 @@ https://7nyaler.streamhostingcdn.top/stream/18/index.m3u8
 https://streaming.cloud.innovasur.es/mmj2/index.m3u8
 #EXTINF:-1 tvg-id="DiezTVUbeda.es@SD" group-title="Spain",Diez TV Úbeda (1080p)
 https://streaming.cloud.innovasur.es/mmj/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.es@SD" group-title="Spain",Disney Junior (576p)
-https://bbb.exoadash.com/TVD1561/index.mpd
 #EXTINF:-1 tvg-id="DistritoTV.es@SD" group-title="Spain",Distrito TV (1080p)
 https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
 #EXTINF:-1 tvg-id="DurangaldekoTelebista.es@SD" group-title="Spain",Durangaldeko Telebista (576p)

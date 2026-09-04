@@ -353,8 +353,6 @@ https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
 #EXTINF:-1 tvg-id="CMT.us@East" group-title="United States",CMT (720p)
 http://23.237.104.106:8080/USA_CMT/index.m3u8
-#EXTINF:-1 tvg-id="CNBCIndonesia.id@SD" group-title="United States",CNBC Indonesia (720p)
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ComedyCentral.us@East" group-title="United States",Comedy Central (1080p)
 http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" group-title="United States",Comedy Central Latin America (1080p)
@@ -1772,6 +1770,16 @@ http://livestream.usatv.com/hls/master-iUSATVLIVENET.m3u8
 https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" group-title="United States",Fox Business Network (576p)
 https://tvsen6.aynaott.com/foxbusiness/index.m3u8
+#EXTINF:-1 tvg-id="Gagsnetwork.us@SD" group-title="United States",Gagsnetwork (576p)
+http://stream.mcquack.net/458/index.m3u8
+#EXTINF:-1 tvg-id="AVIRewind.us@SD" group-title="United States",AVI Rewind (1080p)
+http://45.70.201.81:8000/play/a010/index.m3u8
+#EXTINF:-1 tvg-id="ComercioTV.us@SD" group-title="United States",Comercio TV (1080p)
+http://45.70.201.81:8000/play/a014/index.m3u8
+#EXTINF:-1 tvg-id="FierroaFondoTV.us@SD" group-title="United States",Fierro a Fondo TV (1080p)
+http://45.70.201.81:8000/play/a00x/index.m3u8
+#EXTINF:-1 tvg-id="ZTV.us@SD" group-title="United States",ZTV (1080p)
+http://45.70.201.81:8000/play/a00u/index.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelTV.ca@SD" group-title="Canada",Afghan Nobel TV (720p)
@@ -3462,3 +3470,15 @@ https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 http://38.44.109.41:8003/play/a02l/index.m3u8
 #EXTINF:-1 tvg-id="ElGourmet.ar@Panregional" group-title="Argentina",El Gourmet (1080p)
 http://190.61.101.11:7050/play/a09s/index.m3u8?hls
+#EXTINF:-1 tvg-id="Volver.ar@SD" group-title="Argentina",Volver (576p)
+http://138.121.113.175:8000/play/a04r/index.m3u8
+#EXTINF:-1 tvg-id="TelevisionPublica.ar@SD" group-title="Argentina",Television Publica (1080p)
+http://138.121.113.175:8000/play/a03l/index.m3u8
+#EXTINF:-1 tvg-id="Pakapaka.ar@SD" group-title="Argentina",Pakapaka (576p)
+http://138.121.113.175:8000/play/a04d/index.m3u8
+#EXTINF:-1 tvg-id="Encuentro.ar@SD" group-title="Argentina",Encuentro (576p)
+http://138.121.113.175:8000/play/a04c/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" group-title="Argentina",Disney Channel Latin America (1080p)
+http://45.70.201.81:8000/play/a00i/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" group-title="Argentina",Disney Jr. Latin America South (576p)
+http://45.70.201.81:8000/play/a00g/index.m3u8

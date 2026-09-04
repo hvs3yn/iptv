@@ -1966,44 +1966,20 @@ https://d2gvyg6lvauoko.cloudfront.net/230226/ddindia/chunks.m3u8
 https://cdn-1.pishow.tv/live/1617/master.m3u8
 #EXTINF:-1 tvg-id="DDKashir.in@SD" group-title="India",DD Kashir
 https://cdn-6.pishow.tv/live/16/master.m3u8
-#EXTINF:-1 tvg-id="DDMalayalam.in@SD" group-title="India",DD Malayalam
-https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-id="DDNational.in@HD" group-title="India",DD National HD (576p)
 https://mumt01.tangotv.in/O5aw8Zn3DDNATIONALHD/index.m3u8
-#EXTINF:-1 tvg-id="DDNews.in@SD" group-title="India",DD News
-https://cdn-2.pishow.tv/live/12/master.m3u8
-#EXTINF:-1 tvg-id="DDPunjabi.in@SD" group-title="India",DD Punjabi
-https://cdn-4.pishow.tv/live/24/master.m3u8
-#EXTINF:-1 tvg-id="DDSahyadri.in@SD" group-title="India",DD Sahyadri
-https://cdn-3.pishow.tv/live/30/master.m3u8
-#EXTINF:-1 tvg-id="DDTamil.in@HD" group-title="India",DD Tamil HD (576p)
-https://cdn-2.pishow.tv/live/26/master.m3u8
 #EXTINF:-1 tvg-id="DesiChannel.in@SD" group-title="India",Desi Channel (720p)
 https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
-#EXTINF:-1 tvg-id="DharmSandesh.in@SD" group-title="India",Dharm Sandesh
-https://cdn-2.pishow.tv/live/1455/master.m3u8
 #EXTINF:-1 tvg-id="DharsanTV.in@SD" group-title="India",Dharsan TV (720p)
 https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
 #EXTINF:-1 tvg-id="DheeranTV.in@SD" group-title="India",Dheeran TV (576p)
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
-#EXTINF:-1 tvg-id="DigiShala.in@SD" group-title="India",Digi Shala (576p)
-http://103.72.101.252:8080/live/1227.m3u8
-#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" group-title="India",Disney International HD (1080p)
-http://149.71.34.166:8002/play/a01p/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.in@SD" group-title="India",Disney Junior (576p)
-http://149.71.34.166:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="DivyavaniTV.in@SD" group-title="India",Divyavani TV (576p)
 https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
 #EXTINF:-1 tvg-id="DocuBayTV.in@SD" group-title="India",DocuBay TV (1080p)
 https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8
 #EXTINF:-1 tvg-id="DY365.in@SD" group-title="India",DY 365 (360p)
 https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8
-#EXTINF:-1 tvg-id="EVidya1.in@SD" group-title="India",E-Vidya 1 (576p)
-http://103.72.101.252:8080/live/400.m3u8
-#EXTINF:-1 tvg-id="EVidya2.in@SD" group-title="India",E-Vidya 2 (576p)
-http://103.72.101.252:8080/live/402.m3u8
-#EXTINF:-1 tvg-id="EVidya3.in@SD" group-title="India",E-Vidya 3 (576p)
-http://103.72.101.252:8080/live/405.m3u8
 #EXTINF:-1 tvg-id="EVidya4.in@SD" group-title="India",E-Vidya 4 (576p)
 http://103.72.101.252:8080/live/406.m3u8
 #EXTINF:-1 tvg-id="EVidya5.in@SD" group-title="India",E-Vidya 5 (576p)
@@ -2024,26 +2000,12 @@ http://103.72.101.252:8080/live/1410.m3u8
 http://103.72.101.252:8080/live/1532.m3u8
 #EXTINF:-1 tvg-id="EkamraBharatOdia.in@SD" group-title="India",Ekamra Bharat Odia (400p)
 https://live.ekamraott.com/bharat/bharat/index.m3u8
-#EXTINF:-1 tvg-id="Enterr10Bangla.in@SD" group-title="India",Enterr 10 Bangla (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/658/master.m3u8
-#EXTINF:-1 tvg-id="Enterr10Bangla.in@SD" group-title="India",Enterr 10 Bangla
-https://cdn-4.pishow.tv/live/241/master.m3u8
-#EXTINF:-1 tvg-id="EpicBharat.in@SD" group-title="India",Epic Bharat (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/471/master.m3u8
 #EXTINF:-1 tvg-id="EpicBhojpuri.in@SD" group-title="India",Epic Bhojpuri (576p)
 https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8
 #EXTINF:-1 tvg-id="EpicMusic.in@SD" group-title="India",Epic Music (576p)
 https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
-#EXTINF:-1 tvg-id="EpicTV.in@SD" group-title="India",Epic TV (576p)
-http://149.71.34.166:8000/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="EpicTV.in@Digital" group-title="India",Epic TV Digital (1080p)
 https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
-#EXTINF:-1 tvg-id="ETNowSwadesh.in@SD" group-title="India",ET Now Swadesh (720p)
-https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="ETVMusic.in@SD" group-title="India",ETV Music (1080p)
-https://dg3721c3ez5m0.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264_cloud-in/index.m3u8
 #EXTINF:-1 tvg-id="ETVAndhraPradesh.in@SD" group-title="India",ETV Andhra Pradesh (1080p)
 https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8
 #EXTINF:-1 tvg-id="ETVCinema.in@SD" group-title="India",ETV Cinema (396p)
@@ -2054,8 +2016,6 @@ https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVJosh.in@HD" group-title="India",ETV Josh (1080p)
 https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8
-#EXTINF:-1 tvg-id="ETVLife.in@SD" group-title="India",ETV Life (480p)
-https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8
 #EXTINF:-1 tvg-id="ETVMusic.in@HD" group-title="India",ETV Music (1080p)
 https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVNews.in@HD" group-title="India",ETV News (1080p)
@@ -2068,27 +2028,12 @@ https://d12ee3o8yfkkhd.cloudfront.net/c6a4b411295f47f48c908d2ac0605bad/index.m3u
 https://d37d7pfp7vjqhh.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264_cloud_in/index.m3u8
 #EXTINF:-1 tvg-id="ETVTelugu.in@HD" group-title="India",ETV Telugu HD (1080p)
 https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8
-#EXTINF:-1 tvg-id="ETVTelugu.in@USA" group-title="India",ETV Telugu USA (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="FaktMarathi.in@SD" group-title="India",Fakt Marathi (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/188/master.m3u8
-#EXTINF:-1 tvg-id="FlowersTV.in@SD" group-title="India",Flowers TV (576p)
-http://103.72.101.252:8080/live/634.m3u8
 #EXTINF:-1 tvg-id="FoodFood.in@SD" group-title="India",Food Food (576p)
 https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8
 #EXTINF:-1 tvg-id="GangaurTV.in@SD" group-title="India",Gangaur TV (1080p)
 https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
-#EXTINF:-1 tvg-id="GangaurTV.in@SD" group-title="India",Gangaur TV
-https://cdn-2.pishow.tv/live/1221/master.m3u8
 #EXTINF:-1 tvg-id="GlobalPunjab.in@SD" group-title="India",Global Punjab (1080p)
 https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines.in@SD" group-title="India",Goldmines (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/53/53_0.m3u8
-#EXTINF:-1 tvg-id="Goldmines2.in@SD" group-title="India",Goldmines 2 (576p)
-https://cdn-2.pishow.tv/live/1460/master.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" group-title="India",Goldmines Bollywood (576p)
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" group-title="India",Goldmines Bollywood
@@ -3292,7 +3237,7 @@ https://streams.tangotv.in/PTCNEWS/ORIGIN/index.m3u8
 https://streams.tangotv.in/LIVINGINDIANEWS/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="ChardiklaTimeTV.in@SD" group-title="India",Chardikla Time TV (576p)
 https://streams.tangotv.in/CHARDIKALATIMETV/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-id="ChardiklaTimeTV.in@SD" group-title="India",Chardikla Time TV (576p)
+#EXTINF:-1 tvg-id="PTCSimran.in@SD" group-title="India",PTC Simran (576p)
 https://streams.tangotv.in/PTCSIMRAN/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="FatehTV.in@SD" group-title="India",Fateh TV (576p)
 http://180.188.254.253/live/FATEHTVHD.m3u8
@@ -3432,7 +3377,7 @@ https://mumt05.tangotv.in/87NeALx2SPONDON/index.m3u8
 https://streams.tangotv.in/RANG/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="Ramdhenu.in@SD" group-title="India",Ramdhenu (576p)
 https://mumt01.tangotv.in/O5aw8Zn3RAMDHENU/index.m3u8
-#EXTINF:-1 tvg-id="NewsLive.in@SD" group-title="India",News Live (576p)
+#EXTINF:-1 tvg-id="NewsLiveBangla.in@SD" group-title="India",News Live Bangla (576p)
 https://mumt06.tangotv.in/qYyB8fXVINDRADHANU/index.m3u8
 #EXTINF:-1 tvg-id="AssamTalks.in@SD" group-title="India",Assam Talks (576p)
 https://mumt05.tangotv.in/87NeALx2ASSAMTALKS/index.m3u8
@@ -3784,3 +3729,31 @@ http://66.102.126.10:8000/play/a028/index.m3u8
 http://202.70.146.135:8000/play/a06c/index.m3u8
 #EXTINF:-1 tvg-id="LiveIndia.in@SD" group-title="India",Live India (576p)
 http://ptuf.ridsys.in/riptv/live/GEMINI_TV/index.m3u8
+#EXTINF:-1 tvg-id="Travelxp.in@HD" group-title="India",Travelxp HD (1080p)
+http://stream.mcquack.net/451/index.m3u8
+#EXTINF:-1 tvg-id="NewsLiveBangla.in@SD" group-title="India",News Live Bangla (576p)
+https://cdn-6.pishow.tv/live/10003/master.m3u8
+#EXTINF:-1 tvg-id="Fast1.in@SD" group-title="India",Fast1 (576p)
+https://mumt03.tangotv.in/Dsly5z3HFast1/index.m3u8
+#EXTINF:-1 tvg-id="NENews.in@SD" group-title="India",NE News (576p)
+https://mumt05.tangotv.in/87NeALx2NENEWS/preview.mp4
+#EXTINF:-1 tvg-id="SandeshNews.in@SD" group-title="India",Sandesh News (576p)
+https://mumt01.tangotv.in/O5aw8Zn3SANDESHNEWS/index.m3u8
+#EXTINF:-1 tvg-id="KNewsIndia.in@SD" group-title="India",K News India (576p)
+https://mumt07.tangotv.in/zHjX9OFlKNEWSINDIA/index.m3u8
+#EXTINF:-1 tvg-id="INews.in@SD" group-title="India",INews (576p)
+https://mumt03.tangotv.in/Dsly5z3HINEWS/index.m3u8
+#EXTINF:-1 tvg-id="News1st.in@SD" group-title="India",News 1st (576p)
+https://mumt03.tangotv.in/Dsly5z3HNEWS1STKANNADA/index.m3u8
+#EXTINF:-1 tvg-id="GTCPunjabi.in@SD" group-title="India",GTC Punjabi (576p)
+https://mumt01.tangotv.in/O5aw8Zn3GTC/index.m3u8
+#EXTINF:-1 tvg-id="GTCNews.in@SD" group-title="India",GTC News (576p)
+https://mumt03.tangotv.in/Dsly5z3HGTCNEWS/index.m3u8
+#EXTINF:-1 tvg-id="MKSix.in@SD" group-title="India",MK Six (576p)
+https://mumt06.tangotv.in/qYyB8fXVMKSIX/index.m3u8
+#EXTINF:-1 tvg-id="PrimeNews.in@SD" group-title="India",Prime News (576p)
+https://mumt07.tangotv.in/zHjX9OFlPRIMENEWS/index.m3u8
+#EXTINF:-1 tvg-id="MercyTV.in@SD" group-title="India",Mercy TV (576p)
+https://mumt03.tangotv.in/Dsly5z3HMERCYTV/index.m3u8
+#EXTINF:-1 tvg-id="IndiaVoice.in@SD" group-title="India",India Voice (576p)
+https://mumt04.tangotv.in/m18aqlK4INDIAVOICE/index.m3u8
