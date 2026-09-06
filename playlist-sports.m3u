@@ -255,6 +255,26 @@ http://59.103.38.46:8000/play/a125/index.m3u8
 http://59.103.38.46:8000/play/a126/index.m3u8
 #EXTINF:-1 tvg-id="SportsSquadHaryana.in@SD" group-title="Sports",Sports Squad Haryana (576p)
 http://180.188.254.253/live/SPORTSSQUADHARYANA.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen1.in@SD" group-title="Sports",Sony Sports Ten 1 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten1.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="Sports",Sony Sports Ten 1 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen2.in@SD" group-title="Sports",Sony Sports Ten 2 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten2.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" group-title="Sports",Sony Sports Ten 2 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" group-title="Sports",Sony Sports Ten 3 Hindi (1080p)
+https://cloudplay-sonyliv.pages.dev/ten3.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" group-title="Sports",Sony Sports Ten 3 Hindi HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen4.in@Tamil" group-title="Sports",Sony Sports Ten 4 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten4.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen4.in@Telugu" group-title="Sports",Sony Sports Ten 4 Telugu (1080p)
+https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen5.in@SD" group-title="Sports",Sony Sports Ten 5 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten5.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" group-title="Sports",Sony Sports Ten 5 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Sports First TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8?ads.vf=IqoHUzAjl6S
