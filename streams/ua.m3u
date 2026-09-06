@@ -518,3 +518,7 @@ http://dtv.vol.net.ua/MEGA_HD/index.m3u8
 http://dtv.vol.net.ua/Viasat-History/index.m3u8
 #EXTINF:-1 tvg-id="ViasatNature.ua@SD",Viasat Nature (576p)
 http://dtv.vol.net.ua/Viasat-Nature/index.m3u8
+#EXTINF:-1 tvg-id="HistoryUkraine.ua@SD",History Ukraine
+http://dtv.vol.net.ua/History_HD/index.m3u8
+#EXTINF:-1 tvg-id="History2Ukraine.ua@SD",History2 Ukraine (360p)
+http://dtv.vol.net.ua/H2-HD/index.m3u8
