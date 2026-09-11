@@ -1,0 +1,288 @@
+name: AI Review
+
+# Self-maintenance: reviews the repository with an AI agent (JCode) and
+# proposes fixes via Pull Request. Findings that are unsafe to auto-fix are
+# filed as GitHub Issues. This workflow never pushes to master.
+#
+# Providers are detected from repository secrets:
+#   ANTHROPIC_API_KEY -> Claude   (coding / fixes)
+#   OPENAI_API_KEY    -> OpenAI   (architecture / idea generation)
+#   GEMINI_API_KEY    -> Gemini   (documentation / writing)
+# Ollama is intentionally NOT used here: it is a local-only provider and is
+# never assumed to exist inside GitHub Actions runners.
+#
+# Docs: .github/docs/ai-review.md
+
+on:
+  workflow_dispatch:
+    inputs:
+      focus:
+        description: 'Optional extra instruction for this review run'
+        required: false
+        type: string
+  workflow_run:
+    workflows: ['Build Playlist', 'update']
+    types: [completed]
+    branches: [master]
+  schedule:
+    # Weekly full review. Safe to leave enabled: the run exits early
+    # (successfully) when no provider secrets are configured.
+    - cron: '0 3 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+# Never run two reviews at once; a second trigger waits.
+concurrency:
+  group: ai-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    # For workflow_run triggers, only react to successful upstream runs.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Detect available AI providers
+        id: providers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -euo pipefail
+          HAS_CLAUDE=false; HAS_OPENAI=false; HAS_GEMINI=false; ANY=false
+          [ -n "${ANTHROPIC_API_KEY}" ] && { HAS_CLAUDE=true; ANY=true; }
+          [ -n "${OPENAI_API_KEY}" ]    && { HAS_OPENAI=true; ANY=true; }
+          [ -n "${GEMINI_API_KEY}" ]    && { HAS_GEMINI=true; ANY=true; }
+          {
+            echo "has_claude=$HAS_CLAUDE"
+            echo "has_openai=$HAS_OPENAI"
+            echo "has_gemini=$HAS_GEMINI"
+            echo "any=$ANY"
+          } >> "$GITHUB_OUTPUT"
+          if [ "$ANY" = "false" ]; then
+            echo "::notice::No AI provider secrets configured (ANTHROPIC_API_KEY / OPENAI_API_KEY / GEMINI_API_KEY). Skipping review."
+          else
+            echo "Providers: claude=$HAS_CLAUDE openai=$HAS_OPENAI gemini=$HAS_GEMINI"
+          fi
+
+      - name: Cache cargo (JCode build fallback)
+        if: steps.providers.outputs.any == 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: jcode-cargo-${{ runner.os }}
+
+      - name: Install JCode
+        if: steps.providers.outputs.any == 'true'
+        run: |
+          set -euo pipefail
+          export PATH="$HOME/.cargo/bin:$PATH"
+          if command -v jcode >/dev/null 2>&1; then
+            echo "JCode already installed: $(jcode --version || true)"
+            exit 0
+          fi
+
+          # 1) Prefer a prebuilt Linux release asset if one exists.
+          ASSET_URL=$(curl -fsSL "https://api.github.com/repos/1jehuang/jcode/releases/latest" 2>/dev/null \
+            | jq -r '[.assets[]? | select(.name | test("linux"; "i")) | select(.name | test("x86_64|amd64"; "i"))][0].browser_download_url // empty' || true)
+
+          if [ -n "$ASSET_URL" ]; then
+            echo "Installing JCode from release asset: $ASSET_URL"
+            TMP=$(mktemp -d)
+            curl -fsSL "$ASSET_URL" -o "$TMP/asset"
+            case "$ASSET_URL" in
+              *.tar.gz|*.tgz) tar -xzf "$TMP/asset" -C "$TMP" ;;
+              *.zip)          unzip -oq "$TMP/asset" -d "$TMP" ;;
+              *)              mv "$TMP/asset" "$TMP/jcode" ;;
+            esac
+            BIN=$(find "$TMP" -maxdepth 3 -type f -name 'jcode*' ! -name '*.tar.gz' ! -name '*.zip' | head -n1)
+            chmod +x "$BIN"
+            sudo install -m 755 "$BIN" /usr/local/bin/jcode
+          else
+            # 2) Fall back to building from source (cached by the cargo cache).
+            echo "No release asset found; building JCode from source..."
+            cargo install --locked --git https://github.com/1jehuang/jcode jcode
+          fi
+
+          echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+          jcode --version
+
+      - name: Assemble review prompt
+        if: steps.providers.outputs.any == 'true'
+        id: prompt
+        env:
+          FOCUS: ${{ inputs.focus }}
+          HAS_CLAUDE: ${{ steps.providers.outputs.has_claude }}
+          HAS_OPENAI: ${{ steps.providers.outputs.has_openai }}
+          HAS_GEMINI: ${{ steps.providers.outputs.has_gemini }}
+        run: |
+          set -euo pipefail
+          PROMPT_FILE=$(mktemp)
+
+          cat .github/ai-review/prompt.md >> "$PROMPT_FILE"
+
+          # Append optional drop-in tasks (sorted, README excluded).
+          if ls .github/ai-review/tasks/*.md >/dev/null 2>&1; then
+            for f in $(ls .github/ai-review/tasks/*.md | sort); do
+              [ "$(basename "$f")" = "README.md" ] && continue
+              printf '\n\n' >> "$PROMPT_FILE"
+              cat "$f" >> "$PROMPT_FILE"
+            done
+          fi
+
+          # Provider routing appendix, based on what is actually available.
+          {
+            printf '\n\n## Provider routing for this run\n\n'
+            [ "$HAS_CLAUDE" = "true" ] && echo '- Use Anthropic Claude models for all coding tasks: writing fixes, editing playlists, and modifying workflows.'
+            [ "$HAS_OPENAI" = "true" ] && echo '- Use OpenAI models for architecture analysis and idea generation (repository organization, maintainability review).'
+            [ "$HAS_GEMINI" = "true" ] && echo '- Use Google Gemini models for documentation and writing tasks (README, docs, the review report).'
+            echo '- If only one provider is listed above, use it for everything.'
+            echo '- Ollama/local models are NOT available in this environment. Do not attempt to use them.'
+          } >> "$PROMPT_FILE"
+
+          # Optional operator focus from workflow_dispatch input.
+          if [ -n "${FOCUS}" ]; then
+            printf '\n\n## Operator focus for this run\n\n%s\n' "${FOCUS}" >> "$PROMPT_FILE"
+          fi
+
+          echo "path=$PROMPT_FILE" >> "$GITHUB_OUTPUT"
+          echo "Prompt assembled ($(wc -l < "$PROMPT_FILE") lines)"
+
+      - name: Create review branch
+        if: steps.providers.outputs.any == 'true'
+        id: branch
+        run: |
+          set -euo pipefail
+          BRANCH="ai-review/${{ github.run_id }}"
+          git config user.name "ai-review[bot]"
+          git config user.email "ai-review-bot@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Run AI review
+        if: steps.providers.outputs.any == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Some tools read the Google key under this name as well.
+          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PROMPT_FILE: ${{ steps.prompt.outputs.path }}
+        run: |
+          set -euo pipefail
+          # Non-interactive, sandboxed to this checkout. If your installed
+          # JCode version uses different headless flags, adjust this single
+          # line (see .github/docs/ai-review.md).
+          jcode -p "$(cat "$PROMPT_FILE")"
+
+      - name: Collect results
+        if: steps.providers.outputs.any == 'true'
+        id: results
+        run: |
+          set -euo pipefail
+          # Commit anything the agent left uncommitted (including the report).
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "AI review: apply automated fixes"
+          fi
+
+          CHANGED=false
+          # Any commits beyond origin/master means we have something to PR.
+          if [ "$(git rev-list --count origin/master..HEAD)" -gt 0 ] && \
+             ! git diff --quiet origin/master...HEAD -- . ':(exclude)AI_REVIEW_REPORT.md'; then
+            CHANGED=true
+          fi
+
+          HAS_FINDINGS=false
+          if [ -f AI_REVIEW_REPORT.md ] && grep -q 'Needs human attention' AI_REVIEW_REPORT.md; then
+            # Only count it if the section is non-empty.
+            if awk '/## Needs human attention/{flag=1; next} /^## /{flag=0} flag && NF' AI_REVIEW_REPORT.md | grep -q .; then
+              HAS_FINDINGS=true
+            fi
+          fi
+
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "has_findings=$HAS_FINDINGS" >> "$GITHUB_OUTPUT"
+          echo "changed=$CHANGED has_findings=$HAS_FINDINGS"
+
+      - name: Upload review report artifact
+        if: steps.providers.outputs.any == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-review-report-${{ github.run_id }}
+          path: AI_REVIEW_REPORT.md
+          if-no-files-found: ignore
+
+      - name: Open Pull Request with fixes
+        if: steps.providers.outputs.any == 'true' && steps.results.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git push origin "${{ steps.branch.outputs.name }}"
+          BODY_FILE=$(mktemp)
+          {
+            echo "Automated fixes from the AI review run [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})."
+            echo
+            if [ -f AI_REVIEW_REPORT.md ]; then
+              cat AI_REVIEW_REPORT.md
+            fi
+          } > "$BODY_FILE"
+          gh pr create \
+            --base master \
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "AI review: automated fixes ($(date -u +%Y-%m-%d))" \
+            --body-file "$BODY_FILE" \
+            --label "ai-review" || \
+          gh pr create \
+            --base master \
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "AI review: automated fixes ($(date -u +%Y-%m-%d))" \
+            --body-file "$BODY_FILE"
+
+      - name: File Issue for findings that were not auto-fixed
+        if: steps.providers.outputs.any == 'true' && steps.results.outputs.has_findings == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          BODY_FILE=$(mktemp)
+          {
+            echo "The AI review run [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) found problems that were not safe to fix automatically."
+            echo
+            cat AI_REVIEW_REPORT.md
+          } > "$BODY_FILE"
+          gh issue create \
+            --title "AI review findings ($(date -u +%Y-%m-%d))" \
+            --body-file "$BODY_FILE" \
+            --label "ai-review" || \
+          gh issue create \
+            --title "AI review findings ($(date -u +%Y-%m-%d))" \
+            --body-file "$BODY_FILE"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## AI Review"
+            if [ "${{ steps.providers.outputs.any }}" != "true" ]; then
+              echo "Skipped: no provider secrets configured."
+            else
+              echo "- Fixes PR created: ${{ steps.results.outputs.changed || 'false' }}"
+              echo "- Findings issue created: ${{ steps.results.outputs.has_findings || 'false' }}"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

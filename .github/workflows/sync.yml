@@ -1,0 +1,189 @@
+name: Sync with Upstream
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Configure Git
+        shell: bash
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          set -e
+
+          if [ -z "$SYNC_TOKEN" ]; then
+            echo "ERROR: SYNC_TOKEN is missing."
+            exit 1
+          fi
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git config --global credential.helper store
+
+          printf "https://x-access-token:%s@github.com\n" "$SYNC_TOKEN" \
+            > "$HOME/.git-credentials"
+
+          chmod 600 "$HOME/.git-credentials"
+
+      - name: Clone fork
+        shell: bash
+        run: |
+          set -e
+
+          git clone \
+            --origin origin \
+            "https://github.com/hvs3yn/iptv.git" \
+            "$GITHUB_WORKSPACE"
+
+          cd "$GITHUB_WORKSPACE"
+
+          git checkout "$GITHUB_REF_NAME"
+
+      - name: Add upstream
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          git remote add upstream \
+            "https://github.com/iptv-org/iptv.git"
+
+          git fetch upstream --prune
+
+      - name: Detect upstream branch
+        id: upstream
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          if git show-ref --verify --quiet refs/remotes/upstream/master; then
+            echo "branch=master" >> "$GITHUB_OUTPUT"
+            echo "Upstream branch: master"
+          elif git show-ref --verify --quiet refs/remotes/upstream/main; then
+            echo "branch=main" >> "$GITHUB_OUTPUT"
+            echo "Upstream branch: main"
+          else
+            echo "ERROR: upstream master/main branch not found."
+            exit 1
+          fi
+
+      - name: Save fork customizations
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          rm -rf /tmp/fork-custom
+          mkdir -p /tmp/fork-custom
+
+          CUSTOM_FILES=(
+            ".github/workflows"
+            ".github/docs"
+            "playlist-filter.conf"
+            "playlist-exclude.conf"
+            "playlist-execute.conf"
+            "playlist-filter-europe.conf"
+            "playlist-filter-asia.conf"
+            "playlist-filter-america.conf"
+            "playlist.m3u"
+            "playlist-sports.m3u"
+            "playlist-europe.m3u"
+            "playlist-asia.m3u"
+            "playlist-america.m3u"
+          )
+
+          for file in "${CUSTOM_FILES[@]}"; do
+            if [ -e "$file" ]; then
+              echo "Saving fork customization: $file"
+
+              mkdir -p "/tmp/fork-custom/$(dirname "$file")"
+
+              cp -a "$file" "/tmp/fork-custom/$file"
+            else
+              echo "Not present in fork: $file"
+            fi
+          done
+
+      - name: Replace repository with upstream
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          UPSTREAM_BRANCH="${{ steps.upstream.outputs.branch }}"
+
+          echo "Replacing repository tree with upstream/$UPSTREAM_BRANCH..."
+
+          git rm -r --cached . >/dev/null 2>&1 || true
+          git clean -fdx
+
+          git archive "upstream/$UPSTREAM_BRANCH" | tar -x
+
+          echo "Upstream tree restored."
+
+      - name: Restore fork customizations
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          if [ -d /tmp/fork-custom ]; then
+            echo "Restoring fork customizations..."
+            cp -a /tmp/fork-custom/. "$GITHUB_WORKSPACE/"
+          fi
+
+          echo "Fork customizations restored."
+
+      - name: Commit synchronization
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git commit -m "Sync with upstream"
+
+      - name: Push changes
+        shell: bash
+        run: |
+          set -e
+
+          cd "$GITHUB_WORKSPACE"
+
+          BRANCH="${GITHUB_REF_NAME}"
+
+          echo "Pushing synchronized repository to origin/$BRANCH..."
+
+          git push origin "HEAD:$BRANCH"
+
+          echo "======================================"
+          echo "SYNC COMPLETED SUCCESSFULLY"
+          echo "======================================"
