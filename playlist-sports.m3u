@@ -211,8 +211,6 @@ http://stream.mcquack.net/41/index.m3u8
 http://103.253.18.58:8000/play/a03o
 #EXTINF:-1 tvg-id="StarSports2.in@HD" group-title="Sports",Star Sports 2 HD (720p)
 http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2.in@HD" group-title="Sports",Star Sports 2 HD (720p)
-https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" group-title="Sports",Star Sports 2 Hindi (720p)
 https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" group-title="Sports",Star Sports 2 Hindi HD (1080p)
@@ -253,7 +251,7 @@ https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d2
 #EXTINF:-1 tvg-id="DDSports.in@SD" group-title="Sports",DD Sports SD (1080p)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@SD" group-title="Sports",DD Sports (720p)
-https://cdn-6.pishow.tv/live/13/master.m3u8
+https://cdn.pishow.tv/ott/live/13/master.m3u8
 #EXTINF:-1 tvg-id="AlIraqiaSport.iq@SD" group-title="Sports",Al Iraqia Sport (720p)
 https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
 #EXTINF:-1 tvg-id="ACISportTV.it@SD" group-title="Sports",ACI Sport TV (1080p)
