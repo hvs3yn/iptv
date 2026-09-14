@@ -34,8 +34,6 @@ https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" group-title="United Kingdom",BabyTV Latin America (720p)
 http://138.121.15.230:9002/BABY-TV/index.m3u8
-#EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" group-title="United Kingdom",BabyTV Latin America (720p)
-http://179.60.51.134:8888/BABY-TV/index.m3u8
 #EXTINF:-1 tvg-id="BabyTV.uk@Turkiye" group-title="United Kingdom",BabyTV Turkiye (1080p) [Geo-blocked]
 https://saran-live.ercdn.net/babytv/index.m3u8
 #EXTINF:-1 tvg-id="BBCEarth.uk@Czechia" group-title="United Kingdom",BBC Earth Czechia
@@ -1182,8 +1180,6 @@ https://stream8.cinerama.uz/1418/tracks-v1a1/mono.m3u8
 http://stream.mcquack.net/440/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@English" group-title="Germany",DW English (576p)
 https://cdn-7.pishow.tv/live/431/master.m3u8
-#EXTINF:-1 tvg-id="DW.de@Espanol" group-title="Germany",DW Espanol (1080p)
-http://177.234.249.178:8888/DW/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@Espanol" group-title="Germany",DW Espanol (1080p)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-id="DW.de@Espanol" group-title="Germany",DW Espanol (1080p)
