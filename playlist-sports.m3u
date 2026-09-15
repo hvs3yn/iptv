@@ -59,8 +59,6 @@ https://jmp2.uk/plu-619e6614c9d9650007a2b171.m3u8
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 #EXTINF:-1 tvg-id="SportTV.by@SD" group-title="Sports",Sport TV (1080p)
 http://178.124.179.122:8080/SportTV/mpegts
-#EXTINF:-1 tvg-id="TNCSports.bz@SD" group-title="Sports",TNC Sports (1080p)
-https://streamer1.nexgen.bz/TNC_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="WillowSports.us@SD" group-title="Sports",Willow Sports (720p)
 https://jmp2.uk/plu-6972546cc62833833a187f50.m3u8
 #EXTINF:-1 tvg-id="ShandongTVSportsChannel.cn@SD" group-title="Sports",山东体育 (1080p) [Geo-blocked]
@@ -538,6 +536,9 @@ https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports.uk@SD" group-title="Sports",Setanta Sports (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/313/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSports.uk@HD" group-title="Sports",Setanta Sports HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",U&Transport (720p)
 https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",U&Transport (1080p) [Geo-blocked]
@@ -556,12 +557,8 @@ http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" group-title="Sports",FTF Sports (720p)
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
-#EXTINF:-1 tvg-id="NBCSportsBayArea.us@SD" group-title="Sports",NBC Sports Bay Area (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" group-title="Sports",NBC Sports NOW (1080p)
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-id="NBCSportsPhiladelphia.us@SD" group-title="Sports",NBC Sports Philadelphia (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/nbc-sports-philly/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSClassicSports.us@SD" group-title="Sports",TVS Classic Sports (360p)
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 #EXTINF:-1 tvg-id="TVSSports.us@SD" group-title="Sports",TVS Sports (720p) [Not 24/7]
