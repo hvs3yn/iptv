@@ -1884,8 +1884,6 @@ http://4.30.180.36:8420/history/index.m3u8?token=test
 http://4.30.180.36:8420/syfy/index.m3u8?token=test
 #EXTINF:-1 tvg-id="ParamountNetwork.us@East" group-title="United States",Paramount Network (720p)
 http://4.30.180.36:8420/paramount/index.m3u8?token=test
-#EXTINF:-1 tvg-id="ComedyCentral.us@East" group-title="United States",Comedy Central (720p)
-http://4.30.180.36:8420/comedycentral/index.m3u8?token=test
 #EXTINF:-1 tvg-id="AMC.us@EastHD" group-title="United States",AMC (720p)
 http://4.30.180.36:8420/amc/index.m3u8?token=test
 #EXTINF:-1 tvg-id="HallmarkChannel.us@East" group-title="United States",Hallmark Channel (720p)
@@ -1894,7 +1892,7 @@ http://4.30.180.36:8420/hallmark/index.m3u8?token=test
 http://4.30.180.36:8420/lifetime/index.m3u8?token=test
 #EXTINF:-1 tvg-id="USANetwork.us@East" group-title="United States",USA Network (720p)
 http://4.30.180.36:8420/usa/index.m3u8?token=test
-#EXTINF:-1 tvg-id="FX.us@East" group-title="United States",FX (720p)
+#EXTINF:-1 tvg-id="FX.us@EastHD" group-title="United States",FX East HD (720p)
 http://4.30.180.36:8420/fx/index.m3u8?token=test
 #EXTINF:-1 tvg-id="VH1.us@East" group-title="United States",VH1 (720p)
 http://4.30.180.36:8420/vh1/index.m3u8?token=test
@@ -1910,9 +1908,9 @@ http://4.30.180.36:8420/cnbc/index.m3u8?token=test
 http://4.30.180.36:8420/msnbc/index.m3u8?token=test
 #EXTINF:-1 tvg-id="SPremium.us@HD" group-title="United States",S Premium! (360p)
 https://vodcdn.bamboo-cloud.com/livehls/6aa1f82906304434d9688a53/master.m3u8
-#EXTINF:-1 tvg-id="Galavision.us@East" group-title="United States",Galavision (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Galavision.us@EastHD" group-title="United States",Galavision East HD (1080p) [Geo-blocked]
 https://streaming-live-fcdn.api.prd.univisionnow.com/galaeast/galaeast.isml/hls/galaeast.m3u8
-#EXTINF:-1 tvg-id="Galavision.us@West" group-title="United States",Galavision West (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Galavision.us@WestHD" group-title="United States",Galavision West HD (1080p) [Geo-blocked]
 https://streaming-live-fcdn.api.prd.univisionnow.com/galawest/galawest.isml/hls/galawest.m3u8
 #EXTINF:-1 tvg-id="Univision.us@East" group-title="United States",Univision (1080p) [Geo-blocked]
 https://streaming-live-fcdn.api.prd.univisionnow.com/unieast/unieast.isml/hls/unieast.m3u8
@@ -1967,6 +1965,8 @@ https://rarelivetv8080.neocities.org/USA_KARTOON_CHANNEL/index.m3u8
 http://181.78.79.131:8000/play/a0mu
 #EXTINF:-1 tvg-id="24Kitchen.us@Bulgary" group-title="United States",24Kitchen Bulgary (1080p)
 http://hls127.freeott.top:8080/BG_24_Kitchen/video.m3u8
+#EXTINF:-1 tvg-id="HolaTVLatinAmerica.us@SD" group-title="United States",Hola! TV Latin America
+https://xyktmobile00.s.gy/PPV901_HOLA_TV
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
@@ -2232,6 +2232,8 @@ http://107.167.16.138/cp24/index.m3u8?token=test
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 #EXTINF:-1 tvg-id="StingrayiConcerts.ca@HD" group-title="Canada",Stingray iConcerts HD (1080p)
 http://str2.iptvhd.ru:8080/iConcertsHD/index.m3u8
+#EXTINF:-1 tvg-id="StingrayTikTokRadio.ca@HD" group-title="Canada",Stingray TikTok Radio (1080p)
+https://d3f4oii5n0oeqi.cloudfront.net/11701/88814594/hls/master.m3u8?ads.xumo_channelId=88814594
 #EXTINF:-1 tvg-id="8NTV.mx@SD" group-title="Mexico",8NTV (1080p)
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="15TV.mx@SD" group-title="Mexico",15TV (720p) [Not 24/7]
@@ -2568,6 +2570,12 @@ http://138.121.15.230:9002/DISTRITO-COMEDIA/index.m3u8
 http://138.121.15.230:9002/LAS-ESTRELLAS/index.m3u8
 #EXTINF:-1 tvg-id="GoldenEdge.mx@Panregional" group-title="Mexico",Golden Edge (1080p)
 http://138.121.15.230:9002/GOLDEN-EDGE/index.m3u8
+#EXTINF:-1 tvg-id="Canal5.mx@SD" group-title="Mexico",Canal 5
+https://xyktmobile00.s.gy/PPV903_CANAL_5
+#EXTINF:-1 tvg-id="CineLatino.mx@SD" group-title="Mexico",CineLatino
+https://xyktmobile00.s.gy/PPV905_CINE_LATINO
+#EXTINF:-1 tvg-id="GoldenPremier.mx@SD" group-title="Mexico",Golden Premier
+https://xyktmobile00.s.gy/PPV902_GOLDENP1_HD
 #EXTINF:-1 tvg-id="1001Noites.br@SD" group-title="Brazil",1001 Noites (720p) [Not 24/7]
 https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
