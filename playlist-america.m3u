@@ -1967,6 +1967,12 @@ http://181.78.79.131:8000/play/a0mu
 http://hls127.freeott.top:8080/BG_24_Kitchen/video.m3u8
 #EXTINF:-1 tvg-id="HolaTVLatinAmerica.us@SD" group-title="United States",Hola! TV Latin America
 https://xyktmobile00.s.gy/PPV901_HOLA_TV
+#EXTINF:-1 tvg-id="SCorbyTV.us@HD" group-title="United States",S Corby TV (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6a9f89be0630445532152563/master.m3u8
+#EXTINF:-1 tvg-id="SMetroTV.us@HD" group-title="United States",S Metro TV (360p)
+https://vodcdn.bamboo-cloud.com/livehls/6a9f8b4606304461c50dfe93/master.m3u8
+#EXTINF:-1 tvg-id="SKPop.us@HD" group-title="United States",S KPop! (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6aac8803063044569e156563/master.m3u8
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
@@ -3908,3 +3914,5 @@ https://canal8mdq.unpocodeawita.workers.dev/
 https://canal11saltatv.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-id="NeoxTV.ar@SD" group-title="Argentina",Neox TV [Not 24/7]
 https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8
+#EXTINF:-1 tvg-id="NorteTV.ar@SD" group-title="Argentina",Norte TV (720p) [Not 24/7]
+https://ntvcanal7.com.ar:81/dash/stream.mpd
