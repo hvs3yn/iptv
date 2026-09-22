@@ -3495,6 +3495,9 @@ http://186.219.52.187/woohoo/index.m3u8
 https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.br@SD" group-title="Brazil",Nickelodeon (480p)
 https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
+#EXTINF:-1 tvg-id="BemMaisTV.br@HD" group-title="Brazil",Bem Mais TV (1080p)
+#EXTVLCOPT:http-referrer=https://bemmaistv.com.br/
+https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 #EXTINF:-1 tvg-id="5tv.ar@SD" group-title="Argentina",5tv
 https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="5tv.ar@SD" group-title="Argentina",5TV Corrientes (480p) [Not 24/7]
