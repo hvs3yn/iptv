@@ -378,8 +378,6 @@ http://dvr2.kablova.tv/MTV/index.m3u8
 https://atlantida1.aquax1.cfd/epi/usergendxt1v8klq6rnd.m3u8
 #EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" group-title="United Kingdom",IraneFarda TV
 https://iranefardalive.com/stream/live.m3u8
-#EXTINF:-1 tvg-id="CBeebiesAsia.uk@India" group-title="United Kingdom",CBeebies Asia India (576p)
-http://202.70.146.135:8000/play/a0a2/index.m3u8
 #EXTINF:-1 tvg-id="PlanetFun.uk@SD" group-title="United Kingdom",Planet Fun (1080p)
 http://66.102.126.10:8000/play/a02k/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@Europe" group-title="United Kingdom",BBC News Europe (576p)
@@ -844,8 +842,6 @@ https://d1nhni5l2n8hjt.cloudfront.net/gf.m3u8
 https://e562e489.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9HRk5Tb2NjZXJfSExT/manifest.m3u8
 #EXTINF:-1 tvg-id="GhostHunters.us@UK" group-title="United Kingdom",Ghost Hunters (1080p) [Geo-blocked]
 https://amg00353-amg00353c30-samsung-gb-8552.playouts.now.amagi.tv/playlist/amg00353-lionsgatetvfast-ghosthunterfetch-samsunggb/playlist.m3u8
-#EXTINF:-1 tvg-id="GoUSATV.us@SD" group-title="United Kingdom",GoUSA TV (720p)
-https://brandusa-gousa-1-gb.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="United Kingdom",Great British Menu (720p)
 https://all3media-great-british-menu-1-gb.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GREATmovies.uk@UK" group-title="United Kingdom",Great! Movies (1080p)
@@ -3857,6 +3853,9 @@ http://151.80.18.177:86/Canal+_Family_HD/index.m3u8
 http://dtv.vol.net.ua/DOCUBOX-HD/index.m3u8
 #EXTINF:-1 tvg-id="DocuBox.nl@Russia" group-title="Netherlands",DocuBox Russia (1080p)
 http://str2.iptvhd.ru:8080/DocuBoxHD/index.m3u8
+#EXTINF:-1 tvg-id="NicktoonsScandinavia.nl@SD" group-title="Netherlands",Nicktoons Scandinavia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
 #EXTINF:-1 tvg-id="AreWeThereYet.us@SD" group-title="Netherlands",Are we there Yet? (1080p) [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" group-title="Netherlands",Artflix Movie Classics (720p)
@@ -3865,8 +3864,6 @@ https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 https://failarmy-international-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Netherlands",Four in a Bed (720p)
 https://all3media-four-in-a-bed-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="GoUSATV.us@SD" group-title="Netherlands",Go USA TV
-https://brandusa-gousa-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HellsKitchen.us@UK" group-title="Netherlands",Hell's Kitchen (1080p) [Geo-blocked]
 https://amg00654-itvstudios-hellskitchennl-samsungnl-kvxhp.amagi.tv/playlist/amg00654-itvstudios-hellskitchennl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="HomesUnderHammer.us@UK" group-title="Netherlands",Homes Under The Hammer (720p)
@@ -4160,8 +4157,6 @@ https://7nyaler.streamhostingcdn.top/stream/49/index.m3u8
 http://sdream.info:8080/hls/livestream/index.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us@US" group-title="Denmark",Failarmy International (720p)
 https://failarmy-international-dk.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="GoUSATV.us@SD" group-title="Denmark",Go USA TV (720p)
-https://brandusa-gousa-1-dk.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GrjngoWesternMovies.de@SD" group-title="Denmark",Grjngo Western Movies (720p)
 https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HomesUnderHammer.us@UK" group-title="Denmark",Homes Under The Hammer (720p)
@@ -4280,8 +4275,6 @@ https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/play
 https://worldofloveisland-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us@US" group-title="Finland",Failarmy International (720p)
 https://failarmy-international-fi.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="GoUSATV.us@SD" group-title="Finland",Go USA TV (720p)
-https://brandusa-gousa-1-fi.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GrjngoWesternMovies.de@SD" group-title="Finland",Grjngo Western Movies (720p)
 https://amogonetworx-grjngo-3-fi.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HomesUnderHammer.us@UK" group-title="Finland",Homes Under The Hammer (720p)
@@ -4786,8 +4779,6 @@ http://zntx.dyndns.org:8085/hls/tvi.m3u8
 #EXTINF:-1 tvg-id="SICRadical.pt@SD" group-title="Portugal",SIC Radical
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://znty.dyndns.org:5010/hls/sicr.m3u8
-#EXTINF:-1 tvg-id="GoUSATV.us@SD" group-title="Portugal",Go USA TV (720p)
-https://brandusa-gousa-1-pt.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Portugal",Rakuten Documentários (1080p)
 https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8
 #EXTINF:-1 tvg-id="" group-title="Portugal",Rakuten Família (1080p)
