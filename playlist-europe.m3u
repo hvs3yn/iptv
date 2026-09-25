@@ -1579,6 +1579,14 @@ https://dash4.antik.sk/live/test_rtl_zwei_tizen/playlist.m3u8
 https://dash4.antik.sk/live/test_welt_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Nitro.de@SD" group-title="Germany",Nitro
 https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.de@SD" group-title="Germany",Disney Channel
+http://178.27.12.3:9981/stream/channelid/269948147?profile=pass
+#EXTINF:-1 tvg-id="ProSiebenMaxx.de@SD" group-title="Germany",ProSieben Maxx
+http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass
+#EXTINF:-1 tvg-id="ZDFneo.de@SD" group-title="Germany",ZDFneo
+http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass
+#EXTINF:-1 tvg-id="kabeleinsDoku.de@SD" group-title="Germany",kabel eins Doku
+http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass
 #EXTINF:-1 tvg-id="6ter.fr@SD" group-title="France",6ter (1080p)
 http://145.239.5.177/314/index.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" group-title="France",20 Minutes TV (1080p)
