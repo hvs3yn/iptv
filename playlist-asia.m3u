@@ -980,8 +980,6 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc04
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
 #EXTINF:-1 tvg-id="SBC.sa@SD" group-title="Saudi Arabia",SBC (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
-#EXTINF:-1 tvg-id="Tarab.sa@SD" group-title="Saudi Arabia",Tarab (1080p)
-https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8
 #EXTINF:-1 tvg-id="ThikrayatTV.sa@SD" group-title="Saudi Arabia",Thikrayat TV (1080p) [Geo-blocked]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8
 #EXTINF:-1 tvg-id="MBCLoud.sa@SD" group-title="Saudi Arabia",MBC Loud
@@ -990,6 +988,8 @@ https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8
 #EXTINF:-1 tvg-id="AlSaudiya.sa@SD" group-title="Saudi Arabia",Al Saudiya
 https://list.iptvcat.com/my_list/s/c40a8dcdb403912a5a3d6a2a7b6be679.m3u8
+#EXTINF:-1 tvg-id="Tarab.sa@SD" group-title="Saudi Arabia",Tarab (1080p)
+https://shd-amg-fast.edgenextcdn.net/tx002/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV.qa@SD" group-title="Qatar",Al Araby TV (1080p)
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV.qa@SD" group-title="Qatar",Al Araby TV (1080p)
@@ -1064,8 +1064,6 @@ https://streamer7.qna.org.qa/148136781_live/148136781_63.sdp/playlist.m3u8
 https://streamer7.qna.org.qa/148136749_live/148136749_296.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV2.qa@SD" group-title="Qatar",Alaraby 2 TV (1080p)
 https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8
-#EXTINF:-1 tvg-id="AlkassThree.qa@SD" group-title="Qatar",Alkass Three (720p)
-https://streamer2.qna.org.qa/148161470_live/148161470_296.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="LibyaAlAhrarTV.qa@SD" group-title="Qatar",Libya Al Ahrar TV (1080p)
 #EXTVLCOPT:http-referrer=https://player.castr.com
 https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
@@ -1321,6 +1319,14 @@ http://202.60.106.14:8080/214/playlist.m3u8
 http://202.60.106.14:21585/214/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSJoy.kr@SD" group-title="South Korea",KBS Joy [Not 24/7]
 https://xykt-fix.github.io/flv/KJ_W.m3u8
+#EXTINF:-1 tvg-id="KBSNSports.kr@SD" group-title="South Korea",KBS N Sports [Geo-blocked]
+https://xyktmobile00.s.gy/PPV919_KBSNSPO_SD
+#EXTINF:-1 tvg-id="SBSGolf.kr@SD" group-title="South Korea",SBS Golf
+https://xyktmobile00.s.gy/PPV922_GOLF_TV
+#EXTINF:-1 tvg-id="MBCTV.kr@SD" group-title="South Korea",MBC TV [Geo-blocked]
+https://xyktmobile00.s.gy/PPV930_S_OPERA_SD
+#EXTINF:-1 tvg-id="SBS.kr@SD" group-title="South Korea",SBS [Geo-blocked]
+https://xyktmobile00.s.gy/PPV921_SBS
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="China",Anhui TV
@@ -4074,12 +4080,6 @@ https://cloudplay-sonyliv.pages.dev/sabhd.m3u8
 https://cloudplay-sonyliv.pages.dev/pal.m3u8
 #EXTINF:-1 tvg-id="SonyWah.in@SD" group-title="India",Sony Wah (1080p)
 https://cloudplay-sonyliv.pages.dev/wah.m3u8
-#EXTINF:-1 tvg-id="SonyMax.in@SD" group-title="India",Sony Max (1080p)
-https://cloudplay-sonyliv.pages.dev/max.m3u8
-#EXTINF:-1 tvg-id="SonyMax.in@HD" group-title="India",Sony Max HD (1080p)
-https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
-#EXTINF:-1 tvg-id="SonyMax2.in@SD" group-title="India",Sony Max 2 (1080p)
-https://cloudplay-sonyliv.pages.dev/max2.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen1.in@SD" group-title="India",Sony Sports Ten 1 (1080p)
 https://cloudplay-sonyliv.pages.dev/ten1.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="India",Sony Sports Ten 1 HD (1080p)
@@ -4246,8 +4246,6 @@ http://107.167.16.138/b4ukadak/index.m3u8?token=test
 http://107.167.16.138/zeeclassic/index.m3u8?token=test
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" group-title="India",Sony Max 2 (576p)
 http://107.167.16.138/sonymax2/index.m3u8?token=test
-#EXTINF:-1 tvg-id="StarGold2.in@SD" group-title="India",Star Gold 2 (576p)
-http://107.167.16.138/stargold2/index.m3u8?token=test
 #EXTINF:-1 tvg-id="DDNational.in@SD" group-title="India",DD National (576p)
 http://107.167.16.138/ddnational/index.m3u8?token=test
 #EXTINF:-1 tvg-id="SonyMarathi.in@SD" group-title="India",Sony Marathi (576p)

@@ -1981,6 +1981,33 @@ https://sra72yz.s.gy/HBO_DRAMA_HD.m3u8
 https://sra72yz.s.gy/CINEMAX_ACTION_HD.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@South" group-title="United States",AXN Latin America South (1080p)
 http://181.78.12.119:16123/play/ch46/index.m3u8
+#EXTINF:-1 tvg-id="SPlayEvent.us@HD" group-title="United States",S Play Event (1080p)
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6aa1fc1f063044342e102703
+https://vodcdn.bamboo-cloud.com/livehls/6a9f929f0630443af52c7162/master.m3u8
+#EXTINF:-1 tvg-id="ConcertChannel.us@SD" group-title="United States",Concert Channel (720p)
+http://45.167.1.138:8000/play/a04i
+#EXTINF:-1 tvg-id="CinePremium.us@SD" group-title="United States",Cine Premium (1080p)
+http://45.167.1.138:8000/play/a06s
+#EXTINF:-1 tvg-id="UniversalCinema.us@SD" group-title="United States",Universal Cinema (1080p)
+http://45.167.1.138:8000/play/a06m
+#EXTINF:-1 tvg-id="EWTN.us@SpainLatinAmerica" group-title="United States",EWTN Spain & Latin America (480p)
+http://45.167.1.138:8000/play/a01m
+#EXTINF:-1 tvg-id="MiMusicaReggaeton.us@SD" group-title="United States",Mi Musica Reggaeton (1080p)
+http://181.78.12.119:16123/play/ch53/index.m3u8
+#EXTINF:-1 tvg-id="MiMusicaRomantica.us@SD" group-title="United States",Mi Musica Romantica (1080p)
+http://181.78.12.119:16123/play/ch54/index.m3u8
+#EXTINF:-1 tvg-id="MiMusicaSalsa.us@SD" group-title="United States",Mi Musica Salsa (1080p)
+http://181.78.12.119:16123/play/ch55/index.m3u8
+#EXTINF:-1 tvg-id="News12PlusLongIsland.us@HD" group-title="United States",News12+ Long Island (1080p) [Geo-blocked]
+https://mdc4.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="DreamWorksChannelLatinAmerica.us@Panregional" group-title="United States",DreamWorks Channel Latin America
+https://xyktmobile00.s.gy/PPV913_DREAMWO
+#EXTINF:-1 tvg-id="Galavision.us@West" group-title="United States",Galavision West
+https://xyktmobile00.s.gy/PPV914_GALAVISION
+#EXTINF:-1 tvg-id="BabyFirst.us@Spanish" group-title="United States",BabyFirst Spanish
+https://xyktmobile00.s.gy/PPV915_BABYFIR
+#EXTINF:-1 tvg-id="KBSAmerica.us@SD" group-title="United States",KBS America
+https://xyktmobile00.s.gy/PPV918_KBSAMERI
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
@@ -2248,6 +2275,14 @@ https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 http://str2.iptvhd.ru:8080/iConcertsHD/index.m3u8
 #EXTINF:-1 tvg-id="StingrayTikTokRadio.ca@HD" group-title="Canada",Stingray TikTok Radio (1080p)
 https://d3f4oii5n0oeqi.cloudfront.net/11701/88814594/hls/master.m3u8?ads.xumo_channelId=88814594
+#EXTINF:-1 tvg-id="LoveNature.ca@SD" group-title="Canada",Love Nature
+https://xyktmobile00.s.gy/PPV928_LOVE_NATURE
+#EXTINF:-1 tvg-id="NewChannelPop.ca@SD" group-title="Canada",New Channel Pop! (480p)
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85
+https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
+#EXTINF:-1 tvg-id="NewChannel.ca@SD" group-title="Canada",New Channel (480p)
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4
+https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8
 #EXTINF:-1 tvg-id="8NTV.mx@SD" group-title="Mexico",8NTV (1080p)
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="15TV.mx@SD" group-title="Mexico",15TV (720p) [Not 24/7]
@@ -2608,6 +2643,26 @@ http://200.229.147.210:9999/play/a01y/index.m3u8
 http://200.115.120.1:8000/play/ca048/index.m3u8
 #EXTINF:-1 tvg-id="Bandamax.mx@SD" group-title="Mexico",Bandamax (1080p)
 http://181.78.106.127:5000/play/ca064/index.m3u8
+#EXTINF:-1 tvg-id="GoldenEdge.mx@Panregional" group-title="Mexico",Golden Edge (1080p)
+http://181.78.12.119:16123/play/ch47/index.m3u8
+#EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" group-title="Mexico",De Pelicula Latin America
+https://xyktmobile00.s.gy/PPV934_DEPELICU
+#EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" group-title="Mexico",De Pelicula Latin America (720p)
+http://181.224.200.5:2277/play/a0d1/index.m3u8
+#EXTINF:-1 tvg-id="Azteca7.mx@SD" group-title="Mexico",Azteca 7 (1080p)
+http://187.245.231.226:8000/play/a0uz/index.m3u8
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" group-title="Mexico",Las Estrellas (1080p)
+http://45.189.151.7:8000/play/a07s
+#EXTINF:-1 tvg-id="Canal5.mx@SD" group-title="Mexico",Canal 5 (576p)
+http://206.135.11.174:8010/play/a0fl/index.m3u8
+#EXTINF:-1 tvg-id="Canal5.mx@SD" group-title="Mexico",Canal 5 (1080p)
+http://45.189.151.7:8000/play/a05s
+#EXTINF:-1 tvg-id="Azteca7.mx@SD" group-title="Mexico",Azteca 7 (720p)
+http://200.35.176.154:8000/play/a064/index.m3u8
+#EXTINF:-1 tvg-id="Golden.mx@Panregional" group-title="Mexico",Golden (1080p)
+http://181.224.200.5:2277/play/a0do/index.m3u8
+#EXTINF:-1 tvg-id="GoldenEdge.mx@Panregional" group-title="Mexico",Golden Edge (1080p)
+http://181.224.200.5:2277/play/a0bd/index.m3u8
 #EXTINF:-1 tvg-id="1001Noites.br@SD" group-title="Brazil",1001 Noites (720p) [Not 24/7]
 https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" group-title="Brazil",Adesso TV (720p)
@@ -2773,8 +2828,6 @@ https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8
 https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="CatveMasterTV.br@SD" group-title="Brazil",Catve Master TV (720p) [Not 24/7]
 https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="CazeTV.br@SD" group-title="Brazil",CazeTV (1080i)
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
 #EXTINF:-1 tvg-id="ChefTV.br@SD" group-title="Brazil",Chef TV (720p)
 http://168.197.104.22/CHEF_TV/index.m3u8
 #EXTINF:-1 tvg-id="ChromaTV.br@SD" group-title="Brazil",Chroma TV (480p)
