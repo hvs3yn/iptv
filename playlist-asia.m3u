@@ -1327,6 +1327,10 @@ https://xyktmobile00.s.gy/PPV922_GOLF_TV
 https://xyktmobile00.s.gy/PPV930_S_OPERA_SD
 #EXTINF:-1 tvg-id="SBS.kr@SD" group-title="South Korea",SBS [Geo-blocked]
 https://xyktmobile00.s.gy/PPV921_SBS
+#EXTINF:-1 tvg-id="PoyoTV.kr@SD" group-title="South Korea",Poyo TV [Geo-blocked]
+https://xyktmobile00.s.gy/PPV936_PORORO_HD
+#EXTINF:-1 tvg-id="Tooniverse.kr@SD" group-title="South Korea",Tooniverse [Geo-blocked]
+https://xyktmobile00.s.gy/PPV939_TOONCAST
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="China",Anhui TV
