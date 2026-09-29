@@ -1132,8 +1132,6 @@ https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8
 https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" group-title="Japan",NHK World Premium (720p)
 https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="Japan",NHK World-Japan HD (1080p)
-http://nmk.ioapk.com:5050/4gtv-live168/index.m3u8
 #EXTINF:-1 tvg-id="JOJGDTV.jp@SD" group-title="Japan",JOJG-DTV (1080p)
 https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="ABN.kr@SD" group-title="South Korea",ABN TV (720p)
@@ -1331,6 +1329,10 @@ https://xyktmobile00.s.gy/PPV921_SBS
 https://xyktmobile00.s.gy/PPV936_PORORO_HD
 #EXTINF:-1 tvg-id="Tooniverse.kr@SD" group-title="South Korea",Tooniverse [Geo-blocked]
 https://xyktmobile00.s.gy/PPV939_TOONCAST
+#EXTINF:-1 tvg-id="BrainTV.kr@SD" group-title="South Korea",Brain TV
+https://xyktmobile00.s.gy/PPV941_BRAIN
+#EXTINF:-1 tvg-id="BilliardsTV.kr@SD" group-title="South Korea",Billiards TV [Geo-blocked]
+https://xyktmobile00.s.gy/PPV942_BILLIARD
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="China",Anhui TV
