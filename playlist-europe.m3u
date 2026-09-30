@@ -438,6 +438,16 @@ https://cdn.stmify.com/bbc/stream/BBC_THREE/hevc_iptv_mse_v0.mpd
 https://cdn.stmify.com/bbc/stream/BBC_TWO/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" group-title="United Kingdom",BabyTV Latin America (1080p)
 http://38.44.109.41:8003/play/a0eh
+#EXTINF:-1 tvg-id="BBCEarth.uk@Poland" group-title="United Kingdom",BBC Earth (1080p)
+http://57.128.231.171:8080/307/index.m3u8
+#EXTINF:-1 tvg-id="BBCBrit.uk@Poland" group-title="United Kingdom",BBC Brit (1080p)
+http://57.128.231.171:8080/309/index.m3u8
+#EXTINF:-1 tvg-id="BBCLifestyle.uk@Poland" group-title="United Kingdom",BBC Lifestyle Poland (1080p)
+http://57.128.231.171:8080/305/index.m3u8
+#EXTINF:-1 tvg-id="BBCTwo.uk@Wales" group-title="United Kingdom",BBC Two Wales
+https://cdn.stmify.com/bbc/stream/BBC_TWO_WALES/hevc_iptv_mse_v0.mpd
+#EXTINF:-1 tvg-id="Now90s00s.uk@Poland" group-title="United Kingdom",Now 90s00s (576p)
+https://web-primeprimetv2026.onrender.com/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCAlba.uk@SD" group-title="United Kingdom",BBC Alba (1080p) (HEVC) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -3909,6 +3919,8 @@ http://str2.iptvhd.ru:8080/DocuBoxHD/index.m3u8
 #EXTINF:-1 tvg-id="NicktoonsScandinavia.nl@SD" group-title="Netherlands",Nicktoons Scandinavia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.nl@HD" group-title="Netherlands",Disney Channel HD (1080i)
+https://masterofiptv.s.gy/iptv2/disney_channel_nl_uhd.m3u8
 #EXTINF:-1 tvg-id="AreWeThereYet.us@SD" group-title="Netherlands",Are we there Yet? (1080p) [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" group-title="Netherlands",Artflix Movie Classics (720p)
@@ -4571,6 +4583,26 @@ https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatX.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalZEROTV.pl@HD" group-title="Poland",Kanal ZERO TV
 #EXTVLCOPT:http-user-agent=Enigma2
 https://racitonsen.s.gy/ZERO_PL
+#EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies
+https://xyktmobile00.s.gy/ticketview/49092
+#EXTINF:-1 tvg-id="E.pl@SD" group-title="Poland",E! (1080p)
+http://57.128.231.171:8080/273/index.m3u8
+#EXTINF:-1 tvg-id="Fox.pl@SD" group-title="Poland",Fox (1080p)
+http://57.128.231.171:8080/249/index.m3u8
+#EXTINF:-1 tvg-id="CrimePlusInvestigationPolsat.pl@SD" group-title="Poland",Crime + Investigation Polsat (1080p)
+http://57.128.231.171:8080/285/index.m3u8
+#EXTINF:-1 tvg-id="PolsatComedyCentralExtra.pl@SD" group-title="Poland",Polsat Comedy Central Extra (1080p)
+http://57.128.231.171:8080/290/index.m3u8
+#EXTINF:-1 tvg-id="AdventureTV.pl@SD" group-title="Poland",Adventure TV (1080p)
+http://57.128.231.171:8080/320/index.m3u8
+#EXTINF:-1 tvg-id="13Ulica.pl@SD" group-title="Poland",13 Ulica (1080p)
+http://57.128.231.171:8080/325/index.m3u8
+#EXTINF:-1 tvg-id="KinoPolska.pl@SD" group-title="Poland",Kino Polska (1080p)
+http://57.128.231.171:8080/238/index.m3u8
+#EXTINF:-1 tvg-id="KinoPolskaMuzyka.pl@SD" group-title="Poland",Kino Polska Muzyka (1080p)
+http://57.128.231.171:8080/237/index.m3u8
+#EXTINF:-1 tvg-id="AXNPoland.pl@SD" group-title="Poland",AXN Poland
+https://2203.weebvideo.stream/hls/1288486/s/DI_yOeqLvqKFgnP7nYS18cjzG8MYtfk13VVnqo8DPkw/current/high/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -4748,6 +4780,8 @@ http://88.212.15.19/live/test_prima_krimi_cz/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport4KCzechia.cz@UHD" group-title="Czech Republic",Eurosport 4K Czechia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://88.212.15.19/live/esp_4k_atk/playlist.m3u8
+#EXTINF:-1 tvg-id="MusicBox80s.cz@SD" group-title="Czech Republic",Music Box 80s (1080p)
+http://57.128.231.171:8080/229/index.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTV.pt@SD" group-title="Portugal",ARTV Canal Parlamento (720p) [Not 24/7]
