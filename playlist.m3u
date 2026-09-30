@@ -3894,6 +3894,24 @@ http://38.252.238.18:8000/play/a01d/index.m3u8
 http://190.60.55.141:9083/play/a0ph/index.m3u8
 #EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" group-title="Argentina",Telefe Internacional (1080p)
 http://190.60.55.141:9083/play/a0pb/index.m3u8
+#EXTINF:-1 tvg-id="CineAr.ar@SD" group-title="Argentina",Cine.Ar (1080p)
+http://181.209.105.115:2525/play/cinear/index.m3u8
+#EXTINF:-1 tvg-id="Pakapaka.ar@SD" group-title="Argentina",Pakapaka (1080p)
+http://181.209.105.115:2525/play/pakapaka/index.m3u8
+#EXTINF:-1 tvg-id="DeporTV.ar@SD" group-title="Argentina",DeporTV (1080p)
+http://181.209.105.115:2525/play/deportv/index.m3u8
+#EXTINF:-1 tvg-id="TN.ar@SD" group-title="Argentina",TN (1080p)
+http://181.209.105.115:2525/play/tn/index.m3u8
+#EXTINF:-1 tvg-id="CronicaTV.ar@SD" group-title="Argentina",Cronica TV (1080p)
+http://181.209.105.115:2525/play/cronica/index.m3u8
+#EXTINF:-1 tvg-id="Encuentro.ar@SD" group-title="Argentina",Encuentro (720p)
+http://138.59.227.20:8000/play/a05s/index.m3u8
+#EXTINF:-1 tvg-id="A24.ar@SD" group-title="Argentina",A24 (1080p)
+http://138.59.227.20:8000/play/a05u/index.m3u8
+#EXTINF:-1 tvg-id="A24.ar@SD" group-title="Argentina",A24
+#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://g1.proy-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/Playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" group-title="Austria",Antenne Steiermark (720p)
@@ -4965,6 +4983,8 @@ https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
 #EXTINF:-1 tvg-id="GloboplayNovelas.br@SD" group-title="Brazil",Globoplay Novelas (1080p)
 http://79.127.238.228:14455
+#EXTINF:-1 tvg-id="SporTV.br@SD" group-title="Brazil",SporTV (1080p)
+http://195.178.110.110/sportv/index.m3u8
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
@@ -5240,6 +5260,8 @@ https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 tvg-id="NewChannel.ca@SD" group-title="Canada",New Channel (480p)
 #EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4
 https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8
+#EXTINF:-1 tvg-id="BET.ca@SD" group-title="Canada",BET (1080p)
+https://sra72yz.s.gy/BET_CANADA_HD.m3u8
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="China",Anhui TV
@@ -6428,6 +6450,8 @@ http://88.212.15.19/live/test_prima_krimi_cz/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport4KCzechia.cz@UHD" group-title="Czech Republic",Eurosport 4K Czechia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://88.212.15.19/live/esp_4k_atk/playlist.m3u8
+#EXTINF:-1 tvg-id="MusicBox80s.cz@SD" group-title="Czech Republic",Music Box 80s (1080p)
+http://57.128.231.171:8080/229/index.m3u8
 #EXTINF:-1 tvg-id="TVStorbyen.dk@SD" group-title="Denmark",BL-TV/TV Storbyen (720p) [Not 24/7]
 https://5eeb3940cfaa0.streamlock.net/webtv_live/_definst_/mp4:kanalnordvest/playlist.m3u8
 #EXTINF:-1 tvg-id="DR1.dk@SD" group-title="Denmark",DR1 (1080p) [Geo-blocked]
@@ -9702,6 +9726,10 @@ http://45.5.118.152:8000/play/a03r/index.m3u8
 http://190.60.55.141:9083/play/a0nf/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx@SD" group-title="Mexico",Las Estrellas Latin America (1080p)
 http://190.60.55.141:9083/play/a0np/index.m3u8
+#EXTINF:-1 tvg-id="DistritoComedia.mx@SD" group-title="Mexico",Distrito Comedia (1080p)
+http://190.61.47.54:8000/play/a028/index.m3u8
+#EXTINF:-1 tvg-id="TlnovelasMexico.mx@SD" group-title="Mexico",Tlnovelas Mexico (1080p)
+http://167.249.23.102:8000/play/a0g8/index.m3u8
 #EXTINF:-1 tvg-id="BaltiTV.md@SD" group-title="Moldova",Bălţi TV (1080p) [Geo-blocked]
 http://77.89.199.174:8000/play/1024/index.m3u8
 #EXTINF:-1 tvg-id="BusuiocTV.md@SD" group-title="Moldova",Busuioc TV
@@ -10207,6 +10235,8 @@ http://str2.iptvhd.ru:8080/DocuBoxHD/index.m3u8
 #EXTINF:-1 tvg-id="NicktoonsScandinavia.nl@SD" group-title="Netherlands",Nicktoons Scandinavia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.nl@HD" group-title="Netherlands",Disney Channel HD (1080i)
+https://masterofiptv.s.gy/iptv2/disney_channel_nl_uhd.m3u8
 #EXTINF:-1 tvg-id="CanalMotor.no@SD" group-title="Norway",Canal Motor (720p)
 https://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 tvg-id="CanalMotor.no@SD" group-title="Norway",Canal Motor (720p)
@@ -10731,6 +10761,26 @@ https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatX.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalZEROTV.pl@HD" group-title="Poland",Kanal ZERO TV
 #EXTVLCOPT:http-user-agent=Enigma2
 https://racitonsen.s.gy/ZERO_PL
+#EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies
+https://xyktmobile00.s.gy/ticketview/49092
+#EXTINF:-1 tvg-id="E.pl@SD" group-title="Poland",E! (1080p)
+http://57.128.231.171:8080/273/index.m3u8
+#EXTINF:-1 tvg-id="Fox.pl@SD" group-title="Poland",Fox (1080p)
+http://57.128.231.171:8080/249/index.m3u8
+#EXTINF:-1 tvg-id="CrimePlusInvestigationPolsat.pl@SD" group-title="Poland",Crime + Investigation Polsat (1080p)
+http://57.128.231.171:8080/285/index.m3u8
+#EXTINF:-1 tvg-id="PolsatComedyCentralExtra.pl@SD" group-title="Poland",Polsat Comedy Central Extra (1080p)
+http://57.128.231.171:8080/290/index.m3u8
+#EXTINF:-1 tvg-id="AdventureTV.pl@SD" group-title="Poland",Adventure TV (1080p)
+http://57.128.231.171:8080/320/index.m3u8
+#EXTINF:-1 tvg-id="13Ulica.pl@SD" group-title="Poland",13 Ulica (1080p)
+http://57.128.231.171:8080/325/index.m3u8
+#EXTINF:-1 tvg-id="KinoPolska.pl@SD" group-title="Poland",Kino Polska (1080p)
+http://57.128.231.171:8080/238/index.m3u8
+#EXTINF:-1 tvg-id="KinoPolskaMuzyka.pl@SD" group-title="Poland",Kino Polska Muzyka (1080p)
+http://57.128.231.171:8080/237/index.m3u8
+#EXTINF:-1 tvg-id="AXNPoland.pl@SD" group-title="Poland",AXN Poland
+https://2203.weebvideo.stream/hls/1288486/s/DI_yOeqLvqKFgnP7nYS18cjzG8MYtfk13VVnqo8DPkw/current/high/index.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTV.pt@SD" group-title="Portugal",ARTV Canal Parlamento (720p) [Not 24/7]
@@ -12962,6 +13012,16 @@ https://cdn.stmify.com/bbc/stream/BBC_THREE/hevc_iptv_mse_v0.mpd
 https://cdn.stmify.com/bbc/stream/BBC_TWO/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" group-title="United Kingdom",BabyTV Latin America (1080p)
 http://38.44.109.41:8003/play/a0eh
+#EXTINF:-1 tvg-id="BBCEarth.uk@Poland" group-title="United Kingdom",BBC Earth (1080p)
+http://57.128.231.171:8080/307/index.m3u8
+#EXTINF:-1 tvg-id="BBCBrit.uk@Poland" group-title="United Kingdom",BBC Brit (1080p)
+http://57.128.231.171:8080/309/index.m3u8
+#EXTINF:-1 tvg-id="BBCLifestyle.uk@Poland" group-title="United Kingdom",BBC Lifestyle Poland (1080p)
+http://57.128.231.171:8080/305/index.m3u8
+#EXTINF:-1 tvg-id="BBCTwo.uk@Wales" group-title="United Kingdom",BBC Two Wales
+https://cdn.stmify.com/bbc/stream/BBC_TWO_WALES/hevc_iptv_mse_v0.mpd
+#EXTINF:-1 tvg-id="Now90s00s.uk@Poland" group-title="United Kingdom",Now 90s00s (576p)
+https://web-primeprimetv2026.onrender.com/playlist.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD" group-title="United States",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="48Hours.us@US" group-title="United States",48 Hours (1080p)
@@ -14920,6 +14980,22 @@ http://187.102.208.209:8000/play/a0ac/index.m3u8
 http://187.102.208.209:8000/play/a0ad/index.m3u8
 #EXTINF:-1 tvg-id="PasionesLatinAmerica.us@SD" group-title="United States",Pasiones Latin America (1080p)
 http://190.60.55.141:9083/play/a0ni/index.m3u8
+#EXTINF:-1 tvg-id="SemillitasTV.us@SD" group-title="United States",Semillitas TV (1080p)
+http://38.252.238.18:8000/play/a00g/index.m3u8
+#EXTINF:-1 tvg-id="CinemaxAction.us@EastHD" group-title="United States",Cinemax Action East HD (1080p)
+https://sra72yz.s.gy/CINEMAX_ACTION_EAST_HD.m3u8
+#EXTINF:-1 tvg-id="HBODrama.us@West" group-title="United States",HBO Drama West (1080p)
+https://sra72yz.s.gy/HBO_DRAMA_WEST_HD.m3u8
+#EXTINF:-1 tvg-id="HBOHits.us@WestHD" group-title="United States",HBO Hits West HD (1080p)
+https://sra72yz.s.gy/HBO_HITS_WEST_HD.m3u8
+#EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" group-title="United States",Discovery Turbo (1080p)
+https://sra72yz.s.gy/DISCOVERY_TURBO.m3u8
+#EXTINF:-1 tvg-id="UnivisionTlnovelas.us@SD" group-title="United States",Univision Tlnovelas (1080p)
+http://200.115.120.1:8000/play/ca110/index.m3u8
+#EXTINF:-1 tvg-id="DSports2.us@Panregional" group-title="United States",DSports 2 (1080p)
+http://187.102.208.209:8000/play/a0bq/index.m3u8
+#EXTINF:-1 tvg-id="UniMas.us@WAMIDT" group-title="United States",UniMas WAMI-DT (1080p)
+http://190.197.41.183/Unimas/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
