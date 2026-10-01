@@ -200,34 +200,15 @@ http://88.212.15.19/live/uatlmvixrr/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
 https://op-group1-swiftservesd-1.dens.tv/s/s107/index.m3u8
-#EXTINF:-1 tvg-id="PremierSports1.ie@SD" group-title="Sports",Premier Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/47/index.m3u8
-#EXTINF:-1 tvg-id="PremierSports1.ie@SD" group-title="Sports",Premier Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://cdtest.global.ssl.fastly.net/1785070000~b023a98e129026ee64ab87ff37011c44/channel/n110/chunks.m3u8
-#EXTINF:-1 tvg-id="PremierSports2.ie@SD" group-title="Sports",Premier Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/5/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports1Eurasia.ie@SD" group-title="Sports",Setanta Sports 1 Eurasia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" group-title="Sports",Setanta Sports 2 Eurasia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/235/index.m3u8
-#EXTINF:-1 tvg-id="SkySportsF1.ie@SD" group-title="Sports",Sky Sports F1 (1080p)
-https://xemzi.short.gy/2000005
 #EXTINF:-1 tvg-id="SkySportsFootball.ie@SD" group-title="Sports",Sky Sports Football
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/39/index.m3u8
-#EXTINF:-1 tvg-id="SkySportsFootball.ie@SD" group-title="Sports",Sky Sports Football (720p)
-http://188.138.29.131/skyfootball/index.m3u8
-#EXTINF:-1 tvg-id="SkySportsCricket.ie@SD" group-title="Sports",Sky Sports Cricket (1080p)
-https://leaf.highfly.dev/m3u/now-sky-sports-cricket/live.m3u8
-#EXTINF:-1 tvg-id="SkySportsGolf.ie@HD" group-title="Sports",Sky Sports Golf HD (1080p)
-https://leaf.highfly.dev/m3u/now-sky-sports-golf/live.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1Eurasia.ie@SD" group-title="Sports",Setanta Sports 1 Eurasia (1080p)
-http://str2.iptvhd.ru:8080/SetantaEurasia/index.m3u8
 #EXTINF:-1 tvg-id="5Sport.il@SD" group-title="Sports",5Sport (1080p)
 http://str2.iptvhd.ru:8080/5sport/index.m3u8
 #EXTINF:-1 tvg-id="5Sport4K.il@SD" group-title="Sports",5Sport 4K (2160p)
@@ -273,6 +254,16 @@ https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
 https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" group-title="Sports",Star Sports 2 Telugu HD (576p)
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
+#EXTINF:-1 tvg-id="StarSports1.in@SD" group-title="Sports",Star Sports 1 (576p)
+http://51.75.127.199:3141/starsports1/index.m3u8
+#EXTINF:-1 tvg-id="StarSports2.in@SD" group-title="Sports",Star Sports 2 (576p)
+http://51.75.127.199:3141/starsports2/index.m3u8
+#EXTINF:-1 tvg-id="StarSportsKhel.in@SD" group-title="Sports",Star Sports Khel (576p)
+http://51.75.127.199:3141/starsportskhel/index.m3u8
+#EXTINF:-1 tvg-id="Unite8Sports1.in@HD" group-title="Sports",Unite8 Sports 1 HD (1080p)
+http://51.75.127.199:3141/zeecafehd/index.m3u8
+#EXTINF:-1 tvg-id="Unite8Sports2.in@HD" group-title="Sports",Unite8 Sports 2 HD (1080p)
+http://51.75.127.199:3141/andflixhd/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Sports First TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8?ads.vf=IqoHUzAjl6S
@@ -321,8 +312,8 @@ https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
 https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8
 #EXTINF:-1 tvg-id="Sport.kg@SD" group-title="Sports",УТРК Спорт (480p) [Not 24/7]
 https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
-#EXTINF:-1 tvg-id="SportsTelevision.kp@HD" group-title="Sports",Sports Television [Not 24/7]
-https://kctv.koryofront.org/stream/sports/index.m3u8
+#EXTINF:-1 tvg-id="SportsTelevision.kp@HD" group-title="Sports",Sports Television (720p) [Not 24/7]
+https://live.koryocdn.org/sports/index.m3u8
 #EXTINF:-1 tvg-id="KBSNSports.kr@SD" group-title="Sports",KBS N Sports [Geo-blocked]
 https://xyktmobile00.s.gy/PPV919_KBSNSPO_SD
 #EXTINF:-1 tvg-id="KTVSport.kw@SD" group-title="Sports",KTV Sport (1080p)
@@ -417,6 +408,8 @@ https://cdn.rabta.stream/M-Sports/tracks-v1a1/mono.ts.m3u8
 https://cdn.rabta.stream/M-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="PolsatSport1.pl@SD" group-title="Sports",Polsat Sport 1 (1080p) [Geo-blocked]
 http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd
+#EXTINF:-1 tvg-id="ExtremeSportsChannelPolska.pl@SD" group-title="Sports",Extreme Sports Channel Polska (1080p)
+http://57.128.231.171:8080/262/index.m3u8
 #EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" group-title="Sports",World of Freesports (1080p)
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="SportTV1.pt@SD" group-title="Sports",Sport TV1
@@ -452,12 +445,6 @@ https://7nyaler.streamhostingcdn.top/stream/79/index.m3u8
 https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
 #EXTINF:-1 tvg-id="TVRSport.ro@SD" group-title="Sports",TVR Sport
 https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DigiSport2.ro@SD" group-title="Sports",Digi Sport 2 (1080p)
-http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2522/index.m3u8
-#EXTINF:-1 tvg-id="DigiSport3.ro@SD" group-title="Sports",Digi Sport 3 (576p)
-http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2524/index.m3u8
-#EXTINF:-1 tvg-id="DigiSport4.ro@SD" group-title="Sports",Digi Sport 4 (1080p)
-http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2538/index.m3u8
 #EXTINF:-1 tvg-id="DigiSport2.ro@HD" group-title="Sports",Digi Sport 2 HD (1080i)
 https://lbgo.bozztv.com/ssh101/ssh101/digisport222/playlist.m3u8
 #EXTINF:-1 tvg-id="DigiSport3.ro@SD" group-title="Sports",Digi Sport 3 (576i)
@@ -510,6 +497,8 @@ http://str2.iptvhd.ru:8080/Extreme_Sports/index.m3u8
 http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports1.ru@HD" group-title="Sports",Setanta Sports 1 HD
 https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Sports",viju+ Sport (576p)
+http://31.148.5.241/Viasat_Sport/index.m3u8
 #EXTINF:-1 tvg-id="TVBRICSPortuguese.br@SD" group-title="Sports",TV BRICS Portuguese (1080p)
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
 #EXTINF:-1 tvg-id="VSportGolf.se@SD" group-title="Sports",V Sport Golf [Not 24/7]
@@ -584,6 +573,8 @@ http://stream.mcquack.net/444/index.m3u8
 http://str2.iptvhd.ru:8080/sport1/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSportsPlusUkraine.ua@SD" group-title="Sports",Setanta Sports+ Ukraine (1080p)
 http://str2.iptvhd.ru:8080/Setanta_SportsHD_UA/index.m3u8
+#EXTINF:-1 tvg-id="MaincastSport.ua@SD" group-title="Sports",Maincast Sport
+srt://87.245.216.208:5001
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD" group-title="Sports",talkSPORT (1080p)
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD" group-title="Sports",talkSPORT (720p)
