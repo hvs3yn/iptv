@@ -3965,8 +3965,10 @@ https://g1.proy-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/Playlist.m
 #EXTINF:-1 tvg-id="Telefe.ar@SD" group-title="Argentina",Telefe (1080p)
 http://45.173.231.22:8000/play/a053/index.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar@SD" group-title="Argentina",LAMIL35 TV (480p)
-#EXTVLCOPT:http-referrer=https://lamil35.streamingvideo.com.ar/
+#EXTVLCOPT:http-referrer=https://lamil35.streamingvideo.com.ar/index.html
 https://streamingvideo.com.ar/hls/eea3c96df781e0a3.m3u8
+#EXTINF:-1 tvg-id="Canal12VenadoTuerto.ar@SD" group-title="Argentina",Canal 12 Venado Tuerto (1080i)
+https://nd106.republicaservers.com:4433/hls/diegologonitv/index.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" group-title="Austria",Antenne Steiermark (720p)
@@ -5040,6 +5042,8 @@ https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQ
 http://79.127.238.228:14455
 #EXTINF:-1 tvg-id="SporTV.br@SD" group-title="Brazil",SporTV (1080p)
 http://195.178.110.110/sportv/index.m3u8
+#EXTINF:-1 tvg-id="TelecineAction.br@SD" group-title="Brazil",Telecine Action (1080p)
+http://46.151.196.223:14326/
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
@@ -7045,6 +7049,16 @@ http://str2.iptvhd.ru:8080/mezzo_live_hd/index.m3u8
 http://str2.iptvhd.ru:8080/TF1/index.m3u8
 #EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo (1080p)
 http://str2.iptvhd.ru:8080/Mezzo_HD/index.m3u8
+#EXTINF:-1 tvg-id="MCMPop.fr@SD" group-title="France",MCM Pop (576p)
+http://193.254.245.162/MCM/index.m3u8
+#EXTINF:-1 tvg-id="ParisPremiere.fr@SD" group-title="France",Paris Premiere (720p)
+http://193.254.245.162/PARIS-PREMIERE/index.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" group-title="France",Canal+ Sport (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
+#EXTINF:-1 tvg-id="GolfPlus.fr@SD" group-title="France",Golf + (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
+#EXTINF:-1 tvg-id="TMC.fr@HD" group-title="France",TMC HD (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 #EXTINF:-1 tvg-id="123tv.de@SD" group-title="Germany",1-2-3 TV (270p)
 https://123tv-mx1.flex-cdn.net/index.m3u8
 #EXTINF:-1 tvg-id="3sat.de@SD" group-title="Germany",3sat (720p) [Geo-blocked]
@@ -8123,6 +8137,9 @@ https://polska.hach.workers.dev/14847.m3u8
 https://xyktmobile00.s.gy/PPV897_JIMJA_SD
 #EXTINF:-1 tvg-id="HalomTV.hu@SD" group-title="Hungary",Halom TV (576i)
 rtmp://212.92.13.108/live/livestream1
+#EXTINF:-1 tvg-id="FilmMania.hu@SD" group-title="Hungary",Film Mania (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://dokagents.site/live/filmmania/mono.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir@SD" group-title="Iran",AFN TV
@@ -9793,6 +9810,10 @@ http://190.61.47.54:8000/play/a028/index.m3u8
 http://167.249.23.102:8000/play/a0g8/index.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" group-title="Mexico",Canal Once (1080p)
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+#EXTINF:-1 tvg-id="ClaroCinema.mx@SD" group-title="Mexico",Claro Cinema (1080p)
+http://158.172.217.18:8000/play/a00d/index.m3u8
+#EXTINF:-1 tvg-id="AzCorazon.mx@SD" group-title="Mexico",Az Corazon (720p)
+http://200.115.120.1:8000/play/ca020/index.m3u8
 #EXTINF:-1 tvg-id="BaltiTV.md@SD" group-title="Moldova",Bălţi TV (1080p) [Geo-blocked]
 http://77.89.199.174:8000/play/1024/index.m3u8
 #EXTINF:-1 tvg-id="BusuiocTV.md@SD" group-title="Moldova",Busuioc TV
@@ -10771,24 +10792,8 @@ https://racitonsen.s.gy/FB_FESTIVAL_PL
 #EXTINF:-1 tvg-id="NewsmaxPolska.pl@SD" group-title="Poland",Newsmax Polska
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://91.228.35.249:8001/1:0:1:1C8A:1CE8:71:820000:0:0:0
-#EXTINF:-1 tvg-id="PolsatPlay.pl@SD" group-title="Poland",Polsat Play (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatPlay.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatCafe.pl@SD" group-title="Poland",Polsat Cafe (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatCafe.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPSeriale.pl@SD" group-title="Poland",TVP Seriale (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPSERIALE.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPHD.pl@SD" group-title="Poland",TVP HD (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPRozrywka.pl@SD" group-title="Poland",TVP Rozrywka (576p)
 http://185.227.34.179:8080/tvp-rozrywka/index.m3u8
-#EXTINF:-1 tvg-id="TVPKultura.pl@SD" group-title="Poland",TVP Kultura (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPKultura.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EskaTV.pl@SD" group-title="Poland",Eska TV (1080p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_eskatv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EskaTVExtra.pl@SD" group-title="Poland",Eska TV Extra (1080p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_eskatvextra.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies (576p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_cbeebies.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EskaRockTV.pl@SD" group-title="Poland",Eska Rock TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://91.228.35.249:8001/1:0:1:2909:1EDC:71:820000:0:0:0:
@@ -10819,12 +10824,6 @@ https://racitonsen.s.gy/HISTORY_PL
 #EXTINF:-1 tvg-id="History2.pl@SD" group-title="Poland",History 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://racitonsen.s.gy/H2_PL
-#EXTINF:-1 tvg-id="PolsatFilm2.pl@SD" group-title="Poland",Polsat Film 2 (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatFilm2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatReality.pl@SD" group-title="Poland",Polsat Reality (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatReality.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatX.pl@SD" group-title="Poland",Polsat X (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatX.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalZEROTV.pl@HD" group-title="Poland",Kanal ZERO TV
 #EXTVLCOPT:http-user-agent=Enigma2
 https://racitonsen.s.gy/ZERO_PL
@@ -10858,6 +10857,10 @@ http://57.128.231.171:8080/284/index.m3u8
 http://57.128.231.171:8080/286/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Poland" group-title="Poland",FILMBOX+ One (1080p)
 http://57.128.231.171:8080/236/index.m3u8
+#EXTINF:-1 tvg-id="TVC.pl@SD" group-title="Poland",TVC (1080p)
+http://57.128.231.171:8080/214/index.m3u8
+#EXTINF:-1 tvg-id="MTV.pl@SD" group-title="Poland",MTV (1080p)
+http://57.128.231.171:8080/227/index.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTV.pt@SD" group-title="Portugal",ARTV Canal Parlamento (720p) [Not 24/7]
@@ -11913,6 +11916,12 @@ http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0
 http://38.252.238.18:8000/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" group-title="Spain",Antena 3 Internacional (1080p)
 http://38.252.238.18:8000/play/a04a/index.m3u8
+#EXTINF:-1 tvg-id="AXN.es@SD" group-title="Spain",AXN (1080p)
+http://193.254.245.162/AXN/index.m3u8
+#EXTINF:-1 tvg-id="AXNMovies.es@SD" group-title="Spain",AXN Movies
+https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd
+#EXTINF:-1 tvg-id="Antena3.es@National" group-title="Spain",Antena 3
+https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" group-title="Spain",People are Awesome
 https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Spain" group-title="Spain",The Pet Collective
@@ -13109,6 +13118,12 @@ https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 http://51.75.127.199:3141/britasia/index.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" group-title="United Kingdom",GOD TV (576p)
 https://cdn.pishow.tv/ott/live/1391/master.m3u8
+#EXTINF:-1 tvg-id="ITV1.uk@LondonPlus1" group-title="United Kingdom",ITV1 London +1
+https://xyktmobile00.s.gy/TICK_44100
+#EXTINF:-1 tvg-id="StarBharat.uk@SD" group-title="United Kingdom",Star Bharat (576p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8
+#EXTINF:-1 tvg-id="BBCTwo.uk@NorthernIreland" group-title="United Kingdom",BBC Two Northern Ireland
+https://cdn.stmify.com/bbc/stream/BBC_TWO_NORTHERN_IRELAND/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="6WiseTv.us@SD" group-title="United States",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="48Hours.us@US" group-title="United States",48 Hours (1080p)
@@ -14814,7 +14829,7 @@ http://misterich.megatv.fun/iptv/CVHTUN2FGZ4TTVYBXGA5MRPN/1099/index.m3u8
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TheWalkTV.us@SD" group-title="United States",The Walk TV
 https://wggstv16.ddns.net:9953/hls/walk1.m3u8
-#EXTINF:-1 tvg-id="ESPNews.us@SD" group-title="United States",ESPNews (720p)
+#EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" group-title="United States",Discovery Turbo (720p)
 http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="SECNetwork.us@SD" group-title="United States",SEC Network (1080p)
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
@@ -14918,8 +14933,6 @@ http://4.30.180.36:8420/nickjr/index.m3u8?token=test
 http://4.30.180.36:8420/syfy/index.m3u8?token=test
 #EXTINF:-1 tvg-id="HallmarkChannel.us@East" group-title="United States",Hallmark Channel (720p)
 http://4.30.180.36:8420/hallmark/index.m3u8?token=test
-#EXTINF:-1 tvg-id="DisneyChannel.us@HDEast" group-title="United States",Disney Channel HD East (720p)
-http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="CNBC.us@SD" group-title="United States",CNBC (720p)
 http://4.30.180.36:8420/cnbc/index.m3u8?token=test
 #EXTINF:-1 tvg-id="SPremium.us@HD" group-title="United States",S Premium! (360p)
@@ -15095,6 +15108,14 @@ http://45.173.231.22:8000/play/a097/index.m3u8
 http://179.1.196.222:9000/play/a02y/index.m3u8
 #EXTINF:-1 tvg-id="DaystarTVEspanol.us@SD" group-title="United States",Daystar TV Espanol (1080p)
 http://167.249.23.102:8000/play/a0ev/index.m3u8
+#EXTINF:-1 tvg-id="ESNETV.us@SD" group-title="United States",ESNE TV (1080p)
+http://190.217.66.92:8000/play/a0fp/index.m3u8
+#EXTINF:-1 tvg-id="VH1.us@East" group-title="United States",VH1 (432p)
+http://193.254.245.162/VH1/index.m3u8
+#EXTINF:-1 tvg-id="ParamountNetwork.us@East" group-title="United States",Paramount Network (432p)
+http://193.254.245.162/PARAMOUNT-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="United States",Fox Sports 1 (720p)
+http://193.254.245.162/Fox_Sports_1/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
