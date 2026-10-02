@@ -456,6 +456,12 @@ https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 http://51.75.127.199:3141/britasia/index.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" group-title="United Kingdom",GOD TV (576p)
 https://cdn.pishow.tv/ott/live/1391/master.m3u8
+#EXTINF:-1 tvg-id="ITV1.uk@LondonPlus1" group-title="United Kingdom",ITV1 London +1
+https://xyktmobile00.s.gy/TICK_44100
+#EXTINF:-1 tvg-id="StarBharat.uk@SD" group-title="United Kingdom",Star Bharat (576p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8
+#EXTINF:-1 tvg-id="BBCTwo.uk@NorthernIreland" group-title="United Kingdom",BBC Two Northern Ireland
+https://cdn.stmify.com/bbc/stream/BBC_TWO_NORTHERN_IRELAND/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BBCAlba.uk@SD" group-title="United Kingdom",BBC Alba (1080p) (HEVC) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2061,6 +2067,16 @@ http://str2.iptvhd.ru:8080/mezzo_live_hd/index.m3u8
 http://str2.iptvhd.ru:8080/TF1/index.m3u8
 #EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo (1080p)
 http://str2.iptvhd.ru:8080/Mezzo_HD/index.m3u8
+#EXTINF:-1 tvg-id="MCMPop.fr@SD" group-title="France",MCM Pop (576p)
+http://193.254.245.162/MCM/index.m3u8
+#EXTINF:-1 tvg-id="ParisPremiere.fr@SD" group-title="France",Paris Premiere (720p)
+http://193.254.245.162/PARIS-PREMIERE/index.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" group-title="France",Canal+ Sport (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
+#EXTINF:-1 tvg-id="GolfPlus.fr@SD" group-title="France",Golf + (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
+#EXTINF:-1 tvg-id="TMC.fr@HD" group-title="France",TMC HD (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" group-title="France",BFM 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
@@ -3477,6 +3493,12 @@ http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0
 http://38.252.238.18:8000/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" group-title="Spain",Antena 3 Internacional (1080p)
 http://38.252.238.18:8000/play/a04a/index.m3u8
+#EXTINF:-1 tvg-id="AXN.es@SD" group-title="Spain",AXN (1080p)
+http://193.254.245.162/AXN/index.m3u8
+#EXTINF:-1 tvg-id="AXNMovies.es@SD" group-title="Spain",AXN Movies
+https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd
+#EXTINF:-1 tvg-id="Antena3.es@National" group-title="Spain",Antena 3
+https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" group-title="Spain",People are Awesome
 https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Spain" group-title="Spain",The Pet Collective
@@ -4538,24 +4560,8 @@ https://racitonsen.s.gy/FB_FESTIVAL_PL
 #EXTINF:-1 tvg-id="NewsmaxPolska.pl@SD" group-title="Poland",Newsmax Polska
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://91.228.35.249:8001/1:0:1:1C8A:1CE8:71:820000:0:0:0
-#EXTINF:-1 tvg-id="PolsatPlay.pl@SD" group-title="Poland",Polsat Play (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatPlay.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatCafe.pl@SD" group-title="Poland",Polsat Cafe (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatCafe.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPSeriale.pl@SD" group-title="Poland",TVP Seriale (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPSERIALE.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPHD.pl@SD" group-title="Poland",TVP HD (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPRozrywka.pl@SD" group-title="Poland",TVP Rozrywka (576p)
 http://185.227.34.179:8080/tvp-rozrywka/index.m3u8
-#EXTINF:-1 tvg-id="TVPKultura.pl@SD" group-title="Poland",TVP Kultura (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPKultura.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EskaTV.pl@SD" group-title="Poland",Eska TV (1080p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_eskatv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EskaTVExtra.pl@SD" group-title="Poland",Eska TV Extra (1080p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_eskatvextra.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies (576p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_cbeebies.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EskaRockTV.pl@SD" group-title="Poland",Eska Rock TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://91.228.35.249:8001/1:0:1:2909:1EDC:71:820000:0:0:0:
@@ -4586,12 +4592,6 @@ https://racitonsen.s.gy/HISTORY_PL
 #EXTINF:-1 tvg-id="History2.pl@SD" group-title="Poland",History 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://racitonsen.s.gy/H2_PL
-#EXTINF:-1 tvg-id="PolsatFilm2.pl@SD" group-title="Poland",Polsat Film 2 (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatFilm2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatReality.pl@SD" group-title="Poland",Polsat Reality (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatReality.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatX.pl@SD" group-title="Poland",Polsat X (720p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_PolsatX.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalZEROTV.pl@HD" group-title="Poland",Kanal ZERO TV
 #EXTVLCOPT:http-user-agent=Enigma2
 https://racitonsen.s.gy/ZERO_PL
@@ -4625,6 +4625,10 @@ http://57.128.231.171:8080/284/index.m3u8
 http://57.128.231.171:8080/286/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Poland" group-title="Poland",FILMBOX+ One (1080p)
 http://57.128.231.171:8080/236/index.m3u8
+#EXTINF:-1 tvg-id="TVC.pl@SD" group-title="Poland",TVC (1080p)
+http://57.128.231.171:8080/214/index.m3u8
+#EXTINF:-1 tvg-id="MTV.pl@SD" group-title="Poland",MTV (1080p)
+http://57.128.231.171:8080/227/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
