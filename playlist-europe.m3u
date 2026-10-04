@@ -342,8 +342,6 @@ https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8
 http://88.212.15.19/live/bbce_hun/index.m3u8
 #EXTINF:-1 tvg-id="SkyMix.uk@HD" group-title="United Kingdom",Sky Mix HD (720p)
 http://188.138.29.131/skymix/index.m3u8
-#EXTINF:-1 tvg-id="AlbUKTV.uk@SD" group-title="United Kingdom",Alb UK TV (1080p)
-http://5.254.89.106/8794/index.m3u8
 #EXTINF:-1 tvg-id="SangatTV.uk@SD" group-title="United Kingdom",Sangat TV (576p)
 https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" group-title="United Kingdom",BBC News North America (576p)
@@ -2077,6 +2075,8 @@ http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
 http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@HD" group-title="France",TMC HD (1080p) [Geo-blocked]
 http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
+#EXTINF:-1 tvg-id="MCMPop.fr@SD" group-title="France",MCM Pop (580p)
+http://188.115.15.121:8000/play/a014
 #EXTINF:-1 tvg-id="BFM2.fr@HD" group-title="France",BFM 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
@@ -2803,6 +2803,8 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 #EXTINF:-1 tvg-id="ClassTVModa.it@SD" group-title="Italy",Class TV Moda
 #EXTVLCOPT:http-user-agent=Enigma2
 https://racitonsen.s.gy/CLASS_TV_MODA
+#EXTINF:-1 tvg-id="RadioBrunoTV.it@SD" group-title="Italy",Radio Bruno TV (720p)
+http://stream7.xdevel.com/video0s975758-1051/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -4057,8 +4059,6 @@ https://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
 https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg00735-videosolutionsa-wedobigdocs-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="WedoTVAmor.ch@SD" group-title="Switzerland",Wedo TV Amor (1080p)
 https://amg00735-videosolutions-amg00735c15-wedotv-eu-1915.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedoamor-wedotveu/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVIslam.ch@SD" group-title="Switzerland",RTV Islam (720p)
-http://5.254.89.106/8714/index.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Switzerland" group-title="Switzerland",Rakuten TV Family Switzerland (720p)
 https://a24daf1125344b9cab66eed2fcff8821.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_RakutenFamily-1/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
@@ -4629,6 +4629,10 @@ http://57.128.231.171:8080/236/index.m3u8
 http://57.128.231.171:8080/214/index.m3u8
 #EXTINF:-1 tvg-id="MTV.pl@SD" group-title="Poland",MTV (1080p)
 http://57.128.231.171:8080/227/index.m3u8
+#EXTINF:-1 tvg-id="StopklatkaTV.pl@SD" group-title="Poland",Stopklatka TV
+http://92.114.85.87:8018/play/a004/index.m3u8
+#EXTINF:-1 tvg-id="SzlagierTV.pl@SD" group-title="Poland",Szlagier TV
+http://92.114.85.87:8010/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -4955,6 +4959,8 @@ http://zntx.dyndns.org:8085/hls/tvi.m3u8
 #EXTINF:-1 tvg-id="SICRadical.pt@SD" group-title="Portugal",SIC Radical
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://znty.dyndns.org:5010/hls/sicr.m3u8
+#EXTINF:-1 tvg-id="AXN.pt@SD" group-title="Portugal",AXN (1080p)
+http://188.115.15.121:8000/play/a02z
 #EXTINF:-1 tvg-id="" group-title="Portugal",Rakuten Documentários (1080p)
 https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8
 #EXTINF:-1 tvg-id="" group-title="Portugal",Rakuten Família (1080p)
