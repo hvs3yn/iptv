@@ -75,6 +75,8 @@ https://jmp2.uk/plu-619e6614c9d9650007a2b171.m3u8
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 #EXTINF:-1 tvg-id="SportTV.by@SD" group-title="Sports",Sport TV (1080p)
 http://178.124.179.122:8080/SportTV/mpegts
+#EXTINF:-1 tvg-id="SportTV.by@SD" group-title="Sports",Sport TV (1080p)
+http://media1.skifnet.by/sporttv/index.m3u8
 #EXTINF:-1 tvg-id="WillowSports.us@SD" group-title="Sports",Willow Sports (720p)
 https://jmp2.uk/plu-6972546cc62833833a187f50.m3u8
 #EXTINF:-1 tvg-id="ShandongTVSportsChannel.cn@SD" group-title="Sports",山东体育 (1080p) [Geo-blocked]
@@ -204,6 +206,8 @@ http://88.212.15.19/live/sport2_hun/index.m3u8
 #EXTINF:-1 tvg-id="M4Sport.hu@SD" group-title="Sports",M4 Sport (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/uatlmvixrr/index.m3u8
+#EXTINF:-1 tvg-id="TVRISport.id@SD" group-title="Sports",TVRI Sport (1080p)
+http://202.150.172.59/TVRISport/index.m3u8
 #EXTINF:-1 tvg-id="TVRISport.id@SD" group-title="Sports",TVRI Sport [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
@@ -343,8 +347,6 @@ https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8
 https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
 #EXTINF:-1 tvg-id="SportsTelevision.kp@HD" group-title="Sports",Sports Television (720p) [Not 24/7]
 https://live.koryocdn.org/sports/index.m3u8
-#EXTINF:-1 tvg-id="KBSNSports.kr@SD" group-title="Sports",KBS N Sports [Geo-blocked]
-https://xyktmobile00.s.gy/PPV919_KBSNSPO_SD
 #EXTINF:-1 tvg-id="KTVSport.kw@SD" group-title="Sports",KTV Sport (1080p)
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="KTVSportPlus.kw@SD" group-title="Sports",KTV Sport Plus (1080p)
@@ -361,15 +363,6 @@ https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv
 http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 tvg-id="MNetSport.mk@SD" group-title="Sports",M-Net Sport
 https://live.mnet.mk/hls/mnet-sport.m3u8
-#EXTINF:-1 tvg-id="ArenaSportPremiumM1.mk@SD" group-title="Sports",Arena Sport Premium M1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://racitonsen.s.gy/AM1P
-#EXTINF:-1 tvg-id="ArenaSportPremiumM2.mk@SD" group-title="Sports",Arena Sport Premium M2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://racitonsen.s.gy/AM2P
-#EXTINF:-1 tvg-id="ArenaSportPremiumM3.mk@SD" group-title="Sports",Arena Sport Premium M3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://racitonsen.s.gy/AM3P
 #EXTINF:-1 tvg-id="MRTVSports.mm@SD" group-title="Sports",MRTV Sports [Not 24/7]
 https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
 #EXTINF:-1 tvg-id="MNBSport.mn@SD" group-title="Sports",MNB Sport (1080p)
@@ -417,10 +410,6 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" group-title="Sports",Premier Sports 2 (1080p)
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="PremierSports.ph@HD" group-title="Sports",Premier Sports HD
-https://racitonsen.s.gy/PS1PH
-#EXTINF:-1 tvg-id="PremierSports2.ph@SD" group-title="Sports",Premier Sports 2 (1086p)
-https://racitonsen.s.gy/PS2PH
 #EXTINF:-1 tvg-id="MSports.pk@SD" group-title="Sports",M Sports (1080p)
 https://cdn.rabta.stream/M-Sports/index.m3u8
 #EXTINF:-1 tvg-id="PKSports.pk@SD" group-title="Sports",PK Sports (720p)
@@ -441,12 +430,6 @@ http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd
 http://57.128.231.171:8080/262/index.m3u8
 #EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" group-title="Sports",Polsat Sport Fight
 http://92.114.85.87:8016/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSportPremium1.pl@SD" group-title="Sports",Polsat Sport Premium 1
-#EXTVLCOPT:http-user-agent=Enigma2
-https://racitonsen.s.gy/PSP1_SHD
-#EXTINF:-1 tvg-id="PolsatSportPremium2.pl@SD" group-title="Sports",Polsat Sport Premium 2
-#EXTVLCOPT:http-user-agent=Enigma2
-https://racitonsen.s.gy/PSP2_SHD
 #EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" group-title="Sports",World of Freesports (1080p)
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="SportTV1.pt@SD" group-title="Sports",Sport TV1
