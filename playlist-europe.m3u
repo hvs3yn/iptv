@@ -445,6 +445,10 @@ http://103.151.60.162:2122/play/a0fl/index.m3u8?hls
 http://103.151.60.162:2122/play/a017/index.m3u8?hls
 #EXTINF:-1 tvg-id="StarPlus.uk@SD" group-title="United Kingdom",StarPlus (576p)
 http://103.151.60.162:2122/play/a0fo/index.m3u8?hls
+#EXTINF:-1 tvg-id="Foodxp.uk@SD" group-title="United Kingdom",Foodxp (1080p)
+#EXTVLCOPT:http-referrer=https://bhoomtv.org/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
+https://techtraveleat.in/stream.m3u8?id=foodxp
 #EXTINF:-1 tvg-id="BBCAlba.uk@SD" group-title="United Kingdom",BBC Alba (1080p) (HEVC) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -4562,8 +4566,6 @@ http://57.128.231.171:8080/325/index.m3u8
 http://57.128.231.171:8080/238/index.m3u8
 #EXTINF:-1 tvg-id="KinoPolskaMuzyka.pl@SD" group-title="Poland",Kino Polska Muzyka (1080p)
 http://57.128.231.171:8080/237/index.m3u8
-#EXTINF:-1 tvg-id="AXNPoland.pl@SD" group-title="Poland",AXN Poland
-https://2203.weebvideo.stream/hls/1288486/s/DI_yOeqLvqKFgnP7nYS18cjzG8MYtfk13VVnqo8DPkw/current/high/index.m3u8
 #EXTINF:-1 tvg-id="ExtremeSportsChannelPolska.pl@SD" group-title="Poland",Extreme Sports Channel Polska (1080p)
 http://57.128.231.171:8080/262/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.pl@SD" group-title="Poland",Disney Junior (576p)
@@ -4645,6 +4647,8 @@ http://92.114.85.87:8014/play/a00i/index.m3u8
 http://92.114.85.87:8015/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@Poland" group-title="Poland",FILMBOX+ Festival Poland
 http://92.114.85.87:8018/play/a009/index.m3u8
+#EXTINF:-1 tvg-id="4FunTV.pl@SD" group-title="Poland",4 Fun TV
+https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
