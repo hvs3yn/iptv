@@ -375,8 +375,6 @@ https://cdn4.skygo.mn/live/disk1/MNBSport/DASH-FTA/MNBSport.mpd
 https://cdn4.skygo.mn/live/disk1/MNBSport/HLSv3-FTA/MNBSport.m3u8
 #EXTINF:-1 tvg-id="TDMSports.mo@SD" group-title="Sports",TDM Sports Ch. 93 (720p)
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMsportPlus.mt@SD" group-title="Sports",TVMsport+ (1080p)
-https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 #EXTINF:-1 tvg-id="ClaroSports.mx@SD" group-title="Sports",Claro Sports (1080p)
 http://168.196.127.137:6001/play/a08r/index.m3u8
 #EXTINF:-1 tvg-id="AyMSports.mx@SD" group-title="Sports",AyM Sports (1080p)
@@ -456,8 +454,8 @@ https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.tigosports.com.py/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.O; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck0) Chrome/102.0.0.0 Safari/537.37
 https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
-#EXTINF:-1 tvg-id="TigoSports.py@SD" group-title="Sports",Tigo Sports (1080p)
-http://45.170.130.224:8000/play/a04k/index.m3u8?hls
+#EXTINF:-1 tvg-id="TigoSports.py@SD" group-title="Sports",Tigo Sports
+http://45.134.141.161:2200/ARG/Tigo_Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="DigiSport1.ro@SD" group-title="Sports",Digi Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/79/index.m3u8
