@@ -13,9 +13,6 @@ https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.
 http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlHiwarTV.uk@SD" group-title="United Kingdom",Alhiwar TV (1080p) [Not 24/7]
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AMCEurope.uk@RO" group-title="United Kingdom",AMC Europe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-https://dokagents.site/live/amc/mono.m3u8
 #EXTINF:-1 tvg-id="AMCEurope.uk@Bulgary" group-title="United Kingdom",AMC Europe Bulgary
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://212.70.131.37:8000/play/a05k
@@ -2806,6 +2803,8 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 http://stream7.xdevel.com/video0s975758-1051/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiItalia.it@NorthAmericas" group-title="Italy",Rai Italia North Americas (1080p)
 http://138.59.177.78:9999/play/a0gf/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD" group-title="Italy",Nickelodeon
+https://zg9mhld.s.gy/HD-NICK-IT.ts
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -4649,6 +4648,10 @@ http://92.114.85.87:8015/play/a005/index.m3u8
 http://92.114.85.87:8018/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="4FunTV.pl@SD" group-title="Poland",4 Fun TV
 https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8
+#EXTINF:-1 tvg-id="GolfZone.pl@SD" group-title="Poland",Golf Zone (1080p)
+http://57.128.231.171:8080/248/index.m3u8
+#EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies (360p)
+https://gist.githubusercontent.com/xykt-fix/e01ce187bbad74d0a0c5a86e0fc1b885/raw/eb00491161b819c2321733e929a27aeb2972b416/cbeeb-stream.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
