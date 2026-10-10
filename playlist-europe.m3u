@@ -446,6 +446,24 @@ http://103.151.60.162:2122/play/a0fo/index.m3u8?hls
 #EXTVLCOPT:http-referrer=https://bhoomtv.org/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://techtraveleat.in/stream.m3u8?id=foodxp
+#EXTINF:-1 tvg-id="ITV1.uk@London" group-title="United Kingdom",ITV1 (360p)
+https://lb.iptvnetwork.net/ls28/10103/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel4.uk@UK" group-title="United Kingdom",Channel 4 (360p)
+https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel5.uk@SD" group-title="United Kingdom",Channel 5 (360p)
+https://lb.iptvnetwork.net/ls28/10105/playlist.m3u8
+#EXTINF:-1 tvg-id="ITV2.uk@SD" group-title="United Kingdom",ITV2 (360p)
+https://lb.iptvnetwork.net/ls28/10106/playlist.m3u8
+#EXTINF:-1 tvg-id="ITV3.uk@SD" group-title="United Kingdom",ITV3 (360p)
+https://lb.iptvnetwork.net/ls28/10107/playlist.m3u8
+#EXTINF:-1 tvg-id="ITV4.uk@SD" group-title="United Kingdom",ITV4 (360p)
+https://lb.iptvnetwork.net/ls28/10108/playlist.m3u8
+#EXTINF:-1 tvg-id="E4.uk@SD" group-title="United Kingdom",E4 (360p)
+https://lb.iptvnetwork.net/ls28/10113/playlist.m3u8
+#EXTINF:-1 tvg-id="More4.uk@SD" group-title="United Kingdom",More4 (360p)
+https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8
+#EXTINF:-1 tvg-id="5USA.uk@SD" group-title="United Kingdom",5USA (360p)
+https://lb.iptvnetwork.net/ls28/10115/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCAlba.uk@SD" group-title="United Kingdom",BBC Alba (1080p) (HEVC) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2076,6 +2094,9 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/pu
 #EXTINF:-1 tvg-id="Franceinfo.fr@SD" group-title="France",Franceinfo (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.fr@SD" group-title="France",Nickelodeon (504p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" group-title="France",BFM 2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE
@@ -2805,6 +2826,10 @@ http://stream7.xdevel.com/video0s975758-1051/stream/playlist.m3u8
 http://138.59.177.78:9999/play/a0gf/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.it@SD" group-title="Italy",Nickelodeon
 https://zg9mhld.s.gy/HD-NICK-IT.ts
+#EXTINF:-1 tvg-id="LA7.it@HD" group-title="Italy",LA7 HD (1080p)
+https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8
+#EXTINF:-1 tvg-id="La7Cinema.it@HD" group-title="Italy",La7 Cinema (720p)
+http://102.129.186.182:81/la7d/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -3946,6 +3971,8 @@ http://str2.iptvhd.ru:8080/DocuBoxHD/index.m3u8
 #EXTINF:-1 tvg-id="NicktoonsScandinavia.nl@SD" group-title="Netherlands",Nicktoons Scandinavia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
+#EXTINF:-1 tvg-id="NPO1.nl@SD" group-title="Netherlands",NPO 1 (360p)
+https://lb.iptvnetwork.net/ls28/10001/playlist.m3u8
 #EXTINF:-1 tvg-id="AreWeThereYet.us@SD" group-title="Netherlands",Are we there Yet? (1080p) [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" group-title="Netherlands",Artflix Movie Classics (720p)
@@ -4652,6 +4679,8 @@ https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8
 http://57.128.231.171:8080/248/index.m3u8
 #EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies (360p)
 https://gist.githubusercontent.com/xykt-fix/e01ce187bbad74d0a0c5a86e0fc1b885/raw/eb00491161b819c2321733e929a27aeb2972b416/cbeeb-stream.m3u8
+#EXTINF:-1 tvg-id="PolsatFilm.pl@HD" group-title="Poland",Polsat Film HD
+http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10208.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ=
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
