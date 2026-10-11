@@ -121,18 +121,12 @@ https://dash2.antik.sk/live/sporty_tv/index.m3u8
 http://88.212.15.19/live/esp_4k_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" group-title="Sports",More Than Sports TV (1080p)
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#EXTINF:-1 tvg-id="SportdigitalFUSSBALL.de@SD" group-title="Sports",Sportdigital FUSSBALL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Auto Motor Sport
 https://jmp2.uk/plu-5f760c3d41aa2d0007bfde19.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Dyn Sport Mix (720p)
 https://jmp2.uk/plu-6866525c8a412a0e95c438b4.m3u8
 #EXTINF:-1 tvg-id="WorldofFreesports.de@SD" group-title="Sports",World of Freesports (1080p)
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TV2Sport.dk@SD" group-title="Sports",TV 2 Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/57/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSport.se@DK" group-title="Sports",Pluto TV Sport
 https://jmp2.uk/plu-6357f3de3643ba0007bc0b50.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Retake E-sport Live (720p)
@@ -163,13 +157,22 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@SD" group-title="Sports",Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-#EXTINF:-1 tvg-id="RMCSport1.fr@SD" group-title="Sports",RMC Sport 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/59/index.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@HD" group-title="Sports",Trace Sport Stars (576p)
 https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" group-title="Sports",Canal+ Sport (1080p) [Geo-blocked]
 http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Hungary" group-title="Sports",Eurosport 1 Hungary
+http://88.212.15.17/live/esp1_hun/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@Hungary" group-title="Sports",Eurosport 2 Hungary
+http://88.212.15.17/live/esp2_hun/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Turkiye" group-title="Sports",Eurosport 1 Turkiye
+https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@Turkiye" group-title="Sports",Eurosport 2 Turkiye
+https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Russia" group-title="Sports",Eurosport 1 Russia (1080p)
+http://stream.mcquack.net/176/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@Russia" group-title="Sports",Eurosport 2 Russia (1080p)
+http://stream.mcquack.net/192/index.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@HD" group-title="Sports",Trace Sport Stars (1080p)
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
 #EXTINF:-1 tvg-id="Adjarasport1.ge@SD" group-title="Sports",Adjarasport 1
@@ -191,9 +194,6 @@ http://168.196.127.137:6001/play/a0b0/index.m3u8
 http://168.196.127.137:6001/play/a0ay/index.m3u8
 #EXTINF:-1 tvg-id="M4Sport.hu@SD" group-title="Sports",M4 Sport
 http://88.212.15.19/live/m4_hun/index.m3u8
-#EXTINF:-1 tvg-id="M4Sport.hu@SD" group-title="Sports",M4 Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/80/index.m3u8
 #EXTINF:-1 tvg-id="Sport1.hu@SD" group-title="Sports",Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.19/live/sport1_hun/index.m3u8
@@ -236,8 +236,6 @@ http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 http://59.103.38.46:8000/play/a126/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen1.in@SD" group-title="Sports",Sony Sports Ten 1 (1080p)
 https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="Sports",Sony Sports Ten 1 HD (1080p)
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen2.in@SD" group-title="Sports",Sony Sports Ten 2 (1080p)
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen2.in@HD" group-title="Sports",Sony Sports Ten 2 HD (1080p)
@@ -258,16 +256,6 @@ https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
 https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" group-title="Sports",Star Sports 2 Telugu HD (576p)
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1.in@SD" group-title="Sports",Star Sports 1 (576p)
-http://51.75.127.199:3141/starsports1/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2.in@SD" group-title="Sports",Star Sports 2 (576p)
-http://51.75.127.199:3141/starsports2/index.m3u8
-#EXTINF:-1 tvg-id="StarSportsKhel.in@SD" group-title="Sports",Star Sports Khel (576p)
-http://51.75.127.199:3141/starsportskhel/index.m3u8
-#EXTINF:-1 tvg-id="Unite8Sports1.in@HD" group-title="Sports",Unite8 Sports 1 HD (1080p)
-http://51.75.127.199:3141/zeecafehd/index.m3u8
-#EXTINF:-1 tvg-id="Unite8Sports2.in@HD" group-title="Sports",Unite8 Sports 2 HD (1080p)
-http://51.75.127.199:3141/andflixhd/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="Sports",Sony Sports Ten 1 HD (1080p)
 http://103.185.24.134:3001/SonyTenSports1/index.m3u8
 #EXTINF:-1 tvg-id="Unite8Sports2.in@SD" group-title="Sports",Unite8 Sports 2 (576p)
@@ -307,9 +295,6 @@ https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
 #EXTINF:-1 tvg-id="ACISportTV.it@SD" group-title="Sports",ACI Sport TV (720p)
 http://145.239.5.177/564a/index.m3u8
-#EXTINF:-1 tvg-id="RaiSport.it@SD" group-title="Sports",Rai Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Rai Sport 2
 http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD" group-title="Sports",Sportitalia (1080p)
@@ -385,14 +370,6 @@ http://45.171.64.30:6060/play/a00w/index.m3u8
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 #EXTINF:-1 tvg-id="PlutoTVESports.us@LatAm" group-title="Sports",Pluto TV E-Sports
 https://jmp2.uk/plu-5ff3934600d4c7000733ff49.m3u8
-#EXTINF:-1 tvg-id="ZiggoSport.nl@HD" group-title="Sports",Ziggo Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://86.87.15.10:8004/play/a02d/index.m3u8
-#EXTINF:-1 tvg-id="ZiggoSport2.nl@HD" group-title="Sports",Ziggo Sport 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://86.87.15.10:8004/play/a02b/index.m3u8
-#EXTINF:-1 tvg-id="ZiggoSport5.nl@HD" group-title="Sports",Ziggo Sport 5 (1080p)
-http://145.239.5.177/349/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSport.se@NO" group-title="Sports",Pluto TV Sport
 https://jmp2.uk/plu-6357f33cb51d2d00077927c6.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Retake E-sport Live (720p)
@@ -425,6 +402,27 @@ http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd
 http://57.128.231.171:8080/262/index.m3u8
 #EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" group-title="Sports",Polsat Sport Fight
 http://92.114.85.87:8016/play/a00b/index.m3u8
+#EXTINF:-1 tvg-id="ElevenSports1.pl@SD" group-title="Sports",Eleven Sports 1
+http://92.114.85.87:8002/play/a00e/index.m3u8
+#EXTINF:-1 tvg-id="TVPSport.pl@SD" group-title="Sports",TVP Sport (1080p)
+http://57.128.210.196:8080/134/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport3.pl@SD" group-title="Sports",Polsat Sport 3 (1080p)
+http://57.128.210.196:8080/192/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" group-title="Sports",Polsat Sport Fight (1080p)
+http://57.128.210.196:8080/194/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport1.pl@SD" group-title="Sports",Polsat Sport 1 (1080p)
+http://57.128.210.196:8080/193/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport2.pl@SD" group-title="Sports",Polsat Sport 2 (1080p)
+http://57.128.210.196:8080/195/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1Polska.pl@SD" group-title="Sports",Eurosport 1 Polska (1080p)
+http://57.128.210.196:8080/264/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport2Polska.pl@SD" group-title="Sports",Eurosport 2 Polska (1080p)
+http://57.128.210.196:8080/263/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport4Polska.pl@SD" group-title="Sports",Eurosport 4 Polska (1080p)
+http://57.128.231.171:8080/291/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport3Polska.pl@SD" group-title="Sports",Eurosport 3 Polska
+#EXTVLCOPT:http-user-agent=Enigma2
+http://91.228.35.249:8001/1:0:1:3D:1964:13E:820000:0:0:0
 #EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" group-title="Sports",World of Freesports (1080p)
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="SportTV1.pt@SD" group-title="Sports",Sport TV1
@@ -453,9 +451,6 @@ https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8
 https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
 #EXTINF:-1 tvg-id="TigoSports.py@SD" group-title="Sports",Tigo Sports
 http://45.134.141.161:2200/ARG/Tigo_Sports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="DigiSport1.ro@SD" group-title="Sports",Digi Sport 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/79/index.m3u8
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" group-title="Sports",Realitatea Sportiva (720p)
 https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
 #EXTINF:-1 tvg-id="TVRSport.ro@SD" group-title="Sports",TVR Sport
@@ -488,12 +483,6 @@ http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Sports",Extreme Sports Channel (576p)
 https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Sports",Extreme Sports Channel (576p)
-http://str2.iptvhd.ru:8080/Extream/index.m3u8
-#EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@HD" group-title="Sports",Extreme Sports Channel HD (1080p)
-http://str2.iptvhd.ru:8080/Extreme_Sports/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSport.ru@HD" group-title="Sports",viju+ Sport HD (1080p)
-http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports1.ru@HD" group-title="Sports",Setanta Sports 1 HD
 https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Sports",viju+ Sport (576p)
@@ -750,7 +739,5 @@ https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="eSportsMaxTV.ve@SD" group-title="Sports",eSports Max TV
 https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="HTVSports.vn@SD" group-title="Sports",HTV Thể thao (1080p) [Geo-blocked]
-https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="HTVSports.vn@SD" group-title="Sports",HTV Sports
 https://dethich.pw/htvthethao/index.m3u8
