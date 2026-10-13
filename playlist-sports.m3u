@@ -323,6 +323,8 @@ https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv
 http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 tvg-id="MNetSport.mk@SD" group-title="Sports",M-Net Sport
 https://live.mnet.mk/hls/mnet-sport.m3u8
+#EXTINF:-1 tvg-id="ArenaSportPremiumM1.mk@SD" group-title="Sports",Arena Sport Premium M1
+http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqQgIFxl-Ch6B37eGpkVDb28
 #EXTINF:-1 tvg-id="MRTVSports.mm@SD" group-title="Sports",MRTV Sports [Not 24/7]
 https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
 #EXTINF:-1 tvg-id="MNBSport.mn@SD" group-title="Sports",MNB Sport (1080p)
