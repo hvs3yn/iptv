@@ -38,16 +38,12 @@ http://88.212.15.29/live/test_bbc_eartch_hevc/playlist.m3u8
 http://88.212.15.29/live/bbc_first/index.m3u8
 #EXTINF:-1 tvg-id="BBCFourCBeebies.uk@HD" group-title="United Kingdom",BBC Four/CBeebies (720p)
 http://193.46.58.239:8080/CbeebiesHD/index.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@UK" group-title="United Kingdom",BBC News (1080p)
-https://xemzi.short.gy/1000015
 #EXTINF:-1 tvg-id="BBCNews.uk@AsiaPacific" group-title="United Kingdom",BBC News Asia Pacific (576p)
 https://thinkkast.dpdns.org/thinkkast/bbcworld_news_sd/versiglia/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@Europe" group-title="United Kingdom",BBC News Europe (576p)
 http://46.32.176.50/bbcworld/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@Europe" group-title="United Kingdom",BBC News Europe (576p)
 http://stream.mcquack.net/85/index.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@LatinAmerica" group-title="United Kingdom",BBC News Latin America (720p)
-http://138.121.15.230:9002/BBC-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@UKHD" group-title="United Kingdom",BBC News UK HD (1080p)
 http://45.153.96.44:8001
 #EXTINF:-1 tvg-id="BBCOne.uk@LondonHD" group-title="United Kingdom",BBC One London HD (720p)
@@ -58,10 +54,6 @@ http://193.239.186.231/BBC1/index.m3u8
 http://193.46.58.239:8080/CBBCHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCTwo.uk@HD" group-title="United Kingdom",BBC Two HD (720p)
 http://193.46.58.239:8080/BBCTwoHD/index.m3u8
-#EXTINF:-1 tvg-id="BBCUHD1.uk@SD" group-title="United Kingdom",BBC UHD 1 (1080p)
-https://xemzi.short.gy/1000001
-#EXTINF:-1 tvg-id="BBCUHD2.uk@SD" group-title="United Kingdom",BBC UHD 2 (1080p)
-https://xemzi.short.gy/1000002
 #EXTINF:-1 tvg-id="Blaze.uk@SD" group-title="United Kingdom",Blaze (576p) [Geo-blocked]
 https://live-blaze-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/blaze-live-broadcast-scte/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@EMEALiveEvent" group-title="United Kingdom",Bloomberg TV EMEA Live Event (720p)
@@ -129,8 +121,6 @@ https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 https://live-gbnews.simplestreamcdn.com/s3/gbnews/index.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk@SD" group-title="United Kingdom",GB News (1080p)
 https://live-gbnews.simplestreamcdn.com/s3/gbnews_subs/index.m3u8
-#EXTINF:-1 tvg-id="GBNews.uk@HD" group-title="United Kingdom",GB News HD (2160p)
-https://xemzi.short.gy/1000017
 #EXTINF:-1 tvg-id="GemsTV.uk@SD" group-title="United Kingdom",Gems TV (720p)
 https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" group-title="United Kingdom",GOD TV (396p)
@@ -169,8 +159,6 @@ https://live.playstop.me/1816184091/index.m3u8
 https://live.playstop.me/LS-63503-4/index.m3u8
 #EXTINF:-1 tvg-id="IslamChannel.uk@SD" group-title="United Kingdom",Islam Channel (576p) [Not 24/7]
 https://live.islamchannel.tv/live11/islamtv_english/bitrate1.isml/live.m3u8
-#EXTINF:-1 tvg-id="ITV2.uk@HD" group-title="United Kingdom",ITV2 HD (1080p)
-https://xemzi.short.gy/1000012
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" group-title="United Kingdom",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" group-title="United Kingdom",JimJam Europe (576p)
@@ -464,6 +452,18 @@ http://88.212.15.17/live/test_cartoon_network_tizen/playlist.m3u8
 http://88.212.15.17/live/test_boomerang_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@Poland" group-title="United Kingdom",Cartoon Network CEE Poland (1080p)
 http://57.128.231.171:8080/293/index.m3u8
+#EXTINF:-1 tvg-id="CartoonitoCEE.uk@Poland" group-title="United Kingdom",Cartoonito CEE Poland (1080p)
+http://57.128.231.171:8080/303/index.m3u8
+#EXTINF:-1 tvg-id="CNBCEurope.uk@SD" group-title="United Kingdom",CNBC Europe (1080p)
+http://57.128.231.171:8080/234/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryScienceEurope.uk@Poland" group-title="United Kingdom",Discovery Science Europe Poland (1080p)
+http://57.128.231.171:8080/279/index.m3u8
+#EXTINF:-1 tvg-id="BBCFirst.uk@Poland" group-title="United Kingdom",BBC First (1080p)
+http://57.128.231.171:8080/306/index.m3u8
+#EXTINF:-1 tvg-id="BabyTV.uk@UK" group-title="United Kingdom",BabyTV (1080p)
+http://57.128.231.171:8080/310/index.m3u8
+#EXTINF:-1 tvg-id="AMCEurope.uk@Poland" group-title="United Kingdom",AMC Europe Poland (576i)
+http://57.128.231.171:8080/318/index.m3u8
 #EXTINF:-1 tvg-id="BBCAlba.uk@SD" group-title="United Kingdom",BBC Alba (1080p) (HEVC) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -2063,10 +2063,6 @@ https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
 https://mumbai-edge.smartplaytv.in/france24/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsEnglish.fr@SD" group-title="France",Africanews English (720p)
 https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
-#EXTINF:-1 tvg-id="MCMPop.fr@SD" group-title="France",MCM Pop (576p)
-http://193.254.245.162/MCM/index.m3u8
-#EXTINF:-1 tvg-id="ParisPremiere.fr@SD" group-title="France",Paris Premiere (720p)
-http://193.254.245.162/PARIS-PREMIERE/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" group-title="France",Canal+ Sport (1080p) [Geo-blocked]
 http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
 #EXTINF:-1 tvg-id="GolfPlus.fr@SD" group-title="France",Golf + (1080p) [Geo-blocked]
@@ -2079,8 +2075,6 @@ http://188.115.15.121:8000/play/a014
 http://tv.streambox.fr/live/testlivestream/testlivestream/41.m3u8
 #EXTINF:-1 tvg-id="CanalPlus.fr@SD" group-title="France",Canal+ (720p)
 http://151.80.18.177:86/Canal+_HD/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.fr@SD" group-title="France",Nicktoons (1080p)
-http://193.254.245.162/NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="Europe1TV.fr@HD" group-title="France",Europe 1 TV (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/misc/europe-1-tv-dm.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" group-title="France",W9 (1086p)
@@ -2839,8 +2833,8 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.it@SD" group-title="Italy",Discovery Channel (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.it@HD" group-title="Italy",Cartoon Network HD
-https://bin.webhookrelay.com/v1/webhooks/c804ab58-63c4-427d-bd2e-4d774eb34073
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD" group-title="Italy",Nickelodeon
+https://hostemea1236.s.gy/italia/nikc/23/32/93/locos.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -3511,8 +3505,6 @@ http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0
 http://38.252.238.18:8000/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" group-title="Spain",Antena 3 Internacional (1080p)
 http://38.252.238.18:8000/play/a04a/index.m3u8
-#EXTINF:-1 tvg-id="AXN.es@SD" group-title="Spain",AXN (1080p)
-http://193.254.245.162/AXN/index.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.es@SD" group-title="Spain",AXN Movies
 https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd
 #EXTINF:-1 tvg-id="Antena3.es@National" group-title="Spain",Antena 3
@@ -4102,7 +4094,7 @@ https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg0073
 #EXTINF:-1 tvg-id="WedoTVAmor.ch@SD" group-title="Switzerland",Wedo TV Amor (1080p)
 https://amg00735-videosolutions-amg00735c15-wedotv-eu-1915.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedoamor-wedotveu/playlist.m3u8
 #EXTINF:-1 tvg-id="NickSchweiz.ch@SD" group-title="Switzerland",Nick Schweiz
-https://bin.webhookrelay.com/v1/webhooks/0351cd0b-b0d7-4836-8cc9-4d2280c7961c
+https://hostemea1236.s.gy/hostemea/nickschweiz/28/25/65/74/gg/locos.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Switzerland" group-title="Switzerland",Rakuten TV Family Switzerland (720p)
 https://a24daf1125344b9cab66eed2fcff8821.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_RakutenFamily-1/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Austria",Antenne Kaernten (720p)
@@ -4760,6 +4752,50 @@ http://57.128.231.171:8080/282/index.m3u8
 http://57.128.231.171:8080/281/index.m3u8
 #EXTINF:-1 tvg-id="HGTV.pl@SD" group-title="Poland",HGTV (1080p)
 http://57.128.231.171:8080/241/index.m3u8
+#EXTINF:-1 tvg-id="4FunKids.pl@SD" group-title="Poland",4 Fun Kids (576i)
+https://stream.4fun.tv:8889/hls/4fk.m3u8
+#EXTINF:-1 tvg-id="PolsatPlay.pl@SD" group-title="Poland",Polsat Play (1080p)
+http://57.128.210.196:8080/198/index.m3u8
+#EXTINF:-1 tvg-id="PolsatNews.pl@SD" group-title="Poland",Polsat News (1080p)
+http://57.128.210.196:8080/199/index.m3u8
+#EXTINF:-1 tvg-id="PolsatMusic.pl@SD" group-title="Poland",Polsat Music (1080p)
+http://57.128.210.196:8080/201/index.m3u8
+#EXTINF:-1 tvg-id="PolsatJimJam.pl@SD" group-title="Poland",Polsat JimJam (576p)
+http://57.128.210.196:8080/202/index.m3u8
+#EXTINF:-1 tvg-id="Polsat.pl@SD" group-title="Poland",Polsat (1080p)
+http://57.128.210.196:8080/203/index.m3u8
+#EXTINF:-1 tvg-id="PolsatGames.pl@SD" group-title="Poland",Polsat Games (1080p)
+http://57.128.210.196:8080/204/index.m3u8
+#EXTINF:-1 tvg-id="PolsatFilm.pl@SD" group-title="Poland",Polsat Film (1080p)
+http://57.128.210.196:8080/205/index.m3u8
+#EXTINF:-1 tvg-id="PolsatDoku.pl@SD" group-title="Poland",Polsat Doku (1080p)
+http://57.128.210.196:8080/206/index.m3u8
+#EXTINF:-1 tvg-id="PolsatCafe.pl@SD" group-title="Poland",Polsat Cafe (1080p)
+http://57.128.210.196:8080/207/index.m3u8
+#EXTINF:-1 tvg-id="PoloTV.pl@SD" group-title="Poland",Polo TV (1080p)
+http://57.128.210.196:8080/210/index.m3u8
+#EXTINF:-1 tvg-id="ParamountNetwork.pl@SD" group-title="Poland",Paramount Network (1080p)
+http://57.128.210.196:8080/212/index.m3u8
+#EXTINF:-1 tvg-id="TV4.pl@SD" group-title="Poland",TV4 (1080p)
+http://57.128.210.196:8080/161/index.m3u8
+#EXTINF:-1 tvg-id="WaterPlanet.pl@SD" group-title="Poland",Water Planet (1080p)
+http://57.128.231.171:8080/122/index.m3u8
+#EXTINF:-1 tvg-id="Motowizja.pl@SD" group-title="Poland",Motowizja (1080p)
+http://57.128.231.171:8080/230/index.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.pl@SD" group-title="Poland",Investigation Discovery (1080p)
+http://57.128.231.171:8080/239/index.m3u8
+#EXTINF:-1 tvg-id="History.pl@SD" group-title="Poland",History (1080p)
+http://57.128.231.171:8080/240/index.m3u8
+#EXTINF:-1 tvg-id="History2.pl@SD" group-title="Poland",History 2 (1080p)
+http://57.128.231.171:8080/247/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.pl@SD" group-title="Poland",Disney XD (576p)
+http://57.128.231.171:8080/276/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.pl@SD" group-title="Poland",Disney Channel (1080p)
+http://57.128.231.171:8080/278/index.m3u8
+#EXTINF:-1 tvg-id="CBeebies.pl@SD" group-title="Poland",CBeebies (576p)
+http://57.128.231.171:8080/308/index.m3u8
+#EXTINF:-1 tvg-id="TVTrwam.pl@SD" group-title="Poland",TV Trwam (576i)
+http://57.128.231.171:8080/338/index.m3u8
 #EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" group-title="Czech Republic",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" group-title="Czech Republic",CNN Prima News (1080p)
@@ -4963,6 +4999,8 @@ http://88.212.15.17/live/test_hgtv_hevc_25p/playlist.m3u8
 http://88.212.15.17/live/test_tlc_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.cz@SD" group-title="Czech Republic",Investigation Discovery
 http://88.212.15.17/live/test_id_hevc_atktv/playlist.m3u8
+#EXTINF:-1 tvg-id="WarnerTV.cz@SD" group-title="Czech Republic",Warner TV
+http://88.212.15.17/live/warner_tv/index.m3u8
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTV.pt@SD" group-title="Portugal",ARTV Canal Parlamento (720p) [Not 24/7]
