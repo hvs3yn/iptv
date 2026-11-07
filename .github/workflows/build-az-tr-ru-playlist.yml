@@ -1,0 +1,115 @@
+name: Build AZ-TR-RU Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Staggered 30 minutes after sync.yml to avoid racing it and the other builds.
+    - cron: '30 */6 * * *'
+
+permissions:
+  contents: write
+
+# Shares the push-to-master queue with sync.yml and the other playlist builds.
+concurrency:
+  group: push-master
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Generate playlist
+        run: |
+          conf="playlist-filter-az-tr-ru.conf"
+          output="playlist-az-tr-ru.m3u"
+
+          echo "#EXTM3U" > "$output"
+
+          while IFS='=' read -r source group; do
+            [[ -z "$source" || "$source" == \#* ]] && continue
+
+            file="streams/$source"
+            if [[ ! -f "$file" ]]; then
+              echo "::error::Source file listed in $conf not found: $file"
+              exit 1
+            fi
+
+            awk -v group="$group" -v excludeFile="playlist-exclude.conf" -v executeFile="playlist-execute.conf" '
+              BEGIN {
+                excludeCount = 0
+                while ((getline line < excludeFile) > 0) {
+                  gsub(/^[ \t]+|[ \t]+$/, "", line)
+                  if (line == "" || line ~ /^#/) continue
+                  excludeCount++
+                  excludePatterns[excludeCount] = tolower(line)
+                }
+                close(excludeFile)
+                while ((getline line < executeFile) > 0) {
+                  gsub(/^[ \t]+|[ \t]+$/, "", line)
+                  if (line == "" || line ~ /^#/) continue
+                  excludeCount++
+                  excludePatterns[excludeCount] = tolower(line)
+                }
+                close(executeFile)
+              }
+              /^#EXTINF/ {
+                skip = 0
+                lowerLine = tolower($0)
+                for (i = 1; i <= excludeCount; i++) {
+                  if (index(lowerLine, excludePatterns[i]) > 0) {
+                    skip = 1
+                    break
+                  }
+                }
+                if (!skip) {
+                  if ($0 ~ /group-title="[^"]*"/) {
+                    gsub(/group-title="[^"]*"/, "group-title=\"" group "\"")
+                  } else {
+                    sub(/,/, " group-title=\"" group "\",")
+                  }
+                }
+              }
+              skip { next }
+              !/^#EXTM3U/ { print }
+            ' "$file" >> "$output"
+
+          done < "$conf"
+
+      - name: Remove ungrouped channels
+        run: |
+          awk '
+            /^#EXTM3U/ { print; next }
+            /^#EXTINF/ {
+              if (buffer != "" && keep) printf "%s", buffer
+              buffer = $0 "\n"
+              keep = ($0 ~ /group-title="[^"]+"/) ? 1 : 0
+              next
+            }
+            { buffer = buffer $0 "\n" }
+            END { if (buffer != "" && keep) printf "%s", buffer }
+          ' playlist-az-tr-ru.m3u > playlist-az-tr-ru.m3u.tmp
+          mv playlist-az-tr-ru.m3u.tmp playlist-az-tr-ru.m3u
+
+      - name: Commit playlist
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add playlist-az-tr-ru.m3u
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Update AZ-TR-RU playlist"
+
+          git pull --rebase origin master
+
+          git push origin master
