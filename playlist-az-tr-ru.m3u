@@ -14,14 +14,18 @@ https://str.yodacdn.net/azertv/index.m3u8
 http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA
 #EXTINF:-1 tvg-id="AzTV.az@SD" group-title="Azerbaijan",Az TV
 https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="AzadTV.az@SD" group-title="Azerbaijan",Azad TV (1080p)
+#EXTVLCOPT:http-referrer=No response
+#EXTVLCOPT:http-user-agent=No response
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
 #EXTINF:-1 tvg-id="AzStarTV.ca@SD" group-title="Azerbaijan",Azstar TV HD (1080p)
 https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
-#EXTINF:-1 tvg-id="BakuTV.az@SD" group-title="Azerbaijan",Baku.TV
+#EXTINF:-1 tvg-id="BakuTV.az@SD" group-title="Azerbaijan",Baku.TV (1080p)
 https://rtmp.baku.tv/hls/bakutv.m3u8
-#EXTINF:-1 tvg-id="ELTV.az@SD" group-title="Azerbaijan",EL TV (260p) [Not 24/7]
-http://85.132.53.162:1935/live/eltv/playlist.m3u8
 #EXTINF:-1 tvg-id="ELTV.az@SD" group-title="Azerbaijan",EL TV
 https://live.eltv.az/live/eltv/playlist.m3u8
+#EXTINF:-1 tvg-id="ELTV.az@SD" group-title="Azerbaijan",EL TV (260p) [Not 24/7]
+http://85.132.53.162:1935/live/eltv/playlist.m3u8
 #EXTINF:-1 tvg-id="IctimaiTV.az@SD" group-title="Azerbaijan",Ictimai TV
 https://live.itv.az/itv.m3u8
 #EXTINF:-1 tvg-id="Kanal35.az@SD" group-title="Azerbaijan",Kanal 35 (720p)
@@ -40,10 +44,6 @@ https://str2.yodacdn.net/ntv/video.m3u8
 https://nl.livekadeh.com/hls2/vilayet.m3u8
 #EXTINF:-1 tvg-id="XezerTV.az@SD" group-title="Azerbaijan",Xezer TV (720p)
 https://www.xezerxeber.az/stream/index.m3u8
-#EXTINF:-1 tvg-id="AzadTV.az@SD" group-title="Azerbaijan",Azad TV (1080p)
-#EXTVLCOPT:http-referrer=No response
-#EXTVLCOPT:http-user-agent=No response
-https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
 #EXTINF:-1 tvg-id="4UTV.tr@SD" group-title="Turkey",4U TV (720p)
 https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="360.tr@SD" group-title="Turkey",360 TV (720p) [Not 24/7]
@@ -78,6 +78,8 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ATVAlanya.tr@SD" group-title="Turkey",ATV Alanya (720p) [Not 24/7]
 http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" group-title="Turkey",ATV Avrupa (576p)
+https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" group-title="Turkey",Benguturk TV (1080p)
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" group-title="Turkey",BENGÜTÜRK TV (720p) [Not 24/7]
@@ -86,6 +88,10 @@ https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
 #EXTINF:-1 tvg-id="BirTV.tr@SD" group-title="Turkey",Bir TV (720p)
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD" group-title="Turkey",Bloomberg HT (720p)
+https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD" group-title="Turkey",Bloomberg HT
+http://193.123.61.120:3000/kanal/bloomberght
 #EXTINF:-1 tvg-id="BloombergHT.tr@SD" group-title="Turkey",Bloomberg HT (720p) [Not 24/7]
 https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr@SD" group-title="Turkey",BloombergHT (720p)
@@ -94,6 +100,8 @@ https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 #EXTINF:-1 tvg-id="BursaTV.tr@SD" group-title="Turkey",Bursa TV (720p) [Not 24/7]
 https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" group-title="Turkey",Cartoon Network
+http://176.65.153.40:6002/play/a013/index.m3u8
 #EXTINF:-1 tvg-id="CayTV.tr@SD" group-title="Turkey",Cay TV (720p)
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="CekmekoyTV.tr@SD" group-title="Turkey",Cekmeköy TV (1080p)
@@ -116,6 +124,8 @@ https://dost.stream.emsal.im/tv/live.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-id="EdessaTV.tr@SD" group-title="Turkey",Edessa TV (1080p)
 https://canli.edessatv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Ekoturk.tr@SD" group-title="Turkey",Ekoturk (720p)
+https://cdn.ekoturk.net/hls/master.m3u8
 #EXTINF:-1 tvg-id="ErzurumWebTV.tr@SD" group-title="Turkey",Erzurum Web TV (720p)
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTINF:-1 tvg-id="ESTV.tr@SD" group-title="Turkey",ES TV (720p)
@@ -166,10 +176,10 @@ https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8
 http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal3.tr@SD" group-title="Turkey",Kanal 3 (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal7.tr@SD" group-title="Turkey",Kanal 7 (1080p) [Not 24/7]
-https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:-1 tvg-id="Kanal7.tr@SD" group-title="Turkey",Kanal 7 (720p)
 https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
+#EXTINF:-1 tvg-id="Kanal7.tr@SD" group-title="Turkey",Kanal 7 (1080p) [Not 24/7]
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" group-title="Turkey",Kanal 7 Avrupa (720p) [Not 24/7]
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal12.tr@SD" group-title="Turkey",Kanal 12 (720p)
@@ -252,14 +262,20 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
 #EXTINF:-1 tvg-id="MTurkTV.tr@SD" group-title="Turkey",MTürk TV (1080p)
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" group-title="Turkey",National Geographic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/natgeo/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" group-title="Turkey",National Geographic Wild
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" group-title="Turkey",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" group-title="Turkey",Natural TV (720p) [Not 24/7]
 https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="NOWTV.tr@SD" group-title="Turkey",NOW TV (720p)
+#EXTINF:-1 tvg-id="NOW.tr@SD" group-title="Turkey",NOW (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-id="" group-title="Turkey",NOW TV (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 tvg-id="NOWTV.tr@SD" group-title="Turkey",NOW TV
-http://116.202.238.88/FOXTV_TR/index.m3u8
 #EXTINF:-1 tvg-id="NTV.tr@SD" group-title="Turkey",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-id="Number1Ask.tr@SD" group-title="Turkey",Number 1 Ask (720p)
@@ -299,10 +315,6 @@ https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="QafTV.tr@SD" group-title="Turkey",Qaf TV (1080p)
 https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
-#EXTINF:-1 tvg-id="SSport.tr@SD" group-title="Turkey",S Sport (720p)
-https://corestream.siteyaptim.live/s-sport/index.m3u8
-#EXTINF:-1 tvg-id="SSport2.tr@SD" group-title="Turkey",S Sport 2 (720p)
-https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 tvg-id="SSport2.tr@SD" group-title="Turkey",S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="Sat7Turk.cy@SD" group-title="Turkey",Sat7 Türk (1080p)
@@ -315,6 +327,11 @@ http://139.162.182.79/live/test/index.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SercemTV.tr@HD" group-title="Turkey",Sercem TV (1080p)
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="ShowTurk.tr@SD" group-title="Turkey",Show Turk (1080p)
+https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
+#EXTINF:-1 tvg-id="SpacetoonTurkey.tr@SD" group-title="Turkey",Spacetoon Turkey (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
+https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 #EXTINF:-1 tvg-id="StarTV.tr@SD" group-title="Turkey",Star TV (720p)
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 tvg-id="SunRTV.tr@SD" group-title="Turkey",Sun RTV (720p) [Not 24/7]
@@ -373,8 +390,17 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TRTMuzik.tr@SD" group-title="Turkey",TRT Müzik (720p)
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr@SD" group-title="Turkey",TRT Spor (720p)
+https://corestream.siteyaptim.live/trt-spor/index.m3u8
 #EXTINF:-1 tvg-id="TRTTurk.tr@SD" group-title="Turkey",TRT Türk (720p)
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Turkey",TRT World (720p)
+https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Turkey",TRT World (576p)
+https://cdn.pishow.tv/ott/live/266/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Turkey",TRT World (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/416/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Turkey",TRT World (1080p) [Not 24/7]
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TurkHaberTV.tr@SD" group-title="Turkey",TürkHaber (720p)
@@ -383,10 +409,10 @@ https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.tr@SD" group-title="Turkey",TV4 (720p)
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 tvg-id="TV8.tr@SD" group-title="Turkey",TV 8 (1080p) [Not 24/7]
-https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 #EXTINF:-1 tvg-id="TV8.tr@SD" group-title="Turkey",TV 8 (1080p)
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-id="TV8.tr@SD" group-title="Turkey",TV 8 (1080p) [Not 24/7]
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 #EXTINF:-1 tvg-id="24TV.tr@SD" group-title="Turkey",TV 24 (720p)
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 #EXTINF:-1 tvg-id="TV41.tr@SD" group-title="Turkey",TV 41 (720p) [Not 24/7]
@@ -411,55 +437,13 @@ http://217.174.229.138:8000/play/a0el
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-id="Van65TV.tr@SD" group-title="Turkey",Van 65 TV
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
-#EXTINF:-1 tvg-id="VavTV.tr@SD" group-title="Turkey",Vav TV
+#EXTINF:-1 tvg-id="VavTV.tr@SD" group-title="Turkey",Vav TV (1080p)
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZarokTV.tr@SD" group-title="Turkey",Zarok TV (720p)
-https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TRTSpor.tr@SD" group-title="Turkey",TRT Spor (720p)
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
 #EXTINF:-1 tvg-id="ViasatHistory.tr@SD" group-title="Turkey",Viasat History (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" group-title="Turkey",National Geographic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" group-title="Turkey",National Geographic Wild
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
-#EXTINF:-1 tvg-id="beINMoviesStars.tr@SD" group-title="Turkey",beIN Movies Stars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/bsaction1/index.m3u8
-#EXTINF:-1 tvg-id="beINMoviesTurk.tr@SD" group-title="Turkey",beIN Movies Turk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/bsturk/index.m3u8
-#EXTINF:-1 tvg-id="beINBoxOffice1.tr@SD" group-title="Turkey",beIN Box Office 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/box1/index.m3u8
-#EXTINF:-1 tvg-id="beINBoxOffice2.tr@SD" group-title="Turkey",beIN Box Office 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/box2/index.m3u8
-#EXTINF:-1 tvg-id="beINBoxOffice3.tr@SD" group-title="Turkey",beIN Box Office 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/box3/index.m3u8
-#EXTINF:-1 tvg-id="ShowTurk.tr@SD" group-title="Turkey",Show Turk (1080p)
-https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
-#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" group-title="Turkey",ATV Avrupa (576p)
-https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
-#EXTINF:-1 tvg-id="Ekoturk.tr@SD" group-title="Turkey",Ekoturk (720p)
-https://cdn.ekoturk.net/hls/master.m3u8
-#EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Turkey",TRT World (720p)
-https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" group-title="Turkey",Bloomberg HT (720p)
-https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
-#EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" group-title="Turkey",TRT Belgesel (1080p)
-http://hls127.freeott.top:8080/TRT_BELGESEL_TR/video.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" group-title="Turkey",Bloomberg HT
-http://193.123.61.120:3000/kanal/bloomberght
-#EXTINF:-1 tvg-id="SpacetoonTurkey.tr@SD" group-title="Turkey",Spacetoon Turkey (720p) [Not 24/7]
-#EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
-https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
-#EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Turkey",TRT World (576p)
-https://cdn.pishow.tv/ott/live/266/master.m3u8
+#EXTINF:-1 tvg-id="ZarokTV.tr@SD" group-title="Turkey",Zarok TV (720p)
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GEMPixel.tr@SD" group-title="Turkey",GEM Pixel
 https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
 #EXTINF:-1 tvg-id="GEMSport.tr@SD" group-title="Turkey",GEM Sport
@@ -520,6 +504,16 @@ https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202
 https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="T2Movies.ir@SD" group-title="Turkey",T2 Movies
 https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="1HDMusicTelevision.ru@HD" group-title="Russia",1HD Music Television (1080p)
+http://176.118.197.101/1HD/index.m3u8
+#EXTINF:-1 tvg-id="1HDMusicTelevision.ru@SD" group-title="Russia",1HD Music Television (1080p)
+https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576p)
+http://176.118.197.101/2x2/index.m3u8
+#EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576p)
+http://185.23.80.23:8080/2x2/index.m3u8
+#EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576p)
+http://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 SD (576p)
@@ -528,10 +522,18 @@ http://stream.mcquack.net/187/index.m3u8
 https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
 #EXTINF:-1 tvg-id="360.ru@SD" group-title="Russia",360° (1080p)
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
+#EXTINF:-1 tvg-id="360.ru@SD" group-title="Russia",360°
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="360News.ru@SD" group-title="Russia",360° Новости
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
 #EXTINF:-1 tvg-id="365daysTV.ru@SD" group-title="Russia",365 days TV (576p)
 http://stream.mcquack.net/70/index.m3u8
+#EXTINF:-1 tvg-id="365daysTV.ru@SD" group-title="Russia",365 days TV (576p)
+https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="365daysTV.ru@SD" group-title="Russia",365 days TV (576p)
+https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="red.ru@HD" group-title="Russia",.red HD (1080p)
+http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1 tvg-id="black.ru@SD" group-title="Russia",.black (576p)
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" group-title="Russia",.red (576p)
@@ -542,51 +544,97 @@ http://stream.mcquack.net/69/index.m3u8
 http://stream.mcquack.net/180/index.m3u8
 #EXTINF:-1 tvg-id="Afontovo.ru@SD" group-title="Russia",Afontovo
 https://stream.afontovo.ru/hd.m3u8
+#EXTINF:-1 tvg-id="AISTTV.ru@SD" group-title="Russia",AIST TV (576p)
+http://194.143.148.28:8080/Aist/index.m3u8
 #EXTINF:-1 tvg-id="AmediaHit.ru@SD" group-title="Russia",Amedia Hit (1080p)
 http://stream.mcquack.net/162/index.m3u8
+#EXTINF:-1 tvg-id="AmediaHit.ru@SD" group-title="Russia",Amedia Hit (576p)
+http://flussonic.linkintel.ru/amedia-hit/index.m3u8
 #EXTINF:-1 tvg-id="Ani.ru@SD" group-title="Russia",Ani (576p)
 http://46.32.176.50/anitv/index.m3u8
 #EXTINF:-1 tvg-id="Ani.ru@SD" group-title="Russia",Ani (576p)
+http://flussonic.linkintel.ru/Ani/index.m3u8
+#EXTINF:-1 tvg-id="Ani.ru@SD" group-title="Russia",Ani (576p)
 http://stream.mcquack.net/306/index.m3u8
+#EXTINF:-1 tvg-id="AnimalPlanet.ru@SD" group-title="Russia",Animal Planet (1080p)
+http://stream.mcquack.net/114/index.m3u8
+#EXTINF:-1 tvg-id="Arsenal.ru@SD" group-title="Russia",Arsenal (576p)
+https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ART.ru@SD" group-title="Russia",ART (576p)
 http://89.104.114.24:8080/art/index.m3u8
+#EXTINF:-1 tvg-id="ART.ru@SD" group-title="Russia",ART (576p)
+http://185.23.80.23:8080/ART/index.m3u8
 #EXTINF:-1 tvg-id="AutoPlus.ru@SD" group-title="Russia",Auto Plus
 https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Avto24.ru@SD" group-title="Russia",Avto24 (576p)
 http://stream.mcquack.net/78/index.m3u8
+#EXTINF:-1 tvg-id="Avto24.ru@SD" group-title="Russia",Avto24 (576p)
+https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="BabyTime.ru@SD" group-title="Russia",Baby Time (576p)
+http://178.134.1.158:8081/babytime/index.m3u8
+#EXTINF:-1 tvg-id="BabyTime.ru@SD" group-title="Russia",Baby Time (576p)
+https://fs.uplink.kz/baby_time/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Balabol.ru@SD" group-title="Russia",Balabol (1080p)
 https://cdn-dvr.ntv.ru/Balabol/index.m3u8
-#EXTINF:-1 tvg-id="Soyuzny.ru@SD" group-title="Russia",Soyuzny (576p)
-https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
+#EXTINF:-1 tvg-id="BigPlanet.ru@SD" group-title="Russia",Big Planet (576p)
+https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Blokbaster.ru@HD" group-title="Russia",Blokbaster HD (1080p)
 http://stream.mcquack.net/364/index.m3u8
+#EXTINF:-1 tvg-id="Bober.ru@SD" group-title="Russia",Bober (576p)
+http://88.212.15.50/live/test_bober/playlist.m3u8
+#EXTINF:-1 tvg-id="Bober.ru@SD" group-title="Russia",Bober (576p)
+https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="BoksTV.ru@SD" group-title="Russia",Boks TV (576p)
 http://stream.mcquack.net/154/index.m3u8
-#EXTINF:-1 tvg-id="Bolt.ru@SD" group-title="Russia",Bolt (576p)
-http://hls127.freeott.top:8080/Bolt/video.m3u8
+#EXTINF:-1 tvg-id="Bollywood.ru@HD" group-title="Russia",Bollywood HD (576p)
+http://176.118.197.101/Bollywood_HD/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGE.ru@SD" group-title="Russia",BRIDGE (576p)
+http://178.134.1.158:8081/BRIDGE/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGE.ru@SD" group-title="Russia",BRIDGE (576p)
+http://194.143.148.28:8080/RT_DOC/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGE.ru@SD" group-title="Russia",BRIDGE (576p)
 http://stream.mcquack.net/318/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGEClassic.ru@SD" group-title="Russia",BRIDGE Classic (576p)
+http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGEClassic.ru@SD" group-title="Russia",BRIDGE Classic (576p)
 http://stream.mcquack.net/272/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGEClassic.ru@SD" group-title="Russia",BRIDGE Classic (576p)
+https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="BRIDGEDeluxe.ru@HD" group-title="Russia",BRIDGE Deluxe HD (576p)
 http://stream.mcquack.net/92/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGEHits.ru@SD" group-title="Russia",BRIDGE Hits (576p)
+http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGEHits.ru@SD" group-title="Russia",BRIDGE Hits (576p)
 http://stream.mcquack.net/320/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGERock.ru@SD" group-title="Russia",BRIDGE Rock (576p)
+http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru@Plus4" group-title="Russia",Carousel (720p)
 http://185.37.150.46/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
+http://31.148.5.241/kanal_8/index.m3u8
+#EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
+http://88.212.15.50/live/test_karusel/playlist.m3u8
+#EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
+http://flussonic.linkintel.ru/Karusel/index.m3u8
+#EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
 https://stream.smotrim.ru/hls2/karusel/playlist_3.m3u8
+#EXTINF:-1 tvg-id="CarouselInternational.ru@SD" group-title="Russia",Carousel International (576p)
+https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel SD (576p)
 http://stream.mcquack.net/120/index.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" group-title="Russia",Cartoon Classics
+http://88.218.242.237:8001/Cartoon_Classics
+#EXTINF:-1 tvg-id="Channel5.ru@SD" group-title="Russia",Channel 5 (576p)
+http://31.148.5.241/kanal_5/index.m3u8
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" group-title="Russia",Channel 5 International (576p)
 http://178.134.1.158:8081/5channel/index.m3u8
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" group-title="Russia",Channel 5 International (576i)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
+#EXTINF:-1 tvg-id="Channel5International.ru@SD" group-title="Russia",Channel 5 International (576p)
+https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Channel8.ru@SD" group-title="Russia",Channel 8 (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
-#EXTINF:-1 tvg-id="Channel8.ru@SD" group-title="Russia",Channel 8 (576p)
-http://hls127.freeott.top:8080/8_KANAL/video.m3u8
 #EXTINF:-1 tvg-id="Channel8.ru@SD" group-title="Russia",Channel 8 (576p)
 http://tshift-1.telecoma.tv/8channel/index.m3u8
 #EXTINF:-1 tvg-id="Channel8.ru@SD" group-title="Russia",Channel 8 (576p)
@@ -603,13 +651,25 @@ https://live-8knsk.cdnvideo.ru/8knsk/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel10.ru@SD" group-title="Russia",Channel 10 (576i)
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="Russia",Channel One (576p)
+http://31.148.5.241/kanal_1/index.m3u8
+#EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="Russia",Channel One (576p)
 http://45.153.24.78/1TV/index.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="Russia",Channel One (576p)
 http://178.217.49.7/1/index.m3u8
+#EXTINF:-1 tvg-id="ChannelOneCIS.ru@SD" group-title="Russia",Channel One CIS (576p)
+https://fs.uplink.kz/perviy_kanal_sng/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="ChannelOne.ru@Europa" group-title="Russia",Channel One Europa (480p)
+https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" group-title="Russia",Channel One HD (720p)
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" group-title="Russia",Channel One HD (720p)
 https://stream8.cinerama.uz/1214/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Che.ru@SD" group-title="Russia",Che! (576p)
+http://176.118.197.101/Che/index.m3u8
+#EXTINF:-1 tvg-id="Che.ru@SD" group-title="Russia",Che! (576p)
+http://flussonic.linkintel.ru/che/index.m3u8
+#EXTINF:-1 tvg-id="Cinema.ru@SD" group-title="Russia",Cinema (576p)
+http://flussonic.linkintel.ru/cinema/index.m3u8
 #EXTINF:-1 tvg-id="Cinema.ru@SD" group-title="Russia",Cinema
 http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTINF:-1 tvg-id="Cinema.ru@SD" group-title="Russia",Cinema
@@ -618,28 +678,56 @@ https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 http://stream.mcquack.net/312/index.m3u8
 #EXTINF:-1 tvg-id="DaVinci.ru@SD" group-title="Russia",Da Vinci (576p)
 http://stream.mcquack.net/238/index.m3u8
+#EXTINF:-1 tvg-id="DaVinci.ru@SD" group-title="Russia",Da Vinci (576p)
+https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="DaVinci.ru@SD" group-title="Russia",Da Vinci
 https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="DanceHits80.ru@SD" group-title="Russia",DanceHits80
 http://dancehits80.denvs.ru:8080/index.m3u8
+#EXTINF:-1 tvg-id="Detskiy.ru@SD" group-title="Russia",Detskiy (576p)
+https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="DetvoraPlus.ru@HD" group-title="Russia",Detvora+ (1080p)
+https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
 #EXTINF:-1 tvg-id="Dikayaokhota.ru@HD" group-title="Russia",Dikaya okhota HD (1080p)
 http://stream.mcquack.net/274/index.m3u8
 #EXTINF:-1 tvg-id="Dikayarybalka.ru@HD" group-title="Russia",Dikaya rybalka HD (1080p)
 http://stream.mcquack.net/275/index.m3u8
 #EXTINF:-1 tvg-id="Dikij.ru@SD" group-title="Russia",Dikij (576p)
-http://hls127.freeott.top:8080/Dikiy/video.m3u8
+https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel.ru@SD" group-title="Russia",Discovery Channel (1080p)
+http://stream.mcquack.net/177/index.m3u8
 #EXTINF:-1 tvg-id="Doctor.ru@SD" group-title="Russia",Doctor (576p)
 http://178.134.1.158:8081/doktor/index.m3u8
+#EXTINF:-1 tvg-id="Doctor.ru@SD" group-title="Russia",Doctor (576p)
+http://stream.mcquack.net/80/index.m3u8
 #EXTINF:-1 tvg-id="Doctor.ru@SD" group-title="Russia",Doctor (576i)
 https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Domkino.ru@SD" group-title="Russia",Dom kino (576p)
+http://88.212.15.50/live/test_dom_kino/playlist.m3u8
 #EXTINF:-1 tvg-id="Domkino.ru@SD" group-title="Russia",Dom kino (576p)
 http://stream.mcquack.net/236/index.m3u8
 #EXTINF:-1 tvg-id="Domkino.ru@SD" group-title="Russia",Dom kino
 https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Domkino.ru@International" group-title="Russia",Dom kino International (576p)
+https://fs.uplink.kz/dom_kino/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="DomkinoPremium.ru@SD" group-title="Russia",Dom kino Premium (576p)
+http://88.212.15.50/live/test_dom_kino_premium/playlist.m3u8
 #EXTINF:-1 tvg-id="DomkinoPremium.ru@HD" group-title="Russia",Dom kino Premium HD (1080p)
 http://stream.mcquack.net/108/index.m3u8
+#EXTINF:-1 tvg-id="DomkinoPremium.ru@HD" group-title="Russia",Dom kino Premium HD (1080p)
+https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="DomashnieZhivotnye.ru@SD" group-title="Russia",Domashnie Zhivotnye (576p)
+https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="DomashnieZhivotnye.ru@SD" group-title="Russia",Domashnie Zhivotnye (576p)
+https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Domashniy.ru@SD" group-title="Russia",Domashniy (576p)
+http://31.148.5.241/kanal_14/index.m3u8
+#EXTINF:-1 tvg-id="Domashniy.ru@SD" group-title="Russia",Domashniy (576p)
+https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Domashniy.ru@SD" group-title="Russia",Domashniy SD (576p)
 http://stream.mcquack.net/227/index.m3u8
+#EXTINF:-1 tvg-id="Dorama.ru@SD" group-title="Russia",Dorama (576p)
+https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Dorama.ru@SD" group-title="Russia",Dorama
 https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Dorama.ru@HD" group-title="Russia",Dorama HD (1080p)
@@ -647,110 +735,164 @@ https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
 http://stream.mcquack.net/412/index.m3u8
 #EXTINF:-1 tvg-id="Drive.ru@SD" group-title="Russia",Drive (576i)
 https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="DumaTV.ru@SD" group-title="Russia",Duma TV (720p)
+http://185.23.80.23:8080/DumaTV/index.m3u8
 #EXTINF:-1 tvg-id="Dushevnoe.ru@HD" group-title="Russia",Dushevnoe HD (1080p)
 http://stream.mcquack.net/213/index.m3u8
 #EXTINF:-1 tvg-id="Enisey.ru@SD" group-title="Russia",Enisey (576p)
 http://tshift-1.telecoma.tv/enisei/index.m3u8
+#EXTINF:-1 tvg-id="EuropaPlusTV.ru@SD" group-title="Russia",Europa Plus TV (576p)
+https://fs.uplink.kz/europa_plus/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="EuropaPlusTV.ru@Belarus" group-title="Russia",Europa Plus TV Belarus (576p)
+http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
 #EXTINF:-1 tvg-id="EuropaPlusTV.ru@SD" group-title="Russia",Europa Plus TV SD (576p)
 http://stream.mcquack.net/184/index.m3u8
+#EXTINF:-1 tvg-id="Evrokino.ru@SD" group-title="Russia",Evrokino (576p)
+http://176.118.197.101/Evrokino/index.m3u8
+#EXTINF:-1 tvg-id="Evrokino.ru@SD" group-title="Russia",Evrokino (576p)
+https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Evrokino.ru@HD" group-title="Russia",Evrokino HD (1080p)
 http://stream.mcquack.net/385/index.m3u8
 #EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Russia",Extreme Sports Channel (576p)
 http://46.32.176.50/extremesport/index.m3u8
+#EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Russia",Extreme Sports Channel (576p)
+https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="FAN.ru@SD" group-title="Russia",FAN (576p)
 http://stream.mcquack.net/420/index.m3u8
 #EXTINF:-1 tvg-id="FashionLifeStyle.ru@SD" group-title="Russia",Fashion&LifeStyle (1080p)
 http://stream.mcquack.net/119/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="Russia",Fon Music (1080p)
-http://hls127.freeott.top:8080/TNT_MUSIC_HD/video.m3u8
+#EXTINF:-1 tvg-id="FashionTV.ru@SD" group-title="Russia",FashionTV (1080p)
+http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Russia",Fon Music (576p)
 http://stream.mcquack.net/317/index.m3u8
+#EXTINF:-1 tvg-id="FONMusic.ru@SD" group-title="Russia",FON Music (576p)
+https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="FoodNetwork.ru@SD" group-title="Russia",Food Network (1080p)
+http://stream.mcquack.net/298/index.m3u8
 #EXTINF:-1 tvg-id="FoodTime.ru@SD" group-title="Russia",FoodTime (1080p)
 http://stream.mcquack.net/216/index.m3u8
-#EXTINF:-1 tvg-id="Football.ru@SD" group-title="Russia",Football (576p)
-http://hls127.freeott.top:8080/Football/video.m3u8
 #EXTINF:-1 tvg-id="Fox.ru@SD" group-title="Russia",Fox (576p)
 http://stream.mcquack.net/182/index.m3u8
 #EXTINF:-1 tvg-id="FoxLife.ru@SD" group-title="Russia",Fox Life (576p)
 http://stream.mcquack.net/129/index.m3u8
 #EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Friday! (576p)
+http://31.148.5.241/kanal_16/index.m3u8
+#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Friday! (576p)
+http://flussonic.linkintel.ru/Pyatnica/index.m3u8
+#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Friday! (576p)
 http://stream.mcquack.net/181/index.m3u8
+#EXTINF:-1 tvg-id="FridayInternational.ru@Kazakhstan" group-title="Russia",Friday! International Kazakhstan (576p)
+https://fs.uplink.kz/bolshaya_pyatnica/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="GlazamiTurista.ru@SD" group-title="Russia",Glazami Turista (576i)
 https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Gorodskoytelekanal.ru@SD" group-title="Russia",Gorodskoy telekanal (720p)
+https://gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1 tvg-id="Groznyj.ru@SD" group-title="Russia",Groznyj
 https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
 #EXTINF:-1 tvg-id="GulliGirl.ru@SD" group-title="Russia",Gulli Girl (720p)
 https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="GulliGirl.ru@SD" group-title="Russia",Gulli Girl (576p)
+http://flussonic.linkintel.ru/gulli_girl/index.m3u8
+#EXTINF:-1 tvg-id="GulliGirl.ru@SD" group-title="Russia",Gulli Girl (576p)
 http://stream.mcquack.net/305/index.m3u8
 #EXTINF:-1 tvg-id="GulliGirl.ru@SD" group-title="Russia",Gulli Girl (576p)
 https://live-3.otcnet.ru/GulliGirl/index.m3u8
 #EXTINF:-1 tvg-id="Hit.ru@HD" group-title="Russia",Hit HD (1080p)
-http://hls127.freeott.top:8080/XitHD/video.m3u8
-#EXTINF:-1 tvg-id="Hit.ru@HD" group-title="Russia",Hit HD (1080p)
 http://stream.mcquack.net/363/index.m3u8
+#EXTINF:-1 tvg-id="Home4K.ru@SD" group-title="Russia",Home 4K
+http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="HorosheeKino.ru@SD" group-title="Russia",Horoshee Kino (720p)
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
+#EXTINF:-1 tvg-id="IllusionPlus.ru@SD" group-title="Russia",Illusion+ (576p)
+http://176.118.197.101/Illuzion+/index.m3u8
+#EXTINF:-1 tvg-id="India.ru@SD" group-title="Russia",India (576p)
+https://fs.uplink.kz/india/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" group-title="Russia",Indiyskoye Kino (576p)
 http://188.113.190.12/329/index.m3u8
 #EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" group-title="Russia",Indiyskoye Kino (576p)
 http://stream.mcquack.net/104/index.m3u8
+#EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" group-title="Russia",Indiyskoye Kino (576p)
+https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" group-title="Russia",Indiyskoye Kino
 https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="InsaytTV.ru@4K" group-title="Russia",Insayt TV (2160p)
 https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="InsaytTV.ru@4K" group-title="Russia",Insayt TV (1080p)
 http://stream.mcquack.net/361/index.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru@SD" group-title="Russia",Investigation Discovery (1080p)
+http://stream.mcquack.net/205/index.m3u8
 #EXTINF:-1 tvg-id="Istoki.ru@SD" group-title="Russia",Istoki (1080p)
 https://istoki.tv/live/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Istoriya.ru@SD" group-title="Russia",Istoriya (576p)
-http://hls127.freeott.top:8080/Istoriya/video.m3u8
+https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="KapitanFantastika.ru@SD" group-title="Russia",Kapitan Fantastika (1080p)
 http://stream.mcquack.net/144/index.m3u8
+#EXTINF:-1 tvg-id="KapitanFantastika.ru@SD" group-title="Russia",Kapitan Fantastika (576p)
+https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="KHL.ru@SD" group-title="Russia",KHL (576p)
+http://176.118.197.101/KHL/index.m3u8
 #EXTINF:-1 tvg-id="KHL.ru@SD" group-title="Russia",KHL (576p)
 http://stream.mcquack.net/166/index.m3u8
+#EXTINF:-1 tvg-id="KHL.ru@SD" group-title="Russia",KHL (576p)
+https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="KHLPrime.ru@SD" group-title="Russia",KHL Prime (1080p)
 http://stream.mcquack.net/178/index.m3u8
+#EXTINF:-1 tvg-id="KHLPrime.ru@SD" group-title="Russia",KHL Prime (1080p)
+https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Kino24.ru@SD" group-title="Russia",Kino 24 (720p)
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
+#EXTINF:-1 tvg-id="KinoTV.ru@SD" group-title="Russia",Kino TV (576p)
+http://flussonic.linkintel.ru/kino-tv/index.m3u8
 #EXTINF:-1 tvg-id="KinoTV.ru@HD" group-title="Russia",Kino TV HD (1080p)
 http://176.118.197.101/KinoTvHD/playlist.m3u8
 #EXTINF:-1 tvg-id="KinoTV.ru@SD" group-title="Russia",Kino TV SD (576p)
 http://stream.mcquack.net/221/index.m3u8
 #EXTINF:-1 tvg-id="KinoHit.ru@SD" group-title="Russia",KinoHit (576p)
 http://stream.mcquack.net/126/index.m3u8
+#EXTINF:-1 tvg-id="KinoHit.ru@SD" group-title="Russia",KinoHit (576p)
+https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="KinoHit.ru@SD" group-title="Russia",KinoHit
 https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinokomedija.ru@SD" group-title="Russia",Kinokomedija (576p)
 http://stream.mcquack.net/265/index.m3u8
+#EXTINF:-1 tvg-id="Kinokomedija.ru@SD" group-title="Russia",Kinokomedija (576p)
+https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Kinomix.ru@SD" group-title="Russia",Kinomix (576p)
 http://93.170.254.17/Kinomiks/index.m3u8
 #EXTINF:-1 tvg-id="Kinomix.ru@SD" group-title="Russia",Kinomix (576p)
 http://stream.mcquack.net/133/index.m3u8
+#EXTINF:-1 tvg-id="Kinomix.ru@SD" group-title="Russia",Kinomix (576p)
+https://fs.uplink.kz/kinomix/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Kinopokaz.ru@SD" group-title="Russia",Kinopokaz (576p)
 http://stream.mcquack.net/64/index.m3u8
 #EXTINF:-1 tvg-id="Kinopokaz.ru@SD" group-title="Russia",Kinopokaz
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Kinopokaz.ru@HD" group-title="Russia",Kinopokaz HD (1080p)
-http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@SD" group-title="Russia",Kinopremyera (1080p)
 http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@SD" group-title="Russia",Kinopremyera
 https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Kinopremyera.ru@HD" group-title="Russia",Kinopremyera HD (1080p)
+https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Kinosemja.ru@SD" group-title="Russia",Kinosemja (576p)
 http://stream.mcquack.net/170/index.m3u8
-#EXTINF:-1 tvg-id="Kinoseriya.ru@SD" group-title="Russia",Kinoseriya (1080p)
-http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
+#EXTINF:-1 tvg-id="Kinosemja.ru@SD" group-title="Russia",Kinosemja (576p)
+https://fs.uplink.kz/kinosemya/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Kinoseriya.ru@SD" group-title="Russia",Kinoseriya (576p)
+https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" group-title="Russia",Kinosvidanie (576p)
 http://5.188.159.128:8070/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" group-title="Russia",Kinosvidanie (576p)
 http://stream.mcquack.net/171/index.m3u8
+#EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" group-title="Russia",Kinosvidanie (576p)
+https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" group-title="Russia",Kinosvidanie
 https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinouzhas.ru@SD" group-title="Russia",Kinouzhas (576p)
 http://stream.mcquack.net/278/index.m3u8
-#EXTINF:-1 tvg-id="Kluch.ru@SD" group-title="Russia",Kluch (576p)
-http://hls127.freeott.top:8080/Kluch/video.m3u8
+#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" group-title="Russia",Kinouzhas (576p)
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Komedia.ru@SD" group-title="Russia",Komedia (576p)
+http://176.118.197.101/Komediya/index.m3u8
 #EXTINF:-1 tvg-id="Komedia.ru@SD" group-title="Russia",Komedia (576p)
 http://stream.mcquack.net/68/index.m3u8
 #EXTINF:-1 tvg-id="Komediynoe.ru@HD" group-title="Russia",Komediynoe HD (1080p)
@@ -761,37 +903,65 @@ https://live-3.otcnet.ru/congresstv/index.m3u8
 https://stitch.teletarget.ru/api/v1/hls/504/158/index.m3u8
 #EXTINF:-1 tvg-id="Kuhnya.ru@SD" group-title="Russia",Kuhnya (576p)
 http://stream.mcquack.net/179/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="Russia",Kukhnya TV (576p)
-http://hls127.freeott.top:8080/Kuhnya_TV/video.m3u8
+#EXTINF:-1 tvg-id="Kuhnya.ru@SD" group-title="Russia",Kuhnya (576p)
+https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KulinarTV.ru@SD" group-title="Russia",Kulinar TV (576p)
 https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:-1 tvg-id="KVNTV.ru@SD" group-title="Russia",KVN TV (576p)
 http://178.124.179.122:8080/KVN-TV/index.m3u8
+#EXTINF:-1 tvg-id="KVNTV.ru@SD" group-title="Russia",KVN TV (576p)
+https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="LapkiLive.ru@SD" group-title="Russia",Lapki Live (576p)
+https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="LawTV.ru@SD" group-title="Russia",Law TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/406/index.m3u8
+#EXTINF:-1 tvg-id="LiveMusicChannel.ru@HD" group-title="Russia",Live Music Channel HD (1080p)
+http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
 #EXTINF:-1 tvg-id="Maidan.ru@SD" group-title="Russia",Maidan (720p)
 https://live-maidantv.cdnvideo.ru/maidantv/maidantv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Maidan.ru@SD" group-title="Russia",Maidan (576p)
-http://hls127.freeott.top:8080/Maydan/video.m3u8
+#EXTINF:-1 tvg-id="Mama.ru@SD" group-title="Russia",Mama (576p)
+http://flussonic.linkintel.ru/mama/index.m3u8
 #EXTINF:-1 tvg-id="Mama.ru@SD" group-title="Russia",Mama (576p)
 http://stream.mcquack.net/79/index.m3u8
+#EXTINF:-1 tvg-id="Mama.ru@SD" group-title="Russia",Mama (576p)
+https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MatchArena.ru@SD" group-title="Russia",Match! Arena (576p)
 http://stream.mcquack.net/163/index.m3u8
 #EXTINF:-1 tvg-id="MatchBoets.ru@SD" group-title="Russia",Match! Boets (576p)
 http://stream.mcquack.net/112/index.m3u8
 #EXTINF:-1 tvg-id="MatchIgra.ru@SD" group-title="Russia",Match! Igra (576p)
 http://stream.mcquack.net/188/index.m3u8
+#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" group-title="Russia",Match! Planeta (576p)
+https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="MatchPremier.ru@SD" group-title="Russia",Match! Premier (576p)
+http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
 #EXTINF:-1 tvg-id="MatchStrana.ru@SD" group-title="Russia",Match! Strana (576p)
 http://stream.mcquack.net/143/index.m3u8
 #EXTINF:-1 tvg-id="MatchStrana.ru@SD" group-title="Russia",Match! Strana (576p)
 http://ukr.ukrainske.tv/134/keytvainua/video.m3u8
+#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (1080p)
+http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (720p)
 http://stream.mcquack.net/169/index.m3u8
+#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
+http://45.132.87.69:8080/match/index.m3u8
+#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
+http://flussonic.linkintel.ru/match/index.m3u8
+#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
+http://tv.tuva.ru/machtv/index.m3u8
+#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
+https://fs.uplink.kz/match/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MCMTop.ru@SD" group-title="Russia",MCM Top (576p)
 http://46.32.176.50/mcmtop/index.m3u8
+#EXTINF:-1 tvg-id="Ministerstvoidey.ru@SD" group-title="Russia",Ministerstvo idey (1080p)
+https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8
+#EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir (576p)
+http://31.148.5.241/kanal_18/index.m3u8
 #EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir (576p)
 http://45.153.24.78/MIR/index.m3u8
+#EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir (576p)
+https://fs.uplink.kz/mir/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir (576p)
 https://tvcdn01.oktv.kz/tv/mir/index.m3u8
 #EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir
@@ -804,72 +974,96 @@ https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="Mir.ru@Kazakhstan" group-title="Russia",Mir Kazakhstan (576p)
 http://tvcdn01.esilnet.kz/tv/mir/index.m3u8
+#EXTINF:-1 tvg-id="MirSeriala.ru@SD" group-title="Russia",Mir Seriala (576p)
+http://176.118.197.101/MirSeriala/index.m3u8
+#EXTINF:-1 tvg-id="MMATVcom.ru@SD" group-title="Russia",MMA-TV.com (576p)
+https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MMATVcom.ru@SD" group-title="Russia",MMA-TV.com
 https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Russia",Mosfilm Gold Collection (576p)
 http://31.222.235.15/mosfilm/index.m3u8
 #EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Russia",Mosfilm Gold Collection (576p)
-http://hls127.freeott.top:8080/Mosfilm/video.m3u8
-#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Russia",Mosfilm Gold Collection (576p)
 http://stream.mcquack.net/369/index.m3u8
+#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Russia",Mosfilm Gold Collection (576p)
+https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Russia",Moskva 24 (1080p)
 https://stream.smotrim.ru/hls/givc8/playlist.m3u8?entity=channel&id=798&sign=37881ef2e289f062ceff0dca6c24dc58
 #EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Russia",Moskva 24 (720p)
 https://stream.smotrim.ru/hls2/givc9/playlist_4.m3u8
+#EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Russia",Moskva 24 (576p)
+https://fs.uplink.kz/moskva24/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Russia",Moskva 24 (576p)
 https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
 #EXTINF:-1 tvg-id="MoskvaDoveriye.ru@SD" group-title="Russia",Moskva. Doveriye (576p)
 https://stream.smotrim.ru/hls2/doverie/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Moymir.ru@SD" group-title="Russia",Moy mir (720p)
 https://moymir.ru/hls/onair.m3u8
-#EXTINF:-1 tvg-id="MoyaPlaneta.ru@SD" group-title="Russia",Moya Planeta (1080p)
-http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MoyaPlaneta.ru@SD" group-title="Russia",Moya Planeta (576p)
 http://stream.mcquack.net/124/index.m3u8
+#EXTINF:-1 tvg-id="MoyaPlaneta.ru@SD" group-title="Russia",Moya Planeta (576p)
+https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Moyastikhiya.ru@HD" group-title="Russia",Moya stikhiya HD (1080p)
 http://stream.mcquack.net/141/index.m3u8
 #EXTINF:-1 tvg-id="Mult.ru@SD" group-title="Russia",Mult (576p)
+http://flussonic.linkintel.ru/Mult/index.m3u8
+#EXTINF:-1 tvg-id="Mult.ru@SD" group-title="Russia",Mult (576p)
 http://stream.mcquack.net/232/index.m3u8
-#EXTINF:-1 tvg-id="Multimuzyka.ru@SD" group-title="Russia",Mult i muzyka (576p)
-http://hls127.freeott.top:8080/Mult_Muzika/video.m3u8
+#EXTINF:-1 tvg-id="Mult.ru@SD" group-title="Russia",Mult (576p)
+https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Multimuzyka.ru@SD" group-title="Russia",Mult i muzyka (576p)
 http://stream.mcquack.net/82/index.m3u8
+#EXTINF:-1 tvg-id="Mult.ru@International" group-title="Russia",Mult International (576p)
+https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Multilandia.ru@SD" group-title="Russia",Multilandia (576p)
+https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Multilandia.ru@SD" group-title="Russia",Multilandia
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
+http://31.148.5.241/kanal_20/index.m3u8
 #EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
 http://46.32.176.50/muztv/index.m3u8
 #EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
 http://185.71.81.6:8080/20/index.m3u8
 #EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
-http://hls127.freeott.top:8080/MUZ_TV/video.m3u8
-#EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
 http://stream.mcquack.net/86/index.m3u8
+#EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
+https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV
 https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Muzhskoekino.ru@SD" group-title="Russia",Muzhskoe kino (576p)
 http://stream.mcquack.net/107/index.m3u8
+#EXTINF:-1 tvg-id="Muzhskoekino.ru@SD" group-title="Russia",Muzhskoe kino (576p)
+https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MuzykaLive.ru@SD" group-title="Russia",Muzyka Live (576p)
 http://stream.mcquack.net/303/index.m3u8
+#EXTINF:-1 tvg-id="MuzykaPervogo.ru@SD" group-title="Russia",Muzyka Pervogo (576p)
+http://88.212.15.50/live/test_muzyka_pervogo/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzykaPervogo.ru@SD" group-title="Russia",Muzyka Pervogo (576p)
 http://stream.mcquack.net/153/index.m3u8
 #EXTINF:-1 tvg-id="MuzykaPervogo.ru@SD" group-title="Russia",Muzyka Pervogo
 https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Nano.ru@SD" group-title="Russia",Nano (576p)
 http://stream.mcquack.net/419/index.m3u8
+#EXTINF:-1 tvg-id="Nano.ru@HD" group-title="Russia",Nano HD (1080p)
+http://185.23.80.23:8080/NANO_HD/index.m3u8
+#EXTINF:-1 tvg-id="NashKinopokaz.ru@HD" group-title="Russia",Nash Kinopokaz HD (576p)
+http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
 #EXTINF:-1 tvg-id="Nashe.ru@HD" group-title="Russia",Nashe HD (576p)
 http://stream.mcquack.net/217/index.m3u8
-#EXTINF:-1 tvg-id="NasheLubimoeKino.ru@SD" group-title="Russia",Nashe Lubimoe Kino (576p)
-http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8
 #EXTINF:-1 tvg-id="Nashemuzhskoe.ru@HD" group-title="Russia",Nashe muzhskoe HD (1080p)
 http://stream.mcquack.net/362/index.m3u8
-#EXTINF:-1 tvg-id="NasheNovoeKino.ru@SD" group-title="Russia",Nashe Novoe Kino (1080p)
-http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8
 #EXTINF:-1 tvg-id="NasheNovoeKino.ru@SD" group-title="Russia",Nashe Novoe Kino
 https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ru@SD" group-title="Russia",National Geographic (1080p)
+http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.ru@SD" group-title="Russia",National Geographic (576p)
 http://stream.mcquack.net/116/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.ru@SD" group-title="Russia",National Geographic Wild (1080p)
-http://hls127.freeott.top:8080/Nat_Geo_Wild_SD/video.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ru@SD" group-title="Russia",National Geographic (576p)
+https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru@SD" group-title="Russia",National Geographic Wild (576p)
+https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru@HD" group-title="Russia",National Geographic Wild HD
+http://178.76.68.60:7442/50/mpegts
 #EXTINF:-1 tvg-id="Nauka.ru@SD" group-title="Russia",Nauka (576p)
 http://stream.mcquack.net/125/index.m3u8
 #EXTINF:-1 tvg-id="Nevskiy.ru@SD" group-title="Russia",Nevskiy (1080p)
@@ -883,21 +1077,23 @@ http://stream.mcquack.net/443/index.m3u8
 #EXTINF:-1 tvg-id="NicktoonsCIS.ru@SD" group-title="Russia",Nicktoons CIS (1080p)
 https://stream8.cinerama.uz/1502/playlist.m3u8
 #EXTINF:-1 tvg-id="Nostalgia.ru@SD" group-title="Russia",Nostalgia (576p)
-http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
-#EXTINF:-1 tvg-id="NST.ru@SD" group-title="Russia",NST (576p)
-http://hls127.freeott.top:8080/HCTV/video.m3u8
+http://176.118.197.101/Nostalgiya/index.m3u8
 #EXTINF:-1 tvg-id="NST.ru@SD" group-title="Russia",NST (576p)
 http://stream.mcquack.net/207/index.m3u8
 #EXTINF:-1 tvg-id="NST.ru@SD" group-title="Russia",NST (576p)
 https://vod.tuva.ru/nst/index.m3u8
+#EXTINF:-1 tvg-id="NTV.ru@SD" group-title="Russia",NTV (576p)
+http://31.148.5.241/kanal_4/index.m3u8
+#EXTINF:-1 tvg-id="NTV.ru@SD" group-title="Russia",NTV (576p)
+http://176.118.197.101/NTV/index.m3u8
 #EXTINF:-1 tvg-id="NTV.ru@SD" group-title="Russia",NTV
 https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NTV.ru@HD" group-title="Russia",NTV HD (1080p)
+http://flussonic.linkintel.ru/ntv/index.m3u8
 #EXTINF:-1 tvg-id="NTV.ru@HD" group-title="Russia",NTV HD (1080p)
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
 #EXTINF:-1 tvg-id="NTV.ru@HD" group-title="Russia",NTV HD (1080p)
 https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
-#EXTINF:-1 tvg-id="NTVLaw.ru@SD" group-title="Russia",NTV Law (576p)
-http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8
 #EXTINF:-1 tvg-id="NTVMir.ru@SD" group-title="Russia",NTV Mir (576p)
 http://5.188.159.128:8070/ntvmir_TV/index.m3u8
 #EXTINF:-1 tvg-id="NTV.ru@SD" group-title="Russia",NTV SD (576p)
@@ -906,14 +1102,16 @@ http://45.153.24.78/NTV/index.m3u8
 https://cdn.ntv.ru/ntv-spb/index.m3u8
 #EXTINF:-1 tvg-id="NTVSeries.ru@SD" group-title="Russia",NTV Series (576p)
 http://stream.mcquack.net/301/index.m3u8
-#EXTINF:-1 tvg-id="NTVStyle.ru@SD" group-title="Russia",NTV Style (576p)
-http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8
+#EXTINF:-1 tvg-id="NTVSvoyaigra.ru@SD" group-title="Russia",NTV Svoya igra (1080p)
+https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8
 #EXTINF:-1 tvg-id="NTVVitrina.ru@SD" group-title="Russia",NTV Vitrina (720p)
 https://cdn.ntv.ru/vitrina/index.m3u8
+#EXTINF:-1 tvg-id="NTVHit.ru@SD" group-title="Russia",NTV-Hit (576p)
+http://178.134.1.158:8081/ntvhit/index.m3u8
 #EXTINF:-1 tvg-id="O.ru@SD" group-title="Russia",O! (576p)
 http://stream.mcquack.net/60/index.m3u8
-#EXTINF:-1 tvg-id="OceanTV.ru@SD" group-title="Russia",Ocean-TV (576p)
-http://hls127.freeott.top:8080/Ocean_TV/video.m3u8
+#EXTINF:-1 tvg-id="O.ru@International" group-title="Russia",O! International (720p)
+http://88.212.15.50/live/test_telekanal_o/playlist.m3u8
 #EXTINF:-1 tvg-id="Ohotnikirybolov.ru@SD" group-title="Russia",Ohotnik i rybolov (576i)
 https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Ohotnikirybolov.ru@HD" group-title="Russia",Ohotnik i rybolov HD (1080p)
@@ -922,16 +1120,16 @@ http://stream.mcquack.net/194/index.m3u8
 http://stream.mcquack.net/155/index.m3u8
 #EXTINF:-1 tvg-id="Okhotairybalka.ru@SD" group-title="Russia",Okhota i rybalka
 https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="OkkoFutbol.ru@SD" group-title="Russia",Okko Futbol (1080p)
-http://stream.mcquack.net/491/index.m3u8
 #EXTINF:-1 tvg-id="OkkoFutbol.ru@SD" group-title="Russia",Okko Futbol (576p)
 http://178.124.179.122:8080/Setanta1/index.m3u8
 #EXTINF:-1 tvg-id="OkkoPrajmSport.ru@SD" group-title="Russia",Okko Prajm Sport (1080p)
 http://stream.mcquack.net/493/index.m3u8
-#EXTINF:-1 tvg-id="OkkoSport.ru@SD" group-title="Russia",Okko Sport (1080p)
-http://stream.mcquack.net/492/index.m3u8
 #EXTINF:-1 tvg-id="Ostrosyuzhetnoye.ru@HD" group-title="Russia",Ostrosyuzhetnoye HD (1080p)
 http://stream.mcquack.net/214/index.m3u8
+#EXTINF:-1 tvg-id="OTR.ru@SD" group-title="Russia",OTR (576p)
+http://31.148.5.241/kanal_9/index.m3u8
+#EXTINF:-1 tvg-id="OTR.ru@SD" group-title="Russia",OTR (576p)
+http://flussonic.linkintel.ru/otr/index.m3u8
 #EXTINF:-1 tvg-id="Patriot.ru@SD" group-title="Russia",Patriot (720p)
 https://stream.smotrim.ru/hls2/static/playlist_4.m3u8
 #EXTINF:-1 tvg-id="PeretzInternational.ru@SD" group-title="Russia",Peretz International (576p)
@@ -940,12 +1138,14 @@ http://stream.mcquack.net/121/index.m3u8
 https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
 #EXTINF:-1 tvg-id="Pes.ru@SD" group-title="Russia",Pes (1080p)
 https://cdn-dvr.ntv.ru/Pes/index.m3u8
+#EXTINF:-1 tvg-id="Poehali.ru@SD" group-title="Russia",Poehali! (576p)
+http://88.212.15.50/live/test_poehali/playlist.m3u8
 #EXTINF:-1 tvg-id="Premialnoe.ru@HD" group-title="Russia",Premialnoe HD (1080p)
 http://stream.mcquack.net/421/index.m3u8
+#EXTINF:-1 tvg-id="Priklyucheniya.ru@SD" group-title="Russia",Priklyucheniya (576p)
+https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Priklyucheniya.ru@HD" group-title="Russia",Priklyucheniya HD (1080p)
 http://stream.mcquack.net/198/index.m3u8
-#EXTINF:-1 tvg-id="Pro100TV.ru@SD" group-title="Russia",Pro100TV (576p)
-https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1 tvg-id="ProBusiness.ru@SD" group-title="Russia",Pro Business (720p)
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ProLyubov.ru@SD" group-title="Russia",Pro Lyubov (1080p)
@@ -962,10 +1162,20 @@ https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
 http://31.148.48.15/Radost_moya/index.m3u8
 #EXTINF:-1 tvg-id="RadostMoya.ru@SD" group-title="Russia",Radost Moya (576p)
 https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
-#EXTINF:-1 tvg-id="RBKTV.ru@SD" group-title="Russia",RBK-TV SD (576p)
-http://hls127.freeott.top:8080/RBK/video.m3u8
+#EXTINF:-1 tvg-id="RBKTV.ru@SD" group-title="Russia",RBK-TV (576p)
+http://176.118.197.101/RBK/index.m3u8
+#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
+http://31.148.5.241/kanal_11/index.m3u8
 #EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
 http://31.148.48.15/REN-TV/index.m3u8
+#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
+http://185.23.80.23:8080/REN/index.m3u8
+#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
+http://flussonic.linkintel.ru/ren_tv/index.m3u8
+#EXTINF:-1 tvg-id="RENTVInternational.ru@SD" group-title="Russia",REN TV International (576p)
+http://178.134.1.158:8081/RENTV/index.m3u8
+#EXTINF:-1 tvg-id="Retro.ru@SD" group-title="Russia",Retro (576p)
+http://176.118.197.101/Retro/index.m3u8
 #EXTINF:-1 tvg-id="Retro.ru@SD" group-title="Russia",Retro (576p)
 http://stream.mcquack.net/191/index.m3u8
 #EXTINF:-1 tvg-id="Retro.ru@SD" group-title="Russia",Retro
@@ -986,6 +1196,8 @@ https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8
 https://rt-srb.rttv.com/live/rtbalkan/playlist.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD" group-title="Russia",RT en Espanol (1080p)
 http://15.204.246.24:8080/RTHD/index.m3u8
+#EXTINF:-1 tvg-id="RTenEspanol.ru@SD" group-title="Russia",RT en Espanol (1080p)
+http://168.196.127.137:6001/play/a0a9/index.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD" group-title="Russia",RT en Espanol (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/rt/playlist.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD" group-title="Russia",RT en Espanol (576p)
@@ -1000,6 +1212,8 @@ https://wisewatchoott.wiseplayout.com/RT/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://213.91.179.28:8000/play/a0bw
 #EXTINF:-1 tvg-id="RTGTV.ru@HD" group-title="Russia",RTG TV HD (1080p)
+http://46.53.200.153:7777/play/a00u/index.m3u8
+#EXTINF:-1 tvg-id="RTGTV.ru@HD" group-title="Russia",RTG TV HD (1080p)
 http://stream.mcquack.net/164/index.m3u8
 #EXTINF:-1 tvg-id="RTVi.ru@SD" group-title="Russia",RTVi (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -1012,24 +1226,50 @@ https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8
 https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:-1 tvg-id="RUTV.ru@SD" group-title="Russia",RU.TV SD (576p)
 http://stream.mcquack.net/109/index.m3u8
+#EXTINF:-1 tvg-id="Rus.ru@SD" group-title="Russia",Rus (576p)
+http://31.148.5.241/kanal_21/index.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Russia",Russia-1 (576p)
+http://31.148.5.241/kanal_2/index.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Russia",Russia-1
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="Russia",Russia-1 HD (1080p)
+http://176.118.197.101/RossiyaHD/index.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="Russia",Russia-1 HD (1080p)
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="Russia",Russia-1 HD (1080p)
 https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Russia",Russia-1 SD (576p)
 http://109.207.243.18/2/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24 (720p)
 https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24 (576p)
+http://31.148.5.241/kanal_7/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24 (576p)
+http://176.118.197.101/Rossiya24/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24
+http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24
 https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@HD" group-title="Russia",Russia-24 HD (1080p)
 http://77.232.131.211/Rossiya24/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@HD" group-title="Russia",Russia-24 HD (1080p)
+https://live.smotrim.ru/vgtrk/0/russia24-hd/1080p.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@HD" group-title="Russia",Russia-24 HD (1080p)
+https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@HD" group-title="Russia",Russia-24 HD (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Russia-K (576p)
+http://31.148.5.241/kanal_6/index.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Russia-K (576p)
 http://stream.mcquack.net/229/index.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Russia-K (576p)
+https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@HD" group-title="Russia",Russia-K HD (1080p)
+https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@HD" group-title="Russia",Russia-K HD (1080p)
 https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
+#EXTINF:-1 tvg-id="RussianExtremeUltra.ru@SD" group-title="Russia",Russian Extreme Ultra (1440p)
+http://46.53.200.153:7777/play/test_krask1/index.m3u8
 #EXTINF:-1 tvg-id="RussianMusicBox.ru@SD" group-title="Russia",Russian MusicBox (576p)
 http://stream.mcquack.net/319/index.m3u8
 #EXTINF:-1 tvg-id="RusskiyBestseller.ru@SD" group-title="Russia",Russkiy Bestseller (576p)
@@ -1047,13 +1287,23 @@ https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="SanktPeterburg.ru@HD" group-title="Russia",Sankt-Peterburg HD (720p)
 https://stream.smotrim.ru/hls2/ext_spbtv/playlist_5.m3u8
 #EXTINF:-1 tvg-id="Saphire.ru@SD" group-title="Russia",Saphire (1080p)
+http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
+#EXTINF:-1 tvg-id="Saphire.ru@SD" group-title="Russia",Saphire (1080p)
 http://77.232.131.211/Sapfir/manifest.m3u8
 #EXTINF:-1 tvg-id="Sarafan.ru@SD" group-title="Russia",Sarafan (576p)
 http://stream.mcquack.net/81/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" group-title="Russia",Setanta Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" group-title="Russia",Setanta Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
+#EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
+http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
 http://catchup.videoline.ru/shanson/index.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
-http://hls127.freeott.top:8080/Shanson_Tv/video.m3u8
+https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Shef.ru@SD" group-title="Russia",Shef (1080p)
 https://cdn-dvr.ntv.ru/Shef/index.m3u8
 #EXTINF:-1 tvg-id="Shokiruyushchee.ru@HD" group-title="Russia",Shokiruyushchee HD (1080p)
@@ -1062,12 +1312,12 @@ http://stream.mcquack.net/75/index.m3u8
 https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ShoppingLive.ru@SD" group-title="Russia",Shopping Live (576p) [Not 24/7]
 http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="ShotTV.ru@SD" group-title="Russia",Shot TV (576p)
-http://hls127.freeott.top:8080/SHOT_TV/video.m3u8
 #EXTINF:-1 tvg-id="Skorayapomoshch.ru@SD" group-title="Russia",Skoraya pomoshch (1080p)
 https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
 #EXTINF:-1 tvg-id="SmileTV.ru@SD" group-title="Russia",Smile TV (720p)
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
+#EXTINF:-1 tvg-id="SmileTV.ru@SD" group-title="Russia",Smile TV (720p)
+https://stream8.cinerama.uz/1425/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" group-title="Russia",Smotrim 100% Detskoe (720p)
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD" group-title="Russia",Smotrim 100% Fakty (720p)
@@ -1096,10 +1346,12 @@ https://tv.mediacdn.ru/live/solntse/playlist.m3u8
 https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
 #EXTINF:-1 tvg-id="SONGTVRussia.ru@SD" group-title="Russia",SONGTV Russia
 https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
+#EXTINF:-1 tvg-id="Soyuzny.ru@SD" group-title="Russia",Soyuzny (576p)
+https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
 #EXTINF:-1 tvg-id="Soyuzny.ru@SD" group-title="Russia",Soyuzny (480p)
 http://178.124.179.122:8080/TRO/index.m3u8
 #EXTINF:-1 tvg-id="Spas.ru@SD" group-title="Russia",Spas (576p)
-http://hls127.freeott.top:8080/Spas/video.m3u8
+http://31.148.5.241/kanal_12/index.m3u8
 #EXTINF:-1 tvg-id="Spas.ru@SD" group-title="Russia",Spas (576p)
 https://tvspas.mediacdn.ru/cdn/spas/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportivnyy.ru@SD" group-title="Russia",Sportivnyy (1080p)
@@ -1108,20 +1360,28 @@ https://live-3.otcnet.ru/sportivny/index.m3u8
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarFamily.ru@SD" group-title="Russia",Star Family (1080p)
 https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
+#EXTINF:-1 tvg-id="STARTAir.ru@SD" group-title="Russia",START Air (1080p)
+http://176.118.197.101/START_AIR/index.m3u8
 #EXTINF:-1 tvg-id="STARTAir.ru@SD" group-title="Russia",START Air (576p)
 http://stream.mcquack.net/128/index.m3u8
+#EXTINF:-1 tvg-id="STARTWorld.ru@SD" group-title="Russia",START World (576p)
+https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
+http://31.148.5.241/kanal_13/index.m3u8
+#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
+http://176.118.197.101/CTC/index.m3u8
+#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
+http://flussonic.linkintel.ru/sts/index.m3u8
 #EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
 http://tshift-1.telecoma.tv/sts/index.m3u8
+#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
+https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="STS.ru@HD" group-title="Russia",STS HD (1080p)
 http://stream.mcquack.net/138/index.m3u8
 #EXTINF:-1 tvg-id="STSInternational.ru@SD" group-title="Russia",STS International (576p)
 http://178.134.1.158:8081/CTC/index.m3u8
 #EXTINF:-1 tvg-id="STSkids.ru@SD" group-title="Russia",STS kids (576p)
-http://hls127.freeott.top:8080/STS_Kids/video.m3u8
-#EXTINF:-1 tvg-id="STSkids.ru@SD" group-title="Russia",STS kids (576p)
 http://stream.mcquack.net/197/index.m3u8
-#EXTINF:-1 tvg-id="STSLove.ru@SD" group-title="Russia",STS Love (576p)
-http://hls127.freeott.top:8080/CTC-LOVE/video.m3u8
 #EXTINF:-1 tvg-id="STSLove.ru@SD" group-title="Russia",STS Love (576p)
 http://stream.mcquack.net/183/index.m3u8
 #EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS SD (576p)
@@ -1139,129 +1399,281 @@ http://31.148.48.15/Malish_TV/index.m3u8
 #EXTINF:-1 tvg-id="SuperGeroi.ru@SD" group-title="Russia",SuperGeroi (576p)
 http://109.94.1.3:8080/132/index.m3u8
 #EXTINF:-1 tvg-id="Svoboda.ru@SD" group-title="Russia",Svoboda
-http://88.212.15.19/live/svoboda/index.m3u8
+http://88.212.15.50/live/svoboda/index.m3u8
 #EXTINF:-1 tvg-id="T24.ru@SD" group-title="Russia",T24 (576p)
 http://178.134.1.158:8081/t24/index.m3u8
 #EXTINF:-1 tvg-id="T24.ru@SD" group-title="Russia",T24 (576p)
 http://stream.mcquack.net/209/index.m3u8
+#EXTINF:-1 tvg-id="T24.ru@SD" group-title="Russia",T24 (576p)
+https://fs.uplink.kz/tehno_24/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="T24.ru@SD" group-title="Russia",T24
 https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Teatr.ru@SD" group-title="Russia",Teatr (576p)
-http://hls127.freeott.top:8080/Teatr/video.m3u8
+#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (576p)
+http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (576p)
+http://stream.mcquack.net/314/index.m3u8
+#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (576p)
+https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe
 https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TeleDom.ru@SD" group-title="Russia",TeleDom
 https://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
+#EXTINF:-1 tvg-id="TiJi.ru@SD" group-title="Russia",TiJi (576p)
+http://flussonic.linkintel.ru/tiji/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" group-title="Russia",TiJi (576p)
 http://stream.mcquack.net/111/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" group-title="Russia",TiJi (576p)
 https://live-3.otcnet.ru/Tiji/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" group-title="Russia",TiJi (576p)
 https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="TLC.ru@SD" group-title="Russia",TLC (1080p)
+http://stream.mcquack.net/168/index.m3u8
+#EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT (576p)
+http://31.148.5.241/kanal_19/index.m3u8
+#EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT (576p)
+http://176.118.197.101/THT/index.m3u8
+#EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT (576p)
+http://flussonic.linkintel.ru/tnt/index.m3u8
+#EXTINF:-1 tvg-id="TNT4.ru@SD" group-title="Russia",TNT4 (576p)
+http://176.118.197.101/TNT4/index.m3u8
+#EXTINF:-1 tvg-id="TNT4.ru@SD" group-title="Russia",TNT4 (576p)
+http://flussonic.linkintel.ru/tnt4/index.m3u8
+#EXTINF:-1 tvg-id="TNT4.ru@SD" group-title="Russia",TNT4 (576p)
+http://stream.mcquack.net/106/index.m3u8
+#EXTINF:-1 tvg-id="TNT4International.ru@SD" group-title="Russia",TNT4 International (576p)
+https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="TNT.ru@HD" group-title="Russia",TNT HD (1080p)
 http://45.153.24.78/TNT/index.m3u8
+#EXTINF:-1 tvg-id="TNTInternational.ru@Europe" group-title="Russia",TNT International (480p)
+http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
 #EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT SD (576p)
 http://stream.mcquack.net/135/index.m3u8
+#EXTINF:-1 tvg-id="TNVPlanet.ru@SD" group-title="Russia",TNV-Planet (576p)
+https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="TNVPlanet.ru@SD" group-title="Russia",TNV-Planet
 https://stream8.cinerama.uz/1062/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TNVTatarstan.ru@SD" group-title="Russia",TNV-Tatarstan (720p)
 https://user91229.clients-cdnnow.ru/hls/user91229_1.m3u8
-#EXTINF:-1 tvg-id="TochkaRF.ru@SD" group-title="Russia",Tochka RF (1080p)
+#EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" group-title="Russia",Tochka otryva (576p)
+https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" group-title="Russia",Tochka otryva (576p)
+https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Russia",Tochka RF (1080p)
 http://stream.mcquack.net/161/index.m3u8
+#EXTINF:-1 tvg-id="Tonus.ru@SD" group-title="Russia",Tonus (576p)
+http://194.143.148.28:8080/Mir24/index.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" group-title="Russia",Tooku (1080p)
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
-#EXTINF:-1 tvg-id="TopSecret.ru@SD" group-title="Russia",Top Secret (576p)
-http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8
+#EXTINF:-1 tvg-id="TravelChannel.ru@SD" group-title="Russia",Travel Channel (1080p)
+http://stream.mcquack.net/231/index.m3u8
+#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@HD" group-title="Russia",Travel+Adventure HD (1080p)
+http://77.232.131.211/TravelAdventureHD/index.m3u8
+#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@HD" group-title="Russia",Travel+Adventure HD (1080p)
+http://stream.mcquack.net/206/index.m3u8
+#EXTINF:-1 tvg-id="TV21.ru@SD" group-title="Russia",TV 21 (576p)
+http://178.134.1.158:8081/TVXXI/index.m3u8
+#EXTINF:-1 tvg-id="TV21.ru@SD" group-title="Russia",TV 21 (576p)
+https://fs.uplink.kz/tvxxi/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="TV21International.ru@SD" group-title="Russia",TV 21 International (576p)
+http://46.53.200.153:7777/play/TV-21M/index.m3u8
 #EXTINF:-1 tvg-id="TV21International.ru@SD" group-title="Russia",TV 21 International (576p)
 http://stream.mcquack.net/152/index.m3u8
 #EXTINF:-1 tvg-id="TV1000RussianKinoGlobal.ru@SD" group-title="Russia",TV1000 Russian Kino Global
 http://213.91.179.28:8000/play/a0bx
+#EXTINF:-1 tvg-id="TVBRICSRussian.ru@SD" group-title="Russia",TV BRICS Russian (1080p)
+http://185.23.80.23:8080/TVBRICS/index.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
-http://hls127.freeott.top:8080/Tv_Center/video.m3u8
+http://31.148.5.241/kanal_10/index.m3u8
+#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
+http://flussonic.linkintel.ru/tvc/index.m3u8
+#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
+https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
+https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="TVCentrInternational.ru@SD" group-title="Russia",TV Centr International (576p)
+https://stream8.cinerama.uz/1281/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr SD (576p)
 http://185.71.81.6:8080/10/index.m3u8
 #EXTINF:-1 tvg-id="TVPRO.ru@SD" group-title="Russia",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="Russia",TV-3 (576p)
+http://31.148.5.241/kanal_15/index.m3u8
+#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="Russia",TV-3 (576p)
+http://176.118.197.101/TB3/index.m3u8
 #EXTINF:-1 tvg-id="TV3.ru@Belarus" group-title="Russia",TV-3 (576p)
 http://178.124.179.122:8080/TB-3/index.m3u8
+#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="Russia",TV-3 (576p)
+http://flussonic.linkintel.ru/tv-3/index.m3u8
+#EXTINF:-1 tvg-id="TV3.ru@HD" group-title="Russia",TV-3 HD (1080p)
+http://stream.mcquack.net/136/index.m3u8
 #EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",U (720p)
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
 #EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",U (576p)
 http://178.134.1.158:8081/U/index.m3u8
 #EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",U (576p)
 http://stream.mcquack.net/230/index.m3u8
+#EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",U (576p)
+https://fs.uplink.kz/u/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="UDAR.ru@SD" group-title="Russia",UDAR (1080p)
 http://5.188.159.128:8070/udar/index.m3u8
-#EXTINF:-1 tvg-id="Detskiy.ru@SD" group-title="Russia",Detskiy (576p)
-https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="UniverTV.ru@SD" group-title="Russia",Univer TV (1080p) [Not 24/7]
-https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="UDAR.ru@SD" group-title="Russia",UDAR (1080p)
+http://stream.mcquack.net/279/index.m3u8
 #EXTINF:-1 tvg-id="UniverTV.ru@SD" group-title="Russia",Univer TV (1080p)
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="UniverTV.ru@SD" group-title="Russia",Univer TV (1080p) [Not 24/7]
+https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="UnknownRussia.ru@HD" group-title="Russia",Unknown Russia HD (1080p)
+http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
 #EXTINF:-1 tvg-id="Usadba.ru@SD" group-title="Russia",Usadba (576p)
 http://stream.mcquack.net/211/index.m3u8
+#EXTINF:-1 tvg-id="Usadba.ru@SD" group-title="Russia",Usadba (576p)
+https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" group-title="Russia",V gostyakh u skazki (1080p)
+https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" group-title="Russia",V gostyakh u skazki (576p)
 http://stream.mcquack.net/93/index.m3u8
+#EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" group-title="Russia",V gostyakh u skazki (576p)
+https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Vmirezhivotnykh.ru@SD" group-title="Russia",V mire zhivotnykh (1080p)
 http://stream.mcquack.net/241/index.m3u8
+#EXTINF:-1 tvg-id="VelvetEuropeanMovies.ru@HD" group-title="Russia",Velvet. European Movies (1080p)
+https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
+#EXTINF:-1 tvg-id="VelvetGoldenCollection.ru@HD" group-title="Russia",Velvet. Golden Collection (1080p)
+https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
+#EXTINF:-1 tvg-id="VelvetMentovskiyeSerialy.ru@HD" group-title="Russia",Velvet. Mentovskiye Serialy (1080p)
+https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
+#EXTINF:-1 tvg-id="VelvetScary.ru@HD" group-title="Russia",Velvet. Scary (1080p)
+https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8
+#EXTINF:-1 tvg-id="VelvetSeriesHits.ru@HD" group-title="Russia",Velvet. Series Hits (1080p)
+https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
+#EXTINF:-1 tvg-id="VelvetSovetskoeKino.ru@HD" group-title="Russia",Velvet. Sovetskoe Kino (1080p)
+https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
+#EXTINF:-1 tvg-id="VelvetSvaty.ru@HD" group-title="Russia",Velvet. Svaty (1080p)
+https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
+#EXTINF:-1 tvg-id="VelvetWorldSeries.ru@HD" group-title="Russia",Velvet. World Series (1080p)
+https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
 #EXTINF:-1 tvg-id="VestiFM.ru@HD" group-title="Russia",Vesti FM (720p)
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 #EXTINF:-1 tvg-id="vijuExplore.ru@SD" group-title="Russia",viju Explore (576p)
+http://46.53.200.153:7777/play/a01i/index.m3u8
+#EXTINF:-1 tvg-id="vijuExplore.ru@SD" group-title="Russia",viju Explore (576p)
 http://stream.mcquack.net/239/index.m3u8
+#EXTINF:-1 tvg-id="vijuExplore.ru@SD" group-title="Russia",viju Explore (576p)
+https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="vijuHistory.ru@SD" group-title="Russia",viju History (576p)
+http://46.53.200.153:7777/play/a01j/index.m3u8
 #EXTINF:-1 tvg-id="vijuHistory.ru@SD" group-title="Russia",viju History (576p)
 http://178.124.179.122:8080/HistoryHD/index.m3u8
 #EXTINF:-1 tvg-id="vijuHistory.ru@SD" group-title="Russia",viju History (576p)
 http://stream.mcquack.net/101/index.m3u8
+#EXTINF:-1 tvg-id="vijuHistory.ru@SD" group-title="Russia",viju History (576p)
+https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="vijuNature.ru@SD" group-title="Russia",viju Nature (576p)
+http://46.53.200.153:7777/play/a01k/index.m3u8
+#EXTINF:-1 tvg-id="vijuNature.ru@SD" group-title="Russia",viju Nature (576p)
+https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuNature.ru@SD" group-title="Russia",viju Nature
 https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000.ru@SD" group-title="Russia",viju TV1000 (576p)
+http://46.53.200.153:7777/play/TV_1000/index.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000.ru@SD" group-title="Russia",viju TV1000 (576p)
 http://stream.mcquack.net/110/index.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000.ru@SD" group-title="Russia",viju TV1000 (576p)
+https://fs.uplink.kz/viju_tv1000/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" group-title="Russia",viju TV1000 action (576p)
+http://46.53.200.153:7777/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" group-title="Russia",viju TV1000 action (576p)
 http://stream.mcquack.net/100/index.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" group-title="Russia",viju TV1000 action (576p)
+https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" group-title="Russia",viju TV1000 action
 https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000novella.ru@HD" group-title="Russia",viju TV1000 novella HD (1080p)
+http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000romantica.ru@HD" group-title="Russia",viju TV1000 romantica HD (1080p)
+http://46.53.200.153:7777/play/Viju_Drama/index.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" group-title="Russia",viju TV1000 russkoe (576p)
+http://46.53.200.153:7777/play/a01g/index.m3u8
+#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" group-title="Russia",viju TV1000 russkoe (576p)
+https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" group-title="Russia",viju TV1000 russkoe
 https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" group-title="Russia",viju TV1000 russkoe
 https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="vijuPlusComedy.ru@HD" group-title="Russia",viju+ Comedy HD (1080p)
+http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusComedy.ru@HD" group-title="Russia",viju+ Comedy HD (1080p)
 http://stream.mcquack.net/201/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" group-title="Russia",viju+ Megahit HD (1080p)
+http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" group-title="Russia",viju+ Megahit HD (1080p)
 http://stream.mcquack.net/200/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusPlanet.ru@HD" group-title="Russia",viju+ Planet HD (1080p)
 http://stream.mcquack.net/240/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD" group-title="Russia",viju+ Premiere HD (1080p)
+http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD" group-title="Russia",viju+ Premiere HD (1080p)
 http://stream.mcquack.net/202/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusSerial.ru@HD" group-title="Russia",viju+ Serial HD (1080p)
+http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusSerial.ru@HD" group-title="Russia",viju+ Serial HD (1080p)
 http://stream.mcquack.net/311/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
+http://31.148.5.241/Viasat_Sport/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
+http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
 http://stream.mcquack.net/333/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
+https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport
 https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="vijuPlusSport.ru@HD" group-title="Russia",viju+ Sport HD (1080p)
+http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1 tvg-id="VitrinaTV.ru@SD" group-title="Russia",Vitrina TV (720p)
 https://live-11cinema.cdnvideo.ru/11cinema/11cinema/playlist.m3u8
+#EXTINF:-1 tvg-id="VIVARussia.ru@SD" group-title="Russia",VIVA Russia
+https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
 #EXTINF:-1 tvg-id="Vkus.ru@SD" group-title="Russia",Vkus (576p)
 http://178.134.1.158:8081/vkus/index.m3u8
 #EXTINF:-1 tvg-id="VoprosyiOtvety.ru@SD" group-title="Russia",Voprosy i Otvety (576p)
 http://stream.mcquack.net/76/index.m3u8
 #EXTINF:-1 tvg-id="Vremya.ru@SD" group-title="Russia",Vremya (576p)
+http://88.212.15.50/live/test_vremya/playlist.m3u8
+#EXTINF:-1 tvg-id="Vremya.ru@SD" group-title="Russia",Vremya (576p)
 http://stream.mcquack.net/237/index.m3u8
+#EXTINF:-1 tvg-id="Vremya.ru@SD" group-title="Russia",Vremya (576p)
+https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="ZagorodnayaZhizn.ru@SD" group-title="Russia",Zagorodnaya Zhizn (576p)
 http://185.57.68.33/40/index.m3u8
 #EXTINF:-1 tvg-id="ZagorodnayaZhizn.ru@SD" group-title="Russia",Zagorodnaya Zhizn
 https://stream8.cinerama.uz/1044/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Zhara.ru@SD" group-title="Russia",Zhara (576p)
-http://hls127.freeott.top:8080/Zhara/video.m3u8
-#EXTINF:-1 tvg-id="Zhara.ru@SD" group-title="Russia",Zhara (576p)
+#EXTINF:-1 tvg-id="ZdorovoeTV.ru@SD" group-title="Russia",Zdorovoe TV (576p)
+https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Russia",Zhara (576p)
 http://stream.mcquack.net/386/index.m3u8
+#EXTINF:-1 tvg-id="" group-title="Russia",Zhara (576p)
+https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="ZhivayaPlaneta.ru@SD" group-title="Russia",Zhivaya Planeta (576p)
+https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Zhivayapriroda.ru@SD" group-title="Russia",Zhivaya priroda (1080p)
 http://stream.mcquack.net/83/index.m3u8
 #EXTINF:-1 tvg-id="Zhivayapriroda.ru@HD" group-title="Russia",Zhivaya priroda HD (1080p)
 http://stream.mcquack.net/225/index.m3u8
+#EXTINF:-1 tvg-id="Zhivi.ru@SD" group-title="Russia",Zhivi! (576p)
+https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Zoopark.ru@SD" group-title="Russia",Zoopark (576p)
+https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Zoopark.ru@SD" group-title="Russia",Zoopark (576i)
 https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (1080p)
 http://51.158.144.33:2021/zvezda/index.m3u8
+#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (576p)
+http://31.148.5.241/kanal_17/index.m3u8
+#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (576p)
+http://flussonic.linkintel.ru/zvezda/index.m3u8
+#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (576p)
+https://fs.uplink.kz/zvezda/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda
 https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru@HD" group-title="Russia",Zvezda HD (1080p) [Not 24/7]
@@ -1330,10 +1742,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzSoyuz.ru@SD" group-title="Russia",Муз союз (576p)
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
-#EXTINF:-1 tvg-id="Multimania.ru@SD" group-title="Russia",Мультимания (576p)
-https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Multimania.ru@SD" group-title="Russia",Мультимания ТВ (576p)
-http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
 #EXTINF:-1 tvg-id="HopeChannelRussia.ru@SD" group-title="Russia",Надежда (720p)
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelRussia.ru@SD" group-title="Russia",Надежда (720p)
@@ -1356,8 +1764,6 @@ https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 #EXTINF:-1 tvg-id="OtkritiymirZdorove.ru@SD" group-title="Russia",Открытый мир. Здоровье (576p)
 https://v4.proofix.ru/0mir/index.m3u8
-#EXTINF:-1 tvg-id="Patriot.ru@SD" group-title="Russia",Патриот (576i)
-http://catchup.videoline.ru/asvtv/index.m3u8
 #EXTINF:-1 tvg-id="PerviyKrymskiy.ru@SD" group-title="Russia",Первый Крымский (720p)
 https://live1.1tvcrimea.ru/1tvcrimea.m3u8
 #EXTINF:-1 tvg-id="Prima.ru@SD" group-title="Russia",Прима (1080p)
@@ -1424,566 +1830,18 @@ https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8
 http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 tvg-id="Yuvelirochka.ru@SD" group-title="Russia",Ювелирочка ТВ (576p)
 https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" group-title="Russia",Setanta Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" group-title="Russia",Setanta Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
-#EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576p)
-http://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8
-#EXTINF:-1 tvg-id="DumaTV.ru@SD" group-title="Russia",Duma TV (720p)
-http://185.23.80.23:8080/DumaTV/index.m3u8
-#EXTINF:-1 tvg-id="UnknownRussia.ru@HD" group-title="Russia",Unknown Russia HD (1080p)
-http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
-#EXTINF:-1 tvg-id="Nano.ru@HD" group-title="Russia",Nano HD (1080p)
-http://185.23.80.23:8080/NANO_HD/index.m3u8
-#EXTINF:-1 tvg-id="TVBRICSRussian.ru@SD" group-title="Russia",TV BRICS Russian (1080p)
-http://185.23.80.23:8080/TVBRICS/index.m3u8
-#EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576p)
-http://185.23.80.23:8080/2x2/index.m3u8
-#EXTINF:-1 tvg-id="ART.ru@SD" group-title="Russia",ART (576p)
-http://185.23.80.23:8080/ART/index.m3u8
-#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
-http://185.23.80.23:8080/REN/index.m3u8
-#EXTINF:-1 tvg-id="Pobeda.ru@SD" group-title="Russia",Pobeda (1080p)
-http://94.155.93.182/POBEDA_HD/index.m3u8
-#EXTINF:-1 tvg-id="MMATVcom.ru@SD" group-title="Russia",MMA-TV.com (576p)
-http://45.145.32.13:20440/mmatv/index.m3u8?token=test
-#EXTINF:-1 tvg-id="Nauka.ru@SD" group-title="Russia",Nauka (576p)
-http://45.145.32.13:20440/nauka/index.m3u8?token=test
-#EXTINF:-1 tvg-id="Detskiy.ru@SD" group-title="Russia",Detskiy (576p)
-http://45.145.32.13:20440/unikum/index.m3u8?token=test
-#EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Russia",Moskva 24 (576p)
-http://45.145.32.13:20440/moskva24/index.m3u8?token=test
-#EXTINF:-1 tvg-id="ZvezdaPlus.ru@SD" group-title="Russia",Zvezda Plus (576p)
-http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test
-#EXTINF:-1 tvg-id="STSkids.ru@HD" group-title="Russia",STS kids HD (1080p)
-http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test
-#EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="Russia",Channel One (576p)
-http://45.145.32.13:20440/pervyj_kanal/index.m3u8?token=test
-#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
-http://45.145.32.13:20440/ren_tv/index.m3u8?token=test
-#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@SD" group-title="Russia",Travel+Adventure (576p)
-http://45.145.32.13:20440/travel_adventure/index.m3u8?token=test
-#EXTINF:-1 tvg-id="TochkaRF.ru@SD" group-title="Russia",Tochka RF (1080p)
-http://45.145.32.13:20440/hdl/index.m3u8?token=test
-#EXTINF:-1 tvg-id="BRIDGE.ru@SD" group-title="Russia",BRIDGE (576p)
-http://178.134.1.158:8081/BRIDGE/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGERock.ru@SD" group-title="Russia",BRIDGE Rock (576p)
-http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
-#EXTINF:-1 tvg-id="RENTVInternational.ru@SD" group-title="Russia",REN TV International (576p)
-http://178.134.1.158:8081/RENTV/index.m3u8
-#EXTINF:-1 tvg-id="NTVHit.ru@SD" group-title="Russia",NTV-Hit (576p)
-http://178.134.1.158:8081/ntvhit/index.m3u8
-#EXTINF:-1 tvg-id="BabyTime.ru@SD" group-title="Russia",Baby Time (576p)
-http://178.134.1.158:8081/babytime/index.m3u8
-#EXTINF:-1 tvg-id="red.ru@HD" group-title="Russia",.red HD (1080p)
-http://178.134.1.158:8081/red/index.m3u8
-#EXTINF:-1 tvg-id="TV21.ru@SD" group-title="Russia",TV 21 (576p)
-http://178.134.1.158:8081/TVXXI/index.m3u8
-#EXTINF:-1 tvg-id="Tonus.ru@SD" group-title="Russia",Tonus (576p)
-http://194.143.148.28:8080/Mir24/index.m3u8
-#EXTINF:-1 tvg-id="AISTTV.ru@SD" group-title="Russia",AIST TV (576p)
-http://194.143.148.28:8080/Aist/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGE.ru@SD" group-title="Russia",BRIDGE (576p)
-http://194.143.148.28:8080/RT_DOC/index.m3u8
-#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
-http://flussonic.linkintel.ru/ren_tv/index.m3u8
-#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Friday! (576p)
-http://flussonic.linkintel.ru/Pyatnica/index.m3u8
-#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="Russia",TV-3 (576p)
-http://flussonic.linkintel.ru/tv-3/index.m3u8
-#EXTINF:-1 tvg-id="NTV.ru@HD" group-title="Russia",NTV HD (1080p)
-http://flussonic.linkintel.ru/ntv/index.m3u8
-#EXTINF:-1 tvg-id="Mult.ru@SD" group-title="Russia",Mult (576p)
-http://flussonic.linkintel.ru/Mult/index.m3u8
-#EXTINF:-1 tvg-id="Ani.ru@SD" group-title="Russia",Ani (576p)
-http://flussonic.linkintel.ru/Ani/index.m3u8
-#EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT (576p)
-http://flussonic.linkintel.ru/tnt/index.m3u8
-#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
-http://flussonic.linkintel.ru/sts/index.m3u8
-#EXTINF:-1 tvg-id="Che.ru@SD" group-title="Russia",Che! (576p)
-http://flussonic.linkintel.ru/che/index.m3u8
-#EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
-http://flussonic.linkintel.ru/Karusel/index.m3u8
-#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
-http://flussonic.linkintel.ru/tvc/index.m3u8
-#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (576p)
-http://flussonic.linkintel.ru/zvezda/index.m3u8
-#EXTINF:-1 tvg-id="OTR.ru@SD" group-title="Russia",OTR (576p)
-http://flussonic.linkintel.ru/otr/index.m3u8
-#EXTINF:-1 tvg-id="TNT4.ru@SD" group-title="Russia",TNT4 (576p)
-http://flussonic.linkintel.ru/tnt4/index.m3u8
-#EXTINF:-1 tvg-id="AmediaHit.ru@SD" group-title="Russia",Amedia Hit (576p)
-http://flussonic.linkintel.ru/amedia-hit/index.m3u8
-#EXTINF:-1 tvg-id="Cinema.ru@SD" group-title="Russia",Cinema (576p)
-http://flussonic.linkintel.ru/cinema/index.m3u8
-#EXTINF:-1 tvg-id="KinoTV.ru@SD" group-title="Russia",Kino TV (576p)
-http://flussonic.linkintel.ru/kino-tv/index.m3u8
-#EXTINF:-1 tvg-id="GulliGirl.ru@SD" group-title="Russia",Gulli Girl (576p)
-http://flussonic.linkintel.ru/gulli_girl/index.m3u8
-#EXTINF:-1 tvg-id="TiJi.ru@SD" group-title="Russia",TiJi (576p)
-http://flussonic.linkintel.ru/tiji/index.m3u8
-#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
-http://flussonic.linkintel.ru/match/index.m3u8
-#EXTINF:-1 tvg-id="Mama.ru@SD" group-title="Russia",Mama (576p)
-http://flussonic.linkintel.ru/mama/index.m3u8
-#EXTINF:-1 tvg-id="MuzykaPervogo.ru@SD" group-title="Russia",Muzyka Pervogo (576p)
-http://88.212.15.19/live/test_muzyka_pervogo/playlist.m3u8
-#EXTINF:-1 tvg-id="TV3.ru@HD" group-title="Russia",TV-3 HD (1080p)
-http://stream.mcquack.net/136/index.m3u8
-#EXTINF:-1 tvg-id="TNT4.ru@SD" group-title="Russia",TNT4 (576p)
-http://stream.mcquack.net/106/index.m3u8
-#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (576p)
-http://stream.mcquack.net/314/index.m3u8
-#EXTINF:-1 tvg-id="Doctor.ru@SD" group-title="Russia",Doctor (576p)
-http://stream.mcquack.net/80/index.m3u8
-#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@HD" group-title="Russia",Travel+Adventure HD (1080p)
-http://stream.mcquack.net/206/index.m3u8
-#EXTINF:-1 tvg-id="UDAR.ru@SD" group-title="Russia",UDAR (1080p)
-http://stream.mcquack.net/279/index.m3u8
-#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@HD" group-title="Russia",Travel+Adventure HD (1080p)
-http://77.232.131.211/TravelAdventureHD/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEClassic.ru@SD" group-title="Russia",BRIDGE Classic (576p)
-http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEHits.ru@SD" group-title="Russia",BRIDGE Hits (576p)
-http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
-#EXTINF:-1 tvg-id="FONMusic.ru@SD" group-title="Russia",FON Music (576p)
-https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="1HDMusicTelevision.ru@SD" group-title="Russia",1HD Music Television (1080p)
-https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Mult.ru@SD" group-title="Russia",Mult (576p)
-https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Mama.ru@SD" group-title="Russia",Mama (576p)
-https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="365daysTV.ru@SD" group-title="Russia",365 days TV (576p)
-https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Arsenal.ru@SD" group-title="Russia",Arsenal (576p)
-https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="KapitanFantastika.ru@SD" group-title="Russia",Kapitan Fantastika (576p)
-https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" group-title="Russia",V gostyakh u skazki (1080p)
-https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="SmileTV.ru@SD" group-title="Russia",Smile TV (720p)
-https://stream8.cinerama.uz/1425/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Kuhnya.ru@SD" group-title="Russia",Kuhnya (576p)
-https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
-https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" group-title="Russia",Tochka otryva (576p)
-https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Usadba.ru@SD" group-title="Russia",Usadba (576p)
-https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ZdorovoeTV.ru@SD" group-title="Russia",Zdorovoe TV (576p)
-https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="DomashnieZhivotnye.ru@SD" group-title="Russia",Domashnie Zhivotnye (576p)
-https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Dikij.ru@SD" group-title="Russia",Dikij (576p)
-https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Priklyucheniya.ru@SD" group-title="Russia",Priklyucheniya (576p)
-https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ZhivayaPlaneta.ru@SD" group-title="Russia",Zhivaya Planeta (576p)
-https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Russia-K (576p)
-https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="TNT4International.ru@SD" group-title="Russia",TNT4 International (576p)
-https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24 (576p)
-https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Russia-K (576p)
-https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@CIS" group-title="Russia",RTR-Planeta (576p)
-https://fs.uplink.kz/rtr_planeta/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="NTVMir.ru@SD" group-title="Russia",NTV Mir (576p)
-https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RENTVInternational.ru@SD" group-title="Russia",REN TV International (576p)
-https://fs.uplink.kz/ren/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="365daysTV.ru@SD" group-title="Russia",365 days TV (576p)
-https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="T24.ru@SD" group-title="Russia",T24 (576p)
-https://fs.uplink.kz/tehno_24/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="MoyaPlaneta.ru@SD" group-title="Russia",Moya Planeta (576p)
-https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuExplore.ru@SD" group-title="Russia",viju Explore (576p)
-https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuHistory.ru@SD" group-title="Russia",viju History (576p)
-https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuNature.ru@SD" group-title="Russia",viju Nature (576p)
-https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="NationalGeographic.ru@SD" group-title="Russia",National Geographic (576p)
-https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="NationalGeographicWild.ru@SD" group-title="Russia",National Geographic Wild (576p)
-https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Istoriya.ru@SD" group-title="Russia",Istoriya (576p)
-https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="BigPlanet.ru@SD" group-title="Russia",Big Planet (576p)
-https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Avto24.ru@SD" group-title="Russia",Avto24 (576p)
-https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Poehali.ru@SD" group-title="Russia",Poehali! (576p)
-https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="India.ru@SD" group-title="Russia",India (576p)
-https://fs.uplink.kz/india/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Domkino.ru@International" group-title="Russia",Dom kino International (576p)
-https://fs.uplink.kz/dom_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="DomkinoPremium.ru@HD" group-title="Russia",Dom kino Premium HD (1080p)
-https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Domashniy.ru@SD" group-title="Russia",Domashniy (576p)
-https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Evrokino.ru@SD" group-title="Russia",Evrokino (576p)
-https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="KinoHit.ru@SD" group-title="Russia",KinoHit (576p)
-https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" group-title="Russia",Kinouzhas (576p)
-https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" group-title="Russia",Indiyskoye Kino (576p)
-https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinokomedija.ru@SD" group-title="Russia",Kinokomedija (576p)
-https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinomix.ru@SD" group-title="Russia",Kinomix (576p)
-https://fs.uplink.kz/kinomix/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinopremyera.ru@HD" group-title="Russia",Kinopremyera HD (1080p)
-https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RodnoeKino.ru@SD" group-title="Russia",Rodnoe Kino (576p)
-https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinosemja.ru@SD" group-title="Russia",Kinosemja (576p)
-https://fs.uplink.kz/kinosemya/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinoseriya.ru@SD" group-title="Russia",Kinoseriya (576p)
-https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" group-title="Russia",Kinosvidanie (576p)
-https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Muzhskoekino.ru@SD" group-title="Russia",Muzhskoe kino (576p)
-https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="NasheNovoeKino.ru@SD" group-title="Russia",Nashe Novoe Kino (576p)
-https://fs.uplink.kz/nashe_novoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuTV1000.ru@SD" group-title="Russia",viju TV1000 (576p)
-https://fs.uplink.kz/viju_tv1000/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" group-title="Russia",viju TV1000 action (576p)
-https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" group-title="Russia",viju TV1000 russkoe (576p)
-https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Russia",Moskva 24 (576p)
-https://fs.uplink.kz/moskva24/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="KVNTV.ru@SD" group-title="Russia",KVN TV (576p)
-https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir (576p)
-https://fs.uplink.kz/mir/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Russia",Mosfilm Gold Collection (576p)
-https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
-https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Nostalgia.ru@SD" group-title="Russia",Nostalgia (576p)
-https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Oruzhie.ru@SD" group-title="Russia",Oruzhie (576p)
-https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="PeretzInternational.ru@SD" group-title="Russia",Peretz International (576p)
-https://fs.uplink.kz/perec/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Pobeda.ru@SD" group-title="Russia",Pobeda (576p)
-https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RusskiyIllusion.ru@SD" group-title="Russia",Russkiy Illusion (576p)
-https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
-https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="STSLove.ru@SD" group-title="Russia",STS Love (576p)
-https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (576p)
-https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" group-title="Russia",Tochka otryva (576p)
-https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Dorama.ru@SD" group-title="Russia",Dorama (576p)
-https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="STARTAir.ru@SD" group-title="Russia",START Air (576p)
-https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="STARTWorld.ru@SD" group-title="Russia",START World (576p)
-https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="TV21.ru@SD" group-title="Russia",TV 21 (576p)
-https://fs.uplink.kz/tvxxi/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",U (576p)
-https://fs.uplink.kz/u/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Vremya.ru@SD" group-title="Russia",Vremya (576p)
-https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Zhara.ru@SD" group-title="Russia",Zhara (576p)
-https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Zhivi.ru@SD" group-title="Russia",Zhivi! (576p)
-https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Sarafan.ru@SD" group-title="Russia",Sarafan (576p)
-https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Zoopark.ru@SD" group-title="Russia",Zoopark (576p)
-https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (576p)
-https://fs.uplink.kz/zvezda/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="BRIDGEClassic.ru@SD" group-title="Russia",BRIDGE Classic (576p)
-https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
-https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RUTV.ru@SD" group-title="Russia",RU.TV (576p)
-https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
-https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="EuropaPlusTV.ru@SD" group-title="Russia",Europa Plus TV (576p)
-https://fs.uplink.kz/europa_plus/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" group-title="Russia",V gostyakh u skazki (576p)
-https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="BabyTime.ru@SD" group-title="Russia",Baby Time (576p)
-https://fs.uplink.kz/baby_time/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="LapkiLive.ru@SD" group-title="Russia",Lapki Live (576p)
-https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="STSkids.ru@International" group-title="Russia",STS kids International (576p)
-https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="DaVinci.ru@SD" group-title="Russia",Da Vinci (576p)
-https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="CarouselInternational.ru@SD" group-title="Russia",Carousel International (576p)
-https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="O.ru@International" group-title="Russia",O! International (576p)
-https://fs.uplink.kz/o/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Bober.ru@SD" group-title="Russia",Bober (576p)
-https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Mult.ru@International" group-title="Russia",Mult International (576p)
-https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Multilandia.ru@SD" group-title="Russia",Multilandia (576p)
-https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="KHLPrime.ru@SD" group-title="Russia",KHL Prime (1080p)
-https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="KHL.ru@SD" group-title="Russia",KHL (576p)
-https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
-https://fs.uplink.kz/match/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" group-title="Russia",Match! Planeta (576p)
-https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
-https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="MMATVcom.ru@SD" group-title="Russia",MMA-TV.com (576p)
-https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Russia",Extreme Sports Channel (576p)
-https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Channel5International.ru@SD" group-title="Russia",Channel 5 International (576p)
-https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="TNVPlanet.ru@SD" group-title="Russia",TNV-Planet (576p)
-https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="Russia",Russia-1 HD (1080p)
-https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@HD" group-title="Russia",Russia-24 HD (1080p)
-https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
-#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
-http://45.132.87.69:8080/match/index.m3u8
-#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (576p)
-http://tv.tuva.ru/machtv/index.m3u8
-#EXTINF:-1 tvg-id="VelvetWorldSeries.ru@HD" group-title="Russia",Velvet. World Series (1080p)
-https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
-#EXTINF:-1 tvg-id="VelvetSvaty.ru@HD" group-title="Russia",Velvet. Svaty (1080p)
-https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
-#EXTINF:-1 tvg-id="VelvetSovetskoeKino.ru@HD" group-title="Russia",Velvet. Sovetskoe Kino (1080p)
-https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
-#EXTINF:-1 tvg-id="VelvetSeriesHits.ru@HD" group-title="Russia",Velvet. Series Hits (1080p)
-https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
-#EXTINF:-1 tvg-id="VelvetScary.ru@HD" group-title="Russia",Velvet. Scary (1080p)
-https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8
-#EXTINF:-1 tvg-id="VelvetMentovskiyeSerialy.ru@HD" group-title="Russia",Velvet. Mentovskiye Serialy (1080p)
-https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
-#EXTINF:-1 tvg-id="VelvetGoldenCollection.ru@HD" group-title="Russia",Velvet. Golden Collection (1080p)
-https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
-#EXTINF:-1 tvg-id="VelvetEuropeanMovies.ru@HD" group-title="Russia",Velvet. European Movies (1080p)
-https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
-#EXTINF:-1 tvg-id="DetvoraPlus.ru@HD" group-title="Russia",Detvora+ (1080p)
-https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.ru@SD" group-title="Russia",National Geographic (1080p)
-http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8
-#EXTINF:-1 tvg-id="FashionTV.ru@SD" group-title="Russia",FashionTV (1080p)
-http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@HD" group-title="Russia",Russia-K HD (1080p)
-https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="TVCentrInternational.ru@SD" group-title="Russia",TV Centr International (576p)
-https://stream8.cinerama.uz/1281/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ChannelOneCIS.ru@SD" group-title="Russia",Channel One CIS (576p)
-https://fs.uplink.kz/perviy_kanal_sng/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Rybalkaiokhota.ru@SD" group-title="Russia",Rybalka i okhota (576p)
-https://fs.uplink.kz/ohota_i_ribalka/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="FridayInternational.ru@Kazakhstan" group-title="Russia",Friday! International Kazakhstan (576p)
-https://fs.uplink.kz/bolshaya_pyatnica/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="DomashnieZhivotnye.ru@SD" group-title="Russia",Domashnie Zhivotnye (576p)
-https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="Russia",TV-3 (576p)
-http://176.118.197.101/TB3/index.m3u8
-#EXTINF:-1 tvg-id="Bollywood.ru@HD" group-title="Russia",Bollywood HD (576p)
-http://176.118.197.101/Bollywood_HD/index.m3u8
-#EXTINF:-1 tvg-id="STARTAir.ru@SD" group-title="Russia",START Air (1080p)
-http://176.118.197.101/START_AIR/index.m3u8
-#EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT (576p)
-http://176.118.197.101/THT/index.m3u8
-#EXTINF:-1 tvg-id="Che.ru@SD" group-title="Russia",Che! (576p)
-http://176.118.197.101/Che/index.m3u8
-#EXTINF:-1 tvg-id="TNT4.ru@SD" group-title="Russia",TNT4 (576p)
-http://176.118.197.101/TNT4/index.m3u8
-#EXTINF:-1 tvg-id="1HDMusicTelevision.ru@HD" group-title="Russia",1HD Music Television (1080p)
-http://176.118.197.101/1HD/index.m3u8
-#EXTINF:-1 tvg-id="Komedia.ru@SD" group-title="Russia",Komedia (576p)
-http://176.118.197.101/Komediya/index.m3u8
-#EXTINF:-1 tvg-id="KHL.ru@SD" group-title="Russia",KHL (576p)
-http://176.118.197.101/KHL/index.m3u8
-#EXTINF:-1 tvg-id="RBKTV.ru@SD" group-title="Russia",RBK-TV (576p)
-http://176.118.197.101/RBK/index.m3u8
-#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
-http://176.118.197.101/CTC/index.m3u8
-#EXTINF:-1 tvg-id="NTV.ru@SD" group-title="Russia",NTV (576p)
-http://176.118.197.101/NTV/index.m3u8
-#EXTINF:-1 tvg-id="2x2.ru@SD" group-title="Russia",2x2 (576p)
-http://176.118.197.101/2x2/index.m3u8
-#EXTINF:-1 tvg-id="Evrokino.ru@SD" group-title="Russia",Evrokino (576p)
-http://176.118.197.101/Evrokino/index.m3u8
-#EXTINF:-1 tvg-id="MirSeriala.ru@SD" group-title="Russia",Mir Seriala (576p)
-http://176.118.197.101/MirSeriala/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24 (576p)
-http://176.118.197.101/Rossiya24/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="Russia",Russia-1 HD (1080p)
-http://176.118.197.101/RossiyaHD/index.m3u8
-#EXTINF:-1 tvg-id="Retro.ru@SD" group-title="Russia",Retro (576p)
-http://176.118.197.101/Retro/index.m3u8
-#EXTINF:-1 tvg-id="Nostalgia.ru@SD" group-title="Russia",Nostalgia (576p)
-http://176.118.197.101/Nostalgiya/index.m3u8
-#EXTINF:-1 tvg-id="IllusionPlus.ru@SD" group-title="Russia",Illusion+ (576p)
-http://176.118.197.101/Illuzion+/index.m3u8
-#EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
-http://88.212.15.19/live/test_karusel/playlist.m3u8
-#EXTINF:-1 tvg-id="Vremya.ru@SD" group-title="Russia",Vremya (576p)
-http://88.212.15.19/live/test_vremya/playlist.m3u8
-#EXTINF:-1 tvg-id="Domkino.ru@SD" group-title="Russia",Dom kino (576p)
-http://88.212.15.19/live/test_dom_kino/playlist.m3u8
-#EXTINF:-1 tvg-id="DomkinoPremium.ru@SD" group-title="Russia",Dom kino Premium (576p)
-http://88.212.15.19/live/test_dom_kino_premium/playlist.m3u8
-#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (576p)
-http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Bober.ru@SD" group-title="Russia",Bober (576p)
-http://88.212.15.19/live/test_bober/playlist.m3u8
-#EXTINF:-1 tvg-id="Poehali.ru@SD" group-title="Russia",Poehali! (576p)
-http://88.212.15.19/live/test_poehali/playlist.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24
-http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8
-#EXTINF:-1 tvg-id="TNTInternational.ru@Belarus" group-title="Russia",TNT International Belarus (1080p)
-http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@HD" group-title="Russia",Setanta Sports 1 HD
-https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="360.ru@SD" group-title="Russia",360°
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.ru@Europa" group-title="Russia",Channel One Europa (480p)
-https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 tvg-id="TNTInternational.ru@Europe" group-title="Russia",TNT International (480p)
-http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
-#EXTINF:-1 tvg-id="RTenEspanol.ru@SD" group-title="Russia",RT en Espanol (1080p)
-http://168.196.127.137:6001/play/a0a9/index.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="Russia",Channel One (576p)
-http://31.148.5.241/kanal_1/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Russia",Russia-1 (576p)
-http://31.148.5.241/kanal_2/index.m3u8
-#EXTINF:-1 tvg-id="MatchUltra.ru@4K" group-title="Russia",Match! Ultra (1080p)
-http://31.148.5.241/kanal_3/index.m3u8
-#EXTINF:-1 tvg-id="NTV.ru@SD" group-title="Russia",NTV (576p)
-http://31.148.5.241/kanal_4/index.m3u8
-#EXTINF:-1 tvg-id="Channel5.ru@SD" group-title="Russia",Channel 5 (576p)
-http://31.148.5.241/kanal_5/index.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Russia-K (576p)
-http://31.148.5.241/kanal_6/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Russia-24 (576p)
-http://31.148.5.241/kanal_7/index.m3u8
-#EXTINF:-1 tvg-id="Carousel.ru@SD" group-title="Russia",Carousel (576p)
-http://31.148.5.241/kanal_8/index.m3u8
-#EXTINF:-1 tvg-id="OTR.ru@SD" group-title="Russia",OTR (576p)
-http://31.148.5.241/kanal_9/index.m3u8
-#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="Russia",TV Centr (576p)
-http://31.148.5.241/kanal_10/index.m3u8
-#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",REN TV (576p)
-http://31.148.5.241/kanal_11/index.m3u8
-#EXTINF:-1 tvg-id="Spas.ru@SD" group-title="Russia",Spas (576p)
-http://31.148.5.241/kanal_12/index.m3u8
-#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",STS (576p)
-http://31.148.5.241/kanal_13/index.m3u8
-#EXTINF:-1 tvg-id="Domashniy.ru@SD" group-title="Russia",Domashniy (576p)
-http://31.148.5.241/kanal_14/index.m3u8
-#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="Russia",TV-3 (576p)
-http://31.148.5.241/kanal_15/index.m3u8
-#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Friday! (576p)
-http://31.148.5.241/kanal_16/index.m3u8
-#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="Russia",Zvezda (576p)
-http://31.148.5.241/kanal_17/index.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",Mir (576p)
-http://31.148.5.241/kanal_18/index.m3u8
-#EXTINF:-1 tvg-id="TNT.ru@SD" group-title="Russia",TNT (576p)
-http://31.148.5.241/kanal_19/index.m3u8
-#EXTINF:-1 tvg-id="MuzTV.ru@SD" group-title="Russia",Muz-TV (576p)
-http://31.148.5.241/kanal_20/index.m3u8
-#EXTINF:-1 tvg-id="Rus.ru@SD" group-title="Russia",Rus (576p)
-http://31.148.5.241/kanal_21/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
-http://31.148.5.241/Viasat_Sport/index.m3u8
-#EXTINF:-1 tvg-id="Gorodskoytelekanal.ru@SD" group-title="Russia",Gorodskoy telekanal (720p)
-https://gtk.tv/hls/gtyar.m3u8
-#EXTINF:-1 tvg-id="RussianExtremeUltra.ru@SD" group-title="Russia",Russian Extreme Ultra (1440p)
-http://46.53.200.153:7777/play/test_krask1/index.m3u8
-#EXTINF:-1 tvg-id="vijuExplore.ru@SD" group-title="Russia",viju Explore (576p)
-http://46.53.200.153:7777/play/a01i/index.m3u8
-#EXTINF:-1 tvg-id="vijuHistory.ru@SD" group-title="Russia",viju History (576p)
-http://46.53.200.153:7777/play/a01j/index.m3u8
-#EXTINF:-1 tvg-id="vijuNature.ru@SD" group-title="Russia",viju Nature (576p)
-http://46.53.200.153:7777/play/a01k/index.m3u8
-#EXTINF:-1 tvg-id="TV21International.ru@SD" group-title="Russia",TV 21 International (576p)
-http://46.53.200.153:7777/play/TV-21M/index.m3u8
-#EXTINF:-1 tvg-id="Saphire.ru@SD" group-title="Russia",Saphire (1080p)
-http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
-#EXTINF:-1 tvg-id="NashKinopokaz.ru@HD" group-title="Russia",Nash Kinopokaz HD (576p)
-http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
-#EXTINF:-1 tvg-id="RTGTV.ru@HD" group-title="Russia",RTG TV HD (1080p)
-http://46.53.200.153:7777/play/a00u/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusComedy.ru@HD" group-title="Russia",viju+ Comedy HD (1080p)
-http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" group-title="Russia",viju+ Megahit HD (1080p)
-http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD" group-title="Russia",viju+ Premiere HD (1080p)
-http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSerial.ru@HD" group-title="Russia",viju+ Serial HD (1080p)
-http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
-#EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
-http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
-#EXTINF:-1 tvg-id="EuropaPlusTV.ru@Belarus" group-title="Russia",Europa Plus TV Belarus (576p)
-http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
-#EXTINF:-1 tvg-id="LiveMusicChannel.ru@HD" group-title="Russia",Live Music Channel HD (1080p)
-http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSport.ru@HD" group-title="Russia",viju+ Sport HD (1080p)
-http://46.53.200.153:7777/play/a01l/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Russia",viju+ Sport (576p)
-http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000novella.ru@HD" group-title="Russia",viju TV1000 novella HD (1080p)
-http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000romantica.ru@HD" group-title="Russia",viju TV1000 romantica HD (1080p)
-http://46.53.200.153:7777/play/Viju_Drama/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000.ru@SD" group-title="Russia",viju TV1000 (576p)
-http://46.53.200.153:7777/play/TV_1000/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" group-title="Russia",viju TV1000 action (576p)
-http://46.53.200.153:7777/play/a01h/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" group-title="Russia",viju TV1000 russkoe (576p)
-http://46.53.200.153:7777/play/a01g/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.ru@HD" group-title="Russia",National Geographic Wild HD
-http://178.76.68.60:7442/50/mpegts
-#EXTINF:-1 tvg-id="DiscoveryChannel.ru@SD" group-title="Russia",Discovery Channel (1080p)
-http://stream.mcquack.net/177/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.ru@SD" group-title="Russia",Investigation Discovery (1080p)
-http://stream.mcquack.net/205/index.m3u8
-#EXTINF:-1 tvg-id="TLC.ru@SD" group-title="Russia",TLC (1080p)
-http://stream.mcquack.net/168/index.m3u8
-#EXTINF:-1 tvg-id="AnimalPlanet.ru@SD" group-title="Russia",Animal Planet (1080p)
-http://stream.mcquack.net/114/index.m3u8
-#EXTINF:-1 tvg-id="FoodNetwork.ru@SD" group-title="Russia",Food Network (1080p)
-http://stream.mcquack.net/298/index.m3u8
-#EXTINF:-1 tvg-id="TravelChannel.ru@SD" group-title="Russia",Travel Channel (1080p)
-http://stream.mcquack.net/231/index.m3u8
-#EXTINF:-1 tvg-id="Quadro.ru@4K" group-title="Russia",Quadro (2160p)
-http://57.128.231.171:8080/316/index.m3u8
+#EXTINF:-1 tvg-id="TheExplorers.ru@SD" group-title="Russia",The Explorers (1080p)
+https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
+#EXTINF:-1 tvg-id="Muzhskoy.ru@HD" group-title="Russia",Muzhskoy HD (1080p)
+https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
+#EXTINF:-1 tvg-id="NashaTema.ru@SD" group-title="Russia",Nasha Tema (1080p)
+https://fonbet.mediacdn.ru/live/nashatema/playlist.m3u8
+#EXTINF:-1 tvg-id="Volleyball.ru@SD" group-title="Russia",Volleyball (1080p)
+https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
 https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
-#EXTINF:-1 tvg-id="NovyiRusskii.ru@HD" group-title="Russia",Новый Русский (720p)
-https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
 #EXTINF:-1 tvg-id="Channel12.ru@SD" group-title="Russia",12 канал (1080p)
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel12.ru@SD" group-title="Russia",12 канал (1080p)
@@ -1994,8 +1852,6 @@ https://cdn-01.bonus-tv.ru/arirang_edge/playlist.m3u8
 https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
 #EXTINF:-1 tvg-id="Leomax24.ru@SD" group-title="Russia",Leomax 24 (1080p)
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
-#EXTINF:-1 tvg-id="RTDocumentary.ru@Russian" group-title="Russia",RTД
-https://cdn-01.bonus-tv.ru/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru@HD" group-title="Russia",Zvezda HD (1080p)
 https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 tvg-id="ZvezdaPlus.ru@HD" group-title="Russia",Zvezda Plus HD (1080p)
@@ -2020,8 +1876,6 @@ https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
 #EXTINF:-1 tvg-id="YaPervyy.ru@HD" group-title="Russia",Первый Ярославский (1080p)
 https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist.m3u8
-#EXTINF:-1 tvg-id="Prodvizhenie.ru@SD" group-title="Russia",Продвижение (576p)
-https://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/playlist.m3u8
 #EXTINF:-1 tvg-id="RadostMoya.ru@SD" group-title="Russia",Радость моя (576p)
 https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
 #EXTINF:-1 tvg-id="Salyam.ru@SD" group-title="Russia",Салям (Уфа) (576p)
@@ -2040,8 +1894,6 @@ https://krasnodar.mediacdn.ru/live/cdn/krasnodar/playlist.m3u8
 https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Шансон ТВ
 https://hls-shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ShayanTV.ru@SD" group-title="Russia",Шаян ТВ (Татарстан) (1080p)
-https://shayan.bonus-tv.ru/cdn/shayan/playlist.m3u8
 #EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",Ю (720p)
 https://cdn-01.bonus-tv.ru/u/playlist.m3u8
 #EXTINF:-1 tvg-id="VitalDrive.ru@HD" group-title="Russia",VITAL Drive
@@ -2158,8 +2010,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/kultura-hd/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@Plus7" group-title="Russia",Russia-K +7 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@HD" group-title="Russia",Russia-K HD (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="Arktika24.ru@SD" group-title="Russia",Арктика 24 (Архангельск) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru@SD" group-title="Russia",Башкортостан 24 (1080p)
@@ -2168,7 +2018,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VestiFM.ru@HD" group-title="Russia",Вести ФМ
 https://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
-#EXTINF:-1 tvg-id="VmesteRF.ru@SD" group-title="Russia",Вместе РФ
+#EXTINF:-1 tvg-id="VmesteRF.ru@SD" group-title="Russia",Вместе РФ (1080p)
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Volgograd24.ru@SD" group-title="Russia",Волгоград 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/index.m3u8
@@ -2683,7 +2533,7 @@ https://streaming.televizor-24-tochka.ru/live/232.m3u8
 https://streaming.televizor-24-tochka.ru/live/28.m3u8
 #EXTINF:-1 tvg-id="Lugansk24.ua@SD" group-title="Russia",Луганск 24
 https://streaming.televizor-24-tochka.ru/live/29.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",МИР
+#EXTINF:-1 tvg-id="Mir.ru@SD" group-title="Russia",МИР (576p)
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/22.m3u8
@@ -2697,51 +2547,39 @@ https://streaming.televizor-24-tochka.ru/live/618.m3u8
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/7.m3u8
-#EXTINF:-1 tvg-id="NTVMir.ru@SD" group-title="Russia",НТВ Мир
+#EXTINF:-1 tvg-id="NTVMir.ru@SD" group-title="Russia",НТВ Мир (576p)
 https://streaming.thestream.cyou/live/213.m3u8
-#EXTINF:-1 tvg-id="OTR.ru@SD" group-title="Russia",ОТР
-#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://streaming.televizor-24-tochka.ru/live/12.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="Russia",Первый канал
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/4.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.ru@Europe" group-title="Russia",Первый канал Европа
+#EXTINF:-1 tvg-id="ChannelOne.ru@Europe" group-title="Russia",Первый канал Европа (576p)
 https://streaming.thestream.cyou/live/210.m3u8
 #EXTINF:-1 tvg-id="PervyyRespublikanskiy.ru@SD" group-title="Russia",Первый Республиканский
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
-#EXTINF:-1 tvg-id="Pobeda.ru@SD" group-title="Russia",Победа
+#EXTINF:-1 tvg-id="Pobeda.ru@SD" group-title="Russia",Победа (576p)
 https://streaming.thestream.cyou/live/43.m3u8
-#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Пятница!
+#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="Russia",Пятница! (576p)
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/19.m3u8
-#EXTINF:-1 tvg-id="RENTV.ru@SD" group-title="Russia",Рен ТВ
-#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://streaming.televizor-24-tochka.ru/live/14.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Russia",Россия 1
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/5.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Россия 24
+#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Россия 24 (576p)
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/10.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Россия 24
+#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Россия 24 (576p)
 https://streaming.televizor-24-tochka.ru/live/30.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Россия К
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Russia",Россия К (576p)
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/9.m3u8
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@Asia" group-title="Russia",Россия-РТР
+#EXTINF:-1 tvg-id="RTRPlaneta.ru@Asia" group-title="Russia",Россия-РТР (576p)
 https://streaming.televizor-24-tochka.ru/live/211.m3u8
-#EXTINF:-1 tvg-id="Spas.ru@SD" group-title="Russia",Спас
-#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://streaming.televizor-24-tochka.ru/live/15.m3u8
-#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",СТС
+#EXTINF:-1 tvg-id="STS.ru@SD" group-title="Russia",СТС (576p)
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/16.m3u8
@@ -2853,7 +2691,7 @@ http://31.148.48.15/Doktor/index.m3u8
 http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8
 #EXTINF:-1 tvg-id="Evrokino.ru@SD" group-title="Russia",Еврокино (576p)
 http://31.148.48.15/Evrokino/index.m3u8
-#EXTINF:-1 tvg-id="Zhara.ru@SD" group-title="Russia",Жара TV (576p)
+#EXTINF:-1 tvg-id="" group-title="Russia",Жара TV (576p)
 http://31.148.48.15/Zhara/index.m3u8
 #EXTINF:-1 tvg-id="ZhivayaPlaneta.ru@SD" group-title="Russia",Живая Планета (576p)
 http://31.148.48.15/Zhivaya_Planeta/index.m3u8
@@ -2937,8 +2775,6 @@ http://31.148.48.15/Pyatnica/index.m3u8
 http://31.148.48.15/RBK/index.m3u8
 #EXTINF:-1 tvg-id="RodnoeKino.ru@SD" group-title="Russia",Родное Кино (576p)
 http://31.148.48.15/Rodnoe_kino/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Russia",Россия 1 (1080p)
-http://31.148.48.15/Rossiya_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@Plus6" group-title="Russia",Россия 1 (+6) (576p)
 http://31.148.48.15/Rossiya_1/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Russia",Россия 24 (576p)
@@ -2991,8 +2827,6 @@ http://31.148.48.15/Tochka_TV/index.m3u8
 http://31.148.48.15/Detskiy/index.m3u8
 #EXTINF:-1 tvg-id="FeniksplusKino.ru@SD" group-title="Russia",Феникс плюс Кино (576p)
 http://31.148.48.15/Feniks_plus_kino/index.m3u8
-#EXTINF:-1 tvg-id="Football.ru@SD" group-title="Russia",Футбол (720p)
-http://31.148.48.15/Futbol_HD/index.m3u8
 #EXTINF:-1 tvg-id="Che.ru@SD" group-title="Russia",Че! (576p)
 http://31.148.48.15/Che/index.m3u8
 #EXTINF:-1 tvg-id="U.ru@SD" group-title="Russia",Ю (576p)
