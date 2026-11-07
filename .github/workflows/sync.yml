@@ -104,11 +104,13 @@ jobs:
             "playlist-filter-europe.conf"
             "playlist-filter-asia.conf"
             "playlist-filter-america.conf"
+            "playlist-filter-az-tr-ru.conf"
             "playlist.m3u"
             "playlist-sports.m3u"
             "playlist-europe.m3u"
             "playlist-asia.m3u"
             "playlist-america.m3u"
+            "playlist-az-tr-ru.m3u"
           )
 
           for file in "${CUSTOM_FILES[@]}"; do
