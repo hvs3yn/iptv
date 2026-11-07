@@ -105,7 +105,6 @@ jobs:
             "playlist-filter-asia.conf"
             "playlist-filter-america.conf"
             "playlist-filter-az-tr-ru.conf"
-            "playlist-exclude-az-tr-ru.conf"
             "playlist.m3u"
             "playlist-sports.m3u"
             "playlist-europe.m3u"

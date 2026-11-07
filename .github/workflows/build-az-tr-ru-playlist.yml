@@ -40,7 +40,7 @@ jobs:
               exit 1
             fi
 
-            awk -v group="$group" -v excludeFile="playlist-exclude-az-tr-ru.conf" -v executeFile="playlist-execute.conf" '
+            awk -v group="$group" -v excludeFile="playlist-exclude.conf" -v executeFile="playlist-execute.conf" '
               BEGIN {
                 excludeCount = 0
                 while ((getline line < excludeFile) > 0) {
