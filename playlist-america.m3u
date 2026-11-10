@@ -1127,8 +1127,6 @@ https://bantel-cdn1.iptvperu.tv:1936/ZyphraCast/love-nature/chunks.m3u8
 https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8
 #EXTINF:-1 tvg-id="MadDogandMerrill.us@SD" group-title="United States",Mad Dog and Merrill (540p) [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-mwg/index.m3u8
-#EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us@SD" group-title="United States",Magnificent Movies Network
-https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8
 #EXTINF:-1 tvg-id="MagnoliaNetwork.us@East" group-title="United States",Magnolia Network (720p)
 http://190.197.41.183/MAGNOLIA_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="MajestadTV.us@SD" group-title="United States",Majestad Televisión (480p) [Not 24/7]
@@ -1452,6 +1450,8 @@ https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8
 https://video1.getstreamhosting.com:1936/8560/8560/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleSentinel.us@SD" group-title="United States",Radio Tele Sentinel (720p)
 https://59d39900ebfb8.streamlock.net/radiotelesentinel/radiotelesentinel/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioyTelevisionMarti.us@SD" group-title="United States",Radio y Televisión Martí (720p)
+https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioMensajeTV.us@SD" group-title="United States",RadioMensaje TV (720p)
 https://eu1.servers10.com:8081/8230/index.m3u8
 #EXTINF:-1 tvg-id="RallyTV.us@SD" group-title="United States",Rally TV (1080p)
@@ -1709,8 +1709,6 @@ https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be
 https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8
 #EXTINF:-1 tvg-id="theDoveTV.us@SD" group-title="United States",theDove TV (720p)
 https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8
-#EXTINF:-1 tvg-id="TimelessTV.us@SD" group-title="United States",Timeless TV
-https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8
 #EXTINF:-1 tvg-id="TinTV.us@SD" group-title="United States",Tin TV (720p)
 https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
 #EXTINF:-1 tvg-id="TinTV.us@SD" group-title="United States",Tin TV (720p) [Not 24/7]
@@ -2113,6 +2111,18 @@ http://38.134.250.110:8000/play/a02m/index.m3u8
 http://38.134.250.110:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Colombia" group-title="United States",Studio Universal Latin America Colombia (1080p)
 http://45.171.64.30:2000/play/a04o/index.m3u8
+#EXTINF:-1 tvg-id="VH1.us@East" group-title="United States",VH1 (1080p)
+http://23.237.104.106:8080/USA_VH1/index.m3u8
+#EXTINF:-1 tvg-id="OnTV4U.us@SD" group-title="United States",OnTV4U (1080p)
+https://ontv4u-orka.b-cdn.net/ONTV4U-ORKA/index.m3u8
+#EXTINF:-1 tvg-id="RVTV.us@HD" group-title="United States",RVTV (1080p)
+https://rvtv-orka.b-cdn.net/RVTV-ORKA/index.m3u8
+#EXTINF:-1 tvg-id="WineWatchesWhiskey.us@HD" group-title="United States",Wine Watches & Whiskey (1080p)
+https://w3-orka.b-cdn.net/W3-ORKA/index.m3u8
+#EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us@SD" group-title="United States",Magnificent Movies Network
+https://mmn1.b-cdn.net/hls/MMN-HLS.m3u8
+#EXTINF:-1 tvg-id="TimelessTV.us@SD" group-title="United States",Timeless TV
+https://timelesstv1.b-cdn.net/hls/TimelessTV.m3u8
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
@@ -2538,8 +2548,6 @@ https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
 #EXTINF:-1 tvg-id="JusticiaTV.mx@SD" group-title="Mexico",Justicia TV (720p)
 https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" group-title="Mexico",Las Estrellas (1080p)
-http://45.189.151.7:8000/play/a07s
 #EXTINF:-1 tvg-id="LasEstrellas.mx@SD" group-title="Mexico",Las Estrellas (1080p)
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx@SD" group-title="Mexico",Las Estrellas Latin America (1080p)
@@ -4110,7 +4118,7 @@ https://micanal.ovh/livestreams/515.AUTOOAAZ721F.m3u8
 https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
 #EXTINF:-1 tvg-id="Volver.ar@SD" group-title="Argentina",Volver (576p)
 http://138.121.113.175:8000/play/a04r/index.m3u8
-#EXTINF:-1 tvg-id="XLevelMedia.ar@SD" group-title="Argentina",X Level Media (1080p)
+#EXTINF:-1 tvg-id="WOXTV.us@SD" group-title="Argentina",WOX TV (1080p)
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
 #EXTINF:-1 tvg-id="XamaTV.ar@SD" group-title="Argentina",Xama TV
 https://srs.unsj.edu.ar/live/xama/xama.flv
@@ -4128,3 +4136,14 @@ https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
 #EXTINF:-1 tvg-id="NETTV.ar@SD" group-title="Argentina",NET TV (1080p)
 http://45.226.205.96:48000/play/a09p/index.m3u8
+#EXTINF:-1 tvg-id="Canal3Arroyito.ar@SD" group-title="Argentina",Canal 3 Arroyito (1080p)
+#EXTVLCOPT:http-referrer=https://canal3.cespalarroyito.coop/
+https://envivo.cespalarroyito.coop/live/Canal3Arroyito.m3u8
+#EXTINF:-1 tvg-id="Canal9RioCuarto.ar@SD" group-title="Argentina",Canal 9 Rio Cuarto (1080p)
+#EXTVLCOPT:http-referrer=https://canal9riocuarto.com.ar/
+https://tv.streamcasthd.com:3249/live/canal9riocuartolive.m3u8
+#EXTINF:-1 tvg-id="Canal10Goya.ar@SD" group-title="Argentina",Canal 10 Goya (1080p)
+https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8
+#EXTINF:-1 tvg-id="Canal20VillaMaria.ar@SD" group-title="Argentina",Canal 20 Villa Maria (1080p)
+#EXTVLCOPT:http-referrer=https://www.canal20villamaria.com.ar/
+https://stmvideo3.livecastv.com/canal20/canal20/playlist.m3u8
