@@ -82,6 +82,10 @@ https://jmp2.uk/plu-6972546cc62833833a187f50.m3u8
 http://209.45.101.130:8040/play/a03s/index.m3u8
 #EXTINF:-1 tvg-id="TNTSportsPremium.cl@ArgentinaHD" group-title="Sports",TNT Sports Premium ArgentinaHD (1080p)
 http://181.78.79.131:8000/play/a0q9
+#EXTINF:-1 tvg-id="TNTSports.cl@SD" group-title="Sports",TNT Sports (480p)
+http://205.235.6.29:8000/play/a0xa/index.m3u8
+#EXTINF:-1 tvg-id="TNTSportsPremium.cl@HD" group-title="Sports",TNT Sports Premium HD (1080p)
+http://205.235.6.29:8000/play/a104/index.m3u8
 #EXTINF:-1 tvg-id="CRTVSportsandEntertainment.cm@SD" group-title="Sports",CRTV Sports and Entertainment (360p)
 #EXTVLCOPT:http-referrer=https://crtv.cm/live/crtv-sport
 https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8
@@ -541,6 +545,8 @@ https://livesptfm.com/SPTFM/Live/playlist.m3u8
 https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VoyoSport1.ro@HD" group-title="Sports",Voyo Sport 1 (1080i)
 https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8
+#EXTINF:-1 tvg-id="SportExtra.ro@HD" group-title="Sports",Sport Extra HD
+http://92.180.26.103:80/stream/93/index.m3u8
 #EXTINF:-1 tvg-id="ArenaSport1Premium.rs@SD" group-title="Sports",Arena Sport 1 Premium (360p)
 http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vmRdlEHaaMaQAQw3LRAakpnghBMtR57sXXgLEXZF8gVD
 #EXTINF:-1 tvg-id="ExtremeSportsChannel.ru@SD" group-title="Sports",Extreme Sports Channel (576p)
