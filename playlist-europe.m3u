@@ -459,6 +459,8 @@ http://82.47.42.44/stream/402/index.m3u8
 http://82.47.42.44/stream/385/index.m3u8
 #EXTINF:-1 tvg-id="DAZNF1.uk@Spain" group-title="United Kingdom",DAZN F1
 https://tvorb.net/ZTV/6918-live.m3u8
+#EXTINF:-1 tvg-id="EurovisionSport.uk@Europe" group-title="United Kingdom",Eurovision Sport (1080p)
+https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" group-title="United Kingdom",BBC Arabic (720p)
@@ -1289,6 +1291,8 @@ http://94.130.48.67:8042/stream/112/index.m3u8
 https://s6.hopslan.com/voxupz/index.m3u8
 #EXTINF:-1 tvg-id="RTLup.de@SD" group-title="Germany",RTLup (576p)
 https://s6.hopslan.com/rtltupz/index.m3u8
+#EXTINF:-1 tvg-id="DMAX.de@HD" group-title="Germany",DMAX HD (576p)
+https://s6.hopslan.com/dmaxX/index.m3u8
 #EXTINF:-1 tvg-id="6ter.fr@SD" group-title="France",6ter (1080p)
 http://149.62.177.107:9999/6ter/index.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" group-title="France",20 Minutes TV (1080p)
@@ -2176,8 +2180,6 @@ http://team-tv.co:81/raimovie/index.m3u8
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@HD" group-title="Italy",Rai News 24 HD (1080p)
 https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
-#EXTINF:-1 tvg-id="RaiPremium.it@SD" group-title="Italy",Rai Premium
-http://team-tv.co:81/raipremium/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Rai Sport 2
 http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
 #EXTINF:-1 tvg-id="RaiStoria.it@SD" group-title="Italy",Rai Storia (1080p)
@@ -2449,6 +2451,48 @@ http://102.129.186.182:81/dmax/index.m3u8
 http://102.129.186.182:81/discovery/index.m3u8
 #EXTINF:-1 tvg-id="RealTime.it@HD" group-title="Italy",Real Time HD (720p)
 http://102.129.186.182:81/realtime/index.m3u8
+#EXTINF:-1 tvg-id="Italia1.it@HD" group-title="Italy",Italia 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://185.227.34.62/stream/21/index.m3u8
+#EXTINF:-1 tvg-id="Canale5.it@HD" group-title="Italy",Canale 5 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://185.227.34.62/stream/17/index.m3u8
+#EXTINF:-1 tvg-id="Rete4.it@HD" group-title="Italy",Rete 4 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://185.227.34.62/stream/14/index.m3u8
+#EXTINF:-1 tvg-id="SkyCinemaUno.it@SD" group-title="Italy",Sky Cinema Uno
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://109.169.87.42:8080/stream/2/index.m3u8
+#EXTINF:-1 tvg-id="SkyCinemaDue.it@SD" group-title="Italy",Sky Cinema Due
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://109.169.87.42:8080/stream/10/index.m3u8
+#EXTINF:-1 tvg-id="SkyCinemaCollection.it@SD" group-title="Italy",Sky Cinema Collection
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://109.169.87.42:8080/stream/18/index.m3u8
+#EXTINF:-1 tvg-id="SkyCinemaFamily.it@SD" group-title="Italy",Sky Cinema Family
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://109.169.87.42:8080/stream/22/index.m3u8
+#EXTINF:-1 tvg-id="SkyCinemaAction.it@SD" group-title="Italy",Sky Cinema Action
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://109.169.87.42:8080/stream/26/index.m3u8
+#EXTINF:-1 tvg-id="SkyCinemaSuspense.it@SD" group-title="Italy",Sky Cinema Suspense
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://109.169.87.42:8080/stream/30/index.m3u8
+#EXTINF:-1 tvg-id="RaiYoyo.it@SD" group-title="Italy",Rai Yoyo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://95.141.36.9:8080/stream/156/index.m3u8
+#EXTINF:-1 tvg-id="RaiPremium.it@SD" group-title="Italy",Rai Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://95.141.36.9:8080/stream/170/index.m3u8
+#EXTINF:-1 tvg-id="BoingPlus.it@SD" group-title="Italy",Boing Plus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://95.141.36.9:8080/stream/181/index.m3u8
+#EXTINF:-1 tvg-id="RadioMonteCarloTV.it@SD" group-title="Italy",Radio Monte Carlo TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://95.141.36.9:8080/stream/180/index.m3u8
+#EXTINF:-1 tvg-id="SuperTennis.it@SD" group-title="Italy",SuperTennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://57.128.225.206/stream/7/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",Alberto Sordi & Co (720p)
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Italy",BBC Drama Italy (1080p)
@@ -2579,8 +2623,6 @@ https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
 #EXTINF:-1 tvg-id="Antena3.es@National" group-title="Spain",Antena 3
 https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
-#EXTINF:-1 tvg-id="Antena3Internacional.es@SD" group-title="Spain",Antena 3 Internacional (1080p)
-http://38.252.238.18:8000/play/a04a/index.m3u8
 #EXTINF:-1 tvg-id="ArabiTV.es@SD" group-title="Spain",Arabí TV (1080p)
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 #EXTINF:-1 tvg-id="AragonTVInternacional.es@SD" group-title="Spain",Aragon TV Internacional (720p) [Not 24/7]
@@ -3006,8 +3048,6 @@ http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51
 http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0
 #EXTINF:-1 tvg-id="TVEStar.es@SD" group-title="Spain",TVE Star (576p)
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
-#EXTINF:-1 tvg-id="TVEStar.es@HD" group-title="Spain",TVE Star HD (1080p)
-http://38.252.238.18:8000/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@HD" group-title="Spain",TVE Star HD (1080p)
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@HD" group-title="Spain",TVE Star HD (1080p)
@@ -4706,3 +4746,6 @@ https://verginanews.gr:8443/hls_live/stream1.m3u8
 https://zouglacam-mdc-secure.akamaized.net/zouglalive/backup/playlist.m3u8
 #EXTINF:-1 tvg-id="HellenicParliamentTV.gr@SD" group-title="Greece",Βουλή Τηλεόραση (360p) [Not 24/7]
 https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8
+#EXTINF:-1 tvg-id="ANT1Satellite.gr@SD" group-title="Greece",ANT1 Satellite
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://194.156.236.36/stream/13/index.m3u8
