@@ -55,8 +55,6 @@ https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/ind
 #EXTINF:-1 tvg-id="BandSports.br@SD" group-title="Sports",Band Sports (1080p)
 https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="BandSports.br@SD" group-title="Sports",Band Sports (720p)
-http://45.162.64.114/BAND_SPORTS/index.m3u8
-#EXTINF:-1 tvg-id="BandSports.br@SD" group-title="Sports",Band Sports (720p)
 http://170.83.16.50/BAND_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="BandSports.br@SD" group-title="Sports",Band Sports (720p)
 http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8
@@ -101,8 +99,6 @@ http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225935/index.m3u8
 http://138.121.15.230:9002/WIN-SPORT/index.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" group-title="Sports",Win Sports (1080p)
 http://181.78.12.119:16123/play/ch18/index.m3u8
-#EXTINF:-1 tvg-id="WinSports.co@SD" group-title="Sports",Win Sports (1080p)
-http://190.217.66.92:8000/play/a0fh/index.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" group-title="Sports",Win Sports (720p)
 http://15.204.146.163:8002/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" group-title="Sports",Win Sports (576p)
@@ -292,8 +288,6 @@ https://cdn.pishow.tv/ott/live/1161/master.m3u8
 https://fta.ektv.in/live/280/master.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@SD" group-title="Sports",DD Sports SD (576p)
 https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport.in@SD" group-title="Sports",Eurosport (720p)
-https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" group-title="Sports",Star Sports 2 Telugu HD (576p)
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="Sports",Star Sports Select 2 HD (720p)
@@ -385,10 +379,6 @@ http://45.171.64.30:6060/play/a00w/index.m3u8
 http://45.228.234.9:8000/play/a06i/index.m3u8
 #EXTINF:-1 tvg-id="ClaroSports.mx@SD" group-title="Sports",Claro Sports (1080p)
 http://168.196.127.137:6001/play/a08r/index.m3u8
-#EXTINF:-1 tvg-id="PXSports.mx@SD" group-title="Sports",PX Sports (1080p)
-http://38.65.175.84:8000/play/a0ku/index.m3u8
-#EXTINF:-1 tvg-id="PXSports.mx@SD" group-title="Sports",PX Sports (1080p)
-http://38.252.238.18:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-id="SkySports1.mx@SD" group-title="Sports",Sky Sports 1 (1080p)
 http://45.228.234.9:8000/play/a06b/index.m3u8
 #EXTINF:-1 tvg-id="SkySports2.mx@SD" group-title="Sports",Sky Sports 2 (1080p)
@@ -508,9 +498,6 @@ http://znty.dyndns.org:5010/hls/sportv+.m3u8
 https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
 #EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" group-title="Sports",Tigo Sports+ (1080p) [Not 24/7]
 https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSports1.qa@MENA" group-title="Sports",beIN Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/1/index.m3u8
 #EXTINF:-1 tvg-id="beINSports2.qa@MENA" group-title="Sports",beIN Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://86.192.195.47:9034/stream/2/index.m3u8
@@ -609,6 +596,10 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport7/live_fullhd?o
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport8/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="CanalPlusSportSK.sk@SD" group-title="Sports",Canal+ Sport SK
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="Sport1.sk@HD" group-title="Sports",Sport 1
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-sport1-sk/live_fullhd
+#EXTINF:-1 tvg-id="Sport2.sk@HD" group-title="Sports",Sport 2
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-sport2-sk/live_fullhd
 #EXTINF:-1 tvg-id="SanMarinoRTVSport.sm@SD" group-title="Sports",San Marino RTV Sport (720p)
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
 #EXTINF:-1 tvg-id="etvNewsSport.za@SD" group-title="Sports",ETVN (720p)
@@ -690,6 +681,8 @@ http://37.49.224.5/stream/4/index.m3u8
 #EXTVLCOPT:http-referrer=https://stmify.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 https://cdn.stmify.com/out/v1/SKY_SPORTS_PREMIER_LEAGUE/index.m3u8
+#EXTINF:-1 tvg-id="EurovisionSport.uk@Europe" group-title="Sports",Eurovision Sport (1080p)
+https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",U&Transport (720p)
 https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",U&Transport (1080p) [Geo-blocked]
