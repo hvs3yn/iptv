@@ -1838,6 +1838,26 @@ https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
 https://fonbet.mediacdn.ru/live/nashatema/playlist.m3u8
 #EXTINF:-1 tvg-id="Volleyball.ru@SD" group-title="Russia",Volleyball (1080p)
 https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
+#EXTINF:-1 tvg-id="FONTV.ru@HD" group-title="Russia",FON TV (1080p)
+https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
+#EXTINF:-1 tvg-id="FONTV.ru@HD" group-title="Russia",FON TV (1080p)
+https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8
+#EXTINF:-1 tvg-id="StarCinema.ru@SD" group-title="Russia",Star Cinema (576p)
+http://s1.merlive.am/starsinema/index.m3u8
+#EXTINF:-1 tvg-id="black.ru@SD" group-title="Russia",.black (576p)
+http://s1.merlive.am/black/index.m3u8
+#EXTINF:-1 tvg-id="TiJi.ru@SD" group-title="Russia",TiJi (576p)
+http://s1.merlive.am/TiJi/index.m3u8
+#EXTINF:-1 tvg-id="Zhivayapriroda.ru@HD" group-title="Russia",Zhivaya priroda HD (1080p)
+http://s1.merlive.am/Jivaiapriroda/index.m3u8
+#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" group-title="Russia",Match! Planeta (576p)
+http://s1.merlive.am/matchplaneta/index.m3u8
+#EXTINF:-1 tvg-id="Telecafe.ru@SD" group-title="Russia",Telecafe (1080p)
+http://s1.merlive.am/telekafe/index.m3u8
+#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" group-title="Russia",Kinouzhas (1080p)
+http://s1.merlive.am/Kinoujas/index.m3u8
+#EXTINF:-1 tvg-id="TERRA.ru@SD" group-title="Russia",TERRA (1080p)
+http://s1.merlive.am/TerraHD/index.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
