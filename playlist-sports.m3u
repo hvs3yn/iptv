@@ -82,8 +82,8 @@ http://209.45.101.130:8040/play/a03s/index.m3u8
 http://181.78.79.131:8000/play/a0q9
 #EXTINF:-1 tvg-id="TNTSports.cl@SD" group-title="Sports",TNT Sports (480p)
 http://205.235.6.29:8000/play/a0xa/index.m3u8
-#EXTINF:-1 tvg-id="TNTSportsPremium.cl@HD" group-title="Sports",TNT Sports Premium HD (1080p)
-http://205.235.6.29:8000/play/a104/index.m3u8
+#EXTINF:-1 tvg-id="TNTSportsPremium.cl@HD" group-title="Sports",TNT Sports Premium HD
+https://play-fulltv.com.ar/playtvpre/tntsportschile.m3u8
 #EXTINF:-1 tvg-id="CRTVSportsandEntertainment.cm@SD" group-title="Sports",CRTV Sports and Entertainment (360p)
 #EXTVLCOPT:http-referrer=https://crtv.cm/live/crtv-sport
 https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8
@@ -138,22 +138,22 @@ http://88.212.7.14/live/sport2_cz_avc_25p/playlist.m3u8
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 tvg-id="SkySportNews.de@SD" group-title="Sports",Sky Sport News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.142.104.86/stream/47/index.m3u8
-#EXTINF:-1 tvg-id="SkySportTopEvent.de@SD" group-title="Sports",Sky Sport Top Event
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.142.104.86/stream/48/index.m3u8
+http://94.130.48.67:8042/stream/49/index.m3u8
 #EXTINF:-1 tvg-id="SkySportF1.de@SD" group-title="Sports",Sky Sport F1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.142.104.86/stream/49/index.m3u8
+http://94.130.48.67:8042/stream/51/index.m3u8
+#EXTINF:-1 tvg-id="SkySportTopEvent.de@SD" group-title="Sports",Sky Sport Top Event
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://94.130.48.67:8042/stream/50/index.m3u8
 #EXTINF:-1 tvg-id="SkySportMix.de@SD" group-title="Sports",Sky Sport Mix
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.142.104.86/stream/51/index.m3u8
+http://94.130.48.67:8042/stream/53/index.m3u8
 #EXTINF:-1 tvg-id="SkySportTennis.de@SD" group-title="Sports",Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.142.104.86/stream/53/index.m3u8
+http://94.130.48.67:8042/stream/55/index.m3u8
 #EXTINF:-1 tvg-id="SkySportGolf.de@SD" group-title="Sports",Sky Sport Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.142.104.86/stream/54/index.m3u8
+http://94.130.48.67:8042/stream/56/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Auto Motor Sport
 https://jmp2.uk/plu-5f760c3d41aa2d0007bfde19.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Dyn Sport Mix (720p)
@@ -498,30 +498,6 @@ http://znty.dyndns.org:5010/hls/sportv+.m3u8
 https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
 #EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" group-title="Sports",Tigo Sports+ (1080p) [Not 24/7]
 https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSports2.qa@MENA" group-title="Sports",beIN Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/2/index.m3u8
-#EXTINF:-1 tvg-id="beINSports3.qa@MENA" group-title="Sports",beIN Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/4/index.m3u8
-#EXTINF:-1 tvg-id="beINSports4.qa@MENA" group-title="Sports",beIN Sports 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/5/index.m3u8
-#EXTINF:-1 tvg-id="beINSports5.qa@MENA" group-title="Sports",beIN Sports 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/6/index.m3u8
-#EXTINF:-1 tvg-id="beINSports6.qa@MENA" group-title="Sports",beIN Sports 6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/7/index.m3u8
-#EXTINF:-1 tvg-id="beINSports7.qa@MENA" group-title="Sports",beIN Sports 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/8/index.m3u8
-#EXTINF:-1 tvg-id="beINSports8.qa@MENA" group-title="Sports",beIN Sports 8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/9/index.m3u8
-#EXTINF:-1 tvg-id="beINSports9.qa@MENA" group-title="Sports",beIN Sports 9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://86.192.195.47:9034/stream/10/index.m3u8
 #EXTINF:-1 tvg-id="AntenaSport.ro@SD" group-title="Sports",AntenaSport
 https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" group-title="Sports",Realitatea Sportiva (720p)
