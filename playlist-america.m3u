@@ -2062,6 +2062,8 @@ https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-o
 https://aka-live1050.delivery.roku.com/90ba101a-eef0-4c48-b464-b5ef935b5dcb/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="Telecyan.us@HD" group-title="United States",Telecyan (720p)
 https://183.giatvcdn.com/giatvplayout7/giatv-211227/playlist.m3u8
+#EXTINF:-1 tvg-id="DSports2.us@Panregional" group-title="United States",DSports 2
+http://45.134.141.161:2200/ARG/DTV_SP2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="5AABTV.ca@SD" group-title="Canada",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanNobelMovies.ca@SD" group-title="Canada",Afghan Nobel Movies (720p)
