@@ -446,6 +446,8 @@ https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.tr@SD" group-title="Turkey",CNN Turk (1080p)
 http://85.117.61.84/cnnturk/index.m3u8
+#EXTINF:-1 tvg-id="SozcuTV.tr@SD" group-title="Turkey",Sozcu TV (1080p)
+https://filbox-to-m3u8.onrender.com/stream/szchd.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru@HD" group-title="Russia",1HD Music Television (1080p)
 http://176.118.197.101/1HD/index.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru@SD" group-title="Russia",1HD Music Television (1080p)
@@ -1232,12 +1234,6 @@ http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
 http://77.232.131.211/Sapfir/manifest.m3u8
 #EXTINF:-1 tvg-id="Sarafan.ru@SD" group-title="Russia",Sarafan (576p)
 http://stream.mcquack.net/81/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" group-title="Russia",Setanta Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" group-title="Russia",Setanta Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
@@ -1798,6 +1794,8 @@ http://s1.merlive.am/telekafe/index.m3u8
 http://s1.merlive.am/Kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="TERRA.ru@SD" group-title="Russia",TERRA (1080p)
 http://s1.merlive.am/TerraHD/index.m3u8
+#EXTINF:-1 tvg-id="Rybalkaiokhota.ru@SD" group-title="Russia",Rybalka i okhota (576p)
+https://fs.uplink.kz/ohota_i_ribalka/index.m3u8?token=onlinetv2
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
@@ -6576,6 +6574,10 @@ http://87.238.211.217:2209/stream/99/index.m3u8
 #EXTINF:-1 tvg-id="Mezzo.fr@SD" group-title="France",Mezzo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://92.180.26.103/stream/62/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@UK" group-title="France",Eurosport 1 UK (1080p)
+http://85.117.37.43/eurosport1/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr@SD" group-title="France",TV5Monde Europe (576i)
+https://hls01ns.antenaplay.ro/hls/tv5-monde-europe-sd/index.m3u8
 #EXTINF:-1 tvg-id="123tv.de@SD" group-title="Germany",1-2-3 TV (270p)
 https://123tv-mx1.flex-cdn.net/index.m3u8
 #EXTINF:-1 tvg-id="3sat.de@SD" group-title="Germany",3sat
@@ -7080,8 +7082,6 @@ https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8
 https://tv.cdn.xsg.ge/c4635/TVFormula/playlist.m3u8
 #EXTINF:-1 tvg-id="GDSTV.ge@SD" group-title="Georgia",GDS TV
 http://31.146.5.178:8087/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="GMSTV.ge@SD" group-title="Georgia",GMS TV
-http://158.101.222.193:88/georgia_play.php?id=gms
 #EXTINF:-1 tvg-id="ImediTV.ge@SD" group-title="Georgia",Imedi TV (1080p)
 https://tv.cdn.xsg.ge/imedihd/index.m3u8
 #EXTINF:-1 tvg-id="ImediTV.ge@SD" group-title="Georgia",Imedi TV
@@ -7100,15 +7100,16 @@ http://video.rionitv.com:9090/hls/live/rioni.m3u8
 http://31.146.5.178:8087/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="Rustavi2.ge@SD" group-title="Georgia",Rustavi 2
 http://nue01-edge01.itdc.ge/rustavi2hqnew/mpegts
-#EXTINF:-1 tvg-id="SetantaSports3.ge@SD" group-title="Georgia",Setanta Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
 #EXTINF:-1 tvg-id="TVPirveli.ge@SD" group-title="Georgia",TV Pirveli
 http://nue01-edge01.itdc.ge/pirvelitv/mpegts
 #EXTINF:-1 tvg-id="TVC.ge@SD" group-title="Georgia",TVC (1080p)
 http://31.146.5.178:8087/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="AbazaTV.ru@SD" group-title="Georgia",АБАЗА-ТВ (1080p)
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSportsPlusGeorgia.ge@SD" group-title="Georgia",Setanta Sports+ Georgia (1080p)
+http://85.117.61.84/setanta2/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSports3.ge@SD" group-title="Georgia",Setanta Sports 3 (1080p)
+http://85.117.61.84/setanta3/index.m3u8
 #EXTINF:-1 tvg-id="4E.gr@SD" group-title="Greece",4E (1080p)
 http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4E.gr@SD" group-title="Greece",4E (1080p)
@@ -7675,6 +7676,10 @@ http://stream.mcquack.net/235/index.m3u8
 https://fastly.live.brightcove.com/6384196213112/eu-west-1/1555966122001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieDl2YzlnLmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiMTU1NTk2NjEyMjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyIxNTU1OTY2MTIyMDAxIl0sImp0aSI6IjYzODQxOTYyMTMxMTIifQ.Co2xR3kmJBoxTaFTpwU0b37lJ05vNt-y32-SwfM26EA/chunklist.m3u8
 #EXTINF:-1 tvg-id="SkyNews.ie@SD" group-title="Ireland",Sky News
 https://dash4.antik.sk/live/test_skynews/playlist.m3u8
+#EXTINF:-1 tvg-id="Cula4.ie@SD" group-title="Ireland",Cula4 (576p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://www.cula4.com
+#EXTVLCOPT:http-user-agent=Win64
+http://41.180.140.146:4200/bysid/2106
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir@SD" group-title="Iran",AFN TV (720p)
@@ -8689,6 +8694,8 @@ https://stream3.shopch.jp/HLS/master.m3u8
 https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp@SD" group-title="Japan",Weathernews (720p)
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
+#EXTINF:-1 tvg-id="TVUYamagata.jp@JOWIDTV" group-title="Japan",TV-U Yamagata (1080i)
+https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/master.m3u8
 #EXTINF:-1 tvg-id="312Kino.kg@SD" group-title="Kyrgyzstan",312 Кино (406p)
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1 tvg-id="312TV.kg@SD" group-title="Kyrgyzstan",312 ТВ (406p)
@@ -10206,6 +10213,8 @@ http://57.129.96.133:888/stream/93/index.m3u8
 http://57.129.96.133:888/stream/95/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.pl@SD" group-title="Poland",Disney Junior (576p)
 http://111.88.7.92:8000/play/a00o/index.m3u8
+#EXTINF:-1 tvg-id="TVPSport.pl@SD" group-title="Poland",TVP Sport (1080p) [Not 24/7]
+rtsp://213.189.46.75/wmt-14963-1.sdp
 #EXTINF:-1 tvg-id="ADBTV.pt@SD" group-title="Portugal",ADB TV (1080p)
 https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTV.pt@SD" group-title="Portugal",ARTV Canal Parlamento (720p) [Not 24/7]
@@ -10441,6 +10450,8 @@ https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 #EXTINF:-1 tvg-id="QBC.qa@HD" group-title="Qatar",QBC (1080p)
 https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSports1.qa@MENA" group-title="Qatar",beIN Sports 1
+https://vg162.adcdsd123321.shop/7.m3u8
 #EXTINF:-1 tvg-id="ABN.kr@SD" group-title="South Korea",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="ArirangRadio.kr@SD" group-title="South Korea",Arirang Radio (720p)
@@ -10666,8 +10677,6 @@ https://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8
 https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
 #EXTINF:-1 tvg-id="AnimeVisionClassics.es@SD" group-title="Spain",Anime Vision Classics (1080p)
 https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
-#EXTINF:-1 tvg-id="Antena3.es@National" group-title="Spain",Antena 3
-https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
 #EXTINF:-1 tvg-id="ArabiTV.es@SD" group-title="Spain",Arabí TV (1080p)
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 #EXTINF:-1 tvg-id="AragonTVInternacional.es@SD" group-title="Spain",Aragon TV Internacional (720p) [Not 24/7]
@@ -11458,9 +11467,6 @@ https://alpha.tv.online.tm/legacyhls/ch004.m3u8
 https://alpha.tv.online.tm/hls/ch002.m3u8
 #EXTINF:-1 tvg-id="Yaslyk.tm@SD" group-title="Turkmenistan",Ýaşlyk (406p) [Not 24/7]
 https://alpha.tv.online.tm/legacyhls/ch002.m3u8
-#EXTINF:-1 tvg-id="1Plus1International.ua@SD" group-title="Ukraine",1+1 International
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=1plus1international
 #EXTINF:-1 tvg-id="1Plus1International.ua@HD" group-title="Ukraine",1+1 International HD (720p)
 https://dash2.antik.sk/live/test_one_plus_one_int_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="1Plus1Marafon.ua@SD" group-title="Ukraine",1+1 Marafon (1080p)
@@ -11673,9 +11679,6 @@ http://stream.mcquack.net/446/index.m3u8
 http://775065.live.tvstitch.com/playlist.m3u8?master=311&source=aHR0cHM6Ly9obHMtY2RuMi5keXZ5YXBwLmNvbS9rb25rdXJlbnQtdWtyYWluYS90cmFja3MtdjFhMS9tb25vLnRzLm0zdTg/dG9rZW49ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmphR0Z1Ym1Wc1gybGtJam96TVRFc0ltTm9ZVzV1Wld4ZmJtRnRaU0k2SWx4MU1EUXhZVngxTURRelpWeDFNRFF6WkZ4MU1EUXpZVngxTURRME0xeDFNRFEwTUZ4MU1EUXpOVngxTURRelpGeDFNRFEwTWlCY2RUQTBNak5jZFRBME0yRmNkVEEwTkRCY2RUQTBNekJjZFRBME5UZGNkVEEwTTJSY2RUQTBNekFpTENKcGNDSTZJakUzT0M0eE16WXVOREl1TWpJd0lpd2lZMjkxYm5SeWVTSTZJbFZyY21GcGJtVWlMQ0oxYzJWeVgybGtJam8zTkRBM0xDSjFjMlZ5WDNCb2IyNWxJam9pS3pNNE1Ea3pNRGsyTnpReU15SXNJblZ6WlhKZmNtOXNaWE1pT2xzaVkyeHBaVzUwSWwwc0luQnliMlpwYkdWZmFXUWlPalkwTnpFc0luTmxjM05wYjI1ZmFXUWlPaUprTURBNU5tSm1PQzB5TTJVMUxUUmxaVFl0WW1Vek5TMW1PREE0TXpsbFpqbGtPRFFpTENKbGJuWnBjbTl1YldWdWRDSTZJbkJ5YjJSMVkzUnBiMjRpTENKd2JHRjBabTl5YlNJNklrUmxjMnQwYjNBaUxDSjFjMlZ5WDJGblpXNTBJam9pVFc5NmFXeHNZVnd2TlM0d0lDaFhhVzVrYjNkeklFNVVJREV3TGpBN0lGZHBialkwT3lCNE5qUXBJRUZ3Y0d4bFYyVmlTMmwwWEM4MU16Y3VNellnS0V0SVZFMU1MQ0JzYVd0bElFZGxZMnR2S1NCRGFISnZiV1ZjTHpFMU1pNHdMakF1TUNCVFlXWmhjbWxjTHpVek55NHpOaUlzSW1WNGNDSTZNVGM0T0RNek5qTXdOSDAuOGgzdDlhSkFPUjh0djhvX0NZWjlDbHVuaTVvZ2NiRVFVcC1SbThlcUMwNA==
 #EXTINF:-1 tvg-id="KusKus.ua@SD" group-title="Ukraine",Kus-Kus
 https://dash2.antik.sk/live/test_kuskus_tv_atktv/playlist.m3u8
-#EXTINF:-1 tvg-id="KvartalTV.ua@SD" group-title="Ukraine",Kvartal TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=kvartal95
 #EXTINF:-1 tvg-id="Kyiv.ua@SD" group-title="Ukraine",Kyiv (1080p)
 https://api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
 #EXTINF:-1 tvg-id="Lale.ua@SD" group-title="Ukraine",Lale
@@ -11690,9 +11693,6 @@ http://dtv.vol.net.ua/M1-HD/index.m3u8
 #EXTINF:-1 tvg-id="M1.ua@SD" group-title="Ukraine",M1 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/218/index.m3u8
-#EXTINF:-1 tvg-id="M1.ua@SD" group-title="Ukraine",M1 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=m1
 #EXTINF:-1 tvg-id="M2.ua@SD" group-title="Ukraine",M2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/330/index.m3u8
@@ -11741,9 +11741,6 @@ http://46.32.176.50/natgeowild/index.m3u8
 http://stream.mcquack.net/403/index.m3u8
 #EXTINF:-1 tvg-id="NikiJunior.ua@SD" group-title="Ukraine",Niki Junior (1080p)
 http://stream.mcquack.net/262/index.m3u8
-#EXTINF:-1 tvg-id="NikiJunior.ua@SD" group-title="Ukraine",Niki Junior
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=nikijunior
 #EXTINF:-1 tvg-id="NikiKids.ua@SD" group-title="Ukraine",Niki Kids (1080p)
 http://stream.mcquack.net/271/index.m3u8
 #EXTINF:-1 tvg-id="NovyiChannel.ua@SD" group-title="Ukraine",Novyi Channel (1080p)
@@ -14518,6 +14515,8 @@ https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-o
 https://aka-live1050.delivery.roku.com/90ba101a-eef0-4c48-b464-b5ef935b5dcb/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="Telecyan.us@HD" group-title="United States",Telecyan (720p)
 https://183.giatvcdn.com/giatvplayout7/giatv-211227/playlist.m3u8
+#EXTINF:-1 tvg-id="DSports2.us@Panregional" group-title="United States",DSports 2
+http://45.134.141.161:2200/ARG/DTV_SP2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" group-title="Uzbekistan",Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" group-title="Uzbekistan",BIZ Cinema (1080p)
