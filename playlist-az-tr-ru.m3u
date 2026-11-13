@@ -446,6 +446,8 @@ https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.tr@SD" group-title="Turkey",CNN Turk (1080p)
 http://85.117.61.84/cnnturk/index.m3u8
+#EXTINF:-1 tvg-id="SozcuTV.tr@SD" group-title="Turkey",Sozcu TV (1080p)
+https://filbox-to-m3u8.onrender.com/stream/szchd.m3u8
 #EXTINF:-1 tvg-id="GEMPixel.tr@SD" group-title="Turkey",GEM Pixel
 https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
 #EXTINF:-1 tvg-id="GEMSport.tr@SD" group-title="Turkey",GEM Sport
@@ -1292,12 +1294,6 @@ http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
 http://77.232.131.211/Sapfir/manifest.m3u8
 #EXTINF:-1 tvg-id="Sarafan.ru@SD" group-title="Russia",Sarafan (576p)
 http://stream.mcquack.net/81/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" group-title="Russia",Setanta Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" group-title="Russia",Setanta Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" group-title="Russia",Shanson TV (576p)
@@ -1858,6 +1854,8 @@ http://s1.merlive.am/telekafe/index.m3u8
 http://s1.merlive.am/Kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="TERRA.ru@SD" group-title="Russia",TERRA (1080p)
 http://s1.merlive.am/TerraHD/index.m3u8
+#EXTINF:-1 tvg-id="Rybalkaiokhota.ru@SD" group-title="Russia",Rybalka i okhota (576p)
+https://fs.uplink.kz/ohota_i_ribalka/index.m3u8?token=onlinetv2
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD" group-title="Russia",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD" group-title="Russia",alpha Cinema (1080p)
