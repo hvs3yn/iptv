@@ -236,13 +236,16 @@ http://103.253.74.210:7070/stream/122/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Serbia" group-title="Sports",Eurosport 1 Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://87.238.211.217:2209/stream/99/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@UK" group-title="Sports",Eurosport 1 UK (1080p)
+http://85.117.37.43/eurosport1/index.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@HD" group-title="Sports",Trace Sport Stars (1080p)
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
 #EXTINF:-1 tvg-id="Adjarasport1.ge@SD" group-title="Sports",Adjarasport 1
 https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports3.ge@SD" group-title="Sports",Setanta Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
+#EXTINF:-1 tvg-id="SetantaSportsPlusGeorgia.ge@SD" group-title="Sports",Setanta Sports+ Georgia (1080p)
+http://85.117.61.84/setanta2/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSports3.ge@SD" group-title="Sports",Setanta Sports 3 (1080p)
+http://85.117.61.84/setanta3/index.m3u8
 #EXTINF:-1 tvg-id="MultivisionSports.gt@SD" group-title="Sports",Multivisión Sports (720p) [Not 24/7]
 https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 #EXTINF:-1 tvg-id="TigoSports.gt@SD" group-title="Sports",Tigo Sports (1080p)
@@ -472,6 +475,8 @@ http://57.129.96.133:888/stream/93/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport4.pl@SD" group-title="Sports",Canal+ Sport 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://57.129.96.133:888/stream/95/index.m3u8
+#EXTINF:-1 tvg-id="TVPSport.pl@SD" group-title="Sports",TVP Sport (1080p) [Not 24/7]
+rtsp://213.189.46.75/wmt-14963-1.sdp
 #EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" group-title="Sports",World of Freesports (1080p)
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="SportTV1.pt@SD" group-title="Sports",Sport TV1
@@ -498,6 +503,8 @@ http://znty.dyndns.org:5010/hls/sportv+.m3u8
 https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
 #EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" group-title="Sports",Tigo Sports+ (1080p) [Not 24/7]
 https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSports1.qa@MENA" group-title="Sports",beIN Sports 1
+https://vg162.adcdsd123321.shop/7.m3u8
 #EXTINF:-1 tvg-id="AntenaSport.ro@SD" group-title="Sports",AntenaSport
 https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" group-title="Sports",Realitatea Sportiva (720p)
@@ -518,12 +525,6 @@ http://46.32.176.50/extremesport/index.m3u8
 https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="OkkoPrajmSport.ru@SD" group-title="Sports",Okko Prajm Sport (1080p)
 http://stream.mcquack.net/493/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" group-title="Sports",Setanta Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" group-title="Sports",Setanta Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="Sportivnyy.ru@SD" group-title="Sports",Sportivnyy (1080p)
 https://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" group-title="Sports",viju+ Sport (576p)
@@ -709,6 +710,8 @@ https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8
 https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8
 #EXTINF:-1 tvg-id="MarqueeSportsNetwork.us@SD" group-title="Sports",Marquee Sports Network (576p)
 https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8
+#EXTINF:-1 tvg-id="DSports2.us@Panregional" group-title="Sports",DSports 2
+http://45.134.141.161:2200/ARG/DTV_SP2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" group-title="Sports",CBS Sports Golazo Network (720p)
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 #EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" group-title="Sports",CBS Sports HQ (1080p) [Geo-blocked]
