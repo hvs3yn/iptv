@@ -3,6 +3,8 @@
 https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTSHSport.al@SD" group-title="Sports",RTSH Sport (1080p)
 http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
+#EXTINF:-1 tvg-id="FastSports.am@SD" group-title="Sports",Fast Sports (1080p)
+http://s7.merlive.am/Fastsports/index.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" group-title="Sports",Canal Showsport (720p)
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="FoxSports.ar@SD" group-title="Sports",Fox Sports (1080p)
@@ -238,6 +240,10 @@ http://103.253.74.210:7070/stream/122/index.m3u8
 http://87.238.211.217:2209/stream/99/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@UK" group-title="Sports",Eurosport 1 UK (1080p)
 http://85.117.37.43/eurosport1/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@France" group-title="Sports",Eurosport 1
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@France" group-title="Sports",Eurosport 2 (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@HD" group-title="Sports",Trace Sport Stars (1080p)
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
 #EXTINF:-1 tvg-id="Adjarasport1.ge@SD" group-title="Sports",Adjarasport 1
@@ -293,8 +299,6 @@ https://fta.ektv.in/live/280/master.m3u8
 https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" group-title="Sports",Star Sports 2 Telugu HD (576p)
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
-#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="Sports",Star Sports Select 2 HD (720p)
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport.in@HD" group-title="Sports",Eurosport HD (1080p)
 https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",Sports First TV (1080p)
@@ -595,6 +599,9 @@ https://alpha.tv.online.tm/legacyhls/ch004.m3u8
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 #EXTINF:-1 tvg-id="SSport2.tr@SD" group-title="Sports",S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:-1 tvg-id="beINSports1Turk.tr@SD" group-title="Sports",beIN Sports 1 Turk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://57.129.0.61:1990/stream/117/index.m3u8
 #EXTINF:-1 tvg-id="GEMSport.tr@SD" group-title="Sports",GEM Sport
 https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
 #EXTINF:-1 tvg-id="DiviSport.ua@SD" group-title="Sports",DiviSport (1080p)
@@ -818,5 +825,5 @@ https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
 http://181.79.86.130:8000/play/a081/index.m3u8
 #EXTINF:-1 tvg-id="HTVSports.vn@SD" group-title="Sports",HTV Sports (1080i)
 https://vmttv.dpdns.org/tv360?id=htv-the-thao
-#EXTINF:-1 tvg-id="HTVSports.vn@SD" group-title="Sports",HTV Sports
+#EXTINF:-1 tvg-id="HTVSports.vn@SD" group-title="Sports",HTV Sports (1080p)
 https://dethich.pw/htvthethao/index.m3u8
