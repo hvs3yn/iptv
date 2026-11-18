@@ -35,6 +35,9 @@ https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" group-title="Turkey",ATV Avrupa (576p)
 https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
+#EXTINF:-1 tvg-id="beINSports1Turk.tr@SD" group-title="Turkey",beIN Sports 1 Turk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://57.129.0.61:1990/stream/117/index.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" group-title="Turkey",Benguturk TV (1080p)
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" group-title="Turkey",BENGÜTÜRK TV (720p) [Not 24/7]
@@ -65,6 +68,8 @@ https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlis
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBCe.tr@SD" group-title="Turkey",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 tvg-id="CNNTurk.tr@SD" group-title="Turkey",CNN Turk (1080p)
+http://85.117.61.84/cnnturk/index.m3u8
 #EXTINF:-1 tvg-id="DenizPostasiTV.tr@SD" group-title="Turkey",Deniz Postası TV (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 tvg-id="DHA.tr@SD" group-title="Turkey",DHA (720p) [Not 24/7]
@@ -91,7 +96,7 @@ https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="EuroD.tr@SD" group-title="Turkey",Euro D (720p)
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 tvg-id="FBTV.tr@SD" group-title="Turkey",FB TV
+#EXTINF:-1 tvg-id="FBTV.tr@SD" group-title="Turkey",FB TV (720p)
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FinansTurkTV.tr@SD" group-title="Turkey",Finans Turk TV (720p)
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
@@ -183,6 +188,8 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 #EXTINF:-1 tvg-id="KralPopTV.tr@SD" group-title="Turkey",KRAL Pop TV (720p)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="KRT.tr@SD" group-title="Turkey",KRT (1080p)
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
 #EXTINF:-1 tvg-id="LalegulTV.tr@SD" group-title="Turkey",Lalegul TV (1080p)
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 tvg-id="LalegulTV.tr@SD" group-title="Turkey",Lalegül TV (720p) [Not 24/7]
@@ -284,6 +291,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d91
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="ShowTurk.tr@SD" group-title="Turkey",Show Turk (1080p)
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
+#EXTINF:-1 tvg-id="SozcuTV.tr@SD" group-title="Turkey",Sozcu TV (1080p)
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
 #EXTINF:-1 tvg-id="SpacetoonTurkey.tr@SD" group-title="Turkey",Spacetoon Turkey (720p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
@@ -399,15 +408,6 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" group-title="Turkey",Zarok TV (720p)
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CNNTurk.tr@SD" group-title="Turkey",CNN Turk (1080p)
-http://85.117.61.84/cnnturk/index.m3u8
-#EXTINF:-1 tvg-id="beINSports1Turk.tr@SD" group-title="Turkey",beIN Sports 1 Turk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://57.129.0.61:1990/stream/117/index.m3u8
-#EXTINF:-1 tvg-id="SozcuTV.tr@SD" group-title="Turkey",Sozcu TV (1080p)
-https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
-#EXTINF:-1 tvg-id="KRT.tr@SD" group-title="Turkey",KRT (1080p)
-https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" group-title="Iran",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir@SD" group-title="Iran",AFN TV (720p)
@@ -573,7 +573,7 @@ https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8
 https://ncdn.telewebion.ir/quran/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RazaviTV.ir@SD" group-title="Iran",Razavi TV
 https://ncdn.telewebion.ir/razavi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RoyaTV.ir@SD" group-title="Iran",Roya TV
+#EXTINF:-1 tvg-id="RoyaTV.ir@SD" group-title="Iran",Roya TV (720p)
 https://ncdn.telewebion.ir/iribu/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SabalanTV.ir@SD" group-title="Iran",Sabalan
 https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8
@@ -585,7 +585,7 @@ https://ncdn.telewebion.ir/sahand/live/playlist.m3u8
 https://ncdn.telewebion.ir/salamat/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SarbedaranTV.ir@SD" group-title="Iran",Sarbedaran
 https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="SemnanTV.ir@SD" group-title="Iran",Semnan
+#EXTINF:-1 tvg-id="SemnanTV.ir@SD" group-title="Iran",Semnan (576p)
 https://ncdn.telewebion.ir/semnan/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SepehrTV.ir@SD" group-title="Iran",Sepehr
 https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8
@@ -597,7 +597,7 @@ https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8
 https://ncdn.telewebion.ir/tehran/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Tekyemadahi.ir@SD" group-title="Iran",Tekyemadahi
 https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" group-title="Iran",TV1 Plus [Not 24/7]
+#EXTINF:-1 tvg-id="" group-title="Iran",TV1 Plus (1080p) [Not 24/7]
 https://ncdn.telewebion.ir/tv1plus/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVANava.ir@SD" group-title="Iran",TVA Nava
 https://ncdn.telewebion.ir/nava/live/playlist.m3u8
@@ -607,7 +607,7 @@ https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
 https://ncdn.telewebion.ir/velayat/live/playlist.m3u8
 #EXTINF:-1 tvg-id="YazdTV.ir@SD" group-title="Iran",Yazd
 https://ncdn.telewebion.ir/taban/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ZagrosTV.ir@SD" group-title="Iran",Zagros
+#EXTINF:-1 tvg-id="ZagrosTV.ir@SD" group-title="Iran",Zagros (576p)
 https://ncdn.telewebion.ir/zagros/live/playlist.m3u8
 #EXTINF:-1 tvg-id="4Afghanistan.fr@SD" group-title="Iran",4 Afghanistan
 https://4afghls.wns.live/hls/stream.m3u8
@@ -769,10 +769,14 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b2
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
 #EXTINF:-1 tvg-id="MBCPersia.ae@SD" group-title="United Arab Emirates",MBC Persia (720p)
 https://hls.mbcpersia.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NickelodeonArabia.ae@SD" group-title="United Arab Emirates",Nickelodeon Arabia (1080i)
+http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NourTV.ae@SD" group-title="United Arab Emirates",Nour TV
 https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 tvg-id="OSNMoviesAction.ae@SD" group-title="United Arab Emirates",OSN Movies Action (1080p)
 http://116.90.120.151:8000/play/a0ax/index.m3u8
+#EXTINF:-1 tvg-id="PeaceTVBangla.ae@SD" group-title="United Arab Emirates",Peace TV Bangla (1080p)
+http://103.135.253.32:8080/Pace-TV-Bangla/index.m3u8
 #EXTINF:-1 tvg-id="PeaceTVBangla.ae@SD" group-title="United Arab Emirates",Peace TV Bangla (1080p)
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 tvg-id="PeaceTVChinese.ae@SD" group-title="United Arab Emirates",Peace TV Chinese (1080p)
@@ -806,14 +810,10 @@ https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m
 #EXTINF:-1 tvg-id="SpacetoonArabic.ae@SD" group-title="United Arab Emirates",Spacetoon Arabic (576p)
 #EXTVLCOPT:http-referrer=https://spacetoon.com
 https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
-#EXTINF:-1 tvg-id="WatarRadio.ae@SD" group-title="United Arab Emirates",Watar Radio (1080p)
-https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
-#EXTINF:-1 tvg-id="PeaceTVBangla.ae@SD" group-title="United Arab Emirates",Peace TV Bangla (1080p)
-http://103.135.253.32:8080/Pace-TV-Bangla/index.m3u8
 #EXTINF:-1 tvg-id="StarWorldMiddleEast.ae@SD" group-title="United Arab Emirates",Star World Middle East (720p)
 http://85.237.89.159:3342/ar-s/STAR-World-HD/index.m3u8
-#EXTINF:-1 tvg-id="NickelodeonArabia.ae@SD" group-title="United Arab Emirates",Nickelodeon Arabia (1080i)
-http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
+#EXTINF:-1 tvg-id="WatarRadio.ae@SD" group-title="United Arab Emirates",Watar Radio (1080p)
+https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
 #EXTINF:-1 tvg-id="AbdulmajeedAbdullah.sa@SD" group-title="Saudi Arabia",Abdulmajeed Abdullah (1080p)
 https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
 #EXTINF:-1 tvg-id="Aflam.sa@SD" group-title="Saudi Arabia",Aflam (1080p)
@@ -952,6 +952,8 @@ https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8
 https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" group-title="Qatar",Al Jazeera (1080p)
 https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" group-title="Qatar",Al Jazeera (540p)
+https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/al_jazeera_arabic/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeera2.qa@HD" group-title="Qatar",Al Jazeera 2 (1080p)
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" group-title="Qatar",Al Jazeera Arabic (1080p)
@@ -964,8 +966,12 @@ https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (1080p)
 https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (1080p)
+https://live-hls-web-aje-gcp.thehlive.com/AJE/04.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (720p)
 http://170.83.16.50/ALJAZEERA/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (720p)
+https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/al_jazeera_english/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/318/master.m3u8
@@ -1007,6 +1013,8 @@ https://streamer7.qna.org.qa/148136781_live/148136781_63.sdp/playlist.m3u8
 https://streamer7.qna.org.qa/148136749_live/148136749_296.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV2.qa@SD" group-title="Qatar",Alaraby 2 TV (1080p)
 https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSports1.qa@MENA" group-title="Qatar",beIN Sports 1
+https://vg162.adcdsd123321.shop/7.m3u8
 #EXTINF:-1 tvg-id="LibyaAlAhrarTV.qa@SD" group-title="Qatar",Libya Al Ahrar TV (1080p)
 #EXTVLCOPT:http-referrer=https://player.castr.com
 https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
@@ -1030,23 +1038,24 @@ https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 #EXTINF:-1 tvg-id="QBC.qa@HD" group-title="Qatar",QBC (1080p)
 https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSports1.qa@MENA" group-title="Qatar",beIN Sports 1
-https://vg162.adcdsd123321.shop/7.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (1080p)
-https://live-hls-web-aje-gcp.thehlive.com/AJE/04.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="Qatar",Al Jazeera English (720p)
-https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/al_jazeera_english/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" group-title="Qatar",Al Jazeera (540p)
-https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/al_jazeera_arabic/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.jp@HD" group-title="Japan",Cartoon Network HD
+http://103.255.250.188:5002/cs25.m3u8?channel=zhongying&gid=cs25&token=guoziyun
 #EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" group-title="Japan",CGNTV Japan (1080p)
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.jp@SD" group-title="Japan",Disney Channel
+http://103.255.250.188:5002/bs24.m3u8?channel=zhongying&gid=bs24&token=guoziyun
+#EXTINF:-1 tvg-id="FujiTV.jp@JOCXDTV" group-title="Japan",Fuji TV [Not 24/7]
+#EXTVLCOPT:http-referrer=https://mov3.co/
+https://fujitv4.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="" group-title="Japan",Gaki no Tsukai (English Subs) (720p)
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp@SD" group-title="Japan",GSTV (720p)
 https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
 #EXTINF:-1 tvg-id="" group-title="Japan",JOJG-DTV (1080p)
 https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="MTV.jp@SD" group-title="Japan",MTV
+http://103.255.250.188:5002/cs18.m3u8?channel=zhongying&gid=cs18&token=guoziyun
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp@JOJGDTV" group-title="Japan",NHK General TV JOJG-DTV (1080i)
 https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" group-title="Japan",NHK World Premium (720p)
@@ -1073,31 +1082,22 @@ http://170.83.16.50/NHK_WORLD/index.m3u8
 https://ntv5.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="QVC.jp@SD" group-title="Japan",QVC (1080p)
 https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
+#EXTINF:-1 tvg-id="SakuranboTV.jp@JOCYDTV" group-title="Japan",Sakuranbo TV (1080i)
+https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp@SD" group-title="Japan",Shop Channel (1080p) [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
-#EXTINF:-1 tvg-id="TVTokyo.jp@JOTXDTV" group-title="Japan",TV Tokyo
-#EXTVLCOPT:http-referrer=https://mov3.co/
-https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
-#EXTINF:-1 tvg-id="Weathernews.jp@SD" group-title="Japan",Weathernews (720p)
-https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
-#EXTINF:-1 tvg-id="TVUYamagata.jp@JOWIDTV" group-title="Japan",TV-U Yamagata (1080i)
-https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/master.m3u8
 #EXTINF:-1 tvg-id="TVAsahi.jp@JOEXDTV" group-title="Japan",TV Asahi [Not 24/7]
 #EXTVLCOPT:http-referrer=https://mov3.co/
 https://tvasahi.mov3.co/hls/tvasahi.m3u8
-#EXTINF:-1 tvg-id="FujiTV.jp@JOCXDTV" group-title="Japan",Fuji TV [Not 24/7]
+#EXTINF:-1 tvg-id="TVTokyo.jp@JOTXDTV" group-title="Japan",TV Tokyo
 #EXTVLCOPT:http-referrer=https://mov3.co/
-https://fujitv4.mov3.co/hls/fujitv.m3u8
+https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
+#EXTINF:-1 tvg-id="TVUYamagata.jp@JOWIDTV" group-title="Japan",TV-U Yamagata (1080i)
+https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/master.m3u8
+#EXTINF:-1 tvg-id="Weathernews.jp@SD" group-title="Japan",Weathernews (720p)
+https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
 #EXTINF:-1 tvg-id="YTSYamagataTV.jp@JOYIDTV" group-title="Japan",YTS Yamagata TV (1080i)
 https://tv-stream-test.daydreamer-json.cc/stream/407fd00ebd2a059c9cd1ea3fa7156097/master.m3u8
-#EXTINF:-1 tvg-id="SakuranboTV.jp@JOCYDTV" group-title="Japan",Sakuranbo TV (1080i)
-https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8
-#EXTINF:-1 tvg-id="MTV.jp@SD" group-title="Japan",MTV
-http://103.255.250.188:5002/cs18.m3u8?token=guoziyun&gid=cs18&channel=zhongying
-#EXTINF:-1 tvg-id="CartoonNetwork.jp@HD" group-title="Japan",Cartoon Network HD
-http://103.255.250.188:5002/cs25.m3u8?token=guoziyun&gid=cs25&channel=zhongying
-#EXTINF:-1 tvg-id="DisneyChannel.jp@SD" group-title="Japan",Disney Channel
-http://103.255.250.188:5002/bs24.m3u8?token=guoziyun&gid=bs24&channel=zhongying
 #EXTINF:-1 tvg-id="ABN.kr@SD" group-title="South Korea",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="ArirangRadio.kr@SD" group-title="South Korea",Arirang Radio (720p)
@@ -1271,7 +1271,7 @@ http://202.60.106.14:8080/214/playlist.m3u8
 http://202.60.106.14:21585/214/playlist.m3u8
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" group-title="China",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="China",Anhui TV
+#EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="China",Anhui TV (1080p)
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 #EXTINF:-1 tvg-id="AnshunComprehensiveNewsChannel.cn@SD" group-title="China",Anshun Comprehensive News Channel
 https://hplayer1.juyun.tv/camera/154379194.m3u8
@@ -1508,6 +1508,10 @@ https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
 #EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" group-title="China",Xizang TV Tibetan (720p) [Not 24/7]
 http://php.jdshipin.com:8880/xztv.php?id=zy
+#EXTINF:-1 tvg-id="YichangSanxiaGeneralChannel.cn@SD" group-title="China",Yichang Sanxia General Channel
+https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" group-title="China",Yichang Sanxia Travel & Life Channel
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 #EXTINF:-1 tvg-id="ZhejiangChildrensChannel.cn@SD" group-title="China",Zhejiang Children's Channel
 rtmp://splay-qukan.cztv.com/live/1792055184232041?auth_key=1886663369-8067bfcb3c684fe98dc7e8ab4b018582-0-3adb461e15e39f56e7a75b9b7f80377d
 #EXTINF:-1 tvg-id="ZhejiangEconomicChannel.cn@SD" group-title="China",Zhejiang Economic Channel
@@ -2216,10 +2220,6 @@ http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
 http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 #EXTINF:-1 tvg-id="" group-title="China",黑龙江卫 (1080p)
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
-#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" group-title="China",Yichang Sanxia Travel & Life Channel
-https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
-#EXTINF:-1 tvg-id="YichangSanxiaGeneralChannel.cn@SD" group-title="China",Yichang Sanxia General Channel
-https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
 #EXTINF:-1 tvg-id="4SiDESTV.in@SD" group-title="India",4 SiDES TV (1080p)
 https://stream.ottlive.co.in/4sidestv/index.m3u8
 #EXTINF:-1 tvg-id="4TVNews.in@SD" group-title="India",4TV News (576p)
@@ -3618,9 +3618,9 @@ https://mumt01.tangotv.in/O5aw8Zn3HORNBILLTV/index.m3u8
 #EXTINF:-1 tvg-id="HornbillTV.in@SD" group-title="India",Hornbill TV (396p)
 https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8
 #EXTINF:-1 tvg-id="HosannaTV.in@Tamil" group-title="India",Hosanna TV (720p)
-https://yuppnimresmum.akamaized.net/28072023/smil:hosanna.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="HosannaTV.in@Tamil" group-title="India",Hosanna TV
 https://asia.mslivestream.net/mslive/bfba54c5c96a6359e2da0ca35f4998af.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="HosannaTV.in@Tamil" group-title="India",Hosanna TV (720p)
+https://yuppnimresmum.akamaized.net/28072023/smil:hosanna.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-id="HosannaTV.in@Global" group-title="India",Hosanna TV Global
 https://ktismaservers.in:3349/live/hosannatvlive.m3u8
 #EXTINF:-1 tvg-id="HosannaTV.in@Hindi" group-title="India",Hosanna TV Hindi (720p)
@@ -5526,8 +5526,6 @@ https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8
 http://ptuf.ridsys.in/riptv/live/GEMINI_TV/index.m3u8
 #EXTINF:-1 tvg-id="SunSurya.in@HD" group-title="India",Sun Surya HD (1080p)
 https://d3dt6rg724ecr3.cloudfront.net/SuryaTv/SuryaTV-HDR10-IN-index.m3u8
-#EXTINF:-1 tvg-id="SunTV.in@HD" group-title="India",Sun TV HD (1080p)
-https://d2px1d6ssc60fw.cloudfront.net/SunTV/SunTV-HDR10-IN-index.m3u8
 #EXTINF:-1 tvg-id="SuriyaTV.in@SD" group-title="India",Suriya TV (1080p)
 https://stream.ottlive.co.in/suryatvtamil/index.m3u8
 #EXTINF:-1 tvg-id="SuriyanTV.in@SD" group-title="India",Suriyan TV (576p)
